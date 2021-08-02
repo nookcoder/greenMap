@@ -14,7 +14,7 @@
   display: block;
 }
 
-.menu_bar_sector {
+.main_sector_button {
   background-color: var(--sideMenuBar_sub_sector);
   width: 210px;
   display: flex;
@@ -36,14 +36,9 @@
 }
 
 .sub_sector_title {
-  display: block;
   padding: 5px;
 }
 
-.main_sector:hover > .sub_sector {
-  display: block;
-}
-
-.sub_sector li:hover > .detail_sector {
+.showing {
   display: block;
 }

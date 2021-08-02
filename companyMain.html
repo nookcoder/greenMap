@@ -26,18 +26,18 @@
             <li id="menu_bar_title"><span>레이어</span><br>(데이터 구성)</li>
             
             <li class="main_sector">
-                <button class="menu_bar_sector">
+                <button class="main_sector_button" id="assignment_button">
                     <span>할당 대상 업체</span>
-                    <i class="fas fa-chevron-up"></i>
+                    <i class="fas fa-chevron-up up"></i>
                 </button>
 
-                <ul class="sub_sector">
+                <ul class="sub_sector assignment_sub_sector" >
                     <li>
-                        <div class="sub_sector_title">
+                        <div class="sub_sector_title" id='assignment_period'>
                             <i class="fas fa-chevron-right"></i>
                             <span>계획기간</span>
                         </div>    
-                        <ul class="detail_sector">
+                        <ul class="detail_sector" id="assignment_period_sector">
                             <li><input type="checkbox" name="assignment_company_plannig_period" value="1">1차</li>
                             <li><input type="checkbox" name="assignment_company_plannig_period" value="2">2차</li>
                             <li><input type="checkbox" name="assignment_company_plannig_period" value="3">3차</li>
@@ -45,11 +45,11 @@
                     </li>
 
                     <li>
-                        <div class="sub_sector_title">
+                        <div class="sub_sector_title" id='assignment_year'>
                             <i class="fas fa-chevron-right"></i>
                             <span>지정연도</span>
                         </div>
-                        <ul class="detail_sector">
+                        <ul class="detail_sector" id="assignment_designating_year">
                             <li><input type="checkbox" name="assignment_company_designated_year" value="2020">2020년</li>
                             <li><input type="checkbox" name="assignment_company_designated_year" value="2019">2019년</li>
                             <li><input type="checkbox" name="assignment_company_designated_year" value="2018">2018년</li>
@@ -61,11 +61,11 @@
                     </li>    
 
                     <li>
-                        <div class="sub_sector_title">
+                        <div class="sub_sector_title" id="assignment_sector">
                             <i class="fas fa-chevron-right"></i>
                             <span>지정부문</span>
                         </div>
-                        <ul class="detail_sector">
+                        <ul class="detail_sector" id="assignment_designating_sector">
                             <li><input type="checkbox" name="assignment_company_designated_sector" value="전환">전환</li>
                             <li><input type="checkbox" name="assignment_company_designated_sector" value="산업">산업</li>
                             <li><input type="checkbox" name="assignment_company_designated_sector" value="건물">건물</li>
@@ -102,18 +102,17 @@
             </li>
             
             <li class="main_sector">
-                    
-                <button class="menu_bar_sector">
+                <button class="main_sector_button" id="target_button">
                     <span>목표 관리 대상 업체</span>
                     <i class="fas fa-chevron-up"></i>
                 </button>
-                <ul class="sub_sector">
+                <ul class="sub_sector target_sub_sector">
                     <li id="target_company_designated_year">
-                        <div class="sub_sector_title">
+                        <div class="sub_sector_title" id="target_period">
                             <i class="fas fa-chevron-right"></i>
                             <span>지정연도</span>
                         </div>
-                        <ul class="detail_sector">
+                        <ul class="detail_sector" id="target_period_sector">
                             <li><input type="checkbox" name="target_company_designated_year" value="2020" checked>2020년</li>
                             <li><input type="checkbox" name="target_company_designated_year" value="2019">2019년</li>
                             <li><input type="checkbox" name="target_company_designated_year" value="2018">2018년</li>
@@ -122,11 +121,11 @@
                         </ul>
                     </li>
                     <li id="target_company_administrator">
-                        <div class="sub_sector_title">
+                        <div class="sub_sector_title" id="target_administrator">
                             <i class="fas fa-chevron-right"></i>
                             <span>관장기관</span>
                         </div>
-                        <ul class="detail_sector">
+                        <ul class="detail_sector" id="target_administrator_sector">
                             <li><input type="checkbox" name="target_company_administrator" value="환경부">환경부</li>
                             <li><input type="checkbox" name="target_company_administrator" value="농림축산식품부">농림축산식품부</li>
                             <li><input type="checkbox" name="target_company_administrator" value="국토교통부">국토교통부</li>
@@ -138,28 +137,28 @@
             </li>
             
             <li class="main_sector">
-                <button class="menu_bar_sector">
+                <button class="main_sector_button" id="public_button">
                     <span>공공부문 배출량 통계</span>
                     <i class="fas fa-chevron-up"></i>
                 </button>
-                <ul class="sub_sector">
+                <ul class="sub_sector public_sub_sector ">
                     <li id="public_sector_year">
-                        <div class="sub_sector_title">
+                        <div class="sub_sector_title" id="public_year">
                             <i class="fas fa-chevron-right"></i>
                             <span>대상연도</span>
                         </div>
-                        <ul class="detail_sector">
+                        <ul class="detail_sector" id="public_year_sector">
                             <li><input type="checkbox" name="public_sector_year" value="2020">2020년</li>
                             <li><input type="checkbox" name="public_sector_year" value="2019">2019년</li>
                             <li><input type="checkbox" name="public_sector_year" value="2018">2018년</li>
                         </ul>
                     </li>
                     <li id="public_sector_agency">
-                        <div class="sub_sector_title">
+                        <div class="sub_sector_title" id="public_agency">
                             <i class="fas fa-chevron-right"></i>
                             <span>기관구분</span>
                         </div>
-                       <ul class="detail_sector">
+                       <ul class="detail_sector" id="public_agency_sector">
                             <li><input type="checkbox" name="public_sector_agency" value="중앙행정기관">중앙행정기관</li>
                             <li><input type="checkbox" name="public_sector_agency" value="광역지방자치단체">광역지방자치단체</li>
                             <li><input type="checkbox" name="public_sector_agency" value="기초지방자치단체">기초지방자치단체</li>
@@ -176,7 +175,7 @@
     </nav>
 
 
-
+    <script src="javascript/companyMainSideMenu.js"></script>
     <script src="https://kit.fontawesome.com/ff21ce4721.js" crossorigin="anonymous"></script>
 </body>
 </html>
