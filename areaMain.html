@@ -6,9 +6,269 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>지역별 탄소 배출</title>
     <link rel="stylesheet" href="css/topMenuBar.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=l7xxafa2f2d756e24b038ce289caf12c4c3a"></script>
+        <script type="text/javascript">
+        var map;
+	    var vector_layer;
+	    var resultPolygon = [];
+        $(document).ready(function() 
+        {
+	initTmap();
+});
+$("#btn_select")
+				.click(
+						function() {
+
+							var searchKeyword = $('#searchKeyword').val();
+
+							var searchOption = $("#selectLevel").val();
+							$
+									.ajax({
+										method : "GET",
+										url : "https://apis.openapi.sk.com/tmap/geofencing/regions?version=1&format=json&callback=result",
+										async : false,
+										crossDomain : true,
+										data : {
+											"count" : "20",
+											"categories" : searchOption,//categories,
+											"searchType" : "KEYWORD",
+											"searchKeyword" : searchKeyword,
+											"appKey" : "l7xxafa2f2d756e24b038ce289caf12c4c3a",
+										},
+										success : function(response) {
+
+											console.log(response);
+											if(response){
+												// 3. regionId 얻기
+												var resultRegionsInfo = response.searchRegionsInfo;
+	
+												console.log(resultRegionsInfo);
+	
+												var innerHtml = "";
+	
+												for ( var i in resultRegionsInfo) {
+													var description = resultRegionsInfo[i].regionInfo.description;
+													var regionId = resultRegionsInfo[i].regionInfo.regionId;
+	
+													innerHtml += "<div>"
+															+ description
+															+ "<button type='button' name='sendBtn' onClick='geofencingRegions("
+															+ regionId
+															+ ");'>상세보기</button><\div>";
+												}
+	
+												$("#searchResult").html(innerHtml);
+
+
+                                                
+											}
+										},
+										error : function(request, status, error) {
+											console.log("code:"
+													+ request.status + "\n"
+													+ "message:"
+													+ request.responseText
+													+ "\n" + "error:" + error);
+										}
+									});
+						});
+                        function geofencingRegions(regionId) {
+		$
+				.ajax({
+					method : "GET",
+					url : "https://apis.openapi.sk.com/tmap/geofencing/regions/"
+							+ regionId
+							+ "?version=1&format=json&callback=result",
+					async : false,
+					data : {
+						"resCoordType" : "EPSG3857",
+						"appKey" : "l7xxafa2f2d756e24b038ce289caf12c4c3a",
+					},
+					success : function(response) {
+						var resultGeometry = response.features[0].geometry;
+						var resultArea = resultGeometry.coordinates[0];
+
+						var drawInfoArr = [];
+						var polyline_;
+
+						var positionBounds = new Tmapv2.LatLngBounds(); //맵에 결과물 확인 하기 위한 LatLngBounds객체 생성
+
+						if (resultPolygon.length > 0) {
+							for(var i in resultPolygon){
+								resultPolygon[i].setMap(null);
+							}
+							resultPolygon = [];
+						}
+
+						if(resultGeometry.type == "MultiPolygon"){
+							for(var i in resultGeometry.coordinates){
+								drawInfoArr = [];
+								resultArea = resultGeometry.coordinates[i];
+								var resultArea_array = resultArea[0];
+								for(var j in resultArea_array){
+									
+									// 경로들의 결과값(구간)들을 포인트 객체로 변환 
+									var latlng = new Tmapv2.Point(resultArea_array[j][0], resultArea_array[j][1]);
+									// 포인트 객체를 받아 좌표값으로 변환
+									var convertPoint = new Tmapv2.Projection.convertEPSG3857ToWGS84GEO(latlng);
+									// 포인트객체의 정보로 좌표값 변환 객체로 저장
+									var convertChange = new Tmapv2.LatLng(convertPoint._lat, convertPoint._lng);
+									
+									drawInfoArr.push(convertChange);
+									positionBounds.extend(convertChange);
+								}
+								var polygon = new Tmapv2.Polygon({
+									paths: drawInfoArr,
+									strokeColor : "red",
+									fillColor:"pink", // 다각형 내부 색상
+									map: map // 지도 객체
+								});
+								resultPolygon.push(polygon);
+								
+							}
+						}
+						
+						else{
+							for(var i in resultArea){
+								// 경로들의 결과값(구간)들을 포인트 객체로 변환 
+								var latlng = new Tmapv2.Point(resultArea[i][0], resultArea[i][1]);
+								// 포인트 객체를 받아 좌표값으로 변환
+								var convertPoint = new Tmapv2.Projection.convertEPSG3857ToWGS84GEO(latlng);
+								// 포인트객체의 정보로 좌표값 변환 객체로 저장
+								var convertChange = new Tmapv2.LatLng(convertPoint._lat, convertPoint._lng);
+								
+								drawInfoArr.push(convertChange);
+								positionBounds.extend(convertChange);
+							}
+							var polygon = new Tmapv2.Polygon({
+								paths: drawInfoArr,
+								strokeColor : "red",
+								fillColor:"pink", // 다각형 내부 색상
+								map: map // 지도 객체
+							});
+							resultPolygon.push(polygon);
+						}
+						
+						map.panToBounds(positionBounds);	// 확장된 bounds의 중심으로 이동시키기
+						map.zoomOut();
+
+					},
+					error : function(request, status, error) {
+						console.log("code:" + request.status + "\n"
+								+ "message:" + request.responseText + "\n"
+								+ "error:" + error);
+					}
+				});
+
+	}
+
+function setVariables()
+{    
+    zoom = 16;  // zoom level입니다.  0~19 레벨을 서비스 하고 있습니다. 
+}
+			function initTmap()
+            {
+				var map = new Tmapv2.Map("map_div",  
+				{
+					center: new Tmapv2.LatLng(36.145393, 128.108905), // 지도 초기 좌표
+					width: "90%", 
+					height: "800px",
+					zoom: 7,
+                    minZoom:9
+				}
+                );
+                var marker = new Tmapv2.Marker(
+                    {
+		position: new Tmapv2.LatLng(37.566519, 126.978122),
+		map: map
+	});	
+        var marker1 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(35.180165, 129.075321), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker2 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(36.350383, 127.384625), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker3 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(35.892887, 128.60105), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker4 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(35.159598, 126.852293), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker5 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(35.539598, 129.316491), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker6 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(37.456185, 126.715336), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker7 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(37.270551, 127.007673), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker8 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(36.660121, 126.672491), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker9 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(36.635712, 127.491418), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker10 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(35.238239, 128.692798), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker11 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(36.57567, 128.505329), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker12 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(33.48881, 126.497946), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker13 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(37.881432, 127.730273), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker14 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(34.816774, 126.463968), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker15 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(35.819775, 127.108098), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+        var marker16 = new Tmapv2.Marker({
+			position: new Tmapv2.LatLng(36.605659, 127.293908), //Marker의 중심좌표 설정.
+			map: map //Marker가 표시될 Map 설정.
+		});
+	} 
+		</script>
+    <style>
+        h3{background-color: rgb(15, 223, 109);}
+        p{font-weight:bold; background-color: rgb(143, 230, 72);}
+    *{margin:0; padding:0;} 
+    nav{line-height:25px;}
+      section{line-height:600px;}
+      nav{float:left; width:10%; height:800px; background-color:white;}
+      section{float:left; width:90%; height:800px; background-color:#999999;}
+    </style>
+    <script>
+        function check(box){
+            if(box.checked==true)
+            window.status=box.value+"이동합니다"
+            else
+            window.status=box.value+"뒤로갑니다"
+        }
+    </script>
 </head>
-<body>
-    <nav class="top_menu_bar">
+<body onload="initTmap()">
+    <header class="top_menu_bar">
         <ul>
             <li id="title">
                 <img src="img/img_icon.png" alt="웹사이트 아이콘" >
@@ -18,8 +278,57 @@
             <li id="company"><a href="companyMain.html">업체별 탄소 배출</a></li>
             <li id="industry"><a href="industryMain.html">산업별 탄소 배출</a></li>
         </ul>
+    </header>
+        <nav>
+            <h3>레이어<br>(데이터 구성)</h3>
+            <p>대상 연도</p>
+            <input type=checkbox value="2020년도" onClick="check(this)">2020년도<br>
+            <input type=checkbox value="2019년도" onClick="check(this)">2019년도<br>
+            <input type=checkbox value="2018년도" onClick="check(this)">2018년도<br>
+            <input type=checkbox value="2017년도" onClick="check(this)">2017년도<br>
+            <input type=checkbox value="2016년도" onClick="check(this)">2016년도<br>
+            <input type=checkbox value="2015년도" onClick="check(this)">2015년도<br>
+            <input type=checkbox value="2014년도" onClick="check(this)">2014년도<br>
+            <input type=checkbox value="2013년도" onClick="check(this)">2013년도<br>
+            <input type=checkbox value="2012년도" onClick="check(this)">2012년도<br>
+            <input type=checkbox value="2011년도" onClick="check(this)">2011년도<br>
+            <br>
+            <p>에너지원 구분명</p>
+            <input type=checkbox value="석탄류" onClick="check(this)">석탄류<br>
+            <input type=checkbox value="석유류" onClick="check(this)">석유류<br>
+            <input type=checkbox value="가스류" onClick="check(this)">가스류<br>
+            <input type=checkbox value="열에너지" onClick="check(this)">열에너지<br>
+            <input type=checkbox value="전력" onClick="check(this)">전력<br>
+            <input type=checkbox value="기타" onClick="check(this)">기타<br>
+            <input type=checkbox value="폐에너지" onClick="check(this)">폐에너지<br>
+            <br>
+            <p>종사자 규모</p>
+            <input type=checkbox value="5인 미만" onClick="check(this)">5인 미만<br>
+            <input type=checkbox value="5인~9인" onClick="check(this)">5인~9인<br>
+            <input type=checkbox value="10인~19인" onClick="check(this)">10인~19인<br>
+            <input type=checkbox value="20인~49인" onClick="check(this)">20인~49인<br>
+            <input type=checkbox value="50인~100인" onClick="check(this)">50인~100인<br>
+            <input type=checkbox value="100인 이상" onClick="check(this)">100인 이상<br>
     </nav>
-
+     
+    <div>
+        <select id="selectLevel">
+			<option value="city_do" selected="selected">시,도</option>
+		</select> <input type="text" class="text_custom" id="searchKeyword" name="searchKeyword" value="서울">
+		<button id="btn_select">적용하기</button>
+    </div>
+    <div class="search_rst" style="width: 30%; float:left;">
+		<div class="title"><strong>Search</strong> Results</div>
+			<div class="rst_wrap">
+				<div class="rst mCustomScrollbar">
+					<ul id="searchResult" name="searchResult">
+						<li>검색결과</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+    <section id="map_div"></section>
     <script src="https://kit.fontawesome.com/ff21ce4721.js" crossorigin="anonymous"></script>
 </body>
 </html>
