@@ -69,18 +69,28 @@ publicAgencyButton.addEventListener('click',function(){
     publicAgencySector.classList.toggle('showing');
 });
 
+
+
 // 클릭시, 화살표 방향 변경
-const CURRENT_ARROW_UP = "fas fa-chevron-up";
-const CURRENT_ARROW_DOWN = "fas fa-chevron-down";
-const CURRENT_ARROW_RIGHT ="fas fa-chevron-right";
+const CURRENT_ARROW_DOWN = "fa-chevron-down";
+const CURRENT_ARROW_RIGHT ="fa-chevron-right";
 
 
 function arrowClassChange(e){
-    var clickDiv = e.currentTarget;
-    const currentArrow = clickDiv.className;
+    let clickI = e.currentTarget;
 
-    if (currentArrow == CURRENT_ARROW_UP) {
-    
+    if (clickI.classList.contains(CURRENT_ARROW_RIGHT) ) {
+        clickI.classList.remove(CURRENT_ARROW_RIGHT);
+        clickI.classList.add(CURRENT_ARROW_DOWN);
     }
+    else {
+        clickI.classList.remove(CURRENT_ARROW_DOWN);
+        clickI.classList.add(CURRENT_ARROW_RIGHT);
+    } 
+}
+
+let iAll = document.querySelectorAll("i");
+for(let iIndex = 0; iIndex < iAll.length ; iIndex++){
+    iAll[iIndex].addEventListener('click', arrowClassChange)
 }
 
