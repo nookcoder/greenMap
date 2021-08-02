@@ -1,93 +1,90 @@
 @import "constant.css";
 @import "reset.css";
 
-
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');   
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: var(--website_background);
-    
+  /* background-color: var(--website_background); */
 }
 header #icon {
-    width: 200px;
-    height: 150px;
-    vertical-align: middle;
+  width: 200px;
+  height: 150px;
+  vertical-align: middle;
 }
-header #logo_header{
-    vertical-align:middle;  
-    margin: 0px;
-    padding: 0px;
+header #logo_header {
+  vertical-align: middle;
+  margin: 0px;
+  padding: 0px;
 }
 
 header #greenNewMap {
-    color: var(--website_title_color);
-    font-weight: bold;
-    font-size: 60px;
-    font-family: 'Jua', sans-serif;
-    vertical-align:middle;
+  color: var(--website_title_color);
+  font-weight: bold;
+  font-size: 60px;
+  font-family: "Jua", sans-serif;
+  vertical-align: middle;
 }
 
 hr {
-    width: 100%;
-    border: solid 5px var(--website_title_underbar);
-    background-color:  var(--website_title_underbar);
+  width: 100%;
+  border: solid 5px var(--website_title_underbar);
+  background-color: var(--website_title_underbar);
 }
 
-section{
-    width: 100%;
-    height: 100%;
-    background-image: url('/img/firstBackground.png');
-    background-repeat: no-repeat;
-    background-size: 80%;
-    float: left;
-
+section {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../img/firstBackground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 section #content_div {
-    margin-top: 0px;
-    margin-left: 50px;
-    width: 100%;
-    height: 100%;   
+  margin-top: 0px;
+  margin-left: 50px;
+  width: 100%;
+  height: 100%;
 }
 
 #content_div #first_explain {
-    margin-top: 100px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 50px;
+  /* margin-top: 100px; */
+  padding-top: 100px;
+  font-family: "Rubik", sans-serif;
+  font-size: 50px;
 }
 
 #first_explain #underline_text {
-    color: #487E25;
-    text-decoration: underline;
+  color: #487e25;
+  text-decoration: underline;
 }
 
 section #second_explain {
-    padding-top: 20px;
-    color: #595959;
-    font-family: 'Nanum Gothic', sans-serif;
-    font-size: 30px;
+  padding-top: 20px;
+  color: #595959;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 30px;
 }
 
-#second_explain div{
-    margin-top: 10px;
+#second_explain div {
+  margin-top: 10px;
 }
 
 input {
-    margin-top: 40px;
-    padding:10px 200px;
-    text-align: center;
-    font-size:40px;
-    font-family: 'Jua', sans-serif;
-    color: white;
-    background-color: #27A45C;
-    border-radius:50px;
-    border-color: #27A45C;
+  margin-top: 40px;
+  padding: 10px 200px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Jua", sans-serif;
+  color: white;
+  background-color: #27a45c;
+  border-radius: 50px;
+  border-color: #27a45c;
 }
-
