@@ -16,6 +16,7 @@ body {
 header #icon {
   width: 200px;
   height: 150px;
+  padding-left: 250px;
   vertical-align: middle;
 }
 header #logo_header {
@@ -33,31 +34,31 @@ header #greenNewMap {
 }
 
 hr {
-  width: 100%;
+  width: 100vw;
   border: solid 5px var(--website_title_underbar);
   background-color: var(--website_title_underbar);
   padding: 0;
   margin: 0;
 }
 
-section {
-  height: 100vh;
-  width: 100vw;
-  background-image: url("../img/firstBackground.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
 section #content_div {
   margin-top: 0px;
   margin-left: 50px;
   width: 100%;
-  height: 100%;
+  height: 2500px;
+}
+
+section {
+  position: relative;
+}
+
+#content_div {
+  position: absolute;
+  background: url("../img/firstBackground.png") no-repeat;
+  left: 15%;
 }
 
 #content_div #first_explain {
-  /* margin-top: 100px; */
   padding-top: 100px;
   font-family: "Rubik", sans-serif;
   font-size: 50px;
