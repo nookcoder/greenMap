@@ -1,0 +1,46 @@
+@import "reset.css";
+@import "constant.css";
+/* 넓이 1200px 에서 바뀌도록 */
+.top_menu_bar {
+  height: fit-content;
+  background-color: var(--topMenuBar_background);
+}
+
+.top_menu_bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 70px;
+}
+
+.top_menu_bar ul img {
+  width: 200px;
+  height: 150px;
+}
+
+#title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 50px;
+}
+
+#title h1 {
+  color: var(--topMenuBar_title);
+  font-weight: bold;
+}
+
+#area a,
+#company a,
+#industry a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+}
+
+#area a:hover,
+#company a:hover,
+#industry a:hover {
+  border-bottom: 10px solid rgba(255, 255, 255, 0.8);
+}
