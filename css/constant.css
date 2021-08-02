@@ -1,6 +1,9 @@
 :root {
   --topMenuBar_background: #27a45c;
   --topMenuBar_title: #ddecca;
+  --website_background: #f1f7ed;
+  --website_title_color: #5eb656;
+  --website_title_underbar: #7db249;
   --sideMenuBar_main_sector: #7eb347;
   --sideMenuBar_sub_sector: #deedcb;
   --sideMenuBar_detail_sector: #f7ffee;
