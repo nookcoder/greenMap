@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  /* background-color: var(--website_background); */
+  background-color: var(--website_background); 
 }
 header #icon {
   width: 200px;
@@ -36,6 +36,8 @@ hr {
   width: 100%;
   border: solid 5px var(--website_title_underbar);
   background-color: var(--website_title_underbar);
+  padding: 0;
+  margin: 0;
 }
 
 section {
