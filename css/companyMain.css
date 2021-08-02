@@ -1,7 +1,7 @@
 @import "constants.css";
 
 .side_menu_bar {
-  width: 200px;
+  width: 210px;
 }
 
 #menu_bar_title {
@@ -16,7 +16,7 @@
 
 .menu_bar_sector {
   background-color: var(--sideMenuBar_sub_sector);
-  width: 200px;
+  width: 210px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,6 +31,7 @@
 }
 
 .detail_sector {
+  padding: 5px;
   display: none;
 }
 
