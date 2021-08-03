@@ -7,7 +7,6 @@
     <title>그린뉴맵</title>
     <link rel="stylesheet" href="css/topMenuBar.css">
     <link rel="stylesheet" href="css/companyMain.css">
-    <script script src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=l7xx5ec52fc1158b4b79b385e5013a6c75ff"></script>
 </head>
 <body onload="initTmap()">
     <nav class="top_menu_bar">
@@ -21,7 +20,7 @@
             <li id="industry"><a href="industryMain.html">산업별 탄소 배출</a></li>
         </ul>
     </nav>
-
+    
     <main id="main_content">
         <nav class="side_menu_bar">
             <ul>
@@ -32,7 +31,7 @@
                         <span>할당 대상 업체</span>
                         <i class="fas fa-chevron-right"></i>
                     </button>
-
+                    
                     <ul class="sub_sector assignment_sub_sector" >
                         <li>
                             <div class="sub_sector_title" id='assignment_period'>
@@ -45,7 +44,7 @@
                                 <li><input type="checkbox" name="assignment_company_plannig_period" value="3">3차</li>
                             </ul>
                         </li>
-
+                        
                         <li>
                             <div class="sub_sector_title" id='assignment_year'>
                                 <i class="fas fa-chevron-right"></i>
@@ -61,7 +60,7 @@
                                 <li><input type="checkbox" name="assignment_company_designated_year" value="2014">2014년</li>
                             </ul>
                         </li>    
-
+                        
                         <li>
                             <div class="sub_sector_title" id="assignment_sector">
                                 <i class="fas fa-chevron-right"></i>
@@ -160,7 +159,7 @@
                                 <i class="fas fa-chevron-right"></i>
                                 <span>기관구분</span>
                             </div>
-                        <ul class="detail_sector" id="public_agency_sector">
+                            <ul class="detail_sector" id="public_agency_sector">
                                 <li><input type="checkbox" name="public_sector_agency" value="중앙행정기관">중앙행정기관</li>
                                 <li><input type="checkbox" name="public_sector_agency" value="광역지방자치단체">광역지방자치단체</li>
                                 <li><input type="checkbox" name="public_sector_agency" value="기초지방자치단체">기초지방자치단체</li>
@@ -175,13 +174,20 @@
                 </li>
             </ul>
         </nav>
-
+        
         <sector id="company_map">
-
+            
         </sector>
     </main>
+    
     <script src="javascript/companyMapApi.js"></script>
     <script src="javascript/companyMainSideMenu.js"></script>
+    
+    <!-- TmapAPI -->
+    <script script src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=l7xx5ec52fc1158b4b79b385e5013a6c75ff"></script>
+    <!-- fontawesome 사용하기 -->
     <script src="https://kit.fontawesome.com/ff21ce4721.js" crossorigin="anonymous"></script>
+    <!-- 엑셀파일 읽어오는 라이브러리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.14.3/xlsx.full.min.js"></script>
 </body>
 </html>
