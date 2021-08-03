@@ -1,7 +1,9 @@
 @import "constants.css";
+/* 설명 글꼴 */
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 
 .side_menu_bar {
-  width: 210px;
+  width: 20%;
   height: 100vh;
   background-color: var(--sideMenuBar_sub_sector);
 }
@@ -9,7 +11,10 @@
 #menu_bar_title {
   background-color: var(--sideMenuBar_main_sector);
   font-weight: bolder;
-  padding: 10px;
+  padding: 5%;
+  font-family: 'Nanum', sans-serif;
+  font-size: 25px;
+
 }
 
 #menu_bar_title span {
@@ -29,18 +34,12 @@
 
 .sub_sector {
   background-color: var(--sideMenuBar_detail_sector);
-  display: none;
+  padding: 5%;
 }
 
-.detail_sector {
-  padding: 5px;
-  display: none;
-}
+.industry_large_title {
 
-.sub_sector_title {
-  padding: 5px;
-}
-
-.showing {
-  display: block;
+    margin: 5%;
+    font-family: 'Nanum', sans-serif;
+    font-size: 20px;
 }
