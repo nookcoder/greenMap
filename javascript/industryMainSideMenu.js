@@ -16,7 +16,7 @@ function arrowClassChange(e){
 }
 
 function showDetailIndustry(){
-    
+
 }
 let divAll = document.querySelectorAll(".industry_large_title");
 for(let divIndex = 0; divIndex < divAll.length ; divIndex++){
