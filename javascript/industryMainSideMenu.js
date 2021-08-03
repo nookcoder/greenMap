@@ -24,7 +24,6 @@ function showDetailIndustry(e){
 
     console.log(click_Ul);
     
-    
 }
 
 let divAll = document.querySelectorAll(".industry_large_title");
@@ -35,3 +34,5 @@ for(let divIndex = 0; divIndex < divAll.length ; divIndex++){
     // 상세 분류 코드 클릭 추가
     divAll[divIndex].addEventListener('click', showDetailIndustry);
 }
+
+console.log(classification.industry_NameList[1].length);
