@@ -69,6 +69,8 @@ publicAgencyButton.addEventListener('click',function(){
     publicAgencySector.classList.toggle('showing');
 });
 
+
+
 // 클릭시, 화살표 방향 변경
 const CURRENT_ARROW_DOWN = "fa-chevron-down";
 const CURRENT_ARROW_RIGHT ="fa-chevron-right";
