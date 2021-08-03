@@ -1,0 +1,49 @@
+  
+@import "constants.css";
+
+#main_content {
+  display: flex;
+}
+
+.side_menu_bar {
+  width: 210px;
+}
+
+#menu_bar_title {
+  background-color: var(--sideMenuBar_main_sector);
+  font-weight: bolder;
+  padding: 10px;
+}
+
+#menu_bar_title span {
+  display: block;
+}
+
+.main_sector_button {
+  background-color: var(--sideMenuBar_sub_sector);
+  width: 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.sub_sector {
+  background-color: var(--sideMenuBar_detail_sector);
+  display: none;
+}
+
+.detail_sector {
+  padding: 5px;
+  display: none;
+}
+
+.sub_sector_title {
+  padding: 5px;
+}
+
+.showing {
+  display: block;
+}
