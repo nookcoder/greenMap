@@ -36,3 +36,4 @@ for(let divIndex = 0; divIndex < divAll.length ; divIndex++){
 }
 
 console.log(classification.industry_NameList[1].length);
+//여기도 0.....ㅠㅠㅠㅠ살려죠ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ쓰고싶어,,,,

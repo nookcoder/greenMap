@@ -35,7 +35,9 @@ function pushIndustryList(data) {
             currentlistIndex++;
         } 
 
-    })   
+    }) 
+    console.log(industry_CodeList[1].length);
+    //여기는 41이고,,,,ㅠㅠㅠㅠㅠㅠ  
     
 }
 
@@ -54,3 +56,5 @@ $.ajax ({
     },
 });
 
+console.log(industry_CodeList[1].length);
+//여기는 0이야,,,,ㅠㅠㅠㅠㅠㅠ
