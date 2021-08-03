@@ -2,6 +2,8 @@
 
 .side_menu_bar {
   width: 210px;
+  height: 100vh;
+  background-color: var(--sideMenuBar_sub_sector);
 }
 
 #menu_bar_title {
