@@ -58,3 +58,8 @@ $.ajax ({
 
 console.log(industry_CodeList[1].length);
 //여기는 0이야,,,,ㅠㅠㅠㅠㅠㅠ
+
+const btn = document.querySelector('#test'); 
+btn.addEventListener('click',event =>{
+    console.log("여기는 Classification 파일 :" +industry_CodeList[1].length);
+})

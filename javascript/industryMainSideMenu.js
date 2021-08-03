@@ -37,3 +37,8 @@ for(let divIndex = 0; divIndex < divAll.length ; divIndex++){
 
 console.log(classification.industry_NameList[1].length);
 //여기도 0.....ㅠㅠㅠㅠ살려죠ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ쓰고싶어,,,,
+
+const btn = document.querySelector('#test'); 
+btn.addEventListener('click',event =>{
+    console.log("여기는 SideMenu 파일 ~~~ :" +classification.industry_NameList[1].length);
+})
