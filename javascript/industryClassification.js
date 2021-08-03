@@ -44,8 +44,6 @@ $.ajax ({
     data : "page=1&perPage=1936&returnType=XML&serviceKey=aqLTx6axfr2f%2FAZUjMxPpXKI3I1DNml6LJ9QY3lhzpDicnfJraWE6peuCCMdVKEsPY%2Bip5wD3wsx37zC2D6o5Q%3D%3D",
     dataType : "XML",
     success :function(response){
-        console.log(response);
-
         // 통신 성공시 호출
         pushIndustryList(response);    
     },
@@ -54,8 +52,6 @@ $.ajax ({
     },
 });
 
-
-console.log(industry_NameList[1].length);
 export {industry_NameList, industry_CodeList};
 
     
