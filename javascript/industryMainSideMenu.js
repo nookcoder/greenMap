@@ -1,3 +1,5 @@
+import * as classification from './industryClassification.js';
+
 // 클릭시, 화살표 방향 변경
 const CURRENT_ARROW_DOWN = "fas fa-chevron-down";
 const CURRENT_ARROW_RIGHT ="fas fa-chevron-right";
@@ -13,11 +15,9 @@ function arrowClassChange(e){
     } 
 }
 
-
-function showDetailIndustry(e) {
-    let 
+function showDetailIndustry(){
+    
 }
-
 let divAll = document.querySelectorAll(".industry_large_title");
 for(let divIndex = 0; divIndex < divAll.length ; divIndex++){
     // 화살표 방향 바꾸기 클릭 이벤트 추가
@@ -27,3 +27,4 @@ for(let divIndex = 0; divIndex < divAll.length ; divIndex++){
 }
 
 
+console.log(classification.industry_CodeList[1].length);
