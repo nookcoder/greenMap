@@ -10,7 +10,7 @@ let firstWSheetName = workbook.SheetNames[0];
 let firstWSheet = workbook.Sheets[firstWSheetName];
 
 
-let json ={ table:[]};
+let json ={ };
 let workbook_length = workbook.SheetNames.length;
 
 while(workbook_length--) {
@@ -71,10 +71,10 @@ console.log(data)
 
 
 
-/*const fs = require('fs');
+const fs = require('fs');
 fs.writeFile('./시트1.json', JSON.stringify(json["시트1"]), 'utf8', function(err){
         if (err) {
             console.log("An error occured while writing JSON Object to File.");
             return console.log(err);
         }
-})*/
+})
