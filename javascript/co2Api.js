@@ -7,8 +7,14 @@ let q4_industryCode= "28519";
 let q5_energyClassificationCode="전력";
 let q6_energyCode="전력";
 
-import express from 'express';
-const cors = require('cors');
+// import { createRequire } from '..node_modules/module';
+// const require = createRequire(import.meta.url);
+
+import express from '../node_modules/express';
+import cors from '../node_modules/cors';
+
+// const express = require('express');
+// const cors = require('cors');
 const app = express()
  
 app.use(cors())
@@ -21,19 +27,20 @@ app.listen(80, function () {
   console.log('CORS-enabled web server listening on port 80')
 })
 
-//파싱 시작
-$.ajax ({
-    //crossOrigin: true,
+
+jQuery.ajax ({
     type: "GET",
     url: "http://apis.data.go.kr/B553530/GHG_EMISSIONS_02/GHG_EMISSIONS_02_LIST",
+    
+    
     data : "serviceKey="+serviceKey+"&pageNo=1&numOfRows="+ numOfRows  + "&apiType=xml&q1=" + q1_year + "&q2=" + q2_area 
     + "&q3=" + q3_peopleSize + "&q4=" + q4_industryCode + "&q5=" +q5_energyClassificationCode
     + "&q6=" + q6_energyCode,
     success :function(response){
-        // 통신 성공시 호출
+       
         console.log(response);    
     },
-    error: function (xhr, status, msg) { // 통신 실패시 호출해야하는 함수
+    error: function (xhr, status, msg) { 
         console.log('상태값 : ' + status + ' Http에러메시지 : ' + msg);
     },
 });
