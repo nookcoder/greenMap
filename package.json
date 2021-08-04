@@ -16,8 +16,10 @@
     "url": "https://github.com/nookcoder/greenMap/issues"
   },
   "homepage": "https://github.com/nookcoder/greenMap#readme",
-  "type" : "module",
+  "type": "module",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "xlsx": "^0.17.0"
   }
 }
