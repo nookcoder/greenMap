@@ -1,15 +1,17 @@
 {
-  "name": "data",
-  "version": "1.0.0",
-  "description": "",
-  "main": "excel.js",
   "dependencies": {
+    "read-excel-file": "^5.2.8",
     "xlsx": "^0.17.0"
   },
+  "name": "data",
+  "version": "1.0.0",
+  "main": "readExcel.js",
   "devDependencies": {},
   "scripts": {
+
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "description": ""
 }

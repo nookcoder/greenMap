@@ -2,7 +2,7 @@
 let xlsx = require('xlsx');
 
 //엑셀 참조
-let workbook = xlsx.readFile('./할당대상업체소재지.xlsx');
+let workbook = xlsx.readFile('./2019/2019년 지역별 온실가스 배출량_20.11.26. 기준(수정).xlsx');
 
 //첫번째 워크 시트 이름 
 let firstWSheetName = workbook.SheetNames[0];
