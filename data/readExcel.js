@@ -2,7 +2,7 @@
 let xlsx = require('xlsx');
 
 //엑셀 참조
-let workbook = xlsx.readFile('./할당대상업체소재지.xlsx');
+let workbook = xlsx.readFile('./할당대상업체소재지.xlsx');
 
 //첫번째 워크 시트 이름 
 let firstWSheetName = workbook.SheetNames[0];
@@ -71,10 +71,10 @@ console.log(data)
 
 
 
-const fs = require('fs');
+/*const fs = require('fs');
 fs.writeFile('./시트1.json', JSON.stringify(json["시트1"]), 'utf8', function(err){
         if (err) {
             console.log("An error occured while writing JSON Object to File.");
             return console.log(err);
         }
-})
+})*/
