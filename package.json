@@ -1,0 +1,23 @@
+{
+  "name": "greenmap-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nookcoder/greenMap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nookcoder/greenMap/issues"
+  },
+  "homepage": "https://github.com/nookcoder/greenMap#readme",
+  "type" : "module",
+  "dependencies": {
+    "xlsx": "^0.17.0"
+  }
+}

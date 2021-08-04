@@ -5,19 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>그린뉴맵</title>
-    <link rel="stylesheet" href="css/topMenuBar.css">
-    <link rel="stylesheet" href="css/industryMain.css">
+    <link rel="stylesheet" href="/css/topMenuBar.css">
+    <link rel="stylesheet" href="/css/industryMain.css">
 </head>
 <body>
+    <input type="file" id="fileuploader" name="fileuploader" accept=".xls">
     <nav class="top_menu_bar">
         <ul>
             <li id="title">
                 <img src="img/img_icon.png" alt="웹사이트 아이콘" >
                 <h1>그린뉴맵</h1>
             </li>
-            <li id="area"><a href="areaMain.html">지역별 탄소 배출</a></li>
-            <li id="company"><a href="companyMain.html">업체별 탄소 배출</a></li>
-            <li id="industry"><a href="industryMain.html">산업별 탄소 배출</a></li>
+            <li id="area"><a href="/areaMain.html">지역별 탄소 배출</a></li>
+            <li id="company"><a href="/companyMain.html">업체별 탄소 배출</a></li>
+            <li id="industry"><a href="/industryMain.html">산업별 탄소 배출</a></li>
         </ul>
     </nav>
     
@@ -243,9 +244,13 @@
         </ul>
     </nav>
 
+    <button id="test">test</button>    
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> 
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="javascript/industryMainSideMenu.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="javascript/co2Api.js"></script>
+    <script type="module" src="/javascript/industryClassification.js"></script>
+    <script type="module" src="/javascript/industryMainSideMenu.js"></script>
+
     <script src="https://kit.fontawesome.com/ff21ce4721.js" crossorigin="anonymous"></script>
 </body>
 </html>
