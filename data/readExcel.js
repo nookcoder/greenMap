@@ -1,26 +1,26 @@
-//모듈 불러오기
-let xlsx = require('xlsx');
+// //모듈 불러오기
+// let xlsx = require('xlsx');
 
-//엑셀 참조
-let workbook = xlsx.readFile('./2019/2019년 지역별 온실가스 배출량_20.11.26. 기준(수정).xlsx');
+// //엑셀 참조
+// let workbook = xlsx.readFile('./2019/2019년 지역별 온실가스 배출량_20.11.26. 기준(수정).xlsx');
 
-//첫번째 워크 시트 이름 
-let firstWSheetName = workbook.SheetNames[0];
-//워크시크 가져오기
-let firstWSheet = workbook.Sheets[firstWSheetName];
+// //첫번째 워크 시트 이름 
+// let firstWSheetName = workbook.SheetNames[0];
+// //워크시크 가져오기
+// let firstWSheet = workbook.Sheets[firstWSheetName];
 
 
-let json ={ };
-let workbook_length = workbook.SheetNames.length;
+// let json ={ };
+// let workbook_length = workbook.SheetNames.length;
 
-while(workbook_length--) {
-    let sheetname = workbook.SheetNames[workbook_length];
-    console.log(sheetname);
-    json[sheetname] = xlsx.utils.sheet_to_json(workbook.Sheets[sheetname]);
+// while(workbook_length--) {
+//     let sheetname = workbook.SheetNames[workbook_length];
+//     console.log(sheetname);
+//     json[sheetname] = xlsx.utils.sheet_to_json(workbook.Sheets[sheetname]);
 
-   console.log(json[sheetname]);
-}
-console.log('오빠가 원하는게 이런걸까~!');
+//    console.log(json[sheetname]);
+// }
+// console.log('오빠가 원하는게 이런걸까~!');
 
 
 /*
@@ -71,10 +71,16 @@ console.log(data)
 
 
 
-const fs = require('fs');
-fs.writeFile('./시트1.json', JSON.stringify(json["시트1"]), 'utf8', function(err){
-        if (err) {
-            console.log("An error occured while writing JSON Object to File.");
-            return console.log(err);
-        }
-})
+// const fs = require('fs');
+// fs.writeFile('./시트1.json', JSON.stringify(json["시트1"]), 'utf8', function(err){
+//         if (err) {
+//             console.log("An error occured while writing JSON Object to File.");
+//             return console.log(err);
+//         }
+// })
+
+var xlsx = require("xlsx");
+
+var wb = xlsx.readFile("./2019/할당대상업체소재지.xlsx");
+
+console.log(wb.SheetNames);
