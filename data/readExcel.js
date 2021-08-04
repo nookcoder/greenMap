@@ -78,7 +78,6 @@ console.log(data)
 //             return console.log(err);
 //         }
 // })
-
 var xlsx = require("xlsx");
 
 var wb = xlsx.readFile("./2019/할당대상업체소재지.xlsx");
