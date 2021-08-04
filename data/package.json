@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "excel": "^1.0.1",
     "read-excel-file": "^5.2.8",
     "xlsx": "^0.17.0"
   },

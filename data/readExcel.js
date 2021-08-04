@@ -78,8 +78,8 @@ console.log(data)
 //             return console.log(err);
 //         }
 // })
-var xlsx = require("xlsx");
-
+const xlsx = require("xlsx");
+const express = require('excel');
 var wb = xlsx.readFile("./2019/할당대상업체소재지.xlsx");
 
 console.log(wb.SheetNames);
