@@ -15,14 +15,20 @@ function arrowClassChange(e){
     } 
 }
 
+classification.industry_CodeList;
+classification.industry_NameList;
+
+console.log(classification.industry_NameList[1]);
+
 // 클릭시, 세부카테고리 보여주기
 function showDetailIndustry(e){
     let subMenuInnerHtml = "<li>" ;
-    
     let click_Ul_id = e.currentTarget.id + "_sector";
+
     let click_Ul = document.getElementById(click_Ul_id);
 
     console.log(click_Ul);
+    console.log(click_Ul_id);
     
 }
 
