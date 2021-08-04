@@ -80,6 +80,24 @@ console.log(data)
 // })
 const xlsx = require("xlsx");
 const express = require('excel');
-var wb = xlsx.readFile("./2019/할당대상업체소재지.xlsx");
+const FileReader = require('fs');
 
-console.log(wb.SheetNames);
+var wb = xlsx.readFile("./2019/할당대상업체소재지.xlsx");
+var worksheet = wb.Sheets["Sheet0"];
+var json = xlsx.utils.sheet_to_json(worksheet);
+
+let company = new Array(); 
+
+function Info(year,name,location){
+    this.year = year; 
+    this.name = name; 
+    this.location = location; 
+}
+
+for(let index = 0; index<json.length; index++)
+{
+    let info = new Info(json[index].계획기간,json[index].업체명,json[index].소재지);
+    company.push(info);
+}
+console.log(company[15].location);
+
