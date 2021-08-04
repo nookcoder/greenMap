@@ -23,3 +23,4 @@ $.ajax ({
         console.log('상태값 : ' + status + ' Http에러메시지 : ' + msg);
     },
 });
+

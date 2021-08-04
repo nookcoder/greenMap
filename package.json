@@ -16,5 +16,8 @@
     "url": "https://github.com/nookcoder/greenMap/issues"
   },
   "homepage": "https://github.com/nookcoder/greenMap#readme",
-  "type": "module"
+  "type" : "module",
+  "dependencies": {
+    "xlsx": "^0.17.0"
+  }
 }
