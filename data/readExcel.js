@@ -68,7 +68,7 @@ function setAssignment(json, json2) {
 
     for (let index = 0; index < json.length; index++) {
         for (let index2 = 0; index2 < json2.length; index2++) {
-            if ((json[index].지정연도 == json2[index2].__EMPTY_2) && (json[index].업체명 == json2[index2].__EMPTY_1)) {
+            if ((json[index].지정연도 == json2[index2].대상년도) && (json[index].업체명 == json2[index2].업체명)) {
                 assignmentCompany = new AssignmentCompany(json[index].계획기간, json[index].소재지, json[index].업체명, json2[index2].__EMPTY, json2[index2].__EMPTY_2, json2[index2].__EMPTY_4,json2[index2].__EMPTY_5,json2[index2].__EMPTY_6);
                 company.push(assignmentCompany);
             }
