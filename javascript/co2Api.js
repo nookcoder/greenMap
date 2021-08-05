@@ -10,8 +10,8 @@ let q6_energyCode="전력";
 // import { createRequire } from '..node_modules/module';
 // const require = createRequire(import.meta.url);
 
-import express from '../node_modules/express';
-import cors from '../node_modules/cors';
+import express from '../node_modules/express/index.js';
+import cors from '../node_modules/cors/lib/index.js';
 
 // const express = require('express');
 // const cors = require('cors');
