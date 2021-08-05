@@ -1,21 +1,19 @@
-const xlsx = require("xlsx");
-const express = require('excel');
-const FileReader = require('fs');
+import xlsx from '../node_modules/xlsx/xlsx.js';
 
-var firstWorkbook = xlsx.readFile("./할당대상업체/1차.xlsx");
-var secondWorkbook = xlsx.readFile("./할당대상업체/2차.xlsx");
-var thirdWorkbook = xlsx.readFile("./할당대상업체/3차.xlsx");
+var firstWorkbook = xlsx.readFile("../data/할당대상업체/1차.xlsx");
+var secondWorkbook = xlsx.readFile("../data/할당대상업체/2차.xlsx");
+var thirdWorkbook = xlsx.readFile("../data/할당대상업체/3차.xlsx");
 
-var co2Workbook = xlsx.readFile("./업체배출량/2020년도 업체별 명세서 주요정보_21.6.25기준(정정 최종).xlsx");
-var co2Workbook1 = xlsx.readFile("./업체배출량/2019년도 업체별 명세서 주요정보(업데이트)_20.11.26.기준(수정).xlsx");
-var co2Workbook2 = xlsx.readFile("./업체배출량/2018년도 업체별 명세서 주요정보(업데이트)_19.08.08.기준.xlsx");
-var co2Workbook3 = xlsx.readFile("./업체배출량/2017년도 업체별 명세서 주요정보(업데이트)_18.12.20.기준.xlsx");
-var co2Workbook4 = xlsx.readFile("./업체배출량/2016년 업체별 명세서 주요정보.xlsx");
-var co2Workbook5 = xlsx.readFile("./업체배출량/2015년 업체별 명세서 주요정보.xlsx");
-var co2Workbook6 = xlsx.readFile("./업체배출량/2014년 업체별 명세서 주요정보_수정(2019.11.20).xlsx");
-var co2Workbook7 = xlsx.readFile("./업체배출량/2013년 업체별 명세서 주요정보_수정(2019.11.20).xlsx");
-var co2Workbook8 = xlsx.readFile("./업체배출량/2012년 업체별 명세서 주요정보_수정(2019.3.22).xlsx");
-var co2Workbook9 = xlsx.readFile("./업체배출량/2011년 업체별 명세서 주요정보.xlsx");
+var co2Workbook = xlsx.readFile("../data/업체배출량/2020년도 업체별 명세서 주요정보_21.6.25기준(정정 최종).xlsx");
+var co2Workbook1 = xlsx.readFile("../data/업체배출량/2019년도 업체별 명세서 주요정보(업데이트)_20.11.26.기준(수정).xlsx");
+var co2Workbook2 = xlsx.readFile("../data/업체배출량/2018년도 업체별 명세서 주요정보(업데이트)_19.08.08.기준.xlsx");
+var co2Workbook3 = xlsx.readFile("../data/업체배출량/2017년도 업체별 명세서 주요정보(업데이트)_18.12.20.기준.xlsx");
+var co2Workbook4 = xlsx.readFile("../data/업체배출량/2016년 업체별 명세서 주요정보.xlsx");
+var co2Workbook5 = xlsx.readFile("../data/업체배출량/2015년 업체별 명세서 주요정보.xlsx");
+var co2Workbook6 = xlsx.readFile("../data/업체배출량/2014년 업체별 명세서 주요정보_수정(2019.11.20).xlsx");
+var co2Workbook7 = xlsx.readFile("../data/업체배출량/2013년 업체별 명세서 주요정보_수정(2019.11.20).xlsx");
+var co2Workbook8 = xlsx.readFile("../data/업체배출량/2012년 업체별 명세서 주요정보_수정(2019.3.22).xlsx");
+var co2Workbook9 = xlsx.readFile("../data/업체배출량/2011년 업체별 명세서 주요정보.xlsx");
 
 var firstWorksheet = firstWorkbook.Sheets["Sheet0"];
 var secondWorksheet = secondWorkbook.Sheets["Sheet0"];
@@ -70,7 +68,7 @@ function setAssignmentCompanyData(json, json2) {
         for (let index2 = 0; index2 < json2.length; index2++) {
             if (json[index].업체명 == json2[index2].업체명) {
                 company = new AssignmentCompany(json[index].계획기간, json[index].소재지, json[index].업체명, json2[index2].관장기관,json[index].지정연도,json2[index2].대상년도, json2[index2].지정업종,json2[index2].온실가스,json2[index2].에너지);
-                assignmentCompany.push(assignmentCompany);
+                assignmentCompany.push(company);
             }
         }
     }
@@ -84,4 +82,10 @@ setAssignmentCompanyData(secondJson,co2Json2018);
 setAssignmentCompanyData(secondJson,co2Json2019);
 setAssignmentCompanyData(thirdJson, co2Json2020);
 
+for(let i =0; i<10;i++)
+{
+    console.log(assignmentCompany[i]);
+}
 
+
+export {assignmentCompany as default}; 
