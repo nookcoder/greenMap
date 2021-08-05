@@ -1,23 +1,17 @@
 {
-  "name": "greenmap-2",
+  "dependencies": {
+    "excel": "^1.0.1",
+    "read-excel-file": "^5.2.8",
+    "xlsx": "^0.17.0"
+  },
+  "name": "data",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "readExcel.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nookcoder/greenMap.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nookcoder/greenMap/issues"
-  },
-  "homepage": "https://github.com/nookcoder/greenMap#readme",
-  "type" : "module",
-  "dependencies": {
-    "xlsx": "^0.17.0"
-  }
+  "description": "",
+  "type": "module"
 }

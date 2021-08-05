@@ -2,6 +2,7 @@ $(document).ready(function() {
 	initTmap();
 });
 
+
 function initTmap(){
     var map = new Tmapv2.Map("company_map",  
 		{
