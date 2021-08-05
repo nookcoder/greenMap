@@ -1,4 +1,4 @@
-@import "constant.css";
+@import "./constant.css";
 
 #main_content {
   display: flex;
