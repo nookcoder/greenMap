@@ -11,7 +11,7 @@ let q6_energyCode="전력";
 // const require = createRequire(import.meta.url);
 
 import express from '../node_modules/express/index.js';
-import cors from '../node_modules/cors/lib/index.js';
+import cors from '../node_modules/cors/package.json';
 
 // const express = require('express');
 // const cors = require('cors');
