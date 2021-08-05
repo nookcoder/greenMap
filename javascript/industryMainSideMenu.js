@@ -63,7 +63,7 @@ classification.industry_NameList;
 // 클릭시, 세부카테고리 보여주기
 function showDetailIndustry(e){
     
-    
+
     let click_Ul_id = e.currentTarget.id + "_sector";
     let click_Ul = document.getElementById(click_Ul_id);
 
