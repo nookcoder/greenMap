@@ -1,5 +1,9 @@
 @import "constants.css";
 
+#main_content {
+  display: flex;
+}
+
 .side_menu_bar {
   width: 210px;
 }
