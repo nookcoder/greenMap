@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+        .overlabel {margin-bottom: 96px; width:20px;height:20px;background-color:red;border-radius:20px 20px 20px 20px;}
+        .overlabel * {display: inline-block;vertical-align: top;}
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그린뉴맵</title>
+    <link rel="stylesheet" href="css/topMenuBar.css">
+    <link rel="stylesheet" href="css/companyMain.css">
+</head>
+<body>
+    <nav class="top_menu_bar">
+        <ul>
+            <li id="title">
+                <img src="img/img_icon.png" alt="웹사이트 아이콘" >
+                <h1>그린뉴맵</h1>
+            </li>
+            <li id="area"><a href="kakaoMap.html">지역별 탄소 배출</a></li>
+            <li id="company"><a href="companyMain.html">업체별 탄소 배출</a></li>
+            <li id="industry"><a href="industryMain.html">산업별 탄소 배출</a></li>
+        </ul>
+    </nav>
+    <main id="main_content">
+        <nav class="side_menu_bar">
+            <ul>
+                <li id="menu_bar_title"><span>레이어</span><br>(데이터 구성)</li>
+                
+                <li class="main_sector">
+                    <button class="main_sector_button" id="assignment_button">
+                        <span>대상 연도</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                        <li> 
+                            <ul class="detail_sector" id="assignment_period_sector">
+                                <li><input type="checkbox" name="assignment_company_plannig_period" value="2020">2020년</li>
+                                <li><input type="checkbox" name="assignment_company_plannig_period" value="2019">2019년</li>
+                                <li><input type="checkbox" name="assignment_company_plannig_period" value="2018">2018년</li>
+                                <li><input type="checkbox" name="assignment_company_plannig_period" value="2017">2017년</li>
+                                <li><input type="checkbox" name="assignment_company_plannig_period" value="2016">2016년</li>
+                                <li><input type="checkbox" name="assignment_company_plannig_period" value="2015">2015년</li>
+                                <li><input type="checkbox" name="assignment_company_plannig_period" value="2014">2014년</li>
+                                <li><input type="checkbox" name="assignment_company_plannig_period" value="2013">2013년</li>
+                                <li><input type="checkbox" name="assignment_company_plannig_period" value="2012">2012년</li>
+                                <li><input type="checkbox" name="assignment_company_plannig_period" value="2011">2011년</li>
+
+                            </ul>
+                        </li>
+                </li>
+                
+                <li class="main_sector">
+                    <button class="main_sector_button" id="target_button">
+                        <span>에너지원 구분명</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                        <li id="target_company_designated_year">
+                            <ul class="detail_sector" id="target_period_sector">
+                                <li><input type="checkbox" name="target_company_designated_year" value="석탄류">석탄류</li>
+                                <li><input type="checkbox" name="target_company_designated_year" value="석유류">석유류</li>
+                                <li><input type="checkbox" name="target_company_designated_year" value="가스류">가스류</li>
+                                <li><input type="checkbox" name="target_company_designated_year" value="열에너지">열에너지</li>
+                                <li><input type="checkbox" name="target_company_designated_year" value="전력">전력</li>
+                                <li><input type="checkbox" name="target_company_designated_year" value="기타">기타</li>
+                                <li><input type="checkbox" name="target_company_designated_year" value="폐에너지">폐에너지</li>
+
+                            </ul>
+                        </li>
+                </li>
+                
+                <li class="main_sector">
+                    <button class="main_sector_button" id="public_button">
+                        <span>종사자 규모</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                        <li id="public_sector_year">
+                            <ul class="detail_sector" id="public_year_sector">
+                                <li><input type="checkbox" name="public_sector_year" value="5인 미만">5인 미만</li>
+                                <li><input type="checkbox" name="public_sector_year" value="5인~9인">5인~9인</li>
+                                <li><input type="checkbox" name="public_sector_year" value="10인~19인">10인~19인</li>
+                                <li><input type="checkbox" name="public_sector_year" value="20인~49인">20인~49인</li>
+                                <li><input type="checkbox" name="public_sector_year" value="50인~99인">50인~99인</li>
+                                <li><input type="checkbox" name="public_sector_year" value="100인이상">100인이상</li>
+
+                            </ul>
+                        </li>
+                </li>
+            </ul>
+        </nav>
+<!-- 지도를 표시할 div 입니다 -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<sector id="map" style="width:100%;height:100vh;"></sector>
+<script src="javascript/areaMainMapApi.js"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=48da7b969f4a458e92b62f0737071ab0"></script>
+    <script src="javascript/areaMainSideMenu.js"></script>
+</body>
+</html>
+
+
+
+<!--파싱 연습중-->
+<script>
+	$(document).ready(function() {
+	  $('#target').click(function() {
+	    $.getJSON('2019 지역별 온실가스.json', function(data) {
+	      var html = '';
+	      $.each(data, function(entryIndex, region) {
+	    	  html += '<div class="region">';
+	    	  html += '<h3 class="position1">' + region.position1 + '</h3>';
+	    	  html += '<div class="position2">' + region.position2 + '</div>';
+	    	  html += '<div class="gas">';
+	    	  html += region.gas;
+	    	  html += '</div>';
+	    	  html += '</div>';
+	      });
+	      console.log(html);
+	      $('#dictionary').html(html);
+	    });
+	    return false;
+	  });
+	});
+    </script>
