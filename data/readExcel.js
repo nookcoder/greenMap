@@ -47,50 +47,41 @@ var co2Json2013 = xlsx.utils.sheet_to_json(co2Worksheet7);
 var co2Json2012 = xlsx.utils.sheet_to_json(co2Worksheet8);
 var co2Json2011 = xlsx.utils.sheet_to_json(co2Worksheet9);
 
-console.log(co2Json2014);
-let company = new Array();
+let assignmentCompany = new Array();
 
 // 할당 대상 업체 VO 
-function AssignmentCompany(period, location, name, agency, year, sector, co2, energy) {
+function AssignmentCompany(period, location, name, agency, designated_year,target_year, sector, co2, energy) {
     this.period = period;
     this.name = name;
     this.location = location;
     this.agency = agency;
-    this.year = year;
+    this.designatedYear = designated_year;
+    this.targetYear = target_year;
     this.sector = sector;
     this.co2 = co2;
     this.energy = energy;
 }
 
-function setAssignment(json, json2) {
+function setAssignmentCompanyData(json, json2) {
 
-    let assignmentCompany;
+    let company;
 
     for (let index = 0; index < json.length; index++) {
         for (let index2 = 0; index2 < json2.length; index2++) {
-            if ((json[index].지정연도 == json2[index2].대상년도) && (json[index].업체명 == json2[index2].업체명)) {
-                assignmentCompany = new AssignmentCompany(json[index].계획기간, json[index].소재지, json[index].업체명, json2[index2].__EMPTY, json2[index2].__EMPTY_2, json2[index2].__EMPTY_4,json2[index2].__EMPTY_5,json2[index2].__EMPTY_6);
-                company.push(assignmentCompany);
-            }
-
-            else if((json[index].지정연도 == json2[index2].__EMPTY_3) && (json[index].업체명 == json2[index2].__EMPTY_2)){
-                assignmentCompany = new AssignmentCompany(json[index].계획기간, json[index].소재지, json[index].업체명, json2[index2].__EMPTY_1, json2[index2].__EMPTY_3, json2[index2].__EMPTY_5,json2[index2].__EMPTY_8,json2[index2].__EMPTY_9);
-                company.push(assignmentCompany);
+            if (json[index].업체명 == json2[index2].업체명) {
+                company = new AssignmentCompany(json[index].계획기간, json[index].소재지, json[index].업체명, json2[index2].관장기관,json[index].지정연도,json2[index2].대상년도, json2[index2].지정업종,json2[index2].온실가스,json2[index2].에너지);
+                assignmentCompany.push(assignmentCompany);
             }
         }
     }
 };
 
-setAssignment(firstJson,co2Json4);
-//setAssignment(secondJson,co2Json1);
-//setAssignment(secondJson,co2Json2);
+setAssignmentCompanyData(firstJson,co2Json2014);
+setAssignmentCompanyData(firstJson,co2Json2015);
+setAssignmentCompanyData(firstJson,co2Json2016);
+setAssignmentCompanyData(secondJson,co2Json2017);
+setAssignmentCompanyData(secondJson,co2Json2018);
+setAssignmentCompanyData(secondJson,co2Json2019);
+setAssignmentCompanyData(thirdJson, co2Json2020);
 
-//setAssignment(secondJson,co2Json3);
-//setAssignment(thirdJson, co2Json);
-
-
-// for(let i =0; i < company.length; i++)
-// {
-//     console.log(company[i]);
-// }
 
