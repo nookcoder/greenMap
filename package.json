@@ -16,8 +16,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "read-excel-file": "^5.2.8",
     "jquery": "^3.6.0",
+    "read-excel-file": "^5.2.8",
     "xlsx": "^0.17.0"
   }
 }
