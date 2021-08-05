@@ -18,12 +18,8 @@ function pushIndustryList(data) {
     $(data).find("item").each(function(index, item){
         let codeNumber = $(item).find('col[name=산업분류코드]').text();
         
-        if (codeNumber.startsWith(startCodeNumber)) {
-            industry_NameList[currentlistIndex].push($(item).find('col[name=산업분류명칭]').text());
-            industry_CodeList[currentlistIndex].push($(item).find('col[name=산업분류코드]').text()) 
-        }
-        else {
-
+        while (!codeNumber.startsWith(startCodeNumber)) {
+            
             startCodeNumber = parseInt(startCodeNumber);
             startCodeNumber++;
             if(startCodeNumber < 10) {
@@ -33,11 +29,13 @@ function pushIndustryList(data) {
                 startCodeNumber += "";
             }
             currentlistIndex++;
-        } 
+            
+        }
 
+        industry_NameList[currentlistIndex].push($(item).find('col[name=산업분류명칭]').text());
+        industry_CodeList[currentlistIndex].push($(item).find('col[name=산업분류코드]').text()) 
+    
     }) 
-    console.log(industry_CodeList[1].length);
-    //여기는 41이고,,,,ㅠㅠㅠㅠㅠㅠ  
     
 }
 
@@ -55,11 +53,3 @@ $.ajax ({
         console.log('상태값 : ' + status + ' Http에러메시지 : ' + msg);
     },
 });
-
-console.log(industry_CodeList[1].length);
-//여기는 0이야,,,,ㅠㅠㅠㅠㅠㅠ
-
-const btn = document.querySelector('#test'); 
-btn.addEventListener('click',event =>{
-    console.log("여기는 Classification 파일 :" +industry_CodeList[1].length);
-})

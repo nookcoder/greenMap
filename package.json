@@ -1,17 +1,23 @@
 {
-  "dependencies": {
-    "excel": "^1.0.1",
-    "read-excel-file": "^5.2.8",
-    "xlsx": "^0.17.0"
-  },
   "name": "data",
   "version": "1.0.0",
-  "main": "readExcel.js",
+  "description": "",
+  "main": "co2Api.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "type": "module"
+  "bugs": {
+    "url": "https://github.com/nookcoder/greenMap/issues"
+  },
+  "homepage": "https://github.com/nookcoder/greenMap#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "read-excel-file": "^5.2.8",
+    "jquery": "^3.6.0",
+    "xlsx": "^0.17.0"
+  }
 }

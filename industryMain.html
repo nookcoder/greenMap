@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="/css/industryMain.css">
 </head>
 <body>
-    <input type="file" id="fileuploader" name="fileuploader" accept=".xls">
     <nav class="top_menu_bar">
         <ul>
             <li id="title">
@@ -45,8 +44,8 @@
                             <i class="fas fa-chevron-right"></i>
                             <span>B.광 업(05~08)</span>
                         </div>    
-                        <ul class="detail_industry" id="B_industry_sector">
-                        <!-- 동적 리스트 추가 -->
+ 
+                        <ul class="detail_industry" id="B_industry_sector">   
                         </ul>
                     </li>
 
@@ -56,7 +55,7 @@
                             <span>C.제 조 업 (10~34)</span>
                         </div>    
                         <ul class="detail_industry" id="C_industry_sector">
-                        <!-- 동적 리스트 추가 -->
+                           
                         </ul>
                     </li>
                     
@@ -242,15 +241,12 @@
                 </ul>
             </li>        
         </ul>
-    </nav>
-
-    <button id="test">test</button>    
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script> 
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="javascript/co2Api.js"></script>
+    </nav> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>;
+    <script type="module" src="/javascript/co2Api.js"></script>
     <script type="module" src="/javascript/industryClassification.js"></script>
     <script type="module" src="/javascript/industryMainSideMenu.js"></script>
-
+    
     <script src="https://kit.fontawesome.com/ff21ce4721.js" crossorigin="anonymous"></script>
 </body>
 </html>
