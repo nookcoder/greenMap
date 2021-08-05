@@ -1,15 +1,11 @@
 {
-  "name": "greenmap-2",
+  "name": "data",
   "version": "1.0.0",
   "description": "",
   "main": "co2Api.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nookcoder/greenMap.git"
   },
   "author": "",
   "license": "ISC",
@@ -20,6 +16,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "read-excel-file": "^5.2.8",
     "jquery": "^3.6.0",
     "xlsx": "^0.17.0"
   }
