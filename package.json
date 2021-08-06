@@ -2,10 +2,10 @@
   "name": "data",
   "version": "1.0.0",
   "description": "",
-  "main": "co2Api.js",
-  "type": "commonjs",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=none"
   },
   "author": "",
   "license": "ISC",
@@ -16,11 +16,18 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "html-webpack-plugin": "^5.3.2",
     "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
     "npm": "^7.20.3",
+    "path": "^0.12.7",
     "read-excel-file": "^5.2.8",
     "request": "^2.88.2",
     "uniq": "^1.0.1",
     "xlsx": "^0.17.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2"
   }
 }
