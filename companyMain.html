@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/topMenuBar.css">
     <link rel="stylesheet" href="css/companyMain.css">
 </head>
-<body onload="initTmap()">
+<body>
     <nav class="top_menu_bar">
         <ul>
             <li id="title">
@@ -175,18 +175,17 @@
             </ul>
         </nav>
         
-        <sector id="company_map">
+        <sector id="map">
             
         </sector>
     </main>
   
-    <!-- TmapAPI -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>;
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.14.3/xlsx.full.min.js"></script>
-    <script script src="https://apis.openapi.sk.com/tmap/jsv2?version=1&appKey=l7xx5ec52fc1158b4b79b385e5013a6c75ff"></script>
     <script src="https://kit.fontawesome.com/ff21ce4721.js" crossorigin="anonymous"></script>
-    
-    
-    <script src="javascript/companyMapApi.js"></script>
-    <script src="javascript/companyMainSideMenu.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=8ba3e3945de9253bfa0df31f686ea45c"></script>
+
+    <script type="module" src="javascript/companyMapApi.js"></script>
+    <script type="module" src="javascript/companyMainSideMenu.js"></script>
 </body>
 </html>
