@@ -7,26 +7,29 @@ let q4_industryCode= "28519";
 let q5_energyClassificationCode="전력";
 let q6_energyCode="전력";
 
-// import { createRequire } from '..node_modules/module';
-// const require = createRequire(import.meta.url);
 
-// import express from '../node_modules/express/index.js';
-// import cors from '../node_modules/cors/package.json';
+var request = require('request');
 
-// // const express = require('express');
-// // const cors = require('cors');
-// const app = express()
+var url = 'http://apis.data.go.kr/B553530/GHG_EMISSIONS_02/GHG_EMISSIONS_02_LIST';
+var queryParams = '?' + encodeURIComponent('ServiceKey') + '=aqLTx6axfr2f%2FAZUjMxPpXKI3I1DNml6LJ9QY3lhzpDicnfJraWE6peuCCMdVKEsPY%2Bip5wD3wsx37zC2D6o5Q%3D%3D";' /* Service Key*/
+queryParams += '&' + encodeURIComponent('pageNo') + '=' + encodeURIComponent('1'); /* */
+queryParams += '&' + encodeURIComponent('numOfRows') + '=' + encodeURIComponent('10'); /* */
+queryParams += '&' + encodeURIComponent('apiType') + '=' + encodeURIComponent('xml'); /* */
+queryParams += '&' + encodeURIComponent('q1') + '=' + encodeURIComponent('2018'); /* */
+queryParams += '&' + encodeURIComponent('q2') + '=' + encodeURIComponent('인천'); /* */
+queryParams += '&' + encodeURIComponent('q3') + '=' + encodeURIComponent('10인 ~ 19인'); /* */
+queryParams += '&' + encodeURIComponent('q4') + '=' + encodeURIComponent('28519'); /* */
+queryParams += '&' + encodeURIComponent('q5') + '=' + encodeURIComponent('전력'); /* */
+queryParams += '&' + encodeURIComponent('q6') + '=' + encodeURIComponent('전력'); /* */
 
-// app.use(cors())
- 
-// app.get('/products/:id', function (req, res, next) {
-//   res.json({msg: 'This is CORS-enabled for all origins!'})
-// })
- 
-app.listen(80, function () {
-  console.log('CORS-enabled web server listening on port 80')
-})
-
+request({
+    url: url + queryParams,
+    method: 'GET'
+}, function (error, response, body) {
+    //console.log('Status', response.statusCode);
+    //console.log('Headers', JSON.stringify(response.headers));
+    console.log('Reponse received', body);
+});
 
 jQuery.ajax ({
     type: "GET",
@@ -44,4 +47,3 @@ jQuery.ajax ({
         console.log('상태값 : ' + status + ' Http에러메시지 : ' + msg);
     },
 });
-

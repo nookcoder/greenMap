@@ -1,6 +1,6 @@
 // import xlsx from '../node_modules/xlsx/xlsx.js';
-let xlsx = require('xlsx');
-
+var path = require('path');
+var xlsx = require(path.resolve(__dirname,"node_modules/xlsx"));
 var firstWorkbook = xlsx.readFile("../data/할당대상업체/1차.xlsx");
 var secondWorkbook = xlsx.readFile("../data/할당대상업체/2차.xlsx");
 var thirdWorkbook = xlsx.readFile("../data/할당대상업체/3차.xlsx");
