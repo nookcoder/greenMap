@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "co2Api.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,7 @@
     "jquery": "^3.6.0",
     "npm": "^7.20.3",
     "read-excel-file": "^5.2.8",
+    "require": "^2.4.20",
     "xlsx": "^0.17.0"
   }
 }

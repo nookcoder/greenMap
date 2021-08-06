@@ -4,6 +4,11 @@
   display: flex;
 }
 
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
 .side_menu_bar {
   width: 210px;
 }

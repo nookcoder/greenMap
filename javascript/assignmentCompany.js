@@ -1,4 +1,5 @@
-import xlsx from '../node_modules/xlsx/xlsx.js';
+// import xlsx from '../node_modules/xlsx/xlsx.js';
+let xlsx = require('xlsx');
 
 var firstWorkbook = xlsx.readFile("../data/할당대상업체/1차.xlsx");
 var secondWorkbook = xlsx.readFile("../data/할당대상업체/2차.xlsx");
@@ -87,5 +88,4 @@ for(let i =0; i<10;i++)
     console.log(assignmentCompany[i]);
 }
 
-
-export {assignmentCompany as default}; 
+ 
