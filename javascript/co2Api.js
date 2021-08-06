@@ -30,20 +30,3 @@ request({
     //console.log('Headers', JSON.stringify(response.headers));
     console.log('Reponse received', body);
 });
-
-jQuery.ajax ({
-    type: "GET",
-    url: "http://apis.data.go.kr/B553530/GHG_EMISSIONS_02/GHG_EMISSIONS_02_LIST",
-    
-    
-    data : "serviceKey="+serviceKey+"&pageNo=1&numOfRows="+ numOfRows  + "&apiType=xml&q1=" + q1_year + "&q2=" + q2_area 
-    + "&q3=" + q3_peopleSize + "&q4=" + q4_industryCode + "&q5=" +q5_energyClassificationCode
-    + "&q6=" + q6_energyCode,
-    success :function(response){
-       
-        console.log(response);    
-    },
-    error: function (xhr, status, msg) { 
-        console.log('상태값 : ' + status + ' Http에러메시지 : ' + msg);
-    },
-});
