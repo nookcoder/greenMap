@@ -2,22 +2,16 @@ var path = require('path');
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
-
-module.exports ={
-    mode : "none",
+module.exports = {
+    mode : "development",
+     
     entry : {
-        assignCompany : "./src/js/assignmentCompany.js",
-        kakaoMapApi : "./src/js/companyMapApi.js",
-        sideMenu : "./src/js/companyMainSideMenu.js"
+        companyMapiApiapi : "./src/js/companyMapApi.js"
     },
 
-    output:{
-        filename:'[name].js',
-        path : path.resolve(__dirname,'dist/js')
-    },
-
-    plugins: [
-        new HtmlWebpackPlugin(),
-        new webpack.ProgressPlugin()
-      ]
+    output : {
+        filename: '[name].js',
+        path : path.resolve(__dirname,'public'),
+    }
+    
 }

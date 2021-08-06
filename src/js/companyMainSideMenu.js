@@ -93,5 +93,3 @@ let iAll = document.querySelectorAll("i");
 for(let iIndex = 0; iIndex < iAll.length ; iIndex++){
     iAll[iIndex].addEventListener('click', arrowClassChange)
 }
-
-console.log("a");
