@@ -1,6 +1,15 @@
 $(document).ready(function() {
 	initTmap();
 });
+let radio_2019 = document.getElementById('2019');
+let radio_2018 = document.getElementById('2018');
+let radio_2017 = document.getElementById('2017');
+let radio_2016 = document.getElementById('2016');
+let radio_2015 = document.getElementById('2015');
+let radio_2014 = document.getElementById('2014');
+let radio_2013 = document.getElementById('2013');
+let radio_2012 = document.getElementById('2012');
+let radio_2011 = document.getElementById('2011'); 
 
 function initTmap(){
     var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
@@ -12,7 +21,8 @@ function initTmap(){
     // 지도를 표시할 div와  지도 옵션으로  지도를 생성합니다
     let map = new kakao.maps.Map(mapContainer, mapOption);
 
-    function area_2019(){
+    
+    radio_2019.addEventListener('click', function(){
         const url='/data/지역별/2019년 온실가스.json';
         
         fetch(url)
@@ -27,34 +37,32 @@ function initTmap(){
             var marker = new kakao.maps.CustomOverlay({
             map:map,
             position: latlng,
-            content:region+'<br>'+gas
-        });
-        }
-            console.log(JSON.stringify( myJson,null, 1 ));
-        });
-        }
-        function area_2019(){
-            const url='/data/지역별/2019년 온실가스.json';
-            
-            fetch(url)
-            .then((res)=>res.json())
-            .then((myJson)=>{
-            for(var i=0;i<myJson.length;i++){
-            
-                var gas=myJson[i].gas;
-                var region=myJson[i].region;
-                var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-                var imageSize = new kakao.maps.Size(24, 35); 
-                var marker = new kakao.maps.CustomOverlay({
-                map:map,
-                position: latlng,
-                content:region+'<br>'+gas
-            });
-            }
-                console.log(JSON.stringify( myJson,null, 1 ));
-            });
-            }
-        function area_2018(){
+            content:region+'<br>'+gas})
+        }})
+    })
+    // function area_2019(){
+    //     const url='/data/지역별/2019년 온실가스.json';
+        
+    //     fetch(url)
+    //     .then((res)=>res.json())
+    //     .then((myJson)=>{
+    //     for(var i=0;i<myJson.length;i++){
+        
+    //         var gas=myJson[i].gas;
+    //         var region=myJson[i].region;
+    //         var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+    //         var imageSize = new kakao.maps.Size(24, 35); 
+    //         var marker = new kakao.maps.CustomOverlay({
+    //         map:map,
+    //         position: latlng,
+    //         content:region+'<br>'+gas
+    //     });
+    //     }
+    //         console.log(JSON.stringify( myJson,null, 1 ));
+    //     });
+    //     }
+
+    radio_2018.addEventListener('click', function(){  
         const url='/data/지역별/2018년 온실가스.json';
         
         fetch(url)
@@ -66,6 +74,8 @@ function initTmap(){
             var region=myJson[i].region;
             var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
             var imageSize = new kakao.maps.Size(24, 35); 
+
+            
             var marker = new kakao.maps.CustomOverlay({
             map:map,
             position: latlng,
@@ -74,181 +84,342 @@ function initTmap(){
         }
             console.log(JSON.stringify( myJson,null, 1 ));
         });
+    })
+    radio_2017.addEventListener('click', function(){  
+        const url='/data/지역별/2017년 온실가스.json';
+        
+        fetch(url)
+        .then((res)=>res.json())
+        .then((myJson)=>{
+        for(var i=0;i<myJson.length;i++){
+        
+            var gas=myJson[i].gas;
+            var region=myJson[i].region;
+            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+            var imageSize = new kakao.maps.Size(24, 35); 
+            console.log(region+'<br>'+gas);
+            var marker = new kakao.maps.CustomOverlay({
+            map:map,
+            position: latlng,
+            content:region+'<br>'+gas
+        });
         }
-        function area_2017(){
-            const url='/data/지역별/2017년 온실가스.json';
-            
-            fetch(url)
-            .then((res)=>res.json())
-            .then((myJson)=>{
-            for(var i=0;i<myJson.length;i++){
-            
-                var gas=myJson[i].gas;
-                var region=myJson[i].region;
-                var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-                var imageSize = new kakao.maps.Size(24, 35); 
-                var marker = new kakao.maps.CustomOverlay({
-                map:map,
-                position: latlng,
-                content:region+'<br>'+gas
-            });
-            }
-                console.log(JSON.stringify( myJson,null, 1 ));
-            });
-            }
-        function area_2016(){
-            const url='/data/지역별/2016년 온실가스.json';
-            
-            fetch(url)
-            .then((res)=>res.json())
-            .then((myJson)=>{
-            for(var i=0;i<myJson.length;i++){
-            
-                var gas=myJson[i].gas;
-                var region=myJson[i].region;
-                var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-                var imageSize = new kakao.maps.Size(24, 35); 
-                var marker = new kakao.maps.CustomOverlay({
-                map:map,
-                position: latlng,
-                content:region+'<br>'+gas
-            });
-            }
-                console.log(JSON.stringify( myJson,null, 1 ));
-            });
-            }
-        function area_2015(){
-            const url='/data/지역별/2015년 온실가스.json';
-            
-            fetch(url)
-            .then((res)=>res.json())
-            .then((myJson)=>{
-            for(var i=0;i<myJson.length;i++){
-            
-                var gas=myJson[i].gas;
-                var region=myJson[i].region;
-                var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-                var imageSize = new kakao.maps.Size(24, 35); 
-                var marker = new kakao.maps.CustomOverlay({
-                map:map,
-                position: latlng,
-                content:region+'<br>'+gas
-            });
-            }
-                console.log(JSON.stringify( myJson,null, 1 ));
-            });
+            console.log(JSON.stringify( myJson,null, 1 ));
+        });
+    })
+    radio_2016.addEventListener('click', function(){  
+        const url='/data/지역별/2016년 온실가스.json';
+        
+        fetch(url)
+        .then((res)=>res.json())
+        .then((myJson)=>{
+        for(var i=0;i<myJson.length;i++){
+        
+            var gas=myJson[i].gas;
+            var region=myJson[i].region;
+            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+            var imageSize = new kakao.maps.Size(24, 35); 
+            console.log(region+'<br>'+gas);
+            var marker = new kakao.maps.CustomOverlay({
+            map:map,
+            position: latlng,
+            content:region+'<br>'+gas
+        });
         }
-        function area_2014(){
-            const url='/data/지역별/2014년 온실가스.json';
+            console.log(JSON.stringify( myJson,null, 1 ));
+        });
+    })
+
+    radio_2015.addEventListener('click', function(){  
+        const url='/data/지역별/2015년 온실가스.json';
+        
+        fetch(url)
+        .then((res)=>res.json())
+        .then((myJson)=>{
+        for(var i=0;i<myJson.length;i++){
+        
+            var gas=myJson[i].gas;
+            var region=myJson[i].region;
+            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+            var imageSize = new kakao.maps.Size(24, 35); 
+            console.log(region+'<br>'+gas);
+            var marker = new kakao.maps.CustomOverlay({
+            map:map,
+            position: latlng,
+            content:region+'<br>'+gas
+        });
+        }
+            console.log(JSON.stringify( myJson,null, 1 ));
+        });
+    })
+
+    radio_2014.addEventListener('click', function(){  
+        const url='/data/지역별/2014년 온실가스.json';
+        
+        fetch(url)
+        .then((res)=>res.json())
+        .then((myJson)=>{
+        for(var i=0;i<myJson.length;i++){
+        
+            var gas=myJson[i].gas;
+            var region=myJson[i].region;
+            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+            var imageSize = new kakao.maps.Size(24, 35); 
+            console.log(region+'<br>'+gas);
+            var marker = new kakao.maps.CustomOverlay({
+            map:map,
+            position: latlng,
+            content:region+'<br>'+gas
+        });
+        }
+            console.log(JSON.stringify( myJson,null, 1 ));
+        });
+    })
+    radio_2013.addEventListener('click', function(){  
+        const url='/data/지역별/2013년 온실가스.json';
+        
+        fetch(url)
+        .then((res)=>res.json())
+        .then((myJson)=>{
+        for(var i=0;i<myJson.length;i++){
+        
+            var gas=myJson[i].gas;
+            var region=myJson[i].region;
+            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+            var imageSize = new kakao.maps.Size(24, 35); 
+            console.log(region+'<br>'+gas);
+            var marker = new kakao.maps.CustomOverlay({
+            map:map,
+            position: latlng,
+            content:region+'<br>'+gas
+        });
+        }
+            console.log(JSON.stringify( myJson,null, 1 ));
+        });
+    })
+
+    radio_2012.addEventListener('click', function(){  
+        const url='/data/지역별/2012년 온실가스.json';
+        
+        fetch(url)
+        .then((res)=>res.json())
+        .then((myJson)=>{
+        for(var i=0;i<myJson.length;i++){
+        
+            var gas=myJson[i].gas;
+            var region=myJson[i].region;
+            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+            var imageSize = new kakao.maps.Size(24, 35); 
+            console.log(region+'<br>'+gas);
+            var marker = new kakao.maps.CustomOverlay({
+            map:map,
+            position: latlng,
+            content:region+'<br>'+gas
+        });
+        }
+            console.log(JSON.stringify( myJson,null, 1 ));
+        });
+    })
+    radio_2011.addEventListener('click', function(){  
+        const url='/data/지역별/2011년 온실가스.json';
+        
+        fetch(url)
+        .then((res)=>res.json())
+        .then((myJson)=>{
+        for(var i=0;i<myJson.length;i++){
+        
+            var gas=myJson[i].gas;
+            var region=myJson[i].region;
+            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+            var imageSize = new kakao.maps.Size(24, 35); 
+            console.log(region+'<br>'+gas);
+            var marker = new kakao.maps.CustomOverlay({
+            map:map,
+            position: latlng,
+            content:region+'<br>'+gas
+        });
+        }
+            console.log(JSON.stringify( myJson,null, 1 ));
+        });
+    })
+
+        // function area_2017(){
+        //     const url='/data/지역별/2017년 온실가스.json';
             
-            fetch(url)
-            .then((res)=>res.json())
-            .then((myJson)=>{
-            for(var i=0;i<myJson.length;i++){
+        //     fetch(url)
+        //     .then((res)=>res.json())
+        //     .then((myJson)=>{
+        //     for(var i=0;i<myJson.length;i++){
             
-                var gas=myJson[i].gas;
-                var region=myJson[i].region;
-                var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-                var imageSize = new kakao.maps.Size(24, 35); 
-                var marker = new kakao.maps.CustomOverlay({
-                map:map,
-                position: latlng,
-                content:region+'<br>'+gas
-            });
-            }
-                console.log(JSON.stringify( myJson,null, 1 ));
-            });
-            }
-        function area_2013(){
-            const url='/data/지역별/2013년 온실가스.json';
+        //         var gas=myJson[i].gas;
+        //         var region=myJson[i].region;
+        //         var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+        //         var imageSize = new kakao.maps.Size(24, 35); 
+        //         var marker = new kakao.maps.CustomOverlay({
+        //         map:map,
+        //         position: latlng,
+        //         content:region+'<br>'+gas
+        //     });
+        //     }
+        //         console.log(JSON.stringify( myJson,null, 1 ));
+        //     });
+        //     }
+        // function area_2016(){
+        //     const url='/data/지역별/2016년 온실가스.json';
             
-            fetch(url)
-            .then((res)=>res.json())
-            .then((myJson)=>{
-            for(var i=0;i<myJson.length;i++){
+        //     fetch(url)
+        //     .then((res)=>res.json())
+        //     .then((myJson)=>{
+        //     for(var i=0;i<myJson.length;i++){
             
-                var gas=myJson[i].gas;
-                var region=myJson[i].region;
-                var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-                var imageSize = new kakao.maps.Size(24, 35); 
-                var marker = new kakao.maps.CustomOverlay({
-                map:map,
-                position: latlng,
-                content:region+'<br>'+gas
-            });
-            }
-                console.log(JSON.stringify( myJson,null, 1 ));
-            });
-        }
-        function area_2012(){
-            const url='/data/지역별/2012년 온실가스.json';
+        //         var gas=myJson[i].gas;
+        //         var region=myJson[i].region;
+        //         var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+        //         var imageSize = new kakao.maps.Size(24, 35); 
+        //         var marker = new kakao.maps.CustomOverlay({
+        //         map:map,
+        //         position: latlng,
+        //         content:region+'<br>'+gas
+        //     });
+        //     }
+        //         console.log(JSON.stringify( myJson,null, 1 ));
+        //     });
+        //     }
+        // function area_2015(){
+        //     const url='/data/지역별/2015년 온실가스.json';
             
-            fetch(url)
-            .then((res)=>res.json())
-            .then((myJson)=>{
-            for(var i=0;i<myJson.length;i++){
+        //     fetch(url)
+        //     .then((res)=>res.json())
+        //     .then((myJson)=>{
+        //     for(var i=0;i<myJson.length;i++){
             
-                var gas=myJson[i].gas;
-                var region=myJson[i].region;
-                var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-                var imageSize = new kakao.maps.Size(24, 35); 
-                var marker = new kakao.maps.CustomOverlay({
-                map:map,
-                position: latlng,
-                content:region+'<br>'+gas
-            });
-            }
-                console.log(JSON.stringify( myJson,null, 1 ));
-            });
-        }
-        function area_2011(){
-            const url='/data/지역별/2011년 온실가스.json';
+        //         var gas=myJson[i].gas;
+        //         var region=myJson[i].region;
+        //         var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+        //         var imageSize = new kakao.maps.Size(24, 35); 
+        //         var marker = new kakao.maps.CustomOverlay({
+        //         map:map,
+        //         position: latlng,
+        //         content:region+'<br>'+gas
+        //     });
+        //     }
+        //         console.log(JSON.stringify( myJson,null, 1 ));
+        //     });
+        // }
+        // function area_2014(){
+        //     const url='/data/지역별/2014년 온실가스.json';
             
-            fetch(url)
-            .then((res)=>res.json())
-            .then((myJson)=>{
-            for(var i=0;i<myJson.length;i++){
+        //     fetch(url)
+        //     .then((res)=>res.json())
+        //     .then((myJson)=>{
+        //     for(var i=0;i<myJson.length;i++){
             
-                var gas=myJson[i].gas;
-                var region=myJson[i].region;
-                var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-                var imageSize = new kakao.maps.Size(24, 35); 
-                var marker = new kakao.maps.CustomOverlay({
-                map:map,
-                position: latlng,
-                content:region+'<br>'+gas
-            });
-            }
-                console.log(JSON.stringify( myJson,null, 1 ));
-            });
-        }
-        function r_2019(){
-           area_2019();
-        }
-        function r_2018(box){
-            area_2018();
-         }
-        function r_2017(box){
-            area_2017();
-        }
-        function r_2016(box){
-            area_2016();
-        }
-        function r_2015(box){
-            area_2015();
-        }
-        function r_2014(box){
-            area_2014();
-        }
-        function r_2013(box){
-            area_2013();
-        }
-        function r_2012(box){
-            area_2012();
-        }
-        function r_2011(box){
-            area_2011();
-        }
+        //         var gas=myJson[i].gas;
+        //         var region=myJson[i].region;
+        //         var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+        //         var imageSize = new kakao.maps.Size(24, 35); 
+        //         var marker = new kakao.maps.CustomOverlay({
+        //         map:map,
+        //         position: latlng,
+        //         content:region+'<br>'+gas
+        //     });
+        //     }
+        //         console.log(JSON.stringify( myJson,null, 1 ));
+        //     });
+        //     }
+        // function area_2013(){
+        //     const url='/data/지역별/2013년 온실가스.json';
+            
+        //     fetch(url)
+        //     .then((res)=>res.json())
+        //     .then((myJson)=>{
+        //     for(var i=0;i<myJson.length;i++){
+            
+        //         var gas=myJson[i].gas;
+        //         var region=myJson[i].region;
+        //         var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+        //         var imageSize = new kakao.maps.Size(24, 35); 
+        //         var marker = new kakao.maps.CustomOverlay({
+        //         map:map,
+        //         position: latlng,
+        //         content:region+'<br>'+gas
+        //     });
+        //     }
+        //         console.log(JSON.stringify( myJson,null, 1 ));
+        //     });
+        // }
+        // function area_2012(){
+        //     const url='/data/지역별/2012년 온실가스.json';
+            
+        //     fetch(url)
+        //     .then((res)=>res.json())
+        //     .then((myJson)=>{
+        //     for(var i=0;i<myJson.length;i++){
+            
+        //         var gas=myJson[i].gas;
+        //         var region=myJson[i].region;
+        //         var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+        //         var imageSize = new kakao.maps.Size(24, 35); 
+        //         var marker = new kakao.maps.CustomOverlay({
+                   
+        //         map:map,
+        //         position: latlng,
+        //         content:region+'<br>'+gas
+        //     });
+        //     }
+        //         console.log(JSON.stringify( myJson,null, 1 ));
+        //     });
+        // }
+        // function area_2011(){
+        //     const url='/data/지역별/2011년 온실가스.json';
+            
+        //     fetch(url)
+        //     .then((res)=>res.json())
+        //     .then((myJson)=>{
+        //     for(var i=0;i<myJson.length;i++){
+            
+        //         var gas=myJson[i].gas;
+        //         var region=myJson[i].region;
+        //         var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+        //         var imageSize = new kakao.maps.Size(24, 35); 
+        //         var marker = new kakao.maps.CustomOverlay({
+        //         map:map,
+        //         position: latlng,
+        //         content:region+'<br>'+gas
+        //     });
+        //     }
+        //         console.log(JSON.stringify( myJson,null, 1 ));
+        //     });
+        // }
+
+
+        // function r_2019(){
+        //    area_2019();
+        // }
+        // function r_2018(box){
+        //     area_2018();
+        //  }
+        // function r_2017(box){
+        //     area_2017();
+        // }
+        // function r_2016(box){
+        //     area_2016();
+        // }
+        // function r_2015(box){
+        //     area_2015();
+        // }
+        // function r_2014(box){
+        //     area_2014();
+        // }
+        // function r_2013(box){
+        //     area_2013();
+        // }
+        // function r_2012(box){
+        //     area_2012();
+        // }
+        // function r_2011(box){
+        //     area_2011();
+        // }
 
         //function output()
 
@@ -454,3 +625,6 @@ function initTmap(){
   Gyeongbuk.setMap(map);
   Gyeongnam.setMap(map);
 } 
+
+
+

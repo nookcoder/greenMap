@@ -37,15 +37,15 @@
                     </button>
                     <li id="year">
                             <ul class="detail_sector" id="area_period_sector">
-                                <li><input type="radio" name="year" value="area_2019()" onclick="r_2019()">2019년</li>
-                                <li><input type="radio" name="year" value="area_2018()" onclick="area_2019()">2018년</li>
-                                <li><input type="radio" name="year" value="area_2017()" onclick="area_2019()">2017년</li>
-                                <li><input type="radio" name="year" value="area_2016()" onclick="area_2019()">2016년</li>
-                                <li><input type="radio" name="year" value="area_2015()" onclick="area_2019()">2015년</li>
-                                <li><input type="radio" name="year" value="area_2014()" onclick="area_2019()">2014년</li>
-                                <li><input type="radio" name="year" value="area_2013()" onclick="area_2019()">2013년</li>
-                                <li><input type="radio" name="year" value="area_2012()" onclick="area_2019()">2012년</li>
-                                <li><input type="radio" name="year" value="area_2011()" onclick="area_2019()">2011년</li>
+                                <li><input id="2019" type="radio" name="year" value="aea_2019()" >2019년</li>
+                                <li><input id="2018" type="radio" name="year" value="area_2018()">2018년</li>
+                                <li><input id="2017" type="radio" name="year" value="area_2017()">2017년</li>
+                                <li><input id="2016" type="radio" name="year" value="area_2016()" >2016년</li>
+                                <li><input id="2015" type="radio" name="year" value="area_2015()" >2015년</li>
+                                <li><input id="2014" type="radio" name="year" value="area_2014()" >2014년</li>
+                                <li><input id="2013" type="radio" name="year" value="area_2013()" >2013년</li>
+                                <li><input id="2012" type="radio" name="year" value="area_2012()" >2012년</li>
+                                <li><input id="2011" type="radio" name="year" value="area_2011()" >2011년</li>
                             </ul>
                         </li>
                 </li>
@@ -90,24 +90,9 @@
         </nav>
 <!-- 지도를 표시할 div 입니다 -->
 <sector id="map" style="width:100%;height:100vh;"></sector>
-<script src="javascript/areaMainMapApi.js"></script>
+<script src="/javascript/areaMainMapApi.js"></script>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=48da7b969f4a458e92b62f0737071ab0"></script>
-    <script src="javascript/areaMainSideMenu.js"></script>
+<script src="javascript/areaMainSideMenu.js"></script>
+
 </body>
 </html>
-
-
-
-<!--체크박스연습(하나만 체크되도록)-->
-<script>
-    function r_2019(){
-        
-        var sdf=document.getElementsByName('year');
-        sdf.forEach((node)=>{
-            if(node.checked){
-                document.getElementById('map').innerText=area_2019();
-            }
-        })
-    }
- 
-</script>
