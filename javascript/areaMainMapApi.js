@@ -256,12 +256,12 @@ function initTmap(){
         //area_2019();
         //area_2018();
         //area_2017();
-        area_2016();
+        //area_2016();
         //area_2015();
         //area_2014();
         //area_2013();
         //area_2012();
-        //area_2011();
+        area_2011();
 
         
     var content = '온실가스 100000000000';
