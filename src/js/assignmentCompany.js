@@ -28,20 +28,20 @@ function setAssignmentCompanyData(json, json2) {
     }
 };
 function initAssignmentCompanyData(){
-    var firstWorkbook = xlsx.readFile("../../data/assign_company/1.xlsx");
-    var secondWorkbook = xlsx.readFile("../../data/assign_company/2.xlsx");
-    var thirdWorkbook = xlsx.readFile("../../data/assign_company/3.xlsx");
+    var firstWorkbook = xlsx.readFile("../data/assign_company/1.xlsx");
+    var secondWorkbook = xlsx.readFile("../data/assign_company/2.xlsx");
+    var thirdWorkbook = xlsx.readFile("../data/assign_company/3.xlsx");
 
-    var co2Workbook = xlsx.readFile("../../data/emit_company/2020.xlsx");
-    var co2Workbook1 = xlsx.readFile("../../data/emit_company/2019.xlsx");
-    var co2Workbook2 = xlsx.readFile("../../data/emit_company/2018.xlsx");
-    var co2Workbook3 = xlsx.readFile("../../data/emit_company/2017.xlsx");
-    var co2Workbook4 = xlsx.readFile("../../data/emit_company/2016.xlsx");
-    var co2Workbook5 = xlsx.readFile("../../data/emit_company/2015.xlsx");
-    var co2Workbook6 = xlsx.readFile("../../data/emit_company/2014.xlsx");
-    var co2Workbook7 = xlsx.readFile("../../data/emit_company/2013.xlsx");
-    var co2Workbook8 = xlsx.readFile("../../data/emit_company/2012.xlsx");
-    var co2Workbook9 = xlsx.readFile("../../data/emit_company/2011.xlsx");
+    var co2Workbook = xlsx.readFile("../data/emit_company/2020.xlsx");
+    var co2Workbook1 = xlsx.readFile("../data/emit_company/2019.xlsx");
+    var co2Workbook2 = xlsx.readFile("../data/emit_company/2018.xlsx");
+    var co2Workbook3 = xlsx.readFile("../data/emit_company/2017.xlsx");
+    var co2Workbook4 = xlsx.readFile("../data/emit_company/2016.xlsx");
+    var co2Workbook5 = xlsx.readFile("../data/emit_company/2015.xlsx");
+    var co2Workbook6 = xlsx.readFile("../data/emit_company/2014.xlsx");
+    var co2Workbook7 = xlsx.readFile("../data/emit_company/2013.xlsx");
+    var co2Workbook8 = xlsx.readFile("../data/emit_company/2012.xlsx");
+    var co2Workbook9 = xlsx.readFile("../data/emit_company/2011.xlsx");
 
     var firstWorksheet = firstWorkbook.Sheets["Sheet0"];
     var secondWorksheet = secondWorkbook.Sheets["Sheet0"];
