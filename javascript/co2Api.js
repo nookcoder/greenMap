@@ -1,32 +1,58 @@
-let serviceKey = "aqLTx6axfr2f%2FAZUjMxPpXKI3I1DNml6LJ9QY3lhzpDicnfJraWE6peuCCMdVKEsPY%2Bip5wD3wsx37zC2D6o5Q%3D%3D";
-let numOfRows="10";
-let q1_year = "2018";
-let q2_area = "인천";
-let q3_peopleSize = "10인 ~ 19인";
-let q4_industryCode= "28519";
-let q5_energyClassificationCode="전력";
-let q6_energyCode="전력";
+ //export 변수
+ let industry_NameList = new Array(100);
+ let industry_CodeList = new Array (100);
 
+//초기화
+for (let listIndex =1; listIndex < 100 ; listIndex++) {
+    industry_NameList[listIndex] = new Array();
+    industry_CodeList[listIndex] = new Array();
+}
 
-var request = require('request');
+//산업 분류 리스트 담기 
+function pushIndustryList(data) {
 
-var url = 'http://apis.data.go.kr/B553530/GHG_EMISSIONS_02/GHG_EMISSIONS_02_LIST';
-var queryParams = '?' + encodeURIComponent('ServiceKey') + '=aqLTx6axfr2f%2FAZUjMxPpXKI3I1DNml6LJ9QY3lhzpDicnfJraWE6peuCCMdVKEsPY%2Bip5wD3wsx37zC2D6o5Q%3D%3D";' /* Service Key*/
-queryParams += '&' + encodeURIComponent('pageNo') + '=' + encodeURIComponent('1'); /* */
-queryParams += '&' + encodeURIComponent('numOfRows') + '=' + encodeURIComponent('10'); /* */
-queryParams += '&' + encodeURIComponent('apiType') + '=' + encodeURIComponent('xml'); /* */
-queryParams += '&' + encodeURIComponent('q1') + '=' + encodeURIComponent('2018'); /* */
-queryParams += '&' + encodeURIComponent('q2') + '=' + encodeURIComponent('인천'); /* */
-queryParams += '&' + encodeURIComponent('q3') + '=' + encodeURIComponent('10인 ~ 19인'); /* */
-queryParams += '&' + encodeURIComponent('q4') + '=' + encodeURIComponent('28519'); /* */
-queryParams += '&' + encodeURIComponent('q5') + '=' + encodeURIComponent('전력'); /* */
-queryParams += '&' + encodeURIComponent('q6') + '=' + encodeURIComponent('전력'); /* */
+    //데이터 담을때, 필요한 인덱스
+    let currentlistIndex = 1;
+    let startCodeNumber = "01";
 
-request({
-    url: url + queryParams,
-    method: 'GET'
-}, function (error, response, body) {
-    //console.log('Status', response.statusCode);
-    //console.log('Headers', JSON.stringify(response.headers));
-    console.log('Reponse received', body);
+    $(data).find("item").each(function(index, item){
+        let codeNumber = $(item).find('col[name=산업분류코드]').text();
+        
+        while (!codeNumber.startsWith(startCodeNumber)) {
+            
+            startCodeNumber = parseInt(startCodeNumber);
+            startCodeNumber++;
+            if(startCodeNumber < 10) {
+                startCodeNumber = "0" + startCodeNumber;
+            }
+            else {
+                startCodeNumber += "";
+            }
+            currentlistIndex++;
+            
+        }
+
+        industry_NameList[currentlistIndex].push($(item).find('col[name=산업분류명칭]').text());
+        industry_CodeList[currentlistIndex].push($(item).find('col[name=산업분류코드]').text()) 
+    
+    }) 
+    
+}
+
+//파싱 시작
+$.ajax ({
+    type: "GET",
+    url: "https://api.odcloud.kr/api/15049591/v1/uddi:0ad240e1-1871-40e8-9ea9-aa54bbf6fca7",
+    data : "page=1&perPage=1936&returnType=XML&serviceKey=aqLTx6axfr2f%2FAZUjMxPpXKI3I1DNml6LJ9QY3lhzpDicnfJraWE6peuCCMdVKEsPY%2Bip5wD3wsx37zC2D6o5Q%3D%3D",
+    dataType : "XML",
+    success :function(response){
+        // 통신 성공시 호출
+        pushIndustryList(response);    
+    },
+    error: function (xhr, status, msg) { // 통신 실패시 호출해야하는 함수
+        console.log('상태값 : ' + status + ' Http에러메시지 : ' + msg);
+    },
 });
+
+module.exports = industry_CodeList;
+module.exports = industry_NameList;
