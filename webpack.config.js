@@ -23,5 +23,4 @@ module.exports = {
 			/xlsx.full.min.js/
 		]
       }
-    
 }
