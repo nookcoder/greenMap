@@ -54,5 +54,7 @@ $.ajax ({
     },
 });
 
-module.exports = industry_CodeList;
-module.exports = industry_NameList;
+module.exports = {
+    industry_CodeList, 
+    industry_NameList
+};
