@@ -26,42 +26,38 @@ q6_energy_code[6] = new Array('폐가스', '시멘트킬른보조연료', '정�
 
 let total_co2_code = new Array(100);
 
+
+
+
 //초기화
-for (let listIndex =1; listIndex < 100 ; listIndex++) {
-    total_co2_code[listIndex] = new Array();
 
-    for(let list_detail_index = 0 ; list_detail_index < classification.industry_NameList[list_detail_index].length ; list_detail_index++ )
-    {
-         
-    }
-
-}
+total_co2_code = classification.industry_NameList;
 
 
+let co2_button = document.getElementById('co2Api');
+co2_button.addEventListener('click', function(){
+    get_all_data();
+})
 
-// // const { text } = require('body-parser');
-// var request = require('request');
+function get_all_data(){
+    for(let code_index = 1 ; code_index < q4_code.length ; code_index++){
 
-// console.log(q4_code);
-
-//코드 리스트 돌려서 넣어보기
-for(let code_index = 1 ; code_index < q4_code.length ; code_index++){
-
-    // console.log(q4_code[code_index]);
-    // console.log(q4_code[code_index][2]);
-    // //코드 5자리이면 가져오기
-    // for(let code_detail_index =0; cod)
-    for(let code_detail_index = 0 ; code_detail_index < q4_code[code_index].length ; code_detail_index++){
-        let codeNumber = q4_code[code_index][code_detail_index];
-
-        console.log(codeNumber);
-        if(codeNumber.length == 5){
-            get_total_co2(codeNumber);
+        // console.log(q4_code[code_index]);
+        // console.log(q4_code[code_index][2]);
+        // //코드 5자리이면 가져오기
+        // for(let code_detail_index =0; cod)
+        for(let code_detail_index = 0 ; code_detail_index < q4_code[code_index].length ; code_detail_index++){
+            let codeNumber = q4_code[code_index][code_detail_index];
+    
+            console.log(codeNumber);
+            if(codeNumber.length == 5){
+                get_total_co2(codeNumber);
+            }
         }
     }
-    
 }
 
+var request = require('request');
 
 //co2총량 알아냅시다~
 function get_total_co2(codeNumber){
@@ -124,6 +120,5 @@ function get_queryParams(area, size, codeNumber,energy_name, energy_code){
     
     return queryParams;
 }
-
 
 
