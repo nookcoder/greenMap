@@ -78,7 +78,7 @@ function get_total_co2(codeNumber){
     }
     //파싱시작
     var request = require('request');
-    ;(async() =>{ 
+    (async() =>{ 
         
         request({
         url: url + queryParams,
