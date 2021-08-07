@@ -53,6 +53,7 @@ $(function(){
         success :function(response){
             // 통신 성공시 호출
             pushIndustryList(response); 
+            console.log(industry_CodeList);
         },
         error: function (xhr, status, msg) { // 통신 실패시 호출해야하는 함수
             console.log('상태값 : ' + status + ' Http에러메시지 : ' + msg);

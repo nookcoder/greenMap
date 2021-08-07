@@ -24,7 +24,19 @@ q6_energy_code[5] = new Array('기타연료(07년만사용)');
 q6_energy_code[6] = new Array('폐가스', '시멘트킬른보조연료', '정제연료유', '산업폐기물', '생활폐기물(대형도시쓰레기포함)', 'SRF', '생활폐기물(\'15년까지사용)',  '대형도시쓰레기(\'15년까지사용)',
 'RDF/RPF(\'15년까지사용)', '폐목재(\'12년까지사용)', '폐수지(폐합성수지포함)(\'10년까지사용)', '폐윤활유,재생유,정제폐유(\'10년까지사용)');
 
-let total_co2_code = classification.industry_CodeList;
+let total_co2_code = new Array(100);
+
+//초기화
+for (let listIndex =1; listIndex < 100 ; listIndex++) {
+    total_co2_code[listIndex] = new Array();
+
+    for(let list_detail_index = 0 ; list_detail_index < classification.industry_NameList[list_detail_index].length ; list_detail_index++ )
+    {
+         
+    }
+
+}
+
 
 
 // // const { text } = require('body-parser');
@@ -49,6 +61,7 @@ for(let code_index = 1 ; code_index < q4_code.length ; code_index++){
     }
     
 }
+
 
 //co2총량 알아냅시다~
 function get_total_co2(codeNumber){
@@ -85,7 +98,12 @@ function get_total_co2(codeNumber){
         let xml = xmlDoc.getElementsByTagName('body');
         let xml_total_co2 = xml[0].getElementsByTagName('total_co2')[0].childNodes[0].nodeValue;
         // total_co2 가져오기
-        console.log(xml_total_co2);
+        let xml_larget_codeNumber = parseInt(codeNumber.substr(0,2));
+        let xml_small_codeNumber = parseInt(codeNumber.substr(0,3));
+
+        let insert_total_co2 = total_co2_code[xml_larget_codeNumber].indexof(xml_small_codeNumber);
+
+        total_co2_code[xml_larget_codeNumber][insert_total_co2] = xml_total_co2;
 
     });
 }
@@ -104,7 +122,7 @@ function get_queryParams(area, size, codeNumber,energy_name, energy_code){
     queryParams += '&' + encodeURIComponent('q5') + '=' + encodeURIComponent(energy_name); /* */
     queryParams += '&' + encodeURIComponent('q6') + '=' + encodeURIComponent(energy_code); /* */
     
-
+    return queryParams;
 }
 
 
