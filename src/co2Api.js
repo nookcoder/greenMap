@@ -30,19 +30,24 @@ let total_co2_code = classification.industry_CodeList;
 // // const { text } = require('body-parser');
 // var request = require('request');
 
-console.log(q4_code.length);
+// console.log(q4_code);
 
 //코드 리스트 돌려서 넣어보기
-for(let code_index = 0 ; code_index < q4_code.length ; code_index++){
+for(let code_index = 1 ; code_index < q4_code.length ; code_index++){
 
-    console.log(code_index);
-    console.log(q4_code[2]);
-    
-    //코드 5자리이면 가져오기
+    // console.log(q4_code[code_index]);
+    // console.log(q4_code[code_index][2]);
+    // //코드 5자리이면 가져오기
     // for(let code_detail_index =0; cod)
-    if(q4_code[code_index].length == 5){
-        get_total_co2(q4_code[code_index]);
+    for(let code_detail_index = 0 ; code_detail_index < q4_code[code_index].length ; code_detail_index++){
+        let codeNumber = q4_code[code_index][code_detail_index];
+
+        console.log(codeNumber);
+        if(codeNumber.length == 5){
+            get_total_co2(codeNumber);
+        }
     }
+    
 }
 
 //co2총량 알아냅시다~

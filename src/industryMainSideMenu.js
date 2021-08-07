@@ -70,8 +70,8 @@ function show_Detail_Industry(e){
         //해당 분류 코드 리스트에서 중분류 위치찾기
         const insert_middle_index = click_industry_code[index];
 
-        const insert_middle_code = classification.industry_CodeList[insert_middle_index];
-        const insert_middle_name = classification.industry_NameList[insert_middle_index];
+        let insert_middle_code = classification.industry_CodeList[insert_middle_index];
+        let insert_middle_name = classification.industry_NameList[insert_middle_index];
 
         //중분류 li추가
         let insert_li = document.createElement("li");
@@ -84,6 +84,8 @@ function show_Detail_Industry(e){
         insert_li_ul.class = "sub_detail_industry";
         insert_li_ul.className =  insert_middle_code[0] +"_industry_sector";
     
+        console.log(insert_middle_code.length);
+
         //소분류 li동적 추가
         for(let sub_li_index = 0 ; sub_li_index < insert_middle_code.length ; sub_li_index++) {
             if(insert_middle_code[sub_li_index].length == 3) {
@@ -162,4 +164,5 @@ for(let divIndex = 0; divIndex < divAll.length ; divIndex++){
     // 화살표 방향 바꾸기 클릭 이벤트 추가
     divAll[divIndex].addEventListener('click', arrowClassChange);
 }
+
 
