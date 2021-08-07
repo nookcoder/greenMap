@@ -1,6 +1,6 @@
  //export 변수
- export let industry_NameList = new Array(100);
- export let industry_CodeList = new Array (100);
+ let industry_NameList = new Array(100);
+ let industry_CodeList = new Array (100);
 
 //초기화
 for (let listIndex =1; listIndex < 100 ; listIndex++) {
@@ -53,3 +53,6 @@ $.ajax ({
         console.log('상태값 : ' + status + ' Http에러메시지 : ' + msg);
     },
 });
+
+module.exports = industry_CodeList;
+module.exports = industry_NameList;
