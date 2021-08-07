@@ -18,7 +18,12 @@ module.exports={
     ],
     externals : { 
         "request" : "request"
-    }
+    },
+    // resolve: {
+    //     alias: {
+    //       core: path.join(__dirname, 'request'),
+    //     },
+    //   },
 
     
 }

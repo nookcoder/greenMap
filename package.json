@@ -5,8 +5,10 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=none"
+    "test": "npm run lint && npm run test-ci && npm run test-browserify && npm run test-webpack",
+    "build": "webpack --mode=none",
+    "watch": "webpack --watch",
+    "start": "webpack serve --mode development --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,13 +17,17 @@
   },
   "homepage": "https://github.com/nookcoder/greenMap#readme",
   "dependencies": {
+    "config": "^3.3.6",
     "cors": "^2.8.5",
     "css-loader": "^6.2.0",
     "express": "^4.17.1",
     "html-webpack-plugin": "^5.3.2",
     "jquery": "^3.6.0",
+    "karma": "^6.3.4",
+    "karma-webpack": "^5.0.0",
     "loadsh": "^0.0.4",
     "lodash": "^4.17.21",
+    "node-fetch": "^2.6.1",
     "node-polyfill-webpack-plugin": "^1.1.4",
     "npm": "^7.20.3",
     "path": "^0.12.7",
@@ -31,7 +37,7 @@
     "xlsx": "^0.17.0"
   },
   "devDependencies": {
-    "webpack": "^5.48.0",
+    "webpack": "^5.49.0",
     "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
   }

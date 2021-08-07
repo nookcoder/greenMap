@@ -60,7 +60,7 @@ function get_all_data(){
 //co2총량 알아냅시다~
 function get_total_co2(codeNumber){
     var url = 'http://apis.data.go.kr/B553530/GHG_EMISSIONS_02/GHG_EMISSIONS_02_LIST';
-    var request = require('request');
+    
     
     //지역
     for(let q2_index = 0 ; q2_index < q2_area.length ; q2_index++){
@@ -77,7 +77,10 @@ function get_total_co2(codeNumber){
         }
     }
     //파싱시작
-    request({
+    var request = require('request');
+    ;(async() =>{ 
+        
+        request({
         url: url + queryParams,
         method: 'GET'
     }, function (error, response, body) { 
@@ -100,7 +103,7 @@ function get_total_co2(codeNumber){
 
         total_co2_code[xml_larget_codeNumber][insert_total_co2] = xml_total_co2;
 
-    });
+    });})()
 }
 
 
