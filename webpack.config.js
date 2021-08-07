@@ -1,5 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
+var re = require('required-module');
+const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -15,6 +17,7 @@ module.exports = {
     },
 
     module: {
+        
         rules: [
           { test: /\.xlsx$/, loader: "webpack-xlsx-loader" }
         ],
@@ -22,5 +25,9 @@ module.exports = {
 			/xlsx.core.min.js/,
 			/xlsx.full.min.js/
 		]
-      }
+      },
+    
+      plugins: [
+        new NodePolyfillPlugin()
+    ]
 }

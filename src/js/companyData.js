@@ -122,7 +122,6 @@ const SPECIFICATION_2016 = require("../data/명세서 주요정보/2016.json");
 const SPECIFICATION_2015 = require("../data/명세서 주요정보/2015.json");
 const SPECIFICATION_2014 = require("../data/명세서 주요정보/2014.json");
 const SPECIFICATION_2013 = require("../data/명세서 주요정보/2013.json");
-const { Module } = require('webpack');
 
 setCompanyVO(ASSIGNMENT_3,SPECIFICATION_2020,assignmentCompany);
 setCompanyVO(ASSIGNMENT_2, SPECIFICATION_2019,assignmentCompany);
@@ -132,6 +131,4 @@ setCompanyVO(ASSIGNMENT_1, SPECIFICATION_2016,assignmentCompany);
 setCompanyVO(ASSIGNMENT_1, SPECIFICATION_2015,assignmentCompany);
 setCompanyVO(ASSIGNMENT_1, SPECIFICATION_2014,assignmentCompany);
 
-module.exports={
-    assignmentCompany,targetCompany
-}
+exports.assignmentCompany = assignmentCompany; 
