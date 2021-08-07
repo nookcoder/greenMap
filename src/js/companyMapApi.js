@@ -5,8 +5,7 @@ var options = { //지도를 생성할 때 필요한 기본 옵션
 	level: 3 //지도의 레벨(확대, 축소 정도)
 };
 
-var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
+var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴;
 
-let assignmentCompan = require('./assignmentCompany.js');
-
-//console.log(assignmentCompan);
+let json = require('./assignmentCompany.js');
+console.log(json.json[0].소재지);
