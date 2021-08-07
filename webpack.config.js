@@ -15,7 +15,10 @@ module.exports={
     },
     plugins: [
         new NodePolyfillPlugin()
-    ]
+    ],
+    externals : { 
+        "request" : "request"
+    }
 
     
 }
