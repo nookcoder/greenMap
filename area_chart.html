@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <style>
+        .overlabel {margin-bottom: 96px; width:20px;height:20px;background-color:red;border-radius:20px 20px 20px 20px;}
+        .overlabel * {display: inline-block;vertical-align: top;}
+        canvas{
+      width:700px !important;
+      height:600px !important;
+    }
+    </style>
+   
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>그린뉴맵</title>
+    <link rel="stylesheet" href="css/topMenuBar.css">
+    <link rel="stylesheet" href="css/companyMain.css">
+    <link rel="stylesheet" href="css/buttonstyle.css">
+</head>
+<body>
+    <nav class="top_menu_bar">
+        <ul>
+            <li id="title">
+                <img src="img/img_icon.png" alt="웹사이트 아이콘" >
+                <h1>그린뉴맵</h1>
+            </li>
+            <li id="area"><a href="areaMain.html">지역별 탄소 배출</a></li>
+            <li id="company"><a href="companyMain.html">업체별 탄소 배출</a></li>
+            <li id="industry"><a href="industryMain.html">산업별 탄소 배출</a></li>
+        </ul>
+    </nav>
+    <main id="main_content">
+        <nav class="side_menu_bar">
+            <ul>
+                <li id="menu_bar_title"><span>레이어</span><br>(데이터 구성)</li>
+                
+                <li class="main_sector">
+                    <button class="main_sector_button" id="areaButton">
+                        <span>대상 연도</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <li id="year">
+                            <ul class="detail_sector" id="area_period_sector">
+                                <li><input id="2019" type="radio" name="year" value="area_2019()" >2019년</li>
+                                <li><input id="2018" type="radio" name="year" value="area_2018()">2018년</li>
+                                <li><input id="2017" type="radio" name="year" value="area_2017()">2017년</li>
+                                <li><input id="2016" type="radio" name="year" value="area_2016()" >2016년</li>
+                                <li><input id="2015" type="radio" name="year" value="area_2015()" >2015년</li>
+                                <li><input id="2014" type="radio" name="year" value="area_2014()" >2014년</li>
+                                <li><input id="2013" type="radio" name="year" value="area_2013()" >2013년</li>
+                                <li><input id="2012" type="radio" name="year" value="area_2012()" >2012년</li>
+                                <li><input id="2011" type="radio" name="year" value="area_2011()" >2011년</li>
+                            </ul>
+                        </li>
+                </li>
+                
+                <li class="main_sector">
+                    <button class="main_sector_button" id="fuelButton">
+                        <span>에너지원 구분명</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                        <li id="fuel">
+                            <ul class="detail_sector" id="fuel_sector">
+                                <li><input id="a" type="radio" name="fuel" value="석탄류">석탄류</li>
+                                <li><input id="b" type="radio" name="fuel" value="석유류">석유류</li>
+                                <li><input id="c" type="radio" name="fuel" value="가스류">가스류</li>
+                                <li><input id="d" type="radio" name="fuel" value="열에너지">열에너지</li>
+                                <li><input id="e" type="radio" name="fuel" value="전력">전력</li>
+                                <li><input id="f" type="radio" name="fuel" value="기타">기타</li>
+                                <li><input id="g" type="radio" name="fuel" value="폐에너지">폐에너지</li>
+                            </ul>
+                        </li>
+                </li>
+                
+                <li class="main_sector">
+                    <button class="main_sector_button" id="peopleButton">
+                        <span>종사자 규모</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                        <li id="people">
+                            <ul class="detail_sector" id="people_sector">
+                                <li><input id="under_5" type="radio" name="people" value="5인 미만">5인 미만</li>
+                                <li><input id="under_9" type="radio" name="people" value="5인 미만">5인~9인</li>
+                                <li><input id="under_19" type="radio" name="people" value="5인 미만">10인~19인</li>
+                                <li><input id="under_49" type="radio" name="people" value="5인 미만">20인~49인</li>
+                                <li><input id="under_99" type="radio" name="people" value="5인 미만">50인~99인</li>
+                                <li><input id="up_100" type="radio" name="people" value="5인 미만">100인이상</li>
+                            </ul>
+                        </li>
+                </li>
+            </ul>
+        </nav>
+<sector style="width:100%;height:100%;">
+    <br>
+    <p><span style="border-bottom: 12px solid #dcf1fb; padding: 0 0 0 0.2em;">2011~2019 17개 시,도별 온실가스 배출 비교 그래프</span></p><br>
+    <button id="ch" class="chart_btn" onclick="click_seoul()">서울</button>
+    <button id="ch" class="chart_btn" onclick="click_busan()">부산</button>
+    <button id="ch" class="chart_btn" onclick="click_incheon()">인천</button>
+    <button id="ch" class="chart_btn" onclick="click_daegu()">대구</button><br>
+    <button id="ch" class="chart_btn" onclick="click_ulsan()">울산</button>
+    <button id="ch" class="chart_btn" onclick="click_gwangju()">광주</button>
+    <button id="ch" class="chart_btn" onclick="click_daejeon()">대전</button>
+    <button id="ch" class="chart_btn" onclick="click_Sejong()">세종</button><br>
+    <button id="ch" class="chart_btn" onclick="click_gyeonggi()">경기</button>
+    <button id="ch" class="chart_btn" onclick="click_gangwon()">강원</button>
+    <button id="ch" class="chart_btn" onclick="click_Chungnam()">충남</button>
+    <button id="ch" class="chart_btn" onclick="click_Chungbuk()">충북</button><br>
+    <button id="ch" class="chart_btn" onclick="click_Gyeongnam()">경남</button>
+    <button id="ch" class="chart_btn" onclick="click_Gyeongbuk()">경북</button>
+    <button id="ch" class="chart_btn" onclick="click_Jeonnam()">전남</button>
+    <button id="ch" class="chart_btn" onclick="click_Jeonbuk()">전북</button>
+    <button id="ch" class="chart_btn" onclick="click_Jeju()">제주</button>
+</sector>
+<canvas id="myChart" width="450" height="400"></canvas>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
+<script src="/javascript/areaMainMapApi.js"></script>
+<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=48da7b969f4a458e92b62f0737071ab0"></script>
+<script src="javascript/areaMainSideMenu.js"></script>
+<script src="javascript/chart.js"></script>
+<script src="javascript/modal.js"></script>
+</body>
+</html>
+
+
