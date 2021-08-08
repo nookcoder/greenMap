@@ -7,20 +7,19 @@ function setCustomOverlay(period, location, name, agency, designated_year,target
     let content = '<div class="overlaybox">'+
         '<ul>'+
             '<li>'+
-                '<span class="overlaybox_title">계획기간 : </span>' +
-                '<span class="overlaybox_content">'+period+'</span>'+
-            '</li>' +    
-            '<li>'+
-                '<span class="overlaybox_title">소재지 : </span>'+
-                '<span class="overlaybox_content">' + location +'</span>'+
-            '</li>'+    
-            '<li>'+
-                '<span class="overlaybox_title">관리 업체 : </span>'+
                 '<span class="overlaybox_content">'+name+'</span>'+
-            '</li>'+    
+            '</li>' +
             '<li>'+
                 '<span class="overlaybox_title">관장 기관 : </span>'+
                 '<span class="overlaybox_content">'+agency+'</span>'+
+            '</li>'+
+            '<li>'+
+                '<span class="overlaybox_title">지정 구분 : </span>'+
+                '<span class="overlaybox_content">'+sector+'</span>'+
+            '</li>'+        
+            '<li>'+
+                '<span class="overlaybox_title">계획기간 : </span>' +
+                '<span class="overlaybox_content">'+period+'</span>'+
             '</li>'+    
             '<li>'+
                '<span class="overlaybox_title">지정 연도 : </span>'+
@@ -31,16 +30,16 @@ function setCustomOverlay(period, location, name, agency, designated_year,target
                 '<span class="overlaybox_content">'+target_year+'년</span>'+
             '</li>'+    
             '<li>'+
-                '<span class="overlaybox_title">지정 구분 : </span>'+
-                '<span class="overlaybox_content">'+sector+'</span>'+
-            '</li>'+    
-            '<li>'+
                '<span class="overlaybox_title">온실가스 배출량 : </span>'+
                '<span class="overlaybox_content">'+co2+ '(단위 : CO2eq)</span>'+
             '</li>'+    
             '<li>'+
                 '<span class="overlaybox_title">에너지 사용량 : </span>'+
                 '<span class="overlaybox_content">'+energy + '(단위 : TJ)</span>'+
+            '</li>'+    
+            '<li>'+
+            '<span class="overlaybox_title">소재지 : </span>'+
+            '<span class="overlaybox_content">' + location +'</span>'+
             '</li>'+    
         '</ul>'+
     '</div>';
