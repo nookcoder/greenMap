@@ -1,14 +1,14 @@
 
 let companyData = require('./companyData');
-const PERIOD = require('./companyConstants'); 
+const CONSTANT = require('./companyConstants'); 
 
 const ASSIGNMENT_COMPANY = companyData.assignmentCompany; 
 const TARGET_COMPANY = companyData.targetCompany;
 
 var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
 var options = { //지도를 생성할 때 필요한 기본 옵션
-	center: new kakao.maps.LatLng(36.30, 127.16), //지도의 중심좌표.
-	level: 13 //지도의 레벨(확대, 축소 정도)
+	center: new kakao.maps.LatLng(37.433, 127.16), //지도의 중심좌표.
+	level: 10 //지도의 레벨(확대, 축소 정도)
 };
 
 map = new kakao.maps.Map(container, options);        
@@ -22,14 +22,14 @@ var markers_peroid_3 = [];
 
 function addPeriodMarker(company_period,marker){
     switch (company_period) {
-        case PERIOD.ONE:
-            markers_peroid_1.push(marker);
+        case CONSTANT.ONE:
+            if(markers_peroid_1.length < 604){markers_peroid_1.push(marker);}
             break;
-        case PERIOD.TWO:
-            markers_peroid_2.push(marker);
+        case CONSTANT.TWO:
+            if(markers_peroid_2.length < 657){markers_peroid_2.push(marker);}
             break;
-        case PERIOD.THREE:
-            markers_peroid_3.push(marker);
+        case CONSTANT.THREE:
+            if(markers_peroid_3.length < 685){markers_peroid_3.push(marker);}
             break;
     
         default:
@@ -37,18 +37,47 @@ function addPeriodMarker(company_period,marker){
     }
 }
 
-function drawMarker(company,period){
+function drawMarker(company){
     geocoder.addressSearch(company.location,function(result,status){
         if (status === kakao.maps.services.Status.OK) {
             var coords = new kakao.maps.LatLng(result[0].y, result[0].x);
-                    
+            var contents = CONSTANT.setCustomOverlay(company.period,company.location,company.name,company.agency,company.designatedYear,company.targetYear,company.sector,company.co2,company.energy);
             // 마커를 생성합니다
+            
+            // 결과값으로 받은 위치를 마커로 표시합니다
             var marker = new kakao.maps.Marker({
+                map: map,
                 position: coords
             });
+            
+            // 인포윈도우로 장소에 대한 설명을 표시합니다
+            var infowindow = new kakao.maps.InfoWindow({
+                content: '<div style="text-align:center;">' + company.name + '</div>'
+            });
 
-            marker.setMap(map);
-            addPeriodMarker(company.period,marker); 
+            // 마커에 마우스오버 이벤트를 등록합니다
+            kakao.maps.event.addListener(marker, 'mouseover', function() {
+                // 마커에 마우스오버 이벤트가 발생하면 인포윈도우를 마커위에 표시합니다
+                infowindow.open(map, marker);
+            });
+
+            // 마커에 마우스아웃 이벤트를 등록합니다
+            kakao.maps.event.addListener(marker, 'mouseout', function() {
+                 // 마커에 마우스아웃 이벤트가 발생하면 인포윈도우를 제거합니다
+                infowindow.close();
+            });
+
+            // 커스텀 오버레이를 생성합니다
+            var customOverlay = new kakao.maps.InfoWindow({
+                content: contents,
+                removable : true
+            });
+
+            kakao.maps.event.addListener(marker, 'click', function() {
+                customOverlay.open(map,marker);
+            })
+
+            addPeriodMarker(company.period,marker);
         }
     })
 }
@@ -71,15 +100,15 @@ function hideMarkers(markers) {
 
 function hidePeriodMarker(period){
     switch (period) {
-        case PERIOD.ONE:
+        case CONSTANT.ONE:
             hideMarkers(markers_peroid_1);
             break;
         
-        case PERIOD.TWO:
+        case CONSTANT.TWO:
             hideMarkers(markers_peroid_2);
             break;
         
-        case PERIOD.THREE:
+        case CONSTANT.THREE:
             hideMarkers(markers_peroid_3);
             break;
         
@@ -103,7 +132,6 @@ $(function() {
                 drawMarker(ASSIGNMENT_COMPANY[index]);
             }
         }
-        console.log(markers_peroid_3);
     });
     
 });
