@@ -17,7 +17,8 @@ module.exports={
         new NodePolyfillPlugin()
     ],
     externals : { 
-        "request" : "request"
+        "request" : "request",
+        xmlhttprequest: 'XMLHttpRequest'
     },
     // resolve: {
     //     alias: {

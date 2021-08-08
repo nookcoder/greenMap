@@ -34,7 +34,8 @@
     "read-excel-file": "^5.2.8",
     "request": "^2.88.2",
     "uniq": "^1.0.1",
-    "xlsx": "^0.17.0"
+    "xlsx": "^0.17.0",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "webpack": "^5.49.0",
