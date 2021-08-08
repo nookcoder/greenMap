@@ -94,7 +94,69 @@
         </nav>
 <sector style="width:100%;height:100%;">
     <br>
-    <p><span style="border-bottom: 12px solid #dcf1fb; padding: 0 0 0 0.2em;">2011~2019 17개 시,도별 온실가스 배출 비교 그래프</span></p><br>
+    <p><span style="border-bottom: 12px solid #dcf1fb; padding: 0 0 0 0.2em;">2011~2019 17개 시,도별 온실가스 배출 총량 비교 막대 그래프</span></p><br>
+    <button id="ch" class="chart_btn" onclick="click_seoul()">서울</button>
+    <button id="ch" class="chart_btn" onclick="click_busan()">부산</button>
+    <button id="ch" class="chart_btn" onclick="click_incheon()">인천</button>
+    <button id="ch" class="chart_btn" onclick="click_daegu()">대구</button><br>
+    <button id="ch" class="chart_btn" onclick="click_ulsan()">울산</button>
+    <button id="ch" class="chart_btn" onclick="click_gwangju()">광주</button>
+    <button id="ch" class="chart_btn" onclick="click_daejeon()">대전</button>
+    <button id="ch" class="chart_btn" onclick="click_Sejong()">세종</button><br>
+    <button id="ch" class="chart_btn" onclick="click_gyeonggi()">경기</button>
+    <button id="ch" class="chart_btn" onclick="click_gangwon()">강원</button>
+    <button id="ch" class="chart_btn" onclick="click_Chungnam()">충남</button>
+    <button id="ch" class="chart_btn" onclick="click_Chungbuk()">충북</button><br>
+    <button id="ch" class="chart_btn" onclick="click_Gyeongnam()">경남</button>
+    <button id="ch" class="chart_btn" onclick="click_Gyeongbuk()">경북</button>
+    <button id="ch" class="chart_btn" onclick="click_Jeonnam()">전남</button>
+    <button id="ch" class="chart_btn" onclick="click_Jeonbuk()">전북</button>
+    <button id="ch" class="chart_btn" onclick="click_Jeju()">제주</button>
+    <br>
+    <p><span style="border-bottom: 12px solid #dcf1fb; padding: 0 0 0 0.2em;">2011~2019 17개 지역별 온실가스 배출 연료구분</span></p><br>
+    <button id="ch1" class="chart_btn">서울</button>
+    <button id="ch" class="chart_btn" onclick="click_busan_2()">부산</button>
+    <script>
+        let radio_22 = document.getElementById('ch1'); 
+
+        radio_22.addEventListener('click', function(){
+	new Chart(document.getElementById("myChart"), {
+		type: 'pie',
+		data: {
+			labels: ["기타연료", "도시가스", "석유", "석탄", "열에너지", "전력"],
+			datasets: [{
+			label: "Population (millions)",
+			backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+			data: [ 1.64, 62.13, 7.24, 1.68, 0.01, 2502.93]
+		  }]
+		},
+		options: {
+		  title: {
+			display: true,
+			text: 'Predicted world population (millions) in 2050'
+		  }
+		}
+	});
+})
+    </script>
+    <button id="ch" class="chart_btn" onclick="click_incheon_2()">인천</button>
+    <button id="ch" class="chart_btn" onclick="click_daegu_2()">대구</button><br>
+    <button id="ch" class="chart_btn" onclick="click_ulsan_2()">울산</button>
+    <button id="ch" class="chart_btn" onclick="click_gwangju_2()">광주</button>
+    <button id="ch" class="chart_btn" onclick="click_daejeon_2()">대전</button>
+    <button id="ch" class="chart_btn" onclick="click_Sejong_2()">세종</button><br>
+    <button id="ch" class="chart_btn" onclick="click_gyeonggi_2()">경기</button>
+    <button id="ch" class="chart_btn" onclick="click_gangwon_2()">강원</button>
+    <button id="ch" class="chart_btn" onclick="click_Chungnam_2()">충남</button>
+    <button id="ch" class="chart_btn" onclick="click_Chungbuk_2()">충북</button><br>
+    <button id="ch" class="chart_btn" onclick="click_Gyeongnam_2()">경남</button>
+    <button id="ch" class="chart_btn" onclick="click_Gyeongbuk_2()">경북</button>
+    <button id="ch" class="chart_btn" onclick="click_Jeonnam_2()">전남</button>
+    <button id="ch" class="chart_btn" onclick="click_Jeonbuk_2()">전북</button>
+    <button id="ch" class="chart_btn" onclick="asdf()">제주</button>
+    <button id="ch" class="chart_btn" onclick="click_Jeju_2()">제주</button>
+    <br>
+    <p><span style="border-bottom: 12px solid #dcf1fb; padding: 0 0 0 0.2em;">2011~2019 17개 ??</span></p><br>
     <button id="ch" class="chart_btn" onclick="click_seoul()">서울</button>
     <button id="ch" class="chart_btn" onclick="click_busan()">부산</button>
     <button id="ch" class="chart_btn" onclick="click_incheon()">인천</button>
@@ -113,7 +175,7 @@
     <button id="ch" class="chart_btn" onclick="click_Jeonbuk()">전북</button>
     <button id="ch" class="chart_btn" onclick="click_Jeju()">제주</button>
 </sector>
-<canvas id="myChart" width="450" height="400"></canvas>
+<canvas id=myChart width="600" height="400"></canvas>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/0.2.0/Chart.min.js"></script>
 <script src="/javascript/areaMainMapApi.js"></script>
@@ -123,5 +185,8 @@
 <script src="javascript/modal.js"></script>
 </body>
 </html>
+<script>
+
+</script>
 
 

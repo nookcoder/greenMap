@@ -34,6 +34,20 @@
       border-color: seagreen;
   }
 
+  .ovr1{
+    width: 70px;
+    height: 70px;
+    background-color:lightcoral;
+    text-align: center;
+    border-radius: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 0.8em;
+    font-weight: bolder;
+    border: 3px solid black;
+    border-color:red;
+}
+
   .chart_btn{
     border:0;
     outline:0;

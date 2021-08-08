@@ -17,175 +17,141 @@ let radio_c = document.getElementById('c');
 let radio_d = document.getElementById('d');
 let radio_e = document.getElementById('e');
 let radio_f = document.getElementById('f');
-let radio_g = document.getElementById('g');
-
 
 function initTmap(){
    
-
     radio_a.addEventListener('click', function(){
       removeOverlay();
-        const url='https://cors-anywhere.herokuapp.com/http://apis.data.go.kr/B553530/GHG_EMISSIONS_02/GHG_EMISSIONS_02_LIST?serviceKey=JXGmdynA7sNSYbXXWNbS1m8rDfMnVeJ5%2FOoCQdCfSy2koBQ0yBOe7wMpUkdew%2B5bzwrZIpOVhbMdu7QT0RSvXw%3D%3D&pageNo=1&numOfRows=10&apiType=xml&q1=2018&q2=%EC%9D%B8%EC%B2%9C&q3=10%EC%9D%B8%20~%2019%EC%9D%B8&q4=28519&q5=%EC%A0%84%EB%A0%A5&q6=%EC%A0%84%EB%A0%A5';
-        
-        fetch(url)
-        .then((res)=>res.json())
-        .then((myJson)=>{
-        for(var i=0;i<myJson.length;i++){
-          console.log(JSON.stringify(myjson, null, 1));
-
-            var gas=myJson[i].gas;
-            var region=myJson[i].region;
-            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-            var imageSize = new kakao.maps.Size(24, 35); 
-            var marker = new kakao.maps.CustomOverlay({
-            map:map,
-            position: latlng,
-            content:region+'<br>'+gas
-          });
-          //markers.push(marker);
-        }})
-        //console.log(JSON.stringify(myjson, null, 1));
-        //return marker;
-    })
+      const url='/data/지역별/석탄.json';
+      fetch(url)
+      .then((res)=>res.json())
+      .then((myJson)=>{
+      for(var i=0;i<myJson.length;i++){
+      
+          var gas=myJson[i].gas;
+          var region=myJson[i].region;
+          var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+          var imageSize = new kakao.maps.Size(24, 35); 
+          var marker = new kakao.maps.CustomOverlay({
+          map:map,
+          position: latlng,
+          content:"<div class='ovr1'>"+region+'<br>'+gas+"</div>"
+        });
+        markers.push(marker);
+      }})
+      return marker;
+  })
 
   
     radio_b.addEventListener('click', function(){
       removeOverlay();
-        const url='http://apis.data.go.kr/B553530/GHG_EMISSIONS_02';
-        
-        fetch(url)
-        .then((res)=>res.json())
-        .then((myJson)=>{
-        for(var i=0;i<myJson.length;i++){
-        
-            var gas=myJson[i].gas;
-            var region=myJson[i].region;
-            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-            var imageSize = new kakao.maps.Size(24, 35); 
-            var marker = new kakao.maps.CustomOverlay({
-            map:map,
-            position: latlng,
-            content:region+'<br>'+gas
-          });
-          markers.push(marker);
-        }})
-        return marker;
-    })
+      const url='/data/지역별/석유.json';
+      fetch(url)
+      .then((res)=>res.json())
+      .then((myJson)=>{
+      for(var i=0;i<myJson.length;i++){
+      
+          var gas=myJson[i].gas;
+          var region=myJson[i].region;
+          var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+          var imageSize = new kakao.maps.Size(24, 35); 
+          var marker = new kakao.maps.CustomOverlay({
+          map:map,
+          position: latlng,
+          content:"<div class='ovr1'>"+region+'<br>'+gas+"</div>"
+        });
+        markers.push(marker);
+      }})
+      return marker;
+  })
 
     radio_c.addEventListener('click', function(){
       removeOverlay();
-        const url='http://apis.data.go.kr/B553530/GHG_EMISSIONS_02';
-        
-        fetch(url)
-        .then((res)=>res.json())
-        .then((myJson)=>{
-        for(var i=0;i<myJson.length;i++){
-        
-            var gas=myJson[i].gas;
-            var region=myJson[i].region;
-            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-            var imageSize = new kakao.maps.Size(24, 35); 
-            var marker = new kakao.maps.CustomOverlay({
-            map:map,
-            position: latlng,
-            content:region+'<br>'+gas
-          });
-          markers.push(marker);
-        }})
-        return marker;
-    })
+      const url='/data/지역별/도시가스.json';
+      fetch(url)
+      .then((res)=>res.json())
+      .then((myJson)=>{
+      for(var i=0;i<myJson.length;i++){
+      
+          var gas=myJson[i].gas;
+          var region=myJson[i].region;
+          var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+          var imageSize = new kakao.maps.Size(24, 35); 
+          var marker = new kakao.maps.CustomOverlay({
+          map:map,
+          position: latlng,
+          content:"<div class='ovr1'>"+region+'<br>'+gas+"</div>"
+        });
+        markers.push(marker);
+      }})
+      return marker;
+  })
 
     radio_d.addEventListener('click', function(){
       removeOverlay();
-        const url='http://apis.data.go.kr/B553530/GHG_EMISSIONS_02';
-        
-        fetch(url)
-        .then((res)=>res.json())
-        .then((myJson)=>{
-        for(var i=0;i<myJson.length;i++){
-        
-            var gas=myJson[i].gas;
-            var region=myJson[i].region;
-            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-            var imageSize = new kakao.maps.Size(24, 35); 
-            var marker = new kakao.maps.CustomOverlay({
-            map:map,
-            position: latlng,
-            content:region+'<br>'+gas
-          });
-          markers.push(marker);
-        }})
-        return marker;
-    })
+      const url='/data/지역별/열에너지.json';
+      fetch(url)
+      .then((res)=>res.json())
+      .then((myJson)=>{
+      for(var i=0;i<myJson.length;i++){
+      
+          var gas=myJson[i].gas;
+          var region=myJson[i].region;
+          var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+          var imageSize = new kakao.maps.Size(24, 35); 
+          var marker = new kakao.maps.CustomOverlay({
+          map:map,
+          position: latlng,
+          content:"<div class='ovr1'>"+region+'<br>'+gas+"</div>"
+        });
+        markers.push(marker);
+      }})
+      return marker;
+  })
 
     radio_e.addEventListener('click', function(){
       removeOverlay();
-        const url='http://apis.data.go.kr/B553530/GHG_EMISSIONS_02';
-        
+        const url='/data/지역별/전력.json';
         fetch(url)
-        .then((res)=>res.json())
-        .then((myJson)=>{
-        for(var i=0;i<myJson.length;i++){
-        
-            var gas=myJson[i].gas;
-            var region=myJson[i].region;
-            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-            var imageSize = new kakao.maps.Size(24, 35); 
-            var marker = new kakao.maps.CustomOverlay({
-            map:map,
-            position: latlng,
-            content:region+'<br>'+gas
-          });
-          markers.push(marker);
-        }})
-        return marker;
-    })
+      .then((res)=>res.json())
+      .then((myJson)=>{
+      for(var i=0;i<myJson.length;i++){
+      
+          var gas=myJson[i].gas;
+          var region=myJson[i].region;
+          var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+          var imageSize = new kakao.maps.Size(24, 35); 
+          var marker = new kakao.maps.CustomOverlay({
+          map:map,
+          position: latlng,
+          content:"<div class='ovr1'>"+region+'<br>'+gas+"</div>"
+        });
+        markers.push(marker);
+      }})
+      return marker;
+  })
 
     radio_f.addEventListener('click', function(){
       removeOverlay();
-        const url='http://apis.data.go.kr/B553530/GHG_EMISSIONS_02';
-        
-        fetch(url)
-        .then((res)=>res.json())
-        .then((myJson)=>{
-        for(var i=0;i<myJson.length;i++){
-        
-            var gas=myJson[i].gas;
-            var region=myJson[i].region;
-            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-            var imageSize = new kakao.maps.Size(24, 35); 
-            var marker = new kakao.maps.CustomOverlay({
-            map:map,
-            position: latlng,
-            content:region+'<br>'+gas
-          });
-          markers.push(marker);
-        }})
-        return marker;
-    })
-
-    radio_g.addEventListener('click', function(){
-      removeOverlay();
-        const url='http://apis.data.go.kr/B553530/GHG_EMISSIONS_02';
-        
-        fetch(url)
-        .then((res)=>res.json())
-        .then((myJson)=>{
-        for(var i=0;i<myJson.length;i++){
-        
-            var gas=myJson[i].gas;
-            var region=myJson[i].region;
-            var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
-            var imageSize = new kakao.maps.Size(24, 35); 
-            var marker = new kakao.maps.CustomOverlay({
-            map:map,
-            position: latlng,
-            content:region+'<br>'+gas
-          });
-          markers.push(marker);
-        }})
-        return marker;
-    })
+        const url='/data/지역별/기타연료.json';
+         fetch(url)
+      .then((res)=>res.json())
+      .then((myJson)=>{
+      for(var i=0;i<myJson.length;i++){
+      
+          var gas=myJson[i].gas;
+          var region=myJson[i].region;
+          var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+          var imageSize = new kakao.maps.Size(24, 35); 
+          var marker = new kakao.maps.CustomOverlay({
+          map:map,
+          position: latlng,
+          content:"<div class='ovr1'>"+region+'<br>'+gas+"</div>"
+        });
+        markers.push(marker);
+      }})
+      return marker;
+  })
 
     radio_2019.addEventListener('click', function(){
       removeOverlay();
