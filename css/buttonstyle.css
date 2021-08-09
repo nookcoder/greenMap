@@ -10,6 +10,18 @@
     height: 90px;
   }
 
+  #mapbtn {
+    position:absolute;
+    background-image: url('/img/map2.png');
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    z-index:999;
+    right: 50px;
+    padding:5px;
+    width: 90px;
+    height: 90px;
+  }
+
   .map{
       position: absolute;
       z-index:9999;
