@@ -1,7 +1,8 @@
 
+
 var data2 = {
       "name": "한국표준산업분류",
-      "shortName": "총 탄소 배출량",
+      "shortName": "총 탄소 배출량 (단위 tCO2eq)",
       "children": [{
           "name": "A.농업, 임업 및 어업",
           "shortName": "A.농업, 임업 및 어업",
@@ -322,7 +323,6 @@ function updateDrillDown() {
      .eachBefore(function(d) { d.id = (d.parent ? d.parent.id + "." : "") + d.data.shortName; })
      .sum((d) => d.size)
      .sort(function(a, b) {
-     console.log('initial root sort a ' + a.value + ' b ' + b.value);
      return b.height - a.height || b.value - a.value;
     });
 		  
@@ -345,7 +345,6 @@ function initialize(root) {
 // We also take a snapshot of the original children (_children) to avoid
 // the children being overwritten when when layout is computed.
 function accumulate(d) {
-  console.log('accumulate called ' + d.data.name);
   return (d._children = d.children)
      ? d.value = d.children.reduce(function(p, v) { return p + accumulate(v); }, 0) : d.value;
   }
@@ -394,6 +393,7 @@ function display(d) {
   g.filter(function(d) { return d._children; })
     .classed("children", true)
     .on("click", transition);
+
   
   var children = g.selectAll(".child")
     .data(function(d) { return d._children || [d]; })
@@ -451,7 +451,6 @@ function display(d) {
 
       // Draw child nodes on top of parent nodes.
       svg.selectAll(".depth").sort(function(a, b) { 
-      	console.log('.depth sort a ' + a.depth + ' b ' + b.depth);
       	return a.depth - b.depth; });
 
       // Fade-in entering text.
@@ -469,6 +468,9 @@ function display(d) {
       t1.remove().on("end", function() {
       svg.style("shape-rendering", "crispEdges");
       transitioning = false;
+      
+      change_List(d);
+       change_Arrow(d.data.name);
     });
   }
   return g;
@@ -481,7 +483,6 @@ function text(text) {
     .attr("y", function(d) { return y(d.y0) + 3; })
     .style("opacity", function(d) {
        var w = x(d.x1) - x(d.x0);
-       console.log("text opacity setting textlength " + this.getComputedTextLength() + " d size " + w);
        return this.getComputedTextLength() < w - 6 ? 1 : 0; });
   }
 
@@ -492,7 +493,6 @@ function text2(text) {
   .attr("y", function(d) { return y(d.y1) - 6; })
   .style("opacity", function(d) {
      var w = x(d.x1) - x(d.x0);
-     console.log("text2 opacity setting textlength " + this.getComputedTextLength() + " d size " + w);
      return this.getComputedTextLength() < w - 6 ? 1 : 0;
   });
 }
@@ -502,16 +502,10 @@ function rect(rect) {
     .attr("y", function(d) { return y(d.y0); })
     .attr("width", function(d) {
       var w = x(d.x1) - x(d.x0);
- 	    console.log('id ' + d.id +' rect width ' + w);
  	    return w;
 	})
     .attr("height", function(d) { 
       var h = y(d.y1) - y(d.y0);
- 	    console.log('id ' + d.id +' rect height ' + h);
-
-       if(d.id.includes('A')){
-        change_A_List();
-       }
  	    return h;
  	});
 }
@@ -521,13 +515,70 @@ function name(d) {
 }
 
 
-
-function change_A_List(){
-
-  console.log('open');
-  let A_div = document.getElementById('A_industry_setor');
-  console.log(A_div);
+function show_Detail_Industry(div){
+  let ul_nodes = div.parentNode.childNodes[3];
+  $(ul_nodes).find('div').show();
   
+}
+// 대분류 카테고리 닫기
+function hide_Detail_Industry(div){
+  let ul_nodes = div.parentNode.childNodes[3];
+  $(ul_nodes).find('div').hide();
+}
 
+function show_Small_Detail_Industry(div){
+  let li_nodes = div.parentNode.childNodes[3];
+  $(li_nodes).find('li').show();
+}
+//소분류 카테고리 닫기
+function hide_Small_Detail_Industry(div){
+  let li_nodes = div.parentNode.childNodes[3];
+  $(li_nodes).find('li').hide();
 
 }
+
+function change_Arrow(select_div_data){
+
+  let select_code = select_div_data.substring(0,1);
+  if(select_code == 'A'){
+    let zoom_div = document.getElementById( select_code+'_industry');
+    let clickI = zoom_div.getElementsByTagName('i');
+  
+    const CURRENT_ARROW_DOWN = "fas fa-chevron-down";
+    const CURRENT_ARROW_RIGHT ="fas fa-chevron-right";
+  
+    if (clickI[0].className == CURRENT_ARROW_RIGHT ) {
+      clickI[0].className = CURRENT_ARROW_DOWN;
+    }
+    else {
+        clickI[0].className = CURRENT_ARROW_RIGHT;
+    } 
+  }
+}
+
+
+//A선택
+
+function change_List(d){
+
+  let select_code;
+  let zoom_div;
+
+
+
+  if(d.depth==1 ){
+    select_code = d.data.name.substring(0,1);
+    zoom_div = document.getElementById( select_code+'_industry');
+    show_Detail_Industry(zoom_div);
+  }
+  else if (d.depth==2 ){
+    select_code = d.data.name.substring(0,2);
+    zoom_div = document.getElementById(select_code +'_industry_sector' );
+   
+    //show_Small_Detail_Industry(zoom_div);
+    $(zoom_div).find('li').show();
+
+  }
+
+}
+
