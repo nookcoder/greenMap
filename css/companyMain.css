@@ -67,3 +67,37 @@
 #public_okButton span:hover {
   opacity: 0.6;
 }
+
+.mark_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.overlaybox_ul {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.overlaybox_name {
+  display: inline-block;
+  font-weight: bold;
+  background: var(--sideMenuBar_sub_sector);
+  padding: 5px;
+}
+
+.overlaybox_title {
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.overlaybox_content {
+  display: inline-block;
+}

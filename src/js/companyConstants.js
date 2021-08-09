@@ -15,9 +15,9 @@ const AGENCY = 2;
 
 function setCustomOverlay(period, location, name, agency, designated_year, sector, co2, energy, targetSector){
     let content = '<div class="overlaybox">'+
-        '<ul>'+
+        '<ul class="overlaybox_ul">'+
             '<li>'+
-                '<span class="overlaybox_content">'+name+'</span>'+
+                '<span class="overlaybox_name">'+name+'</span>'+
             '</li>' +
             '<li>'+
                 '<span class="overlaybox_title">관장 기관 : </span>'+
@@ -60,9 +60,9 @@ function setCustomOverlay(period, location, name, agency, designated_year, secto
 
 function setCustomOverlay2(location, name, agency, designated_year, sector, co2, energy,targetSector){
     let content = '<div class="overlaybox">'+
-        '<ul>'+
+        '<ul class="overlaybox_ul">'+
             '<li>'+
-                '<span class="overlaybox_content">'+name+'</span>'+
+                '<span class="overlaybox_name">'+name+'</span>'+
             '</li>' +
             '<li>'+
                 '<span class="overlaybox_title">관장 기관 : </span>'+
