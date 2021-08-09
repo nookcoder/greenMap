@@ -55,7 +55,6 @@ setCompanyVO(ASSIGNMENT_3,SPECIFICATION_2020,assignmentCompany);
 
 setCompanyVO(TARGET_2020,SPECIFICATION_2020,targetCompany);
 
-console.log(assignmentCompany);
 module.exports={
     assignmentCompany,
     targetCompany

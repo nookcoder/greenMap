@@ -8,7 +8,8 @@ module.exports = {
     mode : "development",
      
     entry : {
-        companyMapiApiapi : "./src/js/companyMapApi.js"
+        companyMapiApiapi : "./src/js/companyMapApi.js",
+        companyPublicSection : "./src/js/companyPublicSection.js"
     },
 
     output : {
