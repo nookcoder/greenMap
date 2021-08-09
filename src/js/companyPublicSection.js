@@ -24,8 +24,8 @@ function addPublicInfo(value){
             
             }
             else{
-                tag = CONSTANT.createPulicSectionContentRed(PUBLIC_JSON.기관명,PUBLIC_JSON.기준배출량,PUBLIC_JSON.온실가스배출량,PUBLIC_JSON.온실가스감축률);
-                $('#public_sector').append(tag);
+                var $tag = CONSTANT.createPulicSectionContentRed(PUBLIC_JSON[index].기관명,PUBLIC_JSON[index].기준배출량,PUBLIC_JSON[index].온실가스배출량,PUBLIC_JSON[index].온실가스감축률);
+                $('#public_sector').append($tag);
             }
         }
     }
