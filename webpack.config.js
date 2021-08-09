@@ -1,6 +1,4 @@
 var path = require('path');
-var webpack = require('webpack');
-var re = require('required-module');
 const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
