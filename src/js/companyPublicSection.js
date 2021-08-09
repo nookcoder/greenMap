@@ -5,7 +5,22 @@ let radioBox = document.querySelectorAll('.public_sector');
 $('#public_okButton').on('click',function(){
     
     let value = $('input[name="public_sector_agency"]:checked').val();
-    addPublicInfo(value); 
+    for(let index=0;index<PUBLIC_JSON.length;index++)
+    {
+        if(value == PUBLIC_JSON[index].기관구분)
+        {
+            if(PUBLIC_JSON[index].온실가스감축량 >= 0){
+                var $tag ="";
+                $tag = $tag + CONSTANT.createPulicSectionContentBlue(PUBLIC_JSON[index].기관명,PUBLIC_JSON[index].기준배출량,PUBLIC_JSON[index].온실가스감축량,PUBLIC_JSON[index].온실가스감축량,PUBLIC_JSON[index].온실가스감축률);
+                $('#public_section').append($tag);
+                console.log($tag);
+            }
+            else{
+                var $tag = CONSTANT.createPulicSectionContentRed(PUBLIC_JSON[index].기관명,PUBLIC_JSON[index].기준배출량,PUBLIC_JSON[index].온실가스배출량,PUBLIC_JSON[index].온실가스감축량,PUBLIC_JSON[index].온실가스감축률);
+                $('#public_section').append($tag);
+            }
+        }
+    }
 
     $('#map').hide();
     $('#public_section').show();
@@ -19,13 +34,14 @@ function addPublicInfo(value){
         if(value == PUBLIC_JSON[index].기관구분)
         {
             if(PUBLIC_JSON[index].온실가스감축량 >= 0){
-                var $tag = CONSTANT.createPulicSectionContentBlue(PUBLIC_JSON[index].기관명,PUBLIC_JSON[index].기준배출량,PUBLIC_JSON[index].온실가스감축량,PUBLIC_JSON[index].온실가스감축률);
-                $('#public_sector').append($tag);
-            
+                var $tag ="";
+                $tag = $tag + CONSTANT.createPulicSectionContentBlue(PUBLIC_JSON[index].기관명,PUBLIC_JSON[index].기준배출량,PUBLIC_JSON[index].온실가스배출량,PUBLIC_JSON[index].온실가스감축량,PUBLIC_JSON[index].온실가스감축률);
+                $('#public_section').append($tag);
+                console.log($tag);
             }
             else{
-                var $tag = CONSTANT.createPulicSectionContentRed(PUBLIC_JSON[index].기관명,PUBLIC_JSON[index].기준배출량,PUBLIC_JSON[index].온실가스배출량,PUBLIC_JSON[index].온실가스감축률);
-                $('#public_sector').append($tag);
+                var $tag = CONSTANT.createPulicSectionContentRed(PUBLIC_JSON[index].기관명,PUBLIC_JSON[index].기준배출량,PUBLIC_JSON[index].온실가스배출량,PUBLIC_JSON[index].온실가스감축량,PUBLIC_JSON[index].온실가스감축률);
+                $('#public_section').append($tag);
             }
         }
     }
