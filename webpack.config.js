@@ -4,13 +4,15 @@ var re = require('required-module');
 const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
-module.exports = {
-    mode : "development",
-     
-    entry : {
-        companyMapiApiapi : "./src/js/companyMapApi.js"
+const NodePolyfillPlugin = require("node-polyfill-webpack-plugin");
+module.exports={
+    mode : 'development',
+    entry:{
+         co2Api : "./src/js/co2Api.js",
+        industryMainSide : "./src/js/industryMainSideMenu.js",
+         industryClassification : "./src/js/industryClassification.js",
+         treeJs: "./src/js/treeJS.js"
     },
-
     output : {
         filename: '[name].js',
         path : path.resolve(__dirname,'public'),
