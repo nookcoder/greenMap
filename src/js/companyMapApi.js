@@ -11,26 +11,73 @@ var options = { //지도를 생성할 때 필요한 기본 옵션
 	level: 10 //지도의 레벨(확대, 축소 정도)
 };
 
-map = new kakao.maps.Map(container, options);        
+map = new kakao.maps.Map(container, options);  
+
 
 // 주소-좌표 변환 객체를 생성합니다
 var geocoder = new kakao.maps.services.Geocoder();
 
 var markers = [];
+var customOverlaies = []; 
 
-function drawMarker(company){
+function drawMarker(company,type){
     geocoder.addressSearch(company.location,function(result,status){
         if (status === kakao.maps.services.Status.OK) {
             var coords = new kakao.maps.LatLng(result[0].y, result[0].x);
-            var contents = CONSTANT.setCustomOverlay(company.period,company.location,company.name,company.agency,company.designatedYear,company.targetYear,company.sector,company.co2,company.energy);
+            
             // 마커를 생성합니다
             
-            // 결과값으로 받은 위치를 마커로 표시합니다
-            var marker = new kakao.maps.Marker({
-                title : company.name,
-                position: coords
-            });
+            switch (type) {
+                case CONSTANT.NORMAL:
+
+                    // 커스텀 오버레이를 생성합니다
+                    var contents = CONSTANT.setCustomOverlay(company.period,company.location,company.name,company.agency,company.designatedYear,company.targetYear,company.sector,company.co2,company.energy);
+                    var customOverlay = new kakao.maps.InfoWindow({
+                        content: contents,
+                        removable : true
+                    });
+
+                    // 마커를 생성합니다 
+                    var marker = new kakao.maps.Marker({
+                        map : map , 
+                        title : company.name,
+                        position: coords
+                    });        
+                    break;
+            
+                case CONSTANT.AGENCY:
+                    // 커스텀 오버레이를 생성합니다
+                    var contents = CONSTANT.setCustomOverlay2(company.location,company.name,company.agency,company.designatedYear,company.targetYear,company.sector,company.co2,company.energy);
+                    var customOverlay = new kakao.maps.InfoWindow({
+                        content: contents,
+                        removable : true
+                    });
+                
+                    var imageSrc = '../../img/정부마크.png', // 마커이미지의 주소입니다    
+                    imageSize = new kakao.maps.Size(55, 60), // 마커이미지의 크기입니다
+                    imageOption = {offset: new kakao.maps.Point(27, 69)}; // 마커이미지의 옵션입니다. 마커의 좌표와 일치시킬 이미지 안에서의 좌표를 설정합니다.
+
+                    // 마커의 이미지정보를 가지고 있는 마커이미지를 생성합니다
+                    var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize, imageOption);
+
+                    // 마커를 생성합니다 
+                    var marker = new kakao.maps.Marker({
+                        map : map,
+                        image: markerImage, // 마커이미지 설정 
+                        title : company.name,
+                        position: coords
+                    }); 
+
+                    break;
+
+                default:
+                    break;
+            }
+
+            // 지도에 마커를 표시합니다. 
             marker.setMap(map);
+
+            // 마커로 배열을 만듭니다. 
             markers.push(marker);
 
             // 인포윈도우로 장소에 대한 설명을 표시합니다
@@ -48,15 +95,14 @@ function drawMarker(company){
                 infowindow.close();
             });
 
-            // 커스텀 오버레이를 생성합니다
-            var customOverlay = new kakao.maps.InfoWindow({
-                content: contents,
-                removable : true
-            });
-
+            // 클릭 시 오버레이가 생성됩니다. 
             kakao.maps.event.addListener(marker, 'click', function() {
                 customOverlay.open(map,marker);
-            })
+                customOverlaies.push(customOverlay);
+                console.log(customOverlaies);
+            });
+
+
         }
     })
 }
@@ -76,29 +122,39 @@ function setMarkers(map,markers,type) {
 function showMarkers(markers) {
     setMarkers(map,markers,false);    
 }
+
 function hideMarkers(markers) {
     setMarkers(null,markers,true);
 }
 
-
 $(function() {
-    $('.main_sector_button').on('click',function(){
-        hideMarkers(markers);
+    $('.target_company').on('change',function(e){
+        let checking = $(this); 
+        let checking_value = checking.val();  
+
+        for(let index=0;index<TARGET_COMPANY.length;index++){
+            hideMarkers(markers);
+            console.log(customOverlaies)
+            hideMarkers(customOverlaies);
+            if(checking_value == TARGET_COMPANY[index].agency)
+            {
+                drawMarker(TARGET_COMPANY[index],CONSTANT.AGENCY);
+            }
+         }
     });
 
-    $('.period').on('change',function(e){
+    $('.assignment_company').on('change',function(e){
         let checking = $(this); 
-        let checking_period = checking.val(); 
-        if(!checking.is(":checked")){
-            hideMarkers(markers);
-            return;
-        }
+        let checking_value = checking.val(); 
+        
         for(let index=0;index<ASSIGNMENT_COMPANY.length;index++){
             hideMarkers(markers);
+            console.log(customOverlaies)
+            hideMarkers(customOverlaies);
 
-            if(checking_period == ASSIGNMENT_COMPANY[index].period)
+            if(checking_value == ASSIGNMENT_COMPANY[index].period)
             {
-                drawMarker(ASSIGNMENT_COMPANY[index]);
+                drawMarker(ASSIGNMENT_COMPANY[index],CONSTANT.NORMAL);
             }
         }
     });

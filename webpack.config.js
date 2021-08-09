@@ -24,7 +24,17 @@ module.exports = {
         noParse: [
 			/xlsx.core.min.js/,
 			/xlsx.full.min.js/
-		]
+		],
+        rules: [
+            {
+              test: /\.(png|jpe?g|gif)$/i,
+              use: [
+                {
+                  loader: 'file-loader',
+                },
+              ],
+            },
+          ],
       },
     
       plugins: [

@@ -17,9 +17,9 @@ function setCompanyVO(companyJSON, specificationJSON, array) {
     {
         for(let index2 = 0; index2 < specificationJSON.length; index2++)
         {
-            if(companyJSON[index].업체명 == specificationJSON[index2].관리업체)
+            if(companyJSON[index].관리업체 == specificationJSON[index2].관리업체)
             {
-                let companyData = new CompanyData(companyJSON[index].계획기간,companyJSON[index].소재지,companyJSON[index].업체명,specificationJSON[index2].관장기관,companyJSON[index].지정연도, specificationJSON[index2].대상연도,specificationJSON[index2].지정구분,specificationJSON[index2].온실가스,specificationJSON[index2].에너지);
+                let companyData = new CompanyData(companyJSON[index].계획기간,companyJSON[index].소재지,companyJSON[index].관리업체,specificationJSON[index2].관장기관,companyJSON[index].지정연도, specificationJSON[index2].대상연도,specificationJSON[index2].지정구분,specificationJSON[index2].온실가스,specificationJSON[index2].에너지);
                 array.push(companyData);
             }
         }
@@ -32,6 +32,9 @@ let targetCompany = new Array();
 const ASSIGNMENT_3 = require('../data/할당대상업체/3.json');
 const ASSIGNMENT_2 = require('../data/할당대상업체/2.json');
 const ASSIGNMENT_1 = require('../data/할당대상업체/1.json');
+
+const TARGET_2020 = require('../data/목표관리대상업체/2020.json'); 
+
 const SPECIFICATION_2020 = require("../data/명세서 주요정보/2020.json");
 const SPECIFICATION_2019 = require("../data/명세서 주요정보/2019.json");
 const SPECIFICATION_2018 = require("../data/명세서 주요정보/2018.json");
@@ -49,4 +52,9 @@ setCompanyVO(ASSIGNMENT_1, SPECIFICATION_2016,assignmentCompany);
 setCompanyVO(ASSIGNMENT_1, SPECIFICATION_2015,assignmentCompany);
 setCompanyVO(ASSIGNMENT_1, SPECIFICATION_2014,assignmentCompany);
 
-exports.assignmentCompany = assignmentCompany; 
+setCompanyVO(TARGET_2020,SPECIFICATION_2020,targetCompany);
+
+module.exports={
+    assignmentCompany,
+    targetCompany
+}
