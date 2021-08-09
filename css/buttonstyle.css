@@ -1,0 +1,79 @@
+#myBtn1 {
+    position:absolute;
+    background-image: url('/img/chart123.png');
+    background-size: 90px 90px;
+    background-repeat: no-repeat;
+    z-index:999;
+    right: 50px;
+    padding:5px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .map{
+      position: absolute;
+      z-index:9999;
+  }
+
+  .myChart{
+    position:absolute;
+    z-index:3;
+  }
+
+  .ovr{
+      width: 70px;
+      height: 70px;
+      background-color:yellowgreen;
+      text-align: center;
+      border-radius: 30px;
+      display: table-cell;
+      vertical-align: middle;
+      font-size: 0.8em;
+      font-weight: bolder;
+      border: 3px solid black;
+      border-color: seagreen;
+  }
+
+  .ovr1{
+    width: 70px;
+    height: 70px;
+    background-color:lightcoral;
+    text-align: center;
+    border-radius: 30px;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 0.8em;
+    font-weight: bolder;
+    border: 3px solid black;
+    border-color:red;
+}
+
+
+.ovr2{
+  width: 70px;
+  height: 70px;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  border-radius: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 0.8em;
+  font-weight: bolder;
+  border: 3px solid black;
+  border-color:rgba(11, 37, 150, 0.74);
+}
+
+  .chart_btn{
+    border:0;
+    outline:0;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5em; 
+    padding: 0.6em 1em; 
+    background: #F9F9F9; 
+    box-shadow: 1px 2px 10px rgba(0,0,0,0.2);  
+    margin-left: 5px;
+  }
+
+ 

@@ -25,9 +25,6 @@ let targetAdministratorSector = document.querySelector('#target_administrator_se
 let publicYearButton = document.querySelector('#public_year');
 let publicAgencyButton = document.querySelector('#public_agency'); 
 
-let publicYearSector=document.querySelector('#public_year_sector'); 
-let publicAgencySector=document.querySelector('#public_agency_sector');
-
 
 assignmentButton.addEventListener('click', function(){
     assginmentSubSector.classList.toggle('showing');
@@ -35,10 +32,6 @@ assignmentButton.addEventListener('click', function(){
 
 targetButton.addEventListener('click',function(){
     targetSubSector.classList.toggle('showing');
-});
-
-publicButton.addEventListener('click',function(){
-    publicSubSector.classList.toggle('showing');
 });
 
 assignmentPeroidButton.addEventListener('click',function(){
@@ -61,13 +54,9 @@ targetAdministratorButton.addEventListener('click',function(){
     targetAdministratorSector.classList.toggle('showing');
 });
 
-publicYearButton.addEventListener('click',function(){
-    publicYearSector.classList.toggle('showing');
-});
-
-publicAgencyButton.addEventListener('click',function(){
-    publicAgencySector.classList.toggle('showing');
-});
+$('#public_button').on('click',function(){
+    $('#public_agency_sector').toggle();
+})
 
 
 
@@ -93,3 +82,4 @@ let iAll = document.querySelectorAll("i");
 for(let iIndex = 0; iIndex < iAll.length ; iIndex++){
     iAll[iIndex].addEventListener('click', arrowClassChange)
 }
+

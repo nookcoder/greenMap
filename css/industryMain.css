@@ -1,12 +1,11 @@
 /* 경로앞에 /붙이기~!  */
-@import "/css/constant.css";
+@import "./constant.css";
 /* 설명 글꼴 */
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 
 .side_menu_bar {
   width: 20%;
-  height: 100%;
-  float: left;
+  height: 100vh;
   background-color: var(--sideMenuBar_sub_sector);
 }
 
@@ -14,9 +13,8 @@
   background-color: var(--sideMenuBar_main_sector);
   font-weight: bolder;
   padding: 5%;
-  font-family: 'Nanum', sans-serif;
+  font-family: "Nanum", sans-serif;
   font-size: 25px;
-
 }
 
 #menu_bar_title span {
@@ -40,22 +38,7 @@
 }
 
 .industry_large_title {
-
-    margin: 5%;
-    font-family: 'Nanum', sans-serif;
-    font-size: 20px;
+  margin: 5%;
+  font-family: "Nanum", sans-serif;
+  font-size: 20px;
 }
-
-.detail_industry li {
-  padding-left: 10%;
-
-}
-
-
-
-
-
-
-
-
-
