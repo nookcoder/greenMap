@@ -7,11 +7,13 @@ const PERIOD_CHECK = /차$/;
 const PERIOD = 1; 
 const YEAR_CHECK = /[0-9]/;
 const YEAR = 2;
+const SECTOR = 3;
+const AGENCYSECOTOR = 4; 
 
 const NORMAL = 1; 
 const AGENCY = 2; 
 
-function setCustomOverlay(period, location, name, agency, designated_year,target_year, sector, co2, energy){
+function setCustomOverlay(period, location, name, agency, designated_year, sector, co2, energy, targetSector){
     let content = '<div class="overlaybox">'+
         '<ul>'+
             '<li>'+
@@ -24,6 +26,10 @@ function setCustomOverlay(period, location, name, agency, designated_year,target
             '<li>'+
                 '<span class="overlaybox_title">지정 구분 : </span>'+
                 '<span class="overlaybox_content">'+sector+'</span>'+
+            '</li>'+   
+            '<li>'+
+                '<span class="overlaybox_title">지정 업종 : </span>'+
+                '<span class="overlaybox_content">'+targetSector+'</span>'+
             '</li>'+        
             '<li>'+
                 '<span class="overlaybox_title">계획기간 : </span>' +
@@ -32,11 +38,7 @@ function setCustomOverlay(period, location, name, agency, designated_year,target
             '<li>'+
                '<span class="overlaybox_title">지정 연도 : </span>'+
                '<span class="overlaybox_content">'+designated_year+'년</span>'+
-            '</li>'+    
-            '<li>'+
-                '<span class="overlaybox_title">대상 연도 : </span>'+
-                '<span class="overlaybox_content">'+target_year+'년</span>'+
-            '</li>'+    
+            '</li>'+      
             '<li>'+
                '<span class="overlaybox_title">온실가스 배출량 : </span>'+
                '<span class="overlaybox_content">'+co2+ '(단위 : CO2eq)</span>'+
@@ -56,7 +58,7 @@ function setCustomOverlay(period, location, name, agency, designated_year,target
 };
 
 
-function setCustomOverlay2(location, name, agency, designated_year,target_year, sector, co2, energy){
+function setCustomOverlay2(location, name, agency, designated_year, sector, co2, energy,targetSector){
     let content = '<div class="overlaybox">'+
         '<ul>'+
             '<li>'+
@@ -69,14 +71,14 @@ function setCustomOverlay2(location, name, agency, designated_year,target_year, 
             '<li>'+
                 '<span class="overlaybox_title">지정 구분 : </span>'+
                 '<span class="overlaybox_content">'+sector+'</span>'+
-            '</li>'+        
+            '</li>'+  
+            '<li>'+
+                '<span class="overlaybox_title">지정 업종 : </span>'+
+                '<span class="overlaybox_content">'+targetSector+'</span>'+
+            '</li>'+      
             '<li>'+
                '<span class="overlaybox_title">지정 연도 : </span>'+
                '<span class="overlaybox_content">'+designated_year+'년</span>'+
-            '</li>'+    
-            '<li>'+
-                '<span class="overlaybox_title">대상 연도 : </span>'+
-                '<span class="overlaybox_content">'+target_year+'년</span>'+
             '</li>'+    
             '<li>'+
                '<span class="overlaybox_title">온실가스 배출량 : </span>'+
@@ -105,6 +107,8 @@ module.exports ={
     PERIOD_CHECK,
     YEAR_CHECK,
     YEAR,
+    SECTOR,
+    AGENCYSECOTOR,
     NORMAL,
     AGENCY,
     setCustomOverlay,
