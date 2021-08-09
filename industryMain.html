@@ -7,6 +7,8 @@
     <title>그린뉴맵</title>
     <link rel="stylesheet" href="/css/topMenuBar.css">
     <link rel="stylesheet" href="/css/industryMain.css">
+    <link rel="stylesheet" href="/css/tree.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 
@@ -245,15 +247,13 @@
             </li>        
         </ul>
     </nav> 
-    <input type="button" id="co2Api"  value="지도를 불러옵니다" />
 
-    <section id="treeMap"> 
-    </section>
-    <svg class="treemap"></svg>
+    <p id="chart"></p>
+    <div style="overflow: scroll" id="domainDrillDown"></div>
     
     <script src="https://d3js.org/d3.v5.js"></script>
-    <script src="treemap.js"></script>
-    <script src="./public/co2Api_bundle.js"></script>
+    <script src="./public/treeJs_bundle.js"></script>
+  
     <script src="./public/industryClassification_bundle.js"></script>
     <script  src="./public/industryMainSide_bundle.js"></script>
     
