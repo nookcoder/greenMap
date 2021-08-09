@@ -47,7 +47,9 @@
   float: left;
 }
 
-.detail_industry_div ,
+.detail_industry_div {
+  padding-left: 10px;
+}
 .three_industry_sector{
   padding-left: 10px;
 }

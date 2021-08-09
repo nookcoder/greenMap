@@ -1,5 +1,6 @@
 @import "./constant.css";
-
+/* 설명 글꼴 */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 #main_content {
   display: flex;
 }
@@ -11,6 +12,10 @@
 
 .side_menu_bar {
   width: 210px;
+  background-color: var(--sideMenuBar_sub_sector);
+  font-family: "Nanum", sans-serif;
+  font-size: 20px;
+
 }
 
 #menu_bar_title {
@@ -32,6 +37,11 @@
   border: none;
   font-weight: bold;
   padding: 10px;
+}
+
+.main_sector_button span{
+  font-family: "Nanum", sans-serif;
+  font-size: 20px;
 }
 
 .sub_sector {
@@ -58,7 +68,8 @@
 
 #public_okButton span {
   display: inline-block;
-  background-color: aqua;
+  color:white;
+  background-color: rgba(8, 99, 30, 0.863);
   padding: 5px;
   margin: 0 5px 5px 0;
   border-radius: 5px;
