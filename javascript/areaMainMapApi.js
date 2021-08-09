@@ -554,15 +554,9 @@ radio_4_1.addEventListener('click', function(){
 function hoxy(){
   var content = 'df';
   var position = new kakao.maps.LatLng(33.450701, 126.570667); 
-  var seoul = new kakao.maps.Circle({
+  var seoul = new kakao.maps.CustomOverlay({
   center : new kakao.maps.LatLng(37.566481622437934,126.98502302169841), 
-  radius: 21000, 
-  strokeWeight: 5, 
-  strokeColor: 'red',
-  strokeOpacity: 0.3, 
-  fillColor: 'red',
-  fillOpacity: 0.6,
-  content:'123dfffffffffffffffffff'
+ map:map
   }); 
   var incheon = new kakao.maps.Circle({
   center : new kakao.maps.LatLng(37.45617067506185, 126.70593716202376), 
