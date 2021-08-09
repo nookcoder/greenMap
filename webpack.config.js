@@ -11,7 +11,6 @@ module.exports = {
         companyMapiApiapi : "./src/js/companyMapApi.js",
         companyPublicSection : "./src/js/companyPublicSection.js"
     },
-
     output : {
         filename: '[name].js',
         path : path.resolve(__dirname,'public'),

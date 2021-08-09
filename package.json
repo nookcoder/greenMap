@@ -5,8 +5,10 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode=none"
+    "test": "npm run lint && npm run test-ci && npm run test-browserify && npm run test-webpack",
+    "build": "webpack --mode=none",
+    "watch": "webpack --watch",
+    "start": "webpack serve --mode development --config webpack.config.js"
   },
   "author": "",
   "license": "ISC",
@@ -32,7 +34,8 @@
     "request": "^2.88.2",
     "required-module": "^0.1.1",
     "uniq": "^1.0.1",
-    "xlsx": "^0.17.0"
+    "xlsx": "^0.17.0",
+    "xmlhttprequest": "^1.8.0"
   },
   "devDependencies": {
     "html-loader": "^2.1.2",
