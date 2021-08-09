@@ -55,7 +55,56 @@
                             <span>C.제 조 업 (10~34)</span>
                         </div>    
                         <ul class="detail_industry" id="C_industry_sector">
-                           
+                            <li >
+                                <div class="detail_industry_div">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <span>10.식료품 제조업</span>
+                                </div>
+                                <ul id="06_industry_sector" >
+                                    <li class="three_industry_sector" style="display: none;">061.철 재배업</li>
+                                    <li class="three_industry_sector" style="display: none;">062.비철금속 광업</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <div class="detail_industry_div">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <span>11.음료 제조업</span>
+                                </div>
+                                <ul id="06_industry_sector" >
+                                    <li class="three_industry_sector" style="display: none;">061.철 재배업</li>
+                                    <li class="three_industry_sector" style="display: none;">062.비철금속 광업</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <div class="detail_industry_div">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <span>12.담배 제조업</span>
+                                </div>
+                                <ul id="06_industry_sector" >
+                                    <li class="three_industry_sector" style="display: none;">061.철 재배업</li>
+                                    <li class="three_industry_sector" style="display: none;">062.비철금속 광업</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <div class="detail_industry_div">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <span>13.섬유 제품 제조업;의복제외</span>
+                                </div>
+                                <ul id="06_industry_sector" >
+                                    <li class="three_industry_sector" style="display: none;">061.철 재배업</li>
+                                    <li class="three_industry_sector" style="display: none;">062.비철금속 광업</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <div class="detail_industry_div">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <span>14.의복, 의복 액세서리 및 모피제품 제조업</span>
+                                </div>
+                                <ul id="06_industry_sector" >
+                                    <li class="three_industry_sector" style="display: none;">061.철 재배업</li>
+                                    <li class="three_industry_sector" style="display: none;">062.비철금속 광업</li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                     
@@ -95,7 +144,16 @@
                             <span>G.도매 및 소매업(45~47)</span>
                         </div>    
                         <ul class="detail_industry" id="G_industry_sector">
-                        <!-- 동적 리스트 추가 -->
+                            <li >
+                                <div class="detail_industry_div">
+                                    <i class="fas fa-chevron-right"></i>
+                                    <span>45.자동차 및 부품 판매업</span>
+                                </div>
+                                <ul id="06_industry_sector" >
+                                    <li class="three_industry_sector" style="display: none;">061.철 재배업</li>
+                                    <li class="three_industry_sector" style="display: none;">062.비철금속 광업</li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
 
@@ -242,10 +300,17 @@
             </li>        
         </ul>
     </nav> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>;
-    <script type="module" src="javascript/api.js"></script>
-    <script type="module" src="javascript/industryClassification.js"></script>
-    <script type="module" src="javascript/industryMainSideMenu.js"></script>
+    <div>
+        <p id="chart"></p>
+        <div style="overflow: scroll" id="domainDrillDown"></div>
+   
+    </div>
+     
+    <script src="https://d3js.org/d3.v5.js"></script>
+    <script src="./public/treeJs_bundle.js"></script>
+  
+    <script src="./public/industryClassification_bundle.js"></script>
+    <script  src="./public/industryMainSide_bundle.js"></script>
     
     <script src="https://kit.fontawesome.com/ff21ce4721.js" crossorigin="anonymous"></script>
 </body>
