@@ -1,4 +1,6 @@
-import * as classification from './industryClassification.js';
+// import * as classification from './industryClassification.js';
+
+var classification = require('./industryClassification.js');
 
 // 클릭시, 화살표 방향 변경
 const CURRENT_ARROW_DOWN = "fas fa-chevron-down";
