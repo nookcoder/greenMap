@@ -7,8 +7,7 @@
     <title>그린뉴맵</title>
     <link rel="stylesheet" href="css/topMenuBar.css">
     <link rel="stylesheet" href="css/companyMain.css">
-   
-
+    <link rel="stylesheet" href="css/publicSector.css">
 </head>
 <body>
     <nav class="top_menu_bar">
@@ -117,7 +116,7 @@
                                 <span>지정연도</span>
                             </div>
                             <ul class="detail_sector" id="target_period_sector">
-                                <li><input class="target_company" type="radio" name="target_company_designated_year" value="2020" checked>2020년</li>
+                                <li><input class="target_company" type="radio" name="target_company_designated_year" value="2020">2020년</li>
                                 <li><input class="target_company" type="radio" name="target_company_designated_year" value="2019">2019년</li>
                                 <li><input class="target_company" type="radio" name="target_company_designated_year" value="2018">2018년</li>
                                 <li><input class="target_company" type="radio" name="target_company_designated_year" value="2017">2017년</li>
@@ -145,50 +144,50 @@
                         <span>공공부문 배출량 통계</span>
                         <i class="fas fa-chevron-right"></i>
                     </button>
-                    <ul class="sub_sector public_sub_sector ">
-                        <li id="public_sector_year">
-                            <div class="sub_sector_title" id="public_year">
-                                <i class="fas fa-chevron-right"></i>
-                                <span>대상연도</span>
-                            </div>
-                            <ul class="detail_sector" id="public_year_sector">
-                                <li><input type="radio" name="public_sector_year" value="2020">2020년</li>
-                                <li><input type="radio" name="public_sector_year" value="2019">2019년</li>
-                                <li><input type="radio" name="public_sector_year" value="2018">2018년</li>
-                            </ul>
-                        </li>
-                        <li id="public_sector_agency">
-                            <div class="sub_sector_title" id="public_agency">
-                                <i class="fas fa-chevron-right"></i>
-                                <span>기관구분</span>
-                            </div>
-                            <ul class="detail_sector" id="public_agency_sector">
-                                <li><input type="radio" name="public_sector_agency" value="중앙행정기관">중앙행정기관</li>
-                                <li><input type="radio" name="public_sector_agency" value="광역지방자치단체">광역지방자치단체</li>
-                                <li><input type="radio" name="public_sector_agency" value="기초지방자치단체">기초지방자치단체</li>
-                                <li><input type="radio" name="public_sector_agency" value="시도교육청">시도교육청</li>
-                                <li><input type="radio" name="public_sector_agency" value="공공기간">공공기간</li>
-                                <li><input type="radio" name="public_sector_agency" value="지방공사/공단">지방공사/공단</li>
-                                <li><input type="radio" name="public_sector_agency" value="국/공립대학">국/공립대학</li>
-                                <li><input type="radio" name="public_sector_agency" value="국립대학병원및치과병원">국립대학병원및치과병원</li>
-                            </ul>
-                        </li>
+                        
+                    <ul class="sub_sector" id="public_agency_sector">
+                        <li><input class="public_sector" type="radio" name="public_sector_agency" value="중앙행정기관">중앙행정기관</li>
+                        <li><input class="public_sector" type="radio" name="public_sector_agency" value="광역지방자치단체">광역지방자치단체</li>
+                        <li><input class="public_sector" type="radio" name="public_sector_agency" value="기초지방자치단체">기초지방자치단체</li>
+                        <li><input class="public_sector" type="radio" name="public_sector_agency" value="시도교육청">시도교육청</li>
+                        <li><input class="public_sector" type="radio" name="public_sector_agency" value="공공기관">공공기관</li>
+                        <li><input class="public_sector" type="radio" name="public_sector_agency" value="국립대학병원및치과병원">국립대학병원및치과병원</li>
+                        <li><input class="public_sector" type="radio" name="public_sector_agency" value="지방공사/공단">지방공사/공단</li>
+                        <li><input class="public_sector" type="radio" name="public_sector_agency" value="국/공립대학">국/공립대학</li>
+                        
+                        <div id="public_okButton"><br><span>결과 조회</span></div>
                     </ul>
                 </li>
             </ul>
         </nav>
         
-        <sector id="map">
-            
-        </sector>
+        <section id="map"></section>
+
+        <div id="public_section">
+            <div class="public_container">
+                <div class="public_container_left">
+                    <span class="public_container_left_name_explanation">기관명</span>
+                </div> 
+                <div class="public_container_right">
+                    <div class="public_container_right_co2_explanation">
+                        <span class="public_container_right_co2_emition public_container_right_co2_emition_up_explanation">온실가스배출량</span>
+                        <span class="public_container_right_co2_emition public_container_right_co2_emition_up_explanation">(tonCO₂-eq)</span>
+                    </div>
+                    <div class="public_container_right_percentage_explanation">
+                        <spaan class="public_container_right_percentage_value_explanation">온실가스<br>감축률(%)</spaan>
+                    </div>
+                </div>    
+            </div>
+        </div>
     </main>
 
     <script src="./node_modules/require/package.json" type="text/js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>;
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/ff21ce4721.js" crossorigin="anonymous"></script>
     <!-- <script src="./src/js/assignmentCompany.js" type="module"></script> -->
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=8ba3e3945de9253bfa0df31f686ea45c&libraries=services"></script>
     <script type="module" src="./src/js/companyMainSideMenu.js"></script>
     <script src="./public/companyMapiApiapi.js"></script>
+    <script src="./public/companyPublicSection.js"></script>
 </body>
 </html>

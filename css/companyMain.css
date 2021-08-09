@@ -51,3 +51,19 @@
 .showing {
   display: block;
 }
+
+#public_okButton {
+  text-align: right;
+}
+
+#public_okButton span {
+  display: inline-block;
+  background-color: aqua;
+  padding: 5px;
+  margin: 0 5px 5px 0;
+  border-radius: 5px;
+}
+
+#public_okButton span:hover {
+  opacity: 0.6;
+}

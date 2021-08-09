@@ -8,7 +8,7 @@ const TARGET_COMPANY = companyData.targetCompany;
 var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
 var options = { //지도를 생성할 때 필요한 기본 옵션
 	center: new kakao.maps.LatLng(37.433, 127.16), //지도의 중심좌표.
-	level: 10 //지도의 레벨(확대, 축소 정도)
+	level:11 //지도의 레벨(확대, 축소 정도)
 };
 
 map = new kakao.maps.Map(container, options);  
@@ -31,7 +31,8 @@ function drawMarker(company,type){
                 case CONSTANT.NORMAL:
 
                     // 커스텀 오버레이를 생성합니다
-                    var contents = CONSTANT.setCustomOverlay(company.period,company.location,company.name,company.agency,company.designatedYear,company.targetYear,company.sector,company.co2,company.energy);
+                    var contents = CONSTANT.setCustomOverlay(company.period,company.location,company.name,company.agency,company.designatedYear,company.sector,company.co2,company.energy,company.targetSector);
+                    console.log(contents);
                     var customOverlay = new kakao.maps.InfoWindow({
                         content: contents,
                         removable : true
@@ -47,7 +48,7 @@ function drawMarker(company,type){
             
                 case CONSTANT.AGENCY:
                     // 커스텀 오버레이를 생성합니다
-                    var contents = CONSTANT.setCustomOverlay2(company.location,company.name,company.agency,company.designatedYear,company.targetYear,company.sector,company.co2,company.energy);
+                    var contents = CONSTANT.setCustomOverlay2(company.location,company.name,company.agency,company.designatedYear,company.sector,company.co2,company.energy,company.targetSector);
                     var customOverlay = new kakao.maps.InfoWindow({
                         content: contents,
                         removable : true
@@ -134,19 +135,31 @@ $(function() {
         let checking = $(this); 
         let checking_value = checking.val();  
 
-        for(let index=0;index<TARGET_COMPANY.length;index++){
-            hideMarkers(markers);
-            hideMarkers(customOverlaies);
-            if(checking_value == TARGET_COMPANY[index].agency)
-            {
-                drawMarker(TARGET_COMPANY[index],CONSTANT.AGENCY);
-            }
-         }
+        // for(let index=0;index<TARGET_COMPANY.length;index++){
+        //     hideMarkers(markers);
+        //     hideMarkers(customOverlaies);
+        //     if(checking_value == TARGET_COMPANY[index].agency)
+        //     {
+        //         drawMarker(TARGET_COMPANY[index],CONSTANT.AGENCY);
+        //     }
+        //  }
+
+         switch (checkSector(checking_value)) {
+            case CONSTANT.YEAR:
+                createMark(checking_value,TARGET_COMPANY,CONSTANT.YEAR);
+                break;
+
+            default:
+                createMark(checking_value,TARGET_COMPANY,CONSTANT.AGENCYSECOTOR);
+                break;
+        }
+
     });
 
     $('.assignment_company').on('change',function(e){
         let checking = $(this); 
         let checking_value = checking.val(); 
+
         switch (checkSector(checking_value)) {
             case CONSTANT.PERIOD:
                 createMark(checking_value,ASSIGNMENT_COMPANY,CONSTANT.PERIOD);
@@ -154,7 +167,10 @@ $(function() {
      
             case CONSTANT.YEAR:
                 createMark(checking_value,ASSIGNMENT_COMPANY,CONSTANT.YEAR);
-                default:
+                break;
+
+            case CONSTANT.SECTOR:
+                createMark(checking_value,ASSIGNMENT_COMPANY,CONSTANT.SECTOR);
                 break;
         }
         
@@ -172,16 +188,16 @@ function checkSector(checking_value){
         return CONSTANT.YEAR;
     }
     else{
-        return 3;
+        return CONSTANT.SECTOR;
     }
 }
 
 function createMark(checking_value,company,sector){
-    
+    hideMarkers(markers);
+    hideMarkers(customOverlaies);
+            
     if(sector == CONSTANT.PERIOD){
         for(let index=0;index<company.length;index++){
-            hideMarkers(markers);
-            hideMarkers(customOverlaies);
             if(checking_value == company[index].period)
             {
                 drawMarker(company[index],CONSTANT.NORMAL);
@@ -190,12 +206,29 @@ function createMark(checking_value,company,sector){
     }
 
     else if(sector == CONSTANT.YEAR){
-        for(let index=0;index<ASSIGNMENT_COMPANY.length;index++){
-            hideMarkers(markers);
-            hideMarkers(customOverlaies);
-            if(checking_value == ASSIGNMENT_COMPANY[index].designatedYear)
+        for(let index=0;index<company.length;index++){
+            if(checking_value == company[index].designatedYear)
             {
-                drawMarker(ASSIGNMENT_COMPANY[index],CONSTANT.NORMAL);
+                drawMarker(company[index],CONSTANT.NORMAL);
+            }
+        }
+    }
+
+    else if(sector == CONSTANT.SECTOR){
+        for(let index=0;index<company.length;index++){
+            if(checking_value == company[index].targetSector)
+            {
+                drawMarker(company[index],CONSTANT.NORMAL);
+            }
+        }
+    }
+
+    else if(sector == CONSTANT.AGENCYSECOTOR)
+    {
+        for(let index=0;index<company.length;index++){
+            if(checking_value == company[index].agency)
+            {
+                drawMarker(company[index],CONSTANT.AGENCY);
             }
         }
     }
