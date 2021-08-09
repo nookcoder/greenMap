@@ -2,10 +2,11 @@
   "name": "data",
   "version": "1.0.0",
   "description": "",
-  "main": "co2Api.js",
+  "private": true,
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=none"
   },
   "author": "",
   "license": "ISC",
@@ -14,12 +15,29 @@
   },
   "homepage": "https://github.com/nookcoder/greenMap#readme",
   "dependencies": {
+    "babel-loader": "^8.2.2",
     "cors": "^2.8.5",
+    "css-loader": "^6.2.0",
     "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
     "jquery": "^3.6.0",
+    "jquey": "^0.0.1-security",
+    "loadsh": "^0.0.4",
+    "lodash": "^4.17.21",
+    "node-polyfill-webpack-plugin": "^1.1.4",
     "npm": "^7.20.3",
+    "path": "^0.12.7",
     "read-excel-file": "^5.2.8",
-    "require": "^2.4.20",
+    "request": "^2.88.2",
+    "required-module": "^0.1.1",
+    "uniq": "^1.0.1",
     "xlsx": "^0.17.0"
+  },
+  "devDependencies": {
+    "html-loader": "^2.1.2",
+    "webpack": "^5.49.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-xlsx-loader": "^1.0.0"
   }
 }
