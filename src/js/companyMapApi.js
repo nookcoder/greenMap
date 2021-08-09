@@ -97,9 +97,11 @@ function drawMarker(company,type){
 
             // 클릭 시 오버레이가 생성됩니다. 
             kakao.maps.event.addListener(marker, 'click', function() {
-                customOverlay.open(map,marker);
+                hideMarkers(customOverlaies); 
+                customOverlaies.pop();
+                customOverlay.open(map,marker); 
+                map.setCenter(marker.getPosition());
                 customOverlaies.push(customOverlay);
-                console.log(customOverlaies);
             });
 
 
@@ -134,7 +136,6 @@ $(function() {
 
         for(let index=0;index<TARGET_COMPANY.length;index++){
             hideMarkers(markers);
-            console.log(customOverlaies)
             hideMarkers(customOverlaies);
             if(checking_value == TARGET_COMPANY[index].agency)
             {
@@ -146,17 +147,56 @@ $(function() {
     $('.assignment_company').on('change',function(e){
         let checking = $(this); 
         let checking_value = checking.val(); 
+        switch (checkSector(checking_value)) {
+            case CONSTANT.PERIOD:
+                createMark(checking_value,ASSIGNMENT_COMPANY,CONSTANT.PERIOD);
+                break;
+     
+            case CONSTANT.YEAR:
+                createMark(checking_value,ASSIGNMENT_COMPANY,CONSTANT.YEAR);
+                default:
+                break;
+        }
         
+    });
+    
+});
+
+function checkSector(checking_value){
+    if((new RegExp(CONSTANT.PERIOD_CHECK)).test(checking_value))
+    {
+        return CONSTANT.PERIOD;
+    }
+    else if((new RegExp(CONSTANT.YEAR_CHECK)).test(checking_value))
+    {
+        return CONSTANT.YEAR;
+    }
+    else{
+        return 3;
+    }
+}
+
+function createMark(checking_value,company,sector){
+    
+    if(sector == CONSTANT.PERIOD){
+        for(let index=0;index<company.length;index++){
+            hideMarkers(markers);
+            hideMarkers(customOverlaies);
+            if(checking_value == company[index].period)
+            {
+                drawMarker(company[index],CONSTANT.NORMAL);
+            }
+        }
+    }
+
+    else if(sector == CONSTANT.YEAR){
         for(let index=0;index<ASSIGNMENT_COMPANY.length;index++){
             hideMarkers(markers);
-            console.log(customOverlaies)
             hideMarkers(customOverlaies);
-
-            if(checking_value == ASSIGNMENT_COMPANY[index].period)
+            if(checking_value == ASSIGNMENT_COMPANY[index].designatedYear)
             {
                 drawMarker(ASSIGNMENT_COMPANY[index],CONSTANT.NORMAL);
             }
         }
-    });
-    
-});
+    }
+}

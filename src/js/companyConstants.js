@@ -3,6 +3,11 @@ const ONE = '1차';
 const TWO = '2차';
 const THREE = '3차';
 
+const PERIOD_CHECK = /차$/;
+const PERIOD = 1; 
+const YEAR_CHECK = /[0-9]/;
+const YEAR = 2;
+
 const NORMAL = 1; 
 const AGENCY = 2; 
 
@@ -96,6 +101,10 @@ module.exports ={
     ONE,
     TWO,
     THREE,
+    PERIOD,
+    PERIOD_CHECK,
+    YEAR_CHECK,
+    YEAR,
     NORMAL,
     AGENCY,
     setCustomOverlay,
