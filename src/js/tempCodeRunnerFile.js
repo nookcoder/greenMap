@@ -1,2 +1,5 @@
+//분류 코드 리스트
+// classification.industry_CodeList;
 
-let total_co2_code 
+// //분류 이름 리스트
+// classification.industry_NameList;
