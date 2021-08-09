@@ -128,7 +128,7 @@ function createPulicSectionContentRed(name,standard,emition,decrease,percentage)
     '<div class="public_container_right">'+
         '<div class="public_container_right_co2">'+
             '<span class="public_container_right_co2_emition public_container_right_co2_emition_up">'+emition+'</span>'+
-            '<span class="public_container_right_co2_emition public_container_right_co2_emition_down red_up"><i class="fas fa-sort-up"></i>'+decrease+'</span>'+
+            '<span class="public_container_right_co2_emition public_container_right_co2_emition_down red_up"><i class="fas fa-caret-up"></i>'+decrease+'</span>'+
         '</div>'+
         '<div class="public_container_right_percentage red">'+
             '<spaan class="public_container_right_percentage_value">'+percentage+'%</spaan>'+
