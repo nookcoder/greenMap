@@ -17,17 +17,17 @@ var data2 = {
                 {
                   "name": "012.축산업",
                   "shortName": "012.축산업",
-                  "size": 38
+                  "size": 380.08
                 },
                 {
                   "name": "013.작물재배 및 축산 복합농업",
                   "shortName": "013.작물재배 및 축산 복합농업",
-                  "size": 6714
+                  "size": 1233.2
                 },
                 {
                   "name": "014.작물재배 및 축산 관련 서비스업",
                   "shortName": "014.작물재배 및 축산 관련 서비스업",
-                  "size": 7403
+                  "size": 703.2
                 }
               ]
             },
@@ -37,7 +37,7 @@ var data2 = {
               "children": [{
                   "name": "020.임업",
                   "shortName": "020.임업",
-                  "size": 3534
+                  "size": 3534.4
                 }
               ]
             },
@@ -47,7 +47,7 @@ var data2 = {
               "children": [{
                 "name": "031.어로 어업",
                 "shortName": "031.어로 어업",
-                "size": 7074
+                "size": 4121.1
               },
               {
                 "name": "032.양식어업 및 어업관련 서비스업",
@@ -72,7 +72,7 @@ var data2 = {
                 {
                   "name": "052.원유 및 천연가스 채굴업",
                   "shortName": "2979",
-                  "size": 3812
+                  "size": 312
                 },
               ]
             },
@@ -82,7 +82,7 @@ var data2 = {
               "children": [{
                   "name": "061.철 광업",
                   "shortName": "061.비철금속 광업",
-                  "size": 3534
+                  "size": 334
                 }
               ]
             },
@@ -97,7 +97,7 @@ var data2 = {
               {
                 "name": "072.기타 비금속광물 광업",
                 "shortName": "072.기타 비금속광물 광업",
-                "size": 7074
+                "size": 704
               }
             ]
             },
@@ -137,27 +137,27 @@ var data2 = {
                 {
                   "name": "104.동물성 및 식물성 유지 제조업",
                   "shortName": "104.동물성 및 식물성 유지 제조업",
-                  "size": 381
+                  "size": 31
                 },
                 {
                   "name": "104.낙농제품 및 식용 빙과류 제조업",
                   "shortName": "104.낙농제품 및 식용 빙과류 제조업",
-                  "size": 3812
+                  "size": 32
                 },
                 {
                   "name": "106.곡물 가공품, 전분 및 전분제품 제조업",
                   "shortName": "106.곡물 가공품, 전분 및 전분제품 제조업",
-                  "size": 3812
+                  "size": 382
                 },
                 {
                   "name": "107.기타 식품 제조업",
                   "shortName": "107.기타 식품 제조업",
-                  "size": 3812
+                  "size": 382
                 },
                 {
                   "name": "108.동물용 사료 및 조제식품 제조업",
                   "shortName": "108.동물용 사료 및 조제식품 제조업",
-                  "size": 3812
+                  "size": 312
                 },
               ]
             },
@@ -167,7 +167,7 @@ var data2 = {
               "children": [{
                   "name": "",
                   "shortName": "",
-                  "size": 3534
+                  "size": 354
                 }
               ]
             },
@@ -247,13 +247,54 @@ var data2 = {
               ] 
             }
           ]        
+        },
+        {
+          "name": "E.수도, 하수 및 폐기물 처리, 원료 재생업",
+          "shortName": "E.수도, 하수 및 폐기물 처리, 원료 재생업",
+          "children": [{
+              "name": "36.수도업",
+              "shortName": "36.수도업",
+              "children": [{
+                  "name": "360.수도업",
+                  "shortName": "360.수도업",
+                  "size": 2313
+                },
+                { "name": "","shortName": "","size": 10  },
+                { "name": "","shortName": "","size": 10  }
+              ] 
+            },
+            {
+              "name": "37.하수,폐수 및 분뇨 처리업",
+              "shortName": "37.하수,폐수 및 분뇨 처리업",
+              "children": [{
+                  "name": "370.하수,폐수 및 분뇨 처리업",
+                  "shortName": "370.하수,폐수 및 분뇨 처리업",
+                  "size": 2313
+                },
+                { "name": "","shortName": "","size": 10  },
+                { "name": "","shortName": "","size": 10  }
+              ] 
+            },
+            {
+              "name": "38.폐기물 수집,운반,처리 및 원료 재생업",
+              "shortName": "38.폐기물 수집,운반,처리 및 원료 재생업",
+              "children": [{
+                  "name": "381.폐기물 수집, 운반업",
+                  "shortName": "381.폐기물 수집,운반업",
+                  "size": 2313
+                },
+                { "name": "","shortName": "","size": 10  },
+                { "name": "","shortName": "","size": 10  }
+              ] 
+            }
+          ]        
         }
       ]
 }
 
-var margin = {top: 30, right: 0, bottom: 0, left: 0},
-width = 1200, //640
-height = 530,
+var margin = {top: 30, right: 0, bottom: 0, left: 10},
+width = 1100, //640
+height = 700,
 formatNumber = d3.format(",d"),
 transitioning;
 
@@ -478,9 +519,9 @@ function display(d) {
 
 function text(text) {
   text.selectAll("tspan")
-    .attr("x", function(d) { return x(d.x0) + 6; })
+    .attr("x", function(d) { return x(d.x0) + 23; })
   text.attr("x", function(d) { return x(d.x0) + 6; })
-    .attr("y", function(d) { return y(d.y0) + 3; })
+    .attr("y", function(d) { return y(d.y0) + 10; })
     .style("opacity", function(d) {
        var w = x(d.x1) - x(d.x0);
        return this.getComputedTextLength() < w - 6 ? 1 : 0; });
