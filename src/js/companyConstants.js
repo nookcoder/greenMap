@@ -98,11 +98,11 @@ function setCustomOverlay2(location, name, agency, designated_year, sector, co2,
     return content;
 };
 
-function createPulicSectionContentBlue(name,standard,emition,percentage){
+function createPulicSectionContentBlue(name,standard,emition,decrease,percentage){
     content = '<div class="public_container">'+
     '<div class="public_container_left">'+
         '<span class="public_container_left_name">'+name+'</span>'+
-        '<span class="public_container_left_division">기준배출량(tonCO₂-eq) : '+standard+'(</span>'+
+        '<span class="public_container_left_division">기준배출량(tonCO₂-eq) : '+standard+'</span>'+
     '</div>'+ 
     '<div class="public_container_right">'+
         '<div class="public_container_right_co2">'+
@@ -118,11 +118,11 @@ function createPulicSectionContentBlue(name,standard,emition,percentage){
 }
 
 
-function createPulicSectionContentRed(name,standard,emition,percentage){
+function createPulicSectionContentRed(name,standard,emition,decrease,percentage){
     content = '<div class="public_container">'+
     '<div class="public_container_left">'+
         '<span class="public_container_left_name">'+name+'</span>'+
-        '<span class="public_container_left_division">기준배출량(tonCO₂-eq) : '+standard+'(</span>'+
+        '<span class="public_container_left_division">기준배출량(tonCO₂-eq) : '+standard+'</span>'+
     '</div>'+ 
     '<div class="public_container_right">'+
         '<div class="public_container_right_co2">'+
