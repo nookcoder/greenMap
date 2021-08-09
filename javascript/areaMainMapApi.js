@@ -18,8 +18,146 @@ let radio_d = document.getElementById('d');
 let radio_e = document.getElementById('e');
 let radio_f = document.getElementById('f');
 
+let radio_1_1 = document.getElementById('under_5');
+let radio_1_2 = document.getElementById('under_9');
+let radio_2_1 = document.getElementById('under_19');
+let radio_2_2 = document.getElementById('under_49');
+let radio_3_1 = document.getElementById('under_99');
+let radio_4_1 = document.getElementById('up_100');
+
 function initTmap(){
-   
+  radio_1_1.addEventListener('click', function(){
+    removeOverlay();
+    const url='/data/지역별/도로교통_경유.json';
+    fetch(url)
+    .then((res)=>res.json())
+    .then((myJson)=>{
+    for(var i=0;i<myJson.length;i++){
+    
+        var gas=myJson[i].gas;
+        var region=myJson[i].region;
+        var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+        var imageSize = new kakao.maps.Size(24, 35); 
+        var marker = new kakao.maps.CustomOverlay({
+        map:map,
+        position: latlng,
+        content:"<div class='ovr2'>"+region+'<br>'+gas+"</div>"
+      });
+      markers.push(marker);
+    }})
+    return marker;
+})
+
+radio_1_2.addEventListener('click', function(){
+  removeOverlay();
+  const url='/data/지역별/도로교통_휘발유.json';
+  fetch(url)
+  .then((res)=>res.json())
+  .then((myJson)=>{
+  for(var i=0;i<myJson.length;i++){
+  
+      var gas=myJson[i].gas;
+      var region=myJson[i].region;
+      var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+      var imageSize = new kakao.maps.Size(24, 35); 
+      var marker = new kakao.maps.CustomOverlay({
+      map:map,
+      position: latlng,
+      content:"<div class='ovr2'>"+region+'<br>'+gas+"</div>"
+    });
+    markers.push(marker);
+  }})
+  return marker;
+})
+
+radio_2_1.addEventListener('click', function(){
+  removeOverlay();
+  const url='/data/지역별/철도교통_경유.json';
+  fetch(url)
+  .then((res)=>res.json())
+  .then((myJson)=>{
+  for(var i=0;i<myJson.length;i++){
+  
+      var gas=myJson[i].gas;
+      var region=myJson[i].region;
+      var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+      var imageSize = new kakao.maps.Size(24, 35); 
+      var marker = new kakao.maps.CustomOverlay({
+      map:map,
+      position: latlng,
+      content:"<div class='ovr2'>"+region+'<br>'+gas+"</div>"
+    });
+    markers.push(marker);
+  }})
+  return marker;
+})
+
+radio_2_2.addEventListener('click', function(){
+  removeOverlay();
+  const url='/data/지역별/철도교통_전력.json';
+  fetch(url)
+  .then((res)=>res.json())
+  .then((myJson)=>{
+  for(var i=0;i<myJson.length;i++){
+  
+      var gas=myJson[i].gas;
+      var region=myJson[i].region;
+      var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+      var imageSize = new kakao.maps.Size(24, 35); 
+      var marker = new kakao.maps.CustomOverlay({
+      map:map,
+      position: latlng,
+      content:"<div class='ovr2'>"+region+'<br>'+gas+"</div>"
+    });
+    markers.push(marker);
+  }})
+  return marker;
+})
+
+radio_3_1.addEventListener('click', function(){
+  removeOverlay();
+  const url='/data/지역별/항공교통.json';
+  fetch(url)
+  .then((res)=>res.json())
+  .then((myJson)=>{
+  for(var i=0;i<myJson.length;i++){
+  
+      var gas=myJson[i].gas;
+      var region=myJson[i].region;
+      var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+      var imageSize = new kakao.maps.Size(24, 35); 
+      var marker = new kakao.maps.CustomOverlay({
+      map:map,
+      position: latlng,
+      content:"<div class='ovr2'>"+region+'<br>'+gas+"</div>"
+    });
+    markers.push(marker);
+  }})
+  return marker;
+})
+
+radio_4_1.addEventListener('click', function(){
+  removeOverlay();
+  const url='/data/지역별/항만교통.json';
+  fetch(url)
+  .then((res)=>res.json())
+  .then((myJson)=>{
+  for(var i=0;i<myJson.length;i++){
+  
+      var gas=myJson[i].gas;
+      var region=myJson[i].region;
+      var latlng=new kakao.maps.LatLng(myJson[i].position1,myJson[i].position2);
+      var imageSize = new kakao.maps.Size(24, 35); 
+      var marker = new kakao.maps.CustomOverlay({
+      map:map,
+      position: latlng,
+      content:"<div class='ovr2'>"+region+'<br>'+gas+"</div>"
+    });
+    markers.push(marker);
+  }})
+  return marker;
+})
+
     radio_a.addEventListener('click', function(){
       removeOverlay();
       const url='/data/지역별/석탄.json';

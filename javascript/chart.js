@@ -322,7 +322,9 @@ var options = {	 responsive:true,
 var ctx = $('#myChart').get(0).getContext('2d');
 var myBarChart = new Chart(ctx).Bar(data, options);
 }
-function click_2(){
+
+
+/*function click_2(){
 	new Chart(document.getElementById("myChart"), {
 		type: 'pie',
 		data: {
@@ -655,6 +657,6 @@ var myBarChart = new Chart(ctx).Bar(data, options);
 function asdf(){
 	data = { datasets: [{ backgroundColor: ['red','yellow','blue'], data: [10, 20, 30] }],  labels: ['red','yellow','blue'] };  var ctx1 = document.getElementById("myChart1"); var myPieChart = new Chart(ctx1, { type: 'pie', data: data, options: {} });
 
-}
+}*/
 
 
