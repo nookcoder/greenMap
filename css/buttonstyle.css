@@ -33,44 +33,784 @@
   }
 
   .fake{
-      width: 70px;
-      height: 70px;
+      width: 100px;
+      height: 100px;
       background-color:yellowgreen;
       text-align: center;
       display: table-cell;
-      vertical-align: middle;
       font-size: 0.8em;
       font-weight: bolder;
   }
 
-  .ovr{
-    width: 70px;
-    height: 70px;
+  .ovr_1{
+    width: 110px;
+    height: 110px;
     background-color:yellowgreen;
     text-align: center;
-    border-radius: 30px;
-    display: table-cell;
-    vertical-align: middle;
+    border-radius: 50%;
     font-size: 0.8em;
     font-weight: bolder;
-    border: 3px solid black;
-    border-color: seagreen;
+    opacity:0.8;
+    vertical-align: middle;
+    display:flex;
+    justify-content:center;
+    align-content : center;
+
+}
+.ovr_2{
+  width: 105px;
+  height: 105px;
+  background-color:yellowgreen;
+  text-align: center;
+  border-radius: 50%;
+  opacity:0.8;
+  font-size: 0.8em;
+  font-weight: bolder;
+ 
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_3{
+  width: 95px;
+  height: 95px;
+  background-color:yellowgreen;
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bolder;
+  border-radius: 50%;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_4{
+  width: 150px;
+  height: 150px;
+  background-color:yellowgreen;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bolder;
+  border-radius: 50%;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_5{
+  width: 85px;
+  height: 85px;
+  background-color:yellowgreen;
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bolder;
+  border-radius: 50%;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_6{
+  width: 100px;
+  height: 100px;
+  background-color:yellowgreen;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bolder;
+  border-radius: 50%;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_7{
+  width: 160px;
+  height: 160px;
+  background-color:yellowgreen;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bolder;
+  border-radius: 50%;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_8{
+  width: 90px;
+  height: 90px;
+  background-color:yellowgreen;
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bolder;
+  border-radius: 50%;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_9{
+  width: 200px;
+  height: 200px;
+  background-color:yellowgreen;
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bolder;
+  border-radius: 50%;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_10{
+  width: 170px;
+  height: 170px;
+  background-color:yellowgreen;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bolder;
+  border-radius: 50%;
+  vertical-align: middle;
+  opacity:0.8;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_11{
+  width: 130px;
+  height: 130px;
+  background-color:yellowgreen;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+  opacity:0.8;
+  border-radius: 50%;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_12{
+  width: 360px;
+  height: 360px;
+  background-color:yellowgreen;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+  border-radius: 50%;
+  vertical-align: middle;
+  opacity:0.8;
+}
+.ovr_13{
+  width: 120px;
+  height: 120px;
+  background-color:yellowgreen;
+  text-align: center;
+  font-size: 0.8em;
+  border-radius: 50%;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_14{
+  width: 300px;
+  height: 300px;
+  background-color:yellowgreen;
+  text-align: center;
+  font-size: 1.6em;
+  border-radius: 50%;
+  font-weight: bolder;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+  opacity:0.8;
+}
+.ovr_15{
+  width: 180px;
+  height: 180px;
+  background-color:yellowgreen;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 1.4em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_16{
+  width: 140px;
+  height: 140px;
+  background-color:yellowgreen;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 1.1em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.ovr_17{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color:rgb(16, 179, 16);
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
 }
 
 
-  .ovr1{
-    width: 70px;
-    height: 70px;
-    background-color:lightcoral;
-    text-align: center;
-    border-radius: 30px;
-    display: table-cell;
-    vertical-align: middle;
-    font-size: 0.8em;
-    font-weight: bolder;
-    border: 3px solid black;
-    border-color:red;
+.fuel_1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 0.6em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
 }
+.fuel_2{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_3{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 0.4em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_4{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_5{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_6{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 0.5em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_7{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_8{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 0.4em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_9{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_10{
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_11{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_12{
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_13{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_14{
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_15{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_16{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.fuel_17{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color:rgb(206, 39, 34);
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+
+
+.asdf1{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 0.6em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf2{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 1em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf3{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 0.4em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf4{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf5{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf6{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 0.5em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf7{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf8{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 0.4em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf9{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf10{
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf11{
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf12{
+  width: 320px;
+  height: 320px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf13{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf14{
+  width: 360px;
+  height: 360px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf15{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 1.6em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf16{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+.asdf17{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color:rgb(128, 180, 240);
+  text-align: center;
+  font-size: 0.7em;
+  font-weight: bolder;
+  opacity:0.8;
+  vertical-align: middle;
+  display:flex;
+  justify-content:center;
+  align-content : center;
+
+}
+
+
+
+ 
 
 
 .ovr2{
