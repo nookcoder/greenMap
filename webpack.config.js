@@ -6,8 +6,7 @@ module.exports={
     mode : 'development',
     entry:{
         industryMainSide : "./src/js/industryMainSideMenu.js",
-         industryClassification : "./src/js/industryClassification.js",
-         treeJs: "./src/js/treeJS.js",
+        treeJS: "./src/js/treeJS.js",
          companyMapApi : "./src/js/companyMapApi.js",
          companyPublicSection : "./src/js/companyPublicSection",
 
