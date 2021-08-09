@@ -1,12 +1,16 @@
 @import "reset.css";
 @import "constant.css";
 /* 그린뉴맵 타이틀 글꼴 */
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 /* 설명 글꼴 */
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 
 /* 넓이 1200px 에서 바뀌도록 */
+
+.bottom_border_line {
+  border-bottom: 10px solid rgba(255, 255, 255, 0.8);
+}
+
 .top_menu_bar {
   height: fit-content;
   background-color: var(--topMenuBar_background);
@@ -36,7 +40,7 @@
   color: var(--topMenuBar_title);
   font-weight: bold;
   font-size: 60px;
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
 }
 
 #area a,
@@ -45,7 +49,7 @@
   font-size: 33px;
   text-decoration: none;
   color: white;
-  font-family: 'Nanum', sans-serif;
+  font-family: "Nanum", sans-serif;
 }
 
 #area a:hover,

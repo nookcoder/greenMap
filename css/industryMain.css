@@ -3,8 +3,6 @@
 /* 설명 글꼴 */
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
 
-
-
 #menu_bar_title {
   background-color: var(--sideMenuBar_main_sector);
   font-weight: bolder;
@@ -47,7 +45,7 @@
   float: left;
 }
 
-.detail_industry_div ,
-.three_industry_sector{
+.detail_industry_div,
+.three_industry_sector {
   padding-left: 10px;
 }
