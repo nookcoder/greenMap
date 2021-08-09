@@ -79,7 +79,7 @@ return marker;
 })
 }
 
-function adsf_incheon2()
+function asdf_incheon2()
 {
 
     const url='/data/지역별/도로교통_휘발유.json';
@@ -241,7 +241,7 @@ return marker;
 })
 }
 
-function adsf_gangwon2()
+function asdf_gangwon2()
 {
 
     const url='/data/지역별/도로교통_휘발유.json';

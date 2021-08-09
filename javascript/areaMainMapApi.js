@@ -21,7 +21,6 @@ let radio_f = document.getElementById('f');
 let radio_1_1 = document.getElementById('under_5');
 let radio_1_2 = document.getElementById('under_9');
 let radio_2_1 = document.getElementById('under_19');
-let radio_2_2 = document.getElementById('under_49');
 let radio_3_1 = document.getElementById('under_99');
 let radio_4_1 = document.getElementById('up_100');
 
@@ -42,8 +41,8 @@ function initTmap(){
     asdf_chungnam();
     asdf_jeonbuk();
     asdf_jeonnam();
-    adsf_gyeongbuk();
-    adsf_gyeongnam();
+    asdf_gyeongbuk();
+    asdf_gyeongnam();
     asdf_jeju();     
 })
 
@@ -63,12 +62,32 @@ radio_1_2.addEventListener('click', function(){
   asdf_chungnam2();
   asdf_jeonbuk2();
   asdf_jeonnam2();
-  adsf_gyeongbuk2();
-  adsf_gyeongnam2();
+  asdf_gyeongbuk2();
+  asdf_gyeongnam2();
   asdf_jeju2();     
 })
 
 radio_2_1.addEventListener('click', function(){
+  removeOverlay();  
+    asdf_seoul5();
+    asdf_busan5();
+    asdf_daegu5();
+    asdf_incheon5();
+    asdf_gwangju5();
+    asdf_daejeon5();
+    asdf_ulsan5();
+    asdf_gyeonggi5();
+    asdf_gangwon5();
+    asdf_chungbuk5();
+    asdf_chungnam5();
+    asdf_jeonbuk5();
+    asdf_jeonnam5();
+    asdf_gyeongbuk5();
+    asdf_gyeongnam5();
+})
+
+
+radio_3_1.addEventListener('click', function(){
   removeOverlay();  
     asdf_seoul3();
     asdf_busan3();
@@ -77,19 +96,18 @@ radio_2_1.addEventListener('click', function(){
     asdf_gwangju3();
     asdf_daejeon3();
     asdf_ulsan3();
-    asdf_sejong3();
     asdf_gyeonggi3();
     asdf_gangwon3();
     asdf_chungbuk3();
     asdf_chungnam3();
     asdf_jeonbuk3();
     asdf_jeonnam3();
-    adsf_gyeongbuk3();
-    adsf_gyeongnam3();
-    asdf_jeju3();       
+    asdf_gyeongbuk3();
+    asdf_gyeongnam3();
+    asdf_jeju3();          
 })
 
-radio_2_2.addEventListener('click', function(){
+radio_4_1.addEventListener('click', function(){
   removeOverlay();  
     asdf_seoul4();
     asdf_busan4();
@@ -101,55 +119,7 @@ radio_2_2.addEventListener('click', function(){
     asdf_sejong4();
     asdf_gyeonggi4();
     asdf_gangwon4();
-    asdf_chungbuk4();
-    asdf_chungnam4();
-    asdf_jeonbuk4();
-    asdf_jeonnam4();
-    adsf_gyeongbuk4();
-    adsf_gyeongnam4();
-    asdf_jeju4();          
-})
-
-radio_3_1.addEventListener('click', function(){
-  removeOverlay();  
-  asdf_seoul3();
-  asdf_busan3();
-  asdf_daegu3();
-  asdf_incheon3();
-  asdf_gwangju3();
-  asdf_daejeon3();
-  asdf_ulsan3();
-  asdf_sejong3();
-  asdf_gyeonggi3();
-  asdf_gangwon3();
-  asdf_chungbuk3();
-  asdf_chungnam3();
-  asdf_jeonbuk3();
-  asdf_jeonnam3();
-  adsf_gyeongbuk3();
-  adsf_gyeongnam3();
-  asdf_jeju3();       
-})
-
-radio_4_1.addEventListener('click', function(){
-  removeOverlay();  
-    asdf_seoul6();
-    asdf_busan6();
-    asdf_daegu6();
-    asdf_incheon6();
-    asdf_gwangju6();
-    asdf_daejeon6();
-    asdf_ulsan6();
-    asdf_sejong6();
-    asdf_gyeonggi6();
-    asdf_gangwon6();
-    asdf_chungbuk6();
-    asdf_chungnam6();
-    asdf_jeonbuk6();
-    asdf_jeonnam6();
-    adsf_gyeongbuk6();
-    adsf_gyeongnam6();
-    asdf_jeju6();          
+          
 })
 
     radio_a.addEventListener('click', function(){

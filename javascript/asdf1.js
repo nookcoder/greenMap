@@ -377,6 +377,7 @@ return marker;
 }
 
 function asdf_gyeongbuk()
+
 {
 
     const url='/data/지역별/도로교통_경유.json';

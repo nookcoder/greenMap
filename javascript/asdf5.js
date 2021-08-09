@@ -1,4 +1,4 @@
-function asdf_seoul2()
+function asdf_seoul5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -13,7 +13,7 @@ function asdf_seoul2()
         var lat=myJson[0].position1;
         var lng=myJson[0].position2;    
     }
-    var content="<div class='asdf1'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf12'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -25,7 +25,7 @@ return marker;
 })
 }
 
-function asdf_busan2()
+function asdf_busan5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -40,7 +40,7 @@ function asdf_busan2()
         var lat=myJson[1].position1;
         var lng=myJson[1].position2;    
     }
-    var content="<div class='asdf2'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf10'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -52,7 +52,7 @@ return marker;
 })
 }
 
-function asdf_daegu2()
+function asdf_daegu5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -67,7 +67,7 @@ function asdf_daegu2()
         var lat=myJson[2].position1;
         var lng=myJson[2].position2;    
     }
-    var content="<div class='asdf3'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf10'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -79,7 +79,7 @@ return marker;
 })
 }
 
-function adsf_incheon2()
+function asdf_incheon5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -94,7 +94,7 @@ function adsf_incheon2()
         var lat=myJson[3].position1;
         var lng=myJson[3].position2;    
     }
-    var content="<div class='asdf4'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf10'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -106,7 +106,7 @@ return marker;
 })
 }
 
-function asdf_gwangju2()
+function asdf_gwangju5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -121,7 +121,7 @@ function asdf_gwangju2()
         var lat=myJson[4].position1;
         var lng=myJson[4].position2;    
     }
-    var content="<div class='asdf5'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf4'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -133,7 +133,7 @@ return marker;
 })
 }
 
-function asdf_daejeon2()
+function asdf_daejeon5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -148,7 +148,7 @@ function asdf_daejeon2()
         var lat=myJson[5].position1;
         var lng=myJson[5].position2;    
     }
-    var content="<div class='asdf6'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf4'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -160,7 +160,7 @@ return marker;
 })
 }
 
-function asdf_ulsan2()
+function asdf_ulsan5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -175,7 +175,7 @@ function asdf_ulsan2()
         var lat=myJson[6].position1;
         var lng=myJson[6].position2;    
     }
-    var content="<div class='asdf7'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf4'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -187,34 +187,7 @@ return marker;
 })
 }
 
-function asdf_sejong2()
-{
-
-    const url='/data/지역별/철도교통_전력.json';
-        
-    fetch(url)
-    .then((res)=>res.json())
-    .then((myJson)=>{
-    for(var i=0;i<myJson.length;i++){
-    
-        var gas=myJson[7].gas;
-        var region=myJson[7].region;
-        var lat=myJson[7].position1;
-        var lng=myJson[7].position2;    
-    }
-    var content="<div class='asdf8'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
-    var position = new kakao.maps.LatLng(lat, lng); 
-    var marker = new kakao.maps.CustomOverlay({
-    content: content,
-    position:position    
-});
-marker.setMap(map);
-markers.push(marker);
-return marker;
-})
-}
-
-function asdf_gyeonggi2()
+function asdf_gyeonggi5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -229,7 +202,7 @@ function asdf_gyeonggi2()
         var lat=myJson[8].position1;
         var lng=myJson[8].position2;    
     }
-    var content="<div class='asdf9'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf15'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -241,7 +214,7 @@ return marker;
 })
 }
 
-function adsf_gangwon2()
+function asdf_gangwon5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -256,7 +229,7 @@ function adsf_gangwon2()
         var lat=myJson[9].position1;
         var lng=myJson[9].position2;    
     }
-    var content="<div class='asdf10'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf4'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -268,7 +241,7 @@ return marker;
 })
 }
 
-function asdf_chungbuk2()
+function asdf_chungbuk5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -283,7 +256,7 @@ function asdf_chungbuk2()
         var lat=myJson[10].position1;
         var lng=myJson[10].position2;    
     }
-    var content="<div class='asdf11'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf14'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -295,7 +268,7 @@ return marker;
 })
 }
 
-function asdf_chungnam2()
+function asdf_chungnam5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -322,7 +295,7 @@ return marker;
 })
 }
 
-function asdf_jeonbuk2()
+function asdf_jeonbuk5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -337,7 +310,7 @@ function asdf_jeonbuk2()
         var lat=myJson[12].position1;
         var lng=myJson[12].position2;    
     }
-    var content="<div class='asdf13'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf5'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -349,7 +322,7 @@ return marker;
 })
 }
 
-function asdf_jeonnam2()
+function asdf_jeonnam5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -364,7 +337,7 @@ function asdf_jeonnam2()
         var lat=myJson[13].position1;
         var lng=myJson[13].position2;    
     }
-    var content="<div class='asdf14'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf5'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -376,7 +349,7 @@ return marker;
 })
 }
 
-function asdf_gyeongbuk2()
+function asdf_gyeongbuk5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -391,7 +364,7 @@ function asdf_gyeongbuk2()
         var lat=myJson[14].position1;
         var lng=myJson[14].position2;    
     }
-    var content="<div class='asdf15'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf10'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -403,7 +376,7 @@ return marker;
 })
 }
 
-function asdf_gyeongnam2()
+function asdf_gyeongnam5()
 {
 
     const url='/data/지역별/철도교통_전력.json';
@@ -418,7 +391,7 @@ function asdf_gyeongnam2()
         var lat=myJson[15].position1;
         var lng=myJson[15].position2;    
     }
-    var content="<div class='asdf16'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
+    var content="<div class='asdf5'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
     var position = new kakao.maps.LatLng(lat, lng); 
     var marker = new kakao.maps.CustomOverlay({
     content: content,
@@ -430,30 +403,4 @@ return marker;
 })
 }
 
-function asdf_jeju2()
-{
-
-    const url='/data/지역별/철도교통_전력.json';
-        
-    fetch(url)
-    .then((res)=>res.json())
-    .then((myJson)=>{
-    for(var i=0;i<myJson.length;i++){
-    
-        var gas=myJson[16].gas;
-        var region=myJson[16].region;
-        var lat=myJson[16].position1;
-        var lng=myJson[16].position2;    
-    }
-    var content="<div class='asdf17'>"+'<br>'+'<br>'+region+'<br>'+'<br>'+gas+'톤CO2-eq'+"</div>";
-    var position = new kakao.maps.LatLng(lat, lng); 
-    var marker = new kakao.maps.CustomOverlay({
-    content: content,
-    position:position    
-});
-marker.setMap(map);
-markers.push(marker);
-return marker;
-})
-}
 
