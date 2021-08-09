@@ -4,27 +4,27 @@ let assginmentSubSector = document.querySelector('.assignment_sub_sector');
 let targetSubSector = document.querySelector('.target_sub_sector');
 let publicSubSector = document.querySelector('.public_sub_sector');
 
-let assignmentButton = document.querySelector('#assignment_button');
-let targetButton = document.querySelector('#target_button');
-let publicButton = document.querySelector('#public_button');
+let areaButton = document.querySelector('#areaButton');
+let fuelButton = document.querySelector('#fuelButton');
+let peopleButton = document.querySelector('#peopleButton');
 
 
-let assignmentPeriodSector = document.querySelector('#assignment_period_sector');
-let targetYearSector = document.querySelector('#target_period_sector');
-let publicYearSector=document.querySelector('#public_year_sector'); 
+let assignmentPeriodSector = document.querySelector('#area_period_sector');
+let targetYearSector = document.querySelector('#fuel_sector');
+let publicYearSector=document.querySelector('#people_sector'); 
 
 
-assignmentButton.addEventListener('click',function(){
+areaButton.addEventListener('click',function(){
     assignmentPeriodSector.classList.toggle('showing');
 });
 
 
-targetButton.addEventListener('click',function(){
+fuelButton.addEventListener('click',function(){
     targetYearSector.classList.toggle('showing');
 });
 
 
-publicButton.addEventListener('click',function(){
+peopleButton.addEventListener('click',function(){
     publicYearSector.classList.toggle('showing');
 });
 
