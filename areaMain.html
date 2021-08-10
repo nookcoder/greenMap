@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="css/topMenuBar.css">
     <link rel="stylesheet" href="css/companyMain.css">
     <link rel="stylesheet" href="css/buttonstyle.css">
-    <script src="./javascript/topMenu.js"></script>
 </head>
 <body>
     <nav class="top_menu_bar">
@@ -37,10 +36,10 @@
                     <button class="main_sector_button" id="areaButton">
                         <span>대상 연도</span>
                         <i class="fas fa-chevron-right"></i>
-
-                        <i class="fas fa-chevron-right"></i>
                     </button>
-                    <li id="year">
+                    <ul>
+                        
+                        <li id="year">
                             <ul class="detail_sector" id="area_period_sector">
                                 <li><input id="2019" type="radio" name="year" value="area_2019()" >2019년</li>
                                 <li><input id="2018" type="radio" name="year" value="area_2018()">2018년</li>
@@ -53,6 +52,8 @@
                                 <li><input id="2011" type="radio" name="year" value="area_2011()" >2011년</li>
                             </ul>
                         </li>
+                    </ul>
+                    
                 </li>
                 
                 <li class="main_sector">
@@ -89,11 +90,14 @@
                 </li>
             </ul>
         </nav>
+        
 
 <!-- 지도를 표시할 div 입니다 -->
 <sector id="map"  style="width:100%;height:100vh;">
 <button id="myBtn1" type="button" class="goto_chart_btn" onClick="location.href='area_chart.html';"></button>
 </sector>
+<script src="https://kit.fontawesome.com/ff21ce4721.js" crossorigin="anonymous"></script>
+
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="//https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.0/chart.min.js"></script>
 <script src="/javascript/areaMainMapApi.js"></script>

@@ -1,9 +1,9 @@
 @import "./constant.css";
 /* 설명 글꼴 */
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
-li {
-  padding-left: 12px;
-}
+
+
+
 #main_content {
   display: flex;
 }
@@ -55,9 +55,10 @@ li {
 }
 
 .detail_sector {
-  padding: 5px;
+  /* padding: 5px; */
   display: none;
 }
+
 
 .sub_sector_title {
   padding: 5px;
@@ -122,4 +123,16 @@ li {
   padding: 9px;
   font-family: "Nanum", sans-serif;
 
+}
+
+#fuel_sector li,
+#area_period_sector li,
+#people_sector li {
+  background-color: var(--sideMenuBar_detail_sector);
+}
+.detail_sector li{
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  /* display: none; */
 }
