@@ -8,11 +8,11 @@ function click_seoul(){
 			strokeColor: "rgba(150,200,250,0.8)",
 			highlightFill: "rgba(150,200,250,0.75)",
 			highlightStroke: "rgba(150,200,250,1)",
-			data: [ 108.77161, 115.87188, 115.47957, 118.94027, 119.10136, 116.66371, 117.32206,119.38224,113.66609]
+			data: [ 10877161, 11587188, 11547957, 11894027, 11910136, 11666371, 11732206,11938224,11366609]
 		}
 	]
 };
-var options = {	animation: false };
+var options = {animation: true };
 var ctx = $('#myChart').get(0).getContext('2d');
 var myBarChart = new Chart(ctx).Bar(data, options);
 }
@@ -32,7 +32,7 @@ function click_daegu(){
 		}
 	]
 };
-var options = {	animation: false };
+var options = {	animation: true};
 var ctx = $('#myChart').get(0).getContext('2d');
 var myBarChart = new Chart(ctx).Bar(data, options);
 }
@@ -51,7 +51,7 @@ function click_daejeon(){
 		}
 	]
 };
-var options = {	animation: false };
+var options = {	animation: true};
 var ctx = $('#myChart').get(0).getContext('2d');
 var myBarChart = new Chart(ctx).Bar(data, options);
 }
@@ -70,7 +70,7 @@ function click_incheon(){
 		}
 	]
 };
-var options = {	responsive: true};
+var options = {	animation: true};
 var ctx = $('#myChart').get(0).getContext('2d');
 var myBarChart = new Chart(ctx).Bar(data, options);
 }
@@ -89,7 +89,7 @@ function click_Sejong(){
 		}
 	]
 };
-var options = {	animation: false };
+var options = {	animation: true };
 var ctx = $('#myChart').get(0).getContext('2d');
 var myBarChart = new Chart(ctx).Bar(data, options);
 }
@@ -108,7 +108,7 @@ function click_gyeonggi(){
 		}
 	]
 };
-var options = {	animation: false };
+var options = {	animation: true };
 var ctx = $('#myChart').get(0).getContext('2d');
 var myBarChart = new Chart(ctx).Bar(data, options);
 }
@@ -127,7 +127,7 @@ function click_gangwon(){
 		}
 	]
 };
-var options = {	animation: false };
+var options = {	animation: true };
 var ctx = $('#myChart').get(0).getContext('2d');
 var myBarChart = new Chart(ctx).Bar(data, options);
 }

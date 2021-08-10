@@ -1,0 +1,7753 @@
+<results>
+<currentCount>1936</currentCount>
+<data>
+<item>
+<col name="산업분류명칭">농업</col>
+<col name="산업분류코드">01</col>
+</item>
+<item>
+<col name="산업분류명칭">작물 재배업</col>
+<col name="산업분류코드">011</col>
+</item>
+<item>
+<col name="산업분류명칭">곡물 및 기타 식량작물 재배업</col>
+<col name="산업분류코드">0111</col>
+</item>
+<item>
+<col name="산업분류명칭">곡물 및 기타 식량작물 재배업</col>
+<col name="산업분류코드">01110</col>
+</item>
+<item>
+<col name="산업분류명칭">채소, 화훼작물 및 종묘 재배업</col>
+<col name="산업분류코드">0112</col>
+</item>
+<item>
+<col name="산업분류명칭">채소작물 재배업</col>
+<col name="산업분류코드">01121</col>
+</item>
+<item>
+<col name="산업분류명칭">화훼작물 재배업</col>
+<col name="산업분류코드">01122</col>
+</item>
+<item>
+<col name="산업분류명칭">종자 및 묘목 생산업</col>
+<col name="산업분류코드">01123</col>
+</item>
+<item>
+<col name="산업분류명칭">과실, 음료용 및 향신용 작물 재배업</col>
+<col name="산업분류코드">0113</col>
+</item>
+<item>
+<col name="산업분류명칭">과실작물 재배업</col>
+<col name="산업분류코드">01131</col>
+</item>
+<item>
+<col name="산업분류명칭">음료용 및 향신용 작물 재배업</col>
+<col name="산업분류코드">01132</col>
+</item>
+<item>
+<col name="산업분류코드">0114</col>
+<col name="산업분류명칭">기타 작물 재배업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 작물 재배업</col>
+<col name="산업분류코드">01140</col>
+</item>
+<item>
+<col name="산업분류코드">0115</col>
+<col name="산업분류명칭">시설작물 재배업</col>
+</item>
+<item>
+<col name="산업분류명칭">콩나물 재배업</col>
+<col name="산업분류코드">01151</col>
+</item>
+<item>
+<col name="산업분류명칭">채소, 화훼 및 과실작물 시설 재배업</col>
+<col name="산업분류코드">01152</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 시설작물 재배업</col>
+<col name="산업분류코드">01159</col>
+</item>
+<item>
+<col name="산업분류명칭">축산업</col>
+<col name="산업분류코드">012</col>
+</item>
+<item>
+<col name="산업분류명칭">소 사육업</col>
+<col name="산업분류코드">0121</col>
+</item>
+<item>
+<col name="산업분류명칭">젖소 사육업</col>
+<col name="산업분류코드">01211</col>
+</item>
+<item>
+<col name="산업분류명칭">육우 사육업</col>
+<col name="산업분류코드">01212</col>
+</item>
+<item>
+<col name="산업분류명칭">양돈업</col>
+<col name="산업분류코드">0122</col>
+</item>
+<item>
+<col name="산업분류명칭">양돈업</col>
+<col name="산업분류코드">01220</col>
+</item>
+<item>
+<col name="산업분류명칭">가금류 및 조류 사육업</col>
+<col name="산업분류코드">0123</col>
+</item>
+<item>
+<col name="산업분류명칭">양계업</col>
+<col name="산업분류코드">01231</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 가금류 및 조류 사육업</col>
+<col name="산업분류코드">01239</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 축산업</col>
+<col name="산업분류코드">0129</col>
+</item>
+<item>
+<col name="산업분류명칭">말 및 양 사육업</col>
+<col name="산업분류코드">01291</col>
+</item>
+<item>
+<col name="산업분류코드">01299</col>
+<col name="산업분류명칭">그외 기타 축산업</col>
+</item>
+<item>
+<col name="산업분류명칭">작물재배 및 축산 복합농업</col>
+<col name="산업분류코드">013</col>
+</item>
+<item>
+<col name="산업분류명칭">작물재배 및 축산 복합농업</col>
+<col name="산업분류코드">0130</col>
+</item>
+<item>
+<col name="산업분류명칭">작물재배 및 축산 복합농업</col>
+<col name="산업분류코드">01300</col>
+</item>
+<item>
+<col name="산업분류명칭">작물재배 및 축산 관련 서비스업</col>
+<col name="산업분류코드">014</col>
+</item>
+<item>
+<col name="산업분류명칭">작물재배 관련 서비스업</col>
+<col name="산업분류코드">0141</col>
+</item>
+<item>
+<col name="산업분류코드">01411</col>
+<col name="산업분류명칭">작물재배 지원 서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">농산물 건조, 선별 및 기타 수확후 서비스업</col>
+<col name="산업분류코드">01412</col>
+</item>
+<item>
+<col name="산업분류명칭">축산 관련 서비스업</col>
+<col name="산업분류코드">0142</col>
+</item>
+<item>
+<col name="산업분류명칭">축산 관련 서비스업</col>
+<col name="산업분류코드">01420</col>
+</item>
+<item>
+<col name="산업분류명칭">수렵 및 관련 서비스업</col>
+<col name="산업분류코드">015</col>
+</item>
+<item>
+<col name="산업분류명칭">수렵 및 관련 서비스업</col>
+<col name="산업분류코드">0150</col>
+</item>
+<item>
+<col name="산업분류명칭">수렵 및 관련 서비스업</col>
+<col name="산업분류코드">01500</col>
+</item>
+<item>
+<col name="산업분류명칭">임업</col>
+<col name="산업분류코드">02</col>
+</item>
+<item>
+<col name="산업분류명칭">임업</col>
+<col name="산업분류코드">020</col>
+</item>
+<item>
+<col name="산업분류명칭">영림업</col>
+<col name="산업분류코드">0201</col>
+</item>
+<item>
+<col name="산업분류명칭">임업용 종묘 생산업</col>
+<col name="산업분류코드">02011</col>
+</item>
+<item>
+<col name="산업분류명칭">육림업</col>
+<col name="산업분류코드">02012</col>
+</item>
+<item>
+<col name="산업분류명칭">벌목업</col>
+<col name="산업분류코드">0202</col>
+</item>
+<item>
+<col name="산업분류명칭">벌목업</col>
+<col name="산업분류코드">02020</col>
+</item>
+<item>
+<col name="산업분류명칭">임산물 채취업</col>
+<col name="산업분류코드">0203</col>
+</item>
+<item>
+<col name="산업분류코드">02030</col>
+<col name="산업분류명칭">임산물 채취업</col>
+</item>
+<item>
+<col name="산업분류명칭">임업 관련 서비스업</col>
+<col name="산업분류코드">0204</col>
+</item>
+<item>
+<col name="산업분류명칭">임업 관련 서비스업</col>
+<col name="산업분류코드">02040</col>
+</item>
+<item>
+<col name="산업분류명칭">어업</col>
+<col name="산업분류코드">03</col>
+</item>
+<item>
+<col name="산업분류명칭">어로 어업</col>
+<col name="산업분류코드">031</col>
+</item>
+<item>
+<col name="산업분류명칭">해면 어업</col>
+<col name="산업분류코드">0311</col>
+</item>
+<item>
+<col name="산업분류명칭">원양 어업</col>
+<col name="산업분류코드">03111</col>
+</item>
+<item>
+<col name="산업분류코드">03112</col>
+<col name="산업분류명칭">연근해 어업</col>
+</item>
+<item>
+<col name="산업분류명칭">내수면 어업</col>
+<col name="산업분류코드">0312</col>
+</item>
+<item>
+<col name="산업분류명칭">내수면 어업</col>
+<col name="산업분류코드">03120</col>
+</item>
+<item>
+<col name="산업분류코드">032</col>
+<col name="산업분류명칭">양식어업 및 어업관련 서비스업</col>
+</item>
+<item>
+<col name="산업분류코드">0321</col>
+<col name="산업분류명칭">양식 어업</col>
+</item>
+<item>
+<col name="산업분류명칭">해면 양식 어업</col>
+<col name="산업분류코드">03211</col>
+</item>
+<item>
+<col name="산업분류명칭">내수면 양식 어업</col>
+<col name="산업분류코드">03212</col>
+</item>
+<item>
+<col name="산업분류명칭">수산물 부화 및 종묘 생산업</col>
+<col name="산업분류코드">03213</col>
+</item>
+<item>
+<col name="산업분류명칭">어업 관련 서비스업</col>
+<col name="산업분류코드">0322</col>
+</item>
+<item>
+<col name="산업분류명칭">어업 관련 서비스업</col>
+<col name="산업분류코드">03220</col>
+</item>
+<item>
+<col name="산업분류명칭">석탄, 원유 및 천연가스 광업</col>
+<col name="산업분류코드">05</col>
+</item>
+<item>
+<col name="산업분류명칭">석탄 광업</col>
+<col name="산업분류코드">051</col>
+</item>
+<item>
+<col name="산업분류명칭">석탄 광업</col>
+<col name="산업분류코드">0510</col>
+</item>
+<item>
+<col name="산업분류명칭">석탄 광업</col>
+<col name="산업분류코드">05100</col>
+</item>
+<item>
+<col name="산업분류코드">052</col>
+<col name="산업분류명칭">원유 및 천연가스 채굴업</col>
+</item>
+<item>
+<col name="산업분류명칭">원유 및 천연가스 채굴업</col>
+<col name="산업분류코드">0520</col>
+</item>
+<item>
+<col name="산업분류명칭">원유 및 천연가스 채굴업</col>
+<col name="산업분류코드">05200</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 광업</col>
+<col name="산업분류코드">06</col>
+</item>
+<item>
+<col name="산업분류명칭">철 광업</col>
+<col name="산업분류코드">061</col>
+</item>
+<item>
+<col name="산업분류명칭">철 광업</col>
+<col name="산업분류코드">0610</col>
+</item>
+<item>
+<col name="산업분류명칭">철 광업</col>
+<col name="산업분류코드">06100</col>
+</item>
+<item>
+<col name="산업분류코드">062</col>
+<col name="산업분류명칭">비철금속 광업</col>
+</item>
+<item>
+<col name="산업분류명칭">우라늄 및 토륨 광업</col>
+<col name="산업분류코드">0621</col>
+</item>
+<item>
+<col name="산업분류명칭">우라늄 및 토륨 광업</col>
+<col name="산업분류코드">06210</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 비철금속 광업</col>
+<col name="산업분류코드">0629</col>
+</item>
+<item>
+<col name="산업분류명칭">금·은 및 백금 광업</col>
+<col name="산업분류코드">06291</col>
+</item>
+<item>
+<col name="산업분류명칭">연 및 아연 광업</col>
+<col name="산업분류코드">06292</col>
+</item>
+<item>
+<col name="산업분류코드">06299</col>
+<col name="산업분류명칭">그외 기타 비철금속 광업</col>
+</item>
+<item>
+<col name="산업분류명칭">비금속광물 광업;연료용 제외</col>
+<col name="산업분류코드">07</col>
+</item>
+<item>
+<col name="산업분류명칭">토사석 광업</col>
+<col name="산업분류코드">071</col>
+</item>
+<item>
+<col name="산업분류명칭">석회석 및 점토 광업</col>
+<col name="산업분류코드">0711</col>
+</item>
+<item>
+<col name="산업분류명칭">석회석 광업</col>
+<col name="산업분류코드">07111</col>
+</item>
+<item>
+<col name="산업분류명칭">고령토 및 기타 점토 광업</col>
+<col name="산업분류코드">07112</col>
+</item>
+<item>
+<col name="산업분류명칭">석재, 쇄석 및 모래자갈 채취업</col>
+<col name="산업분류코드">0712</col>
+</item>
+<item>
+<col name="산업분류명칭">건설용 석재 채굴업</col>
+<col name="산업분류코드">07121</col>
+</item>
+<item>
+<col name="산업분류명칭">건설용 쇄석 생산업</col>
+<col name="산업분류코드">07122</col>
+</item>
+<item>
+<col name="산업분류명칭">모래 및 자갈 채취업</col>
+<col name="산업분류코드">07123</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 비금속광물 광업</col>
+<col name="산업분류코드">072</col>
+</item>
+<item>
+<col name="산업분류명칭">화학용 및 비료원료용 광물 광업</col>
+<col name="산업분류코드">0721</col>
+</item>
+<item>
+<col name="산업분류명칭">화학용 및 비료원료용 광물 광업</col>
+<col name="산업분류코드">07210</col>
+</item>
+<item>
+<col name="산업분류명칭">소금 채취업</col>
+<col name="산업분류코드">0722</col>
+</item>
+<item>
+<col name="산업분류코드">07220</col>
+<col name="산업분류명칭">소금 채취업</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 비금속광물 광업</col>
+<col name="산업분류코드">0729</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 비금속광물 광업</col>
+<col name="산업분류코드">07290</col>
+</item>
+<item>
+<col name="산업분류코드">08</col>
+<col name="산업분류명칭">광업 지원 서비스업</col>
+</item>
+<item>
+<col name="산업분류코드">080</col>
+<col name="산업분류명칭">광업 지원 서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">원유 및 천연가스 채굴관련 서비스업</col>
+<col name="산업분류코드">0801</col>
+</item>
+<item>
+<col name="산업분류명칭">원유 및 천연가스 채굴관련 서비스업</col>
+<col name="산업분류코드">08010</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 광업 지원 서비스업</col>
+<col name="산업분류코드">0809</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 광업 지원 서비스업</col>
+<col name="산업분류코드">08090</col>
+</item>
+<item>
+<col name="산업분류명칭">식료품 제조업</col>
+<col name="산업분류코드">10</col>
+</item>
+<item>
+<col name="산업분류명칭">도축, 육류 가공 및 저장 처리업</col>
+<col name="산업분류코드">101</col>
+</item>
+<item>
+<col name="산업분류명칭">도축업</col>
+<col name="산업분류코드">1011</col>
+</item>
+<item>
+<col name="산업분류명칭">도축업</col>
+<col name="산업분류코드">10110</col>
+</item>
+<item>
+<col name="산업분류명칭">육류 가공 및 저장 처리업</col>
+<col name="산업분류코드">1012</col>
+</item>
+<item>
+<col name="산업분류명칭">가금류 가공 및 저장 처리업</col>
+<col name="산업분류코드">10121</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 육류 가공 및 저장처리업</col>
+<col name="산업분류코드">10129</col>
+</item>
+<item>
+<col name="산업분류코드">102</col>
+<col name="산업분류명칭">수산물 가공 및 저장 처리업</col>
+</item>
+<item>
+<col name="산업분류명칭">수산동물 가공 및 저장 처리업</col>
+<col name="산업분류코드">1021</col>
+</item>
+<item>
+<col name="산업분류명칭">수산동물 훈제, 조리 및 유사 조제식품 제조업</col>
+<col name="산업분류코드">10211</col>
+</item>
+<item>
+<col name="산업분류명칭">수산동물 건조 및 염장품 제조업</col>
+<col name="산업분류코드">10212</col>
+</item>
+<item>
+<col name="산업분류명칭">수산동물 냉동품 제조업</col>
+<col name="산업분류코드">10213</col>
+</item>
+<item>
+<col name="산업분류코드">10219</col>
+<col name="산업분류명칭">기타 수산동물 가공 및 저장처리업</col>
+</item>
+<item>
+<col name="산업분류명칭">수산식물 가공 및 저장 처리업</col>
+<col name="산업분류코드">1022</col>
+</item>
+<item>
+<col name="산업분류코드">10220</col>
+<col name="산업분류명칭">수산식물 가공 및 저장 처리업</col>
+</item>
+<item>
+<col name="산업분류명칭">과실, 채소 가공 및 저장 처리업</col>
+<col name="산업분류코드">103</col>
+</item>
+<item>
+<col name="산업분류명칭">과실, 채소 가공 및 저장 처리업</col>
+<col name="산업분류코드">1030</col>
+</item>
+<item>
+<col name="산업분류명칭">과실 및 채소 절임식품 제조업</col>
+<col name="산업분류코드">10301</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 과실·채소 가공 및 저장처리업</col>
+<col name="산업분류코드">10309</col>
+</item>
+<item>
+<col name="산업분류명칭">동물성 및 식물성 유지 제조업</col>
+<col name="산업분류코드">104</col>
+</item>
+<item>
+<col name="산업분류코드">1040</col>
+<col name="산업분류명칭">동물성 및 식물성 유지 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">동물성 유지 제조업</col>
+<col name="산업분류코드">10401</col>
+</item>
+<item>
+<col name="산업분류명칭">식물성 유지 제조업</col>
+<col name="산업분류코드">10402</col>
+</item>
+<item>
+<col name="산업분류명칭">식용 정제유 및 가공유 제조업</col>
+<col name="산업분류코드">10403</col>
+</item>
+<item>
+<col name="산업분류명칭">낙농제품 및 식용빙과류 제조업</col>
+<col name="산업분류코드">105</col>
+</item>
+<item>
+<col name="산업분류명칭">낙농제품 및 식용빙과류 제조업</col>
+<col name="산업분류코드">1050</col>
+</item>
+<item>
+<col name="산업분류명칭">액상시유 및 기타 낙농제품 제조업</col>
+<col name="산업분류코드">10501</col>
+</item>
+<item>
+<col name="산업분류명칭">아이스크림 및 기타 식용빙과류 제조업</col>
+<col name="산업분류코드">10502</col>
+</item>
+<item>
+<col name="산업분류명칭">곡물가공품, 전분 및 전분제품 제조업</col>
+<col name="산업분류코드">106</col>
+</item>
+<item>
+<col name="산업분류명칭">곡물 가공품 제조업</col>
+<col name="산업분류코드">1061</col>
+</item>
+<item>
+<col name="산업분류명칭">곡물 도정업</col>
+<col name="산업분류코드">10611</col>
+</item>
+<item>
+<col name="산업분류명칭">곡물 제분업</col>
+<col name="산업분류코드">10612</col>
+</item>
+<item>
+<col name="산업분류명칭">제과용 혼합분말 및 반죽 제조업</col>
+<col name="산업분류코드">10613</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 곡물가공품 제조업</col>
+<col name="산업분류코드">10619</col>
+</item>
+<item>
+<col name="산업분류명칭">전분제품 및 당류 제조업</col>
+<col name="산업분류코드">1062</col>
+</item>
+<item>
+<col name="산업분류코드">10620</col>
+<col name="산업분류명칭">전분제품 및 당류 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 식품 제조업</col>
+<col name="산업분류코드">107</col>
+</item>
+<item>
+<col name="산업분류명칭">떡, 빵 및 과자류 제조업</col>
+<col name="산업분류코드">1071</col>
+</item>
+<item>
+<col name="산업분류명칭">떡류 제조업</col>
+<col name="산업분류코드">10711</col>
+</item>
+<item>
+<col name="산업분류명칭">빵류 제조업</col>
+<col name="산업분류코드">10712</col>
+</item>
+<item>
+<col name="산업분류명칭">코코아 제품 및 과자류 제조업</col>
+<col name="산업분류코드">10713</col>
+</item>
+<item>
+<col name="산업분류명칭">설탕 제조업</col>
+<col name="산업분류코드">1072</col>
+</item>
+<item>
+<col name="산업분류명칭">설탕 제조업</col>
+<col name="산업분류코드">10720</col>
+</item>
+<item>
+<col name="산업분류명칭">면류, 마카로니 및 유사식품 제조업</col>
+<col name="산업분류코드">1073</col>
+</item>
+<item>
+<col name="산업분류명칭">면류, 마카로니 및 유사식품 제조업</col>
+<col name="산업분류코드">10730</col>
+</item>
+<item>
+<col name="산업분류명칭">조미료 및 식품 첨가물 제조업</col>
+<col name="산업분류코드">1074</col>
+</item>
+<item>
+<col name="산업분류명칭">식초, 발효 및 화학 조미료 제조업</col>
+<col name="산업분류코드">10741</col>
+</item>
+<item>
+<col name="산업분류코드">10742</col>
+<col name="산업분류명칭">천연 및 혼합조제 조미료 제조업</col>
+</item>
+<item>
+<col name="산업분류코드">10743</col>
+<col name="산업분류명칭">장류 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 식품 첨가물 제조업</col>
+<col name="산업분류코드">10749</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 식료품 제조업</col>
+<col name="산업분류코드">1079</col>
+</item>
+<item>
+<col name="산업분류명칭">커피 가공업</col>
+<col name="산업분류코드">10791</col>
+</item>
+<item>
+<col name="산업분류명칭">차류 가공업</col>
+<col name="산업분류코드">10792</col>
+</item>
+<item>
+<col name="산업분류코드">10793</col>
+<col name="산업분류명칭">수프 및 균질화식품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">두부 및 유사식품 제조업</col>
+<col name="산업분류코드">10794</col>
+</item>
+<item>
+<col name="산업분류명칭">인삼식품 제조업</col>
+<col name="산업분류코드">10795</col>
+</item>
+<item>
+<col name="산업분류명칭">건강보조용 액화식품 제조업</col>
+<col name="산업분류코드">10796</col>
+</item>
+<item>
+<col name="산업분류명칭">건강기능식품 제조업</col>
+<col name="산업분류코드">10797</col>
+</item>
+<item>
+<col name="산업분류명칭">도시락 및 식사용 조리식품 제조업</col>
+<col name="산업분류코드">10798</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 식료품 제조업</col>
+<col name="산업분류코드">10799</col>
+</item>
+<item>
+<col name="산업분류명칭">동물용 사료 및 조제식품 제조업</col>
+<col name="산업분류코드">108</col>
+</item>
+<item>
+<col name="산업분류명칭">동물용 사료 및 조제식품 제조업</col>
+<col name="산업분류코드">1080</col>
+</item>
+<item>
+<col name="산업분류명칭">동물용 사료 및 조제식품 제조업</col>
+<col name="산업분류코드">10800</col>
+</item>
+<item>
+<col name="산업분류명칭">음료 제조업</col>
+<col name="산업분류코드">11</col>
+</item>
+<item>
+<col name="산업분류코드">111</col>
+<col name="산업분류명칭">알콜음료 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">발효주 제조업</col>
+<col name="산업분류코드">1111</col>
+</item>
+<item>
+<col name="산업분류명칭">탁주 및 약주 제조업</col>
+<col name="산업분류코드">11111</col>
+</item>
+<item>
+<col name="산업분류명칭">청주 제조업</col>
+<col name="산업분류코드">11112</col>
+</item>
+<item>
+<col name="산업분류명칭">맥아 및 맥주 제조업</col>
+<col name="산업분류코드">11113</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 발효주 제조업</col>
+<col name="산업분류코드">11119</col>
+</item>
+<item>
+<col name="산업분류명칭">증류주 및 합성주 제조업</col>
+<col name="산업분류코드">1112</col>
+</item>
+<item>
+<col name="산업분류명칭">주정 제조업</col>
+<col name="산업분류코드">11121</col>
+</item>
+<item>
+<col name="산업분류명칭">소주 제조업</col>
+<col name="산업분류코드">11122</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 증류주 및 합성주 제조업</col>
+<col name="산업분류코드">11129</col>
+</item>
+<item>
+<col name="산업분류명칭">비알콜음료 및 얼음 제조업</col>
+<col name="산업분류코드">112</col>
+</item>
+<item>
+<col name="산업분류명칭">비알콜음료 및 얼음 제조업</col>
+<col name="산업분류코드">1120</col>
+</item>
+<item>
+<col name="산업분류명칭">얼음 제조업</col>
+<col name="산업분류코드">11201</col>
+</item>
+<item>
+<col name="산업분류명칭">생수 생산업</col>
+<col name="산업분류코드">11202</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 비알콜음료 제조업</col>
+<col name="산업분류코드">11209</col>
+</item>
+<item>
+<col name="산업분류명칭">담배 제조업</col>
+<col name="산업분류코드">12</col>
+</item>
+<item>
+<col name="산업분류명칭">담배 제조업</col>
+<col name="산업분류코드">120</col>
+</item>
+<item>
+<col name="산업분류명칭">담배 제조업</col>
+<col name="산업분류코드">1200</col>
+</item>
+<item>
+<col name="산업분류명칭">담배 재건조업</col>
+<col name="산업분류코드">12001</col>
+</item>
+<item>
+<col name="산업분류명칭">담배제품 제조업</col>
+<col name="산업분류코드">12002</col>
+</item>
+<item>
+<col name="산업분류코드">13</col>
+<col name="산업분류명칭">섬유제품 제조업; 의복제외</col>
+</item>
+<item>
+<col name="산업분류명칭">방적 및 가공사 제조업</col>
+<col name="산업분류코드">131</col>
+</item>
+<item>
+<col name="산업분류명칭">방적 및 가공사 제조업</col>
+<col name="산업분류코드">1310</col>
+</item>
+<item>
+<col name="산업분류명칭">면 방적업</col>
+<col name="산업분류코드">13101</col>
+</item>
+<item>
+<col name="산업분류명칭">모 방적업</col>
+<col name="산업분류코드">13102</col>
+</item>
+<item>
+<col name="산업분류명칭">화학섬유 방적업</col>
+<col name="산업분류코드">13103</col>
+</item>
+<item>
+<col name="산업분류명칭">연사 및 가공사 제조업</col>
+<col name="산업분류코드">13104</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 방적업</col>
+<col name="산업분류코드">13109</col>
+</item>
+<item>
+<col name="산업분류명칭">직물직조 및 직물제품 제조업</col>
+<col name="산업분류코드">132</col>
+</item>
+<item>
+<col name="산업분류명칭">직물 직조업</col>
+<col name="산업분류코드">1321</col>
+</item>
+<item>
+<col name="산업분류명칭">면직물 직조업</col>
+<col name="산업분류코드">13211</col>
+</item>
+<item>
+<col name="산업분류명칭">모직물 직조업</col>
+<col name="산업분류코드">13212</col>
+</item>
+<item>
+<col name="산업분류명칭">화학섬유직물 직조업</col>
+<col name="산업분류코드">13213</col>
+</item>
+<item>
+<col name="산업분류명칭">견직물 직조업</col>
+<col name="산업분류코드">13214</col>
+</item>
+<item>
+<col name="산업분류명칭">특수직물 및 기타직물 직조업</col>
+<col name="산업분류코드">13219</col>
+</item>
+<item>
+<col name="산업분류코드">1322</col>
+<col name="산업분류명칭">직물제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">침구 및 관련제품 제조업</col>
+<col name="산업분류코드">13221</col>
+</item>
+<item>
+<col name="산업분류명칭">자수제품 및 자수용재료 제조업</col>
+<col name="산업분류코드">13222</col>
+</item>
+<item>
+<col name="산업분류명칭">커튼 및 유사제품 제조업</col>
+<col name="산업분류코드">13223</col>
+</item>
+<item>
+<col name="산업분류명칭">천막 및 기타 캔버스 제품 제조업</col>
+<col name="산업분류코드">13224</col>
+</item>
+<item>
+<col name="산업분류코드">13225</col>
+<col name="산업분류명칭">직물포대 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 직물제품 제조업</col>
+<col name="산업분류코드">13229</col>
+</item>
+<item>
+<col name="산업분류명칭">편조원단 및 편조제품 제조업</col>
+<col name="산업분류코드">133</col>
+</item>
+<item>
+<col name="산업분류명칭">편조원단 제조업</col>
+<col name="산업분류코드">1331</col>
+</item>
+<item>
+<col name="산업분류명칭">편조원단 제조업</col>
+<col name="산업분류코드">13310</col>
+</item>
+<item>
+<col name="산업분류명칭">편조제품 제조업</col>
+<col name="산업분류코드">1332</col>
+</item>
+<item>
+<col name="산업분류명칭">편조제품 제조업</col>
+<col name="산업분류코드">13320</col>
+</item>
+<item>
+<col name="산업분류코드">134</col>
+<col name="산업분류명칭">섬유제품 염색, 정리 및 마무리 가공업</col>
+</item>
+<item>
+<col name="산업분류명칭">섬유제품 염색, 정리 및 마무리 가공업</col>
+<col name="산업분류코드">1340</col>
+</item>
+<item>
+<col name="산업분류명칭">솜 및 실 염색가공업</col>
+<col name="산업분류코드">13401</col>
+</item>
+<item>
+<col name="산업분류명칭">직물 및 편조원단 염색 가공업</col>
+<col name="산업분류코드">13402</col>
+</item>
+<item>
+<col name="산업분류명칭">날염 가공업</col>
+<col name="산업분류코드">13403</col>
+</item>
+<item>
+<col name="산업분류명칭">섬유사 및 직물 호부처리업</col>
+<col name="산업분류코드">13404</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 섬유제품 염색, 정리 및 마무리 가공업</col>
+<col name="산업분류코드">13409</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 섬유제품 제조업</col>
+<col name="산업분류코드">139</col>
+</item>
+<item>
+<col name="산업분류명칭">카펫, 마루덮개 및 유사제품 제조업</col>
+<col name="산업분류코드">1391</col>
+</item>
+<item>
+<col name="산업분류명칭">카펫, 마루덮개 및 유사제품 제조업</col>
+<col name="산업분류코드">13910</col>
+</item>
+<item>
+<col name="산업분류코드">1392</col>
+<col name="산업분류명칭">끈, 로프, 망 및 끈가공품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">끈 및 로프 제조업</col>
+<col name="산업분류코드">13921</col>
+</item>
+<item>
+<col name="산업분류코드">13922</col>
+<col name="산업분류명칭">어망 및 기타 끈가공품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 섬유제품 제조업</col>
+<col name="산업분류코드">1399</col>
+</item>
+<item>
+<col name="산업분류명칭">세폭직물 제조업</col>
+<col name="산업분류코드">13991</col>
+</item>
+<item>
+<col name="산업분류명칭">부직포 및 펠트 제조업</col>
+<col name="산업분류코드">13992</col>
+</item>
+<item>
+<col name="산업분류명칭">특수사 및 코드직물 제조업</col>
+<col name="산업분류코드">13993</col>
+</item>
+<item>
+<col name="산업분류명칭">적층 및 표면처리 직물 제조업</col>
+<col name="산업분류코드">13994</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 섬유제품 제조업</col>
+<col name="산업분류코드">13999</col>
+</item>
+<item>
+<col name="산업분류명칭">의복, 의복액세서리 및 모피제품 제조업</col>
+<col name="산업분류코드">14</col>
+</item>
+<item>
+<col name="산업분류명칭">봉제의복 제조업</col>
+<col name="산업분류코드">141</col>
+</item>
+<item>
+<col name="산업분류명칭">정장 제조업</col>
+<col name="산업분류코드">1411</col>
+</item>
+<item>
+<col name="산업분류명칭">남자용 정장 제조업</col>
+<col name="산업분류코드">14111</col>
+</item>
+<item>
+<col name="산업분류명칭">여자용 정장 제조업</col>
+<col name="산업분류코드">14112</col>
+</item>
+<item>
+<col name="산업분류명칭">내의 및 잠옷 제조업</col>
+<col name="산업분류코드">1412</col>
+</item>
+<item>
+<col name="산업분류명칭">내의 및 잠옷 제조업</col>
+<col name="산업분류코드">14120</col>
+</item>
+<item>
+<col name="산업분류명칭">한복 제조업</col>
+<col name="산업분류코드">1413</col>
+</item>
+<item>
+<col name="산업분류명칭">한복 제조업</col>
+<col name="산업분류코드">14130</col>
+</item>
+<item>
+<col name="산업분류코드">1419</col>
+<col name="산업분류명칭">기타 봉제의복 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">셔츠 및 체육복 제조업</col>
+<col name="산업분류코드">14191</col>
+</item>
+<item>
+<col name="산업분류명칭">근무복, 작업복 및 유사의복 제조업</col>
+<col name="산업분류코드">14192</col>
+</item>
+<item>
+<col name="산업분류명칭">가죽의복 제조업</col>
+<col name="산업분류코드">14193</col>
+</item>
+<item>
+<col name="산업분류코드">14194</col>
+<col name="산업분류명칭">유아용 의복 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 봉제의복 제조업</col>
+<col name="산업분류코드">14199</col>
+</item>
+<item>
+<col name="산업분류명칭">모피가공 및 모피제품 제조업</col>
+<col name="산업분류코드">142</col>
+</item>
+<item>
+<col name="산업분류명칭">모피가공 및 모피제품 제조업</col>
+<col name="산업분류코드">1420</col>
+</item>
+<item>
+<col name="산업분류명칭">원모피 가공업</col>
+<col name="산업분류코드">14201</col>
+</item>
+<item>
+<col name="산업분류코드">14202</col>
+<col name="산업분류명칭">천연모피제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">인조모피 및 인조모피 제품 제조업</col>
+<col name="산업분류코드">14203</col>
+</item>
+<item>
+<col name="산업분류명칭">편조의복 제조업</col>
+<col name="산업분류코드">143</col>
+</item>
+<item>
+<col name="산업분류명칭">편조의복 제조업</col>
+<col name="산업분류코드">1430</col>
+</item>
+<item>
+<col name="산업분류명칭">편조의복 제조업</col>
+<col name="산업분류코드">14300</col>
+</item>
+<item>
+<col name="산업분류명칭">의복 액세서리 제조업</col>
+<col name="산업분류코드">144</col>
+</item>
+<item>
+<col name="산업분류명칭">편조의복 액세서리 제조업</col>
+<col name="산업분류코드">1441</col>
+</item>
+<item>
+<col name="산업분류코드">14411</col>
+<col name="산업분류명칭">스타킹 및 기타양말 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 편조의복 액세서리 제조업</col>
+<col name="산업분류코드">14419</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 의복액세서리 제조업</col>
+<col name="산업분류코드">1449</col>
+</item>
+<item>
+<col name="산업분류명칭">모자 제조업</col>
+<col name="산업분류코드">14491</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 의복액세서리 제조업</col>
+<col name="산업분류코드">14499</col>
+</item>
+<item>
+<col name="산업분류명칭">가죽, 가방 및 신발 제조업</col>
+<col name="산업분류코드">15</col>
+</item>
+<item>
+<col name="산업분류명칭">가죽, 가방 및 유사제품 제조업</col>
+<col name="산업분류코드">151</col>
+</item>
+<item>
+<col name="산업분류명칭">원피가공 및 가죽 제조업</col>
+<col name="산업분류코드">1511</col>
+</item>
+<item>
+<col name="산업분류명칭">원피가공 및 가죽 제조업</col>
+<col name="산업분류코드">15110</col>
+</item>
+<item>
+<col name="산업분류코드">1512</col>
+<col name="산업분류명칭">핸드백, 가방 및 기타 보호용 케이스 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">핸드백 및 지갑 제조업</col>
+<col name="산업분류코드">15121</col>
+</item>
+<item>
+<col name="산업분류명칭">가방 및 기타 보호용 케이스 제조업</col>
+<col name="산업분류코드">15129</col>
+</item>
+<item>
+<col name="산업분류코드">1519</col>
+<col name="산업분류명칭">기타 가죽제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 가죽제품 제조업</col>
+<col name="산업분류코드">15190</col>
+</item>
+<item>
+<col name="산업분류명칭">신발 및 신발부분품 제조업</col>
+<col name="산업분류코드">152</col>
+</item>
+<item>
+<col name="산업분류명칭">신발제조업</col>
+<col name="산업분류코드">1521</col>
+</item>
+<item>
+<col name="산업분류코드">15211</col>
+<col name="산업분류명칭">구두류 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 신발 제조업</col>
+<col name="산업분류코드">15219</col>
+</item>
+<item>
+<col name="산업분류명칭">신발부분품 제조업</col>
+<col name="산업분류코드">1522</col>
+</item>
+<item>
+<col name="산업분류명칭">신발부분품 제조업</col>
+<col name="산업분류코드">15220</col>
+</item>
+<item>
+<col name="산업분류명칭">목재 및 나무제품 제조업;가구제외</col>
+<col name="산업분류코드">16</col>
+</item>
+<item>
+<col name="산업분류코드">161</col>
+<col name="산업분류명칭">제재 및 목재 가공업</col>
+</item>
+<item>
+<col name="산업분류명칭">제재 및 목재 가공업</col>
+<col name="산업분류코드">1610</col>
+</item>
+<item>
+<col name="산업분류코드">16101</col>
+<col name="산업분류명칭">일반 제재업</col>
+</item>
+<item>
+<col name="산업분류명칭">표면가공목재 및 특정 목적용 제재목 제조업</col>
+<col name="산업분류코드">16102</col>
+</item>
+<item>
+<col name="산업분류명칭">목재 보존, 방부처리, 도장 및 유사 처리업</col>
+<col name="산업분류코드">16103</col>
+</item>
+<item>
+<col name="산업분류명칭">나무제품 제조업</col>
+<col name="산업분류코드">162</col>
+</item>
+<item>
+<col name="산업분류명칭">박판, 합판 및 강화목제품 제조업</col>
+<col name="산업분류코드">1621</col>
+</item>
+<item>
+<col name="산업분류명칭">박판, 합판 및 유사적층판 제조업</col>
+<col name="산업분류코드">16211</col>
+</item>
+<item>
+<col name="산업분류명칭">강화 및 재생 목재 제조업</col>
+<col name="산업분류코드">16212</col>
+</item>
+<item>
+<col name="산업분류명칭">건축용 나무제품 제조업</col>
+<col name="산업분류코드">1622</col>
+</item>
+<item>
+<col name="산업분류명칭">목재문 및 관련제품 제조업</col>
+<col name="산업분류코드">16221</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 건축용 나무제품 제조업</col>
+<col name="산업분류코드">16229</col>
+</item>
+<item>
+<col name="산업분류명칭">목재 상자, 드럼 및 적재판 제조업</col>
+<col name="산업분류코드">1623</col>
+</item>
+<item>
+<col name="산업분류명칭">목재 깔판류 및 기타 적재판 제조업</col>
+<col name="산업분류코드">16231</col>
+</item>
+<item>
+<col name="산업분류명칭">목재 포장용 상자, 드럼 및 유사용기 제조업</col>
+<col name="산업분류코드">16232</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 나무제품 제조업</col>
+<col name="산업분류코드">1629</col>
+</item>
+<item>
+<col name="산업분류명칭">목재 도구 및 기구 제조업</col>
+<col name="산업분류코드">16291</col>
+</item>
+<item>
+<col name="산업분류명칭">주방용 및 식탁용 목제품 제조업</col>
+<col name="산업분류코드">16292</col>
+</item>
+<item>
+<col name="산업분류명칭">장식용 목제품 제조업</col>
+<col name="산업분류코드">16293</col>
+</item>
+<item>
+<col name="산업분류코드">16299</col>
+<col name="산업분류명칭">그외 기타 나무제품 제조업</col>
+</item>
+<item>
+<col name="산업분류코드">163</col>
+<col name="산업분류명칭">코르크 및 조물 제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">코르크 및 조물 제품 제조업</col>
+<col name="산업분류코드">1630</col>
+</item>
+<item>
+<col name="산업분류명칭">코르크 제품 제조업</col>
+<col name="산업분류코드">16301</col>
+</item>
+<item>
+<col name="산업분류명칭">돗자리 및 기타 조물제품 제조업</col>
+<col name="산업분류코드">16302</col>
+</item>
+<item>
+<col name="산업분류명칭">펄프, 종이 및 종이제품 제조업</col>
+<col name="산업분류코드">17</col>
+</item>
+<item>
+<col name="산업분류명칭">펄프, 종이 및 판지 제조업</col>
+<col name="산업분류코드">171</col>
+</item>
+<item>
+<col name="산업분류명칭">펄프 제조업</col>
+<col name="산업분류코드">1711</col>
+</item>
+<item>
+<col name="산업분류명칭">펄프 제조업</col>
+<col name="산업분류코드">17110</col>
+</item>
+<item>
+<col name="산업분류명칭">종이 및 판지 제조업</col>
+<col name="산업분류코드">1712</col>
+</item>
+<item>
+<col name="산업분류명칭">신문용지 제조업</col>
+<col name="산업분류코드">17121</col>
+</item>
+<item>
+<col name="산업분류명칭">인쇄용 및 필기용 원지 제조업</col>
+<col name="산업분류코드">17122</col>
+</item>
+<item>
+<col name="산업분류명칭">크라프트지 및 상자용 판지 제조업</col>
+<col name="산업분류코드">17123</col>
+</item>
+<item>
+<col name="산업분류명칭">적층, 합성 및 특수표면처리 종이 제조업</col>
+<col name="산업분류코드">17124</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 종이 및 판지 제조업</col>
+<col name="산업분류코드">17129</col>
+</item>
+<item>
+<col name="산업분류명칭">골판지, 종이 상자 및 종이 용기 제조업</col>
+<col name="산업분류코드">172</col>
+</item>
+<item>
+<col name="산업분류명칭">골판지 및 골판지상자 제조업</col>
+<col name="산업분류코드">1721</col>
+</item>
+<item>
+<col name="산업분류명칭">골판지 및 골판지상자 제조업</col>
+<col name="산업분류코드">17210</col>
+</item>
+<item>
+<col name="산업분류명칭">종이포대, 판지상자 및 종이용기 제조업</col>
+<col name="산업분류코드">1722</col>
+</item>
+<item>
+<col name="산업분류명칭">종이 포대 및 가방 제조업</col>
+<col name="산업분류코드">17221</col>
+</item>
+<item>
+<col name="산업분류명칭">판지 상자 및 용기 제조업</col>
+<col name="산업분류코드">17222</col>
+</item>
+<item>
+<col name="산업분류명칭">식품 위생용 종이 상자 및 용기 제조업</col>
+<col name="산업분류코드">17223</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 종이 상자 및 용기 제조업</col>
+<col name="산업분류코드">17229</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 종이 및 판지 제품 제조업</col>
+<col name="산업분류코드">179</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 종이 및 판지 제품 제조업</col>
+<col name="산업분류코드">1790</col>
+</item>
+<item>
+<col name="산업분류명칭">문구용 종이제품 제조업</col>
+<col name="산업분류코드">17901</col>
+</item>
+<item>
+<col name="산업분류명칭">위생용 종이제품 제조업</col>
+<col name="산업분류코드">17902</col>
+</item>
+<item>
+<col name="산업분류명칭">벽지 및 장판지 제조업</col>
+<col name="산업분류코드">17903</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 종이 및 판지 제품 제조업</col>
+<col name="산업분류코드">17909</col>
+</item>
+<item>
+<col name="산업분류명칭">인쇄 및 기록매체 복제업</col>
+<col name="산업분류코드">18</col>
+</item>
+<item>
+<col name="산업분류코드">181</col>
+<col name="산업분류명칭">인쇄 및 인쇄관련 산업</col>
+</item>
+<item>
+<col name="산업분류코드">1811</col>
+<col name="산업분류명칭">인쇄업</col>
+</item>
+<item>
+<col name="산업분류명칭">경 인쇄업</col>
+<col name="산업분류코드">18111</col>
+</item>
+<item>
+<col name="산업분류명칭">스크린 인쇄업</col>
+<col name="산업분류코드">18112</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 인쇄업</col>
+<col name="산업분류코드">18119</col>
+</item>
+<item>
+<col name="산업분류명칭">인쇄관련 산업</col>
+<col name="산업분류코드">1812</col>
+</item>
+<item>
+<col name="산업분류코드">18121</col>
+<col name="산업분류명칭">제판 및 조판업</col>
+</item>
+<item>
+<col name="산업분류명칭">제책업</col>
+<col name="산업분류코드">18122</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 인쇄관련 산업</col>
+<col name="산업분류코드">18129</col>
+</item>
+<item>
+<col name="산업분류명칭">기록매체 복제업</col>
+<col name="산업분류코드">182</col>
+</item>
+<item>
+<col name="산업분류명칭">기록매체 복제업</col>
+<col name="산업분류코드">1820</col>
+</item>
+<item>
+<col name="산업분류명칭">기록매체 복제업</col>
+<col name="산업분류코드">18200</col>
+</item>
+<item>
+<col name="산업분류명칭">코크스, 연탄 및 석유정제품 제조업</col>
+<col name="산업분류코드">19</col>
+</item>
+<item>
+<col name="산업분류명칭">코크스 및 연탄 제조업</col>
+<col name="산업분류코드">191</col>
+</item>
+<item>
+<col name="산업분류명칭">코크스 및 연탄 제조업</col>
+<col name="산업분류코드">1910</col>
+</item>
+<item>
+<col name="산업분류명칭">코크스 및 관련제품 제조업</col>
+<col name="산업분류코드">19101</col>
+</item>
+<item>
+<col name="산업분류명칭">연탄 및 기타 석탄 가공품 제조업</col>
+<col name="산업분류코드">19102</col>
+</item>
+<item>
+<col name="산업분류명칭">석유 정제품 제조업</col>
+<col name="산업분류코드">192</col>
+</item>
+<item>
+<col name="산업분류명칭">원유 정제처리업</col>
+<col name="산업분류코드">1921</col>
+</item>
+<item>
+<col name="산업분류명칭">원유 정제처리업</col>
+<col name="산업분류코드">19210</col>
+</item>
+<item>
+<col name="산업분류명칭">석유정제물 재처리업</col>
+<col name="산업분류코드">1922</col>
+</item>
+<item>
+<col name="산업분류명칭">윤활유 및 그리스 제조업</col>
+<col name="산업분류코드">19221</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 석유정제물 재처리업</col>
+<col name="산업분류코드">19229</col>
+</item>
+<item>
+<col name="산업분류명칭">화학물질 및 화학제품 제조업;의약품 제외</col>
+<col name="산업분류코드">20</col>
+</item>
+<item>
+<col name="산업분류명칭">기초화학물질 제조업</col>
+<col name="산업분류코드">201</col>
+</item>
+<item>
+<col name="산업분류명칭">기초유기화학물질 제조업</col>
+<col name="산업분류코드">2011</col>
+</item>
+<item>
+<col name="산업분류코드">20111</col>
+<col name="산업분류명칭">석유화학계 기초화학물질 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">천연수지 및 나무화학물질 제조업</col>
+<col name="산업분류코드">20112</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 기초유기화학물질 제조업</col>
+<col name="산업분류코드">20119</col>
+</item>
+<item>
+<col name="산업분류명칭">기초 무기화학물질 제조업</col>
+<col name="산업분류코드">2012</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 가스 제조업</col>
+<col name="산업분류코드">20121</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 기초무기화학물질 제조업</col>
+<col name="산업분류코드">20129</col>
+</item>
+<item>
+<col name="산업분류명칭">무기안료, 염료, 유연제 및 기타착색제 제조업</col>
+<col name="산업분류코드">2013</col>
+</item>
+<item>
+<col name="산업분류명칭">무기안료 및 기타금속산화물 제조업</col>
+<col name="산업분류코드">20131</col>
+</item>
+<item>
+<col name="산업분류명칭">합성염료, 유연제 및 기타착색제 제조업</col>
+<col name="산업분류코드">20132</col>
+</item>
+<item>
+<col name="산업분류명칭">비료 및 질소화합물 제조업</col>
+<col name="산업분류코드">202</col>
+</item>
+<item>
+<col name="산업분류명칭">비료 및 질소화합물 제조업</col>
+<col name="산업분류코드">2020</col>
+</item>
+<item>
+<col name="산업분류명칭">질소, 인산 및 칼리질 비료 제조업</col>
+<col name="산업분류코드">20201</col>
+</item>
+<item>
+<col name="산업분류명칭">복합비료 제조업</col>
+<col name="산업분류코드">20202</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 비료 및 질소화합물 제조업</col>
+<col name="산업분류코드">20209</col>
+</item>
+<item>
+<col name="산업분류명칭">합성고무 및 플라스틱 물질 제조업</col>
+<col name="산업분류코드">203</col>
+</item>
+<item>
+<col name="산업분류명칭">합성고무 및 플라스틱 물질 제조업</col>
+<col name="산업분류코드">2030</col>
+</item>
+<item>
+<col name="산업분류명칭">합성고무 제조업</col>
+<col name="산업분류코드">20301</col>
+</item>
+<item>
+<col name="산업분류명칭">합성수지 및 기타 플라스틱물질 제조업</col>
+<col name="산업분류코드">20302</col>
+</item>
+<item>
+<col name="산업분류명칭">가공 및 재생 플라스틱원료 생산업</col>
+<col name="산업분류코드">20303</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 화학제품 제조업</col>
+<col name="산업분류코드">204</col>
+</item>
+<item>
+<col name="산업분류명칭">살충제 및 기타농약 제조업</col>
+<col name="산업분류코드">2041</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 살균 및 살충제 제조업</col>
+<col name="산업분류코드">20411</col>
+</item>
+<item>
+<col name="산업분류명칭">농약 제조업</col>
+<col name="산업분류코드">20412</col>
+</item>
+<item>
+<col name="산업분류명칭">잉크, 페인트, 코팅제 및 유사제품 제조업</col>
+<col name="산업분류코드">2042</col>
+</item>
+<item>
+<col name="산업분류명칭">일반용 도료 및 관련제품 제조업</col>
+<col name="산업분류코드">20421</col>
+</item>
+<item>
+<col name="산업분류명칭">요업용 유약 및 관련제품 제조업</col>
+<col name="산업분류코드">20422</col>
+</item>
+<item>
+<col name="산업분류명칭">인쇄잉크 제조업</col>
+<col name="산업분류코드">20423</col>
+</item>
+<item>
+<col name="산업분류코드">20424</col>
+<col name="산업분류명칭">회화용 물감 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">세제, 화장품 및 광택제 제조업</col>
+<col name="산업분류코드">2043</col>
+</item>
+<item>
+<col name="산업분류명칭">계면활성제 제조업</col>
+<col name="산업분류코드">20431</col>
+</item>
+<item>
+<col name="산업분류코드">20432</col>
+<col name="산업분류명칭">치약, 비누 및 기타 세제 제조업</col>
+</item>
+<item>
+<col name="산업분류코드">20433</col>
+<col name="산업분류명칭">화장품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">표면광택제 및 실내가향제 제조업</col>
+<col name="산업분류코드">20434</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 화학제품 제조업</col>
+<col name="산업분류코드">2049</col>
+</item>
+<item>
+<col name="산업분류명칭">사진용 화학제품 및 감광재료 제조업</col>
+<col name="산업분류코드">20491</col>
+</item>
+<item>
+<col name="산업분류코드">20492</col>
+<col name="산업분류명칭">가공 및 정제염 제조업</col>
+</item>
+<item>
+<col name="산업분류코드">20493</col>
+<col name="산업분류명칭">접착제 및 젤라틴 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">화약 및 불꽃제품 제조업</col>
+<col name="산업분류코드">20494</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 화학제품 제조업</col>
+<col name="산업분류코드">20499</col>
+</item>
+<item>
+<col name="산업분류명칭">화학섬유 제조업</col>
+<col name="산업분류코드">205</col>
+</item>
+<item>
+<col name="산업분류명칭">화학섬유 제조업</col>
+<col name="산업분류코드">2050</col>
+</item>
+<item>
+<col name="산업분류명칭">합성섬유 제조업</col>
+<col name="산업분류코드">20501</col>
+</item>
+<item>
+<col name="산업분류명칭">재생섬유 제조업</col>
+<col name="산업분류코드">20502</col>
+</item>
+<item>
+<col name="산업분류명칭">의료용 물질 및 의약품 제조업</col>
+<col name="산업분류코드">21</col>
+</item>
+<item>
+<col name="산업분류명칭">기초 의약물질 및 생물학적 제제 제조업</col>
+<col name="산업분류코드">211</col>
+</item>
+<item>
+<col name="산업분류명칭">기초 의약물질 및 생물학적 제제 제조업</col>
+<col name="산업분류코드">2110</col>
+</item>
+<item>
+<col name="산업분류명칭">의약용 화합물 및 항생물질 제조업</col>
+<col name="산업분류코드">21101</col>
+</item>
+<item>
+<col name="산업분류명칭">생물학적 제제 제조업</col>
+<col name="산업분류코드">21102</col>
+</item>
+<item>
+<col name="산업분류코드">212</col>
+<col name="산업분류명칭">의약품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">완제 의약품 제조업</col>
+<col name="산업분류코드">2121</col>
+</item>
+<item>
+<col name="산업분류명칭">완제 의약품 제조업</col>
+<col name="산업분류코드">21210</col>
+</item>
+<item>
+<col name="산업분류명칭">한의약품 제조업</col>
+<col name="산업분류코드">2122</col>
+</item>
+<item>
+<col name="산업분류명칭">한의약품 제조업</col>
+<col name="산업분류코드">21220</col>
+</item>
+<item>
+<col name="산업분류코드">2123</col>
+<col name="산업분류명칭">동물용 의약품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">동물용 의약품 제조업</col>
+<col name="산업분류코드">21230</col>
+</item>
+<item>
+<col name="산업분류명칭">의료용품 및 기타 의약관련제품 제조업</col>
+<col name="산업분류코드">213</col>
+</item>
+<item>
+<col name="산업분류명칭">의료용품 및 기타 의약관련제품 제조업</col>
+<col name="산업분류코드">2130</col>
+</item>
+<item>
+<col name="산업분류명칭">의료용품 및 기타 의약관련제품 제조업</col>
+<col name="산업분류코드">21300</col>
+</item>
+<item>
+<col name="산업분류명칭">고무제품 및 플라스틱제품 제조업</col>
+<col name="산업분류코드">22</col>
+</item>
+<item>
+<col name="산업분류명칭">고무제품 제조업</col>
+<col name="산업분류코드">221</col>
+</item>
+<item>
+<col name="산업분류코드">2211</col>
+<col name="산업분류명칭">고무 타이어 및 튜브 생산업</col>
+</item>
+<item>
+<col name="산업분류명칭">타이어 및 튜브 제조업</col>
+<col name="산업분류코드">22111</col>
+</item>
+<item>
+<col name="산업분류명칭">타이어 재생업</col>
+<col name="산업분류코드">22112</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 고무제품 제조업</col>
+<col name="산업분류코드">2219</col>
+</item>
+<item>
+<col name="산업분류코드">22191</col>
+<col name="산업분류명칭">산업용 비경화고무제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">고무의류 및 기타 위생용 고무제품 제조업</col>
+<col name="산업분류코드">22192</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 고무제품 제조업</col>
+<col name="산업분류코드">22199</col>
+</item>
+<item>
+<col name="산업분류명칭">플라스틱제품 제조업</col>
+<col name="산업분류코드">222</col>
+</item>
+<item>
+<col name="산업분류명칭">1차 플라스틱제품 제조업</col>
+<col name="산업분류코드">2221</col>
+</item>
+<item>
+<col name="산업분류코드">22211</col>
+<col name="산업분류명칭">플라스틱 선, 봉, 관 및 호스 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">플라스틱 필름, 시트 및 판 제조업</col>
+<col name="산업분류코드">22212</col>
+</item>
+<item>
+<col name="산업분류명칭">플라스틱 합성피혁 제조업</col>
+<col name="산업분류코드">22213</col>
+</item>
+<item>
+<col name="산업분류명칭">건축용 플라스틱제품 제조업</col>
+<col name="산업분류코드">2222</col>
+</item>
+<item>
+<col name="산업분류명칭">벽 및 바닥 피복용 플라스틱제품 제조업</col>
+<col name="산업분류코드">22221</col>
+</item>
+<item>
+<col name="산업분류명칭">저장용 및 위생용 플라스틱제품 제조업</col>
+<col name="산업분류코드">22222</col>
+</item>
+<item>
+<col name="산업분류명칭">플라스틱 창호 제조업</col>
+<col name="산업분류코드">22223</col>
+</item>
+<item>
+<col name="산업분류코드">22229</col>
+<col name="산업분류명칭">기타 건축용 플라스틱 조립제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">포장용 플라스틱제품 제조업</col>
+<col name="산업분류코드">2223</col>
+</item>
+<item>
+<col name="산업분류명칭">플라스틱 포대, 봉투 및 유사제품 제조업</col>
+<col name="산업분류코드">22231</col>
+</item>
+<item>
+<col name="산업분류코드">22232</col>
+<col name="산업분류명칭">포장용 플라스틱 성형용기 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">기계장비 조립용 플라스틱제품 제조업</col>
+<col name="산업분류코드">2224</col>
+</item>
+<item>
+<col name="산업분류명칭">기계장비 조립용 플라스틱제품 제조업</col>
+<col name="산업분류코드">22240</col>
+</item>
+<item>
+<col name="산업분류명칭">플라스틱 발포 성형제품 제조업</col>
+<col name="산업분류코드">2225</col>
+</item>
+<item>
+<col name="산업분류명칭">플라스틱 발포 성형제품 제조업</col>
+<col name="산업분류코드">22250</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 플라스틱제품 제조업</col>
+<col name="산업분류코드">2229</col>
+</item>
+<item>
+<col name="산업분류명칭">플라스틱 적층, 도포 및 기타 표면처리 제품 제조업</col>
+<col name="산업분류코드">22291</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 플라스틱 제품 제조업</col>
+<col name="산업분류코드">22299</col>
+</item>
+<item>
+<col name="산업분류명칭">비금속 광물제품 제조업</col>
+<col name="산업분류코드">23</col>
+</item>
+<item>
+<col name="산업분류명칭">유리 및 유리제품 제조업</col>
+<col name="산업분류코드">231</col>
+</item>
+<item>
+<col name="산업분류명칭">판유리 제조업</col>
+<col name="산업분류코드">2311</col>
+</item>
+<item>
+<col name="산업분류명칭">판유리 제조업</col>
+<col name="산업분류코드">23110</col>
+</item>
+<item>
+<col name="산업분류코드">2312</col>
+<col name="산업분류명칭">산업용 유리 및 판유리 가공품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">유리섬유 및 광학용 유리 제조업</col>
+<col name="산업분류코드">23121</col>
+</item>
+<item>
+<col name="산업분류명칭">판유리 가공품 제조업</col>
+<col name="산업분류코드">23122</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 산업용 유리제품 제조업</col>
+<col name="산업분류코드">23129</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 유리제품 제조업</col>
+<col name="산업분류코드">2319</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 유리제품 제조업</col>
+<col name="산업분류코드">23191</col>
+</item>
+<item>
+<col name="산업분류명칭">포장용 유리용기 제조업</col>
+<col name="산업분류코드">23192</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 유리제품 제조업</col>
+<col name="산업분류코드">23199</col>
+</item>
+<item>
+<col name="산업분류명칭">도자기 및 기타 요업제품 제조업</col>
+<col name="산업분류코드">232</col>
+</item>
+<item>
+<col name="산업분류코드">2321</col>
+<col name="산업분류명칭">일반도자기 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 및 장식용 도자기 제조업</col>
+<col name="산업분류코드">23211</col>
+</item>
+<item>
+<col name="산업분류명칭">위생용 도자기 제조업</col>
+<col name="산업분류코드">23212</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 도자기 제조업</col>
+<col name="산업분류코드">23213</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 일반 도자기 제조업</col>
+<col name="산업분류코드">23219</col>
+</item>
+<item>
+<col name="산업분류명칭">내화 요업제품 제조업</col>
+<col name="산업분류코드">2322</col>
+</item>
+<item>
+<col name="산업분류명칭">구조용 정형내화제품 제조업</col>
+<col name="산업분류코드">23221</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 내화요업제품 제조업</col>
+<col name="산업분류코드">23229</col>
+</item>
+<item>
+<col name="산업분류코드">2323</col>
+<col name="산업분류명칭">구조용 비내화 요업제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">점토 벽돌, 블록 및 유사 비내화 요업제품 제조업</col>
+<col name="산업분류코드">23231</col>
+</item>
+<item>
+<col name="산업분류명칭">타일 및 유사 비내화 요업제품 제조업</col>
+<col name="산업분류코드">23232</col>
+</item>
+<item>
+<col name="산업분류코드">23239</col>
+<col name="산업분류명칭">기타 구조용 비내화 요업제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">시멘트, 석회, 플라스터 및 그 제품 제조업</col>
+<col name="산업분류코드">233</col>
+</item>
+<item>
+<col name="산업분류명칭">시멘트, 석회 및 플라스터 제조업</col>
+<col name="산업분류코드">2331</col>
+</item>
+<item>
+<col name="산업분류명칭">시멘트 제조업</col>
+<col name="산업분류코드">23311</col>
+</item>
+<item>
+<col name="산업분류명칭">석회 및 플라스터 제조업</col>
+<col name="산업분류코드">23312</col>
+</item>
+<item>
+<col name="산업분류명칭">콘크리트, 시멘트 및 플라스터 제품 제조업</col>
+<col name="산업분류코드">2332</col>
+</item>
+<item>
+<col name="산업분류명칭">비내화 모르타르 제조업</col>
+<col name="산업분류코드">23321</col>
+</item>
+<item>
+<col name="산업분류명칭">레미콘 제조업</col>
+<col name="산업분류코드">23322</col>
+</item>
+<item>
+<col name="산업분류명칭">플라스터 제품 제조업</col>
+<col name="산업분류코드">23323</col>
+</item>
+<item>
+<col name="산업분류코드">23324</col>
+<col name="산업분류명칭">섬유시멘트 제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">콘크리트 타일, 기와, 벽돌 및 블록 제조업</col>
+<col name="산업분류코드">23325</col>
+</item>
+<item>
+<col name="산업분류명칭">콘크리트관 및 기타 구조용 콘크리트제품 제조업</col>
+<col name="산업분류코드">23326</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 콘크리트 제품 및 유사제품 제조업</col>
+<col name="산업분류코드">23329</col>
+</item>
+<item>
+<col name="산업분류코드">239</col>
+<col name="산업분류명칭">기타 비금속 광물제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">석제품 제조업</col>
+<col name="산업분류코드">2391</col>
+</item>
+<item>
+<col name="산업분류명칭">건설용 석제품 제조업</col>
+<col name="산업분류코드">23911</col>
+</item>
+<item>
+<col name="산업분류코드">23919</col>
+<col name="산업분류명칭">기타 석제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 비금속 광물제품 제조업</col>
+<col name="산업분류코드">2399</col>
+</item>
+<item>
+<col name="산업분류명칭">아스콘 제조업</col>
+<col name="산업분류코드">23991</col>
+</item>
+<item>
+<col name="산업분류명칭">연마재 제조업</col>
+<col name="산업분류코드">23992</col>
+</item>
+<item>
+<col name="산업분류명칭">비금속광물 분쇄물 생산업</col>
+<col name="산업분류코드">23993</col>
+</item>
+<item>
+<col name="산업분류명칭">석면, 암면 및 유사제품 제조업</col>
+<col name="산업분류코드">23994</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 비금속 광물제품 제조업</col>
+<col name="산업분류코드">23999</col>
+</item>
+<item>
+<col name="산업분류명칭">1차 금속 제조업</col>
+<col name="산업분류코드">24</col>
+</item>
+<item>
+<col name="산업분류코드">241</col>
+<col name="산업분류명칭">1차 철강 제조업</col>
+</item>
+<item>
+<col name="산업분류코드">2411</col>
+<col name="산업분류명칭">제철, 제강 및 합금철 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">제철업</col>
+<col name="산업분류코드">24111</col>
+</item>
+<item>
+<col name="산업분류명칭">제강업</col>
+<col name="산업분류코드">24112</col>
+</item>
+<item>
+<col name="산업분류명칭">합금철 제조업</col>
+<col name="산업분류코드">24113</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 제철 및 제강업</col>
+<col name="산업분류코드">24119</col>
+</item>
+<item>
+<col name="산업분류명칭">철강 압연, 압출 및 연신제품 제조업</col>
+<col name="산업분류코드">2412</col>
+</item>
+<item>
+<col name="산업분류명칭">열간 압연 및 압출 제품 제조업</col>
+<col name="산업분류코드">24121</col>
+</item>
+<item>
+<col name="산업분류명칭">냉간 압연 및 압출 제품 제조업</col>
+<col name="산업분류코드">24122</col>
+</item>
+<item>
+<col name="산업분류코드">24123</col>
+<col name="산업분류명칭">철강선 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">철강관 제조업</col>
+<col name="산업분류코드">2413</col>
+</item>
+<item>
+<col name="산업분류명칭">주철관 제조업</col>
+<col name="산업분류코드">24131</col>
+</item>
+<item>
+<col name="산업분류명칭">강관 제조업</col>
+<col name="산업분류코드">24132</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 1차 철강 제조업</col>
+<col name="산업분류코드">2419</col>
+</item>
+<item>
+<col name="산업분류코드">24191</col>
+<col name="산업분류명칭">도금, 착색 및 기타 표면처리강재 제조업</col>
+</item>
+<item>
+<col name="산업분류코드">24199</col>
+<col name="산업분류명칭">그외 기타 1차 철강 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">1차 비철금속 제조업</col>
+<col name="산업분류코드">242</col>
+</item>
+<item>
+<col name="산업분류명칭">비철금속 제련, 정련 및 합금 제조업</col>
+<col name="산업분류코드">2421</col>
+</item>
+<item>
+<col name="산업분류명칭">동 제련, 정련 및 합금 제조업</col>
+<col name="산업분류코드">24211</col>
+</item>
+<item>
+<col name="산업분류명칭">알루미늄 제련, 정련 및 합금 제조업</col>
+<col name="산업분류코드">24212</col>
+</item>
+<item>
+<col name="산업분류코드">24213</col>
+<col name="산업분류명칭">연 및 아연 제련, 정련 및 합금 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 비철금속 제련, 정련 및 합금 제조업</col>
+<col name="산업분류코드">24219</col>
+</item>
+<item>
+<col name="산업분류명칭">비철금속 압연, 압출 및 연신제품 제조업</col>
+<col name="산업분류코드">2422</col>
+</item>
+<item>
+<col name="산업분류명칭">동 압연, 압출 및 연신제품 제조업</col>
+<col name="산업분류코드">24221</col>
+</item>
+<item>
+<col name="산업분류명칭">알루미늄 압연, 압출 및 연신제품 제조업</col>
+<col name="산업분류코드">24222</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 비철금속 압연, 압출 및 연신제품 제조업</col>
+<col name="산업분류코드">24229</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 1차 비철금속 제조업</col>
+<col name="산업분류코드">2429</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 1차 비철금속 제조업</col>
+<col name="산업분류코드">24290</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 주조업</col>
+<col name="산업분류코드">243</col>
+</item>
+<item>
+<col name="산업분류코드">2431</col>
+<col name="산업분류명칭">철강 주조업</col>
+</item>
+<item>
+<col name="산업분류명칭">선철주물 주조업</col>
+<col name="산업분류코드">24311</col>
+</item>
+<item>
+<col name="산업분류명칭">강주물 주조업</col>
+<col name="산업분류코드">24312</col>
+</item>
+<item>
+<col name="산업분류코드">2432</col>
+<col name="산업분류명칭">비철금속 주조업</col>
+</item>
+<item>
+<col name="산업분류명칭">알루미늄주물 주조업</col>
+<col name="산업분류코드">24321</col>
+</item>
+<item>
+<col name="산업분류명칭">동주물 주조업</col>
+<col name="산업분류코드">24322</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 비철금속 주조업</col>
+<col name="산업분류코드">24329</col>
+</item>
+<item>
+<col name="산업분류코드">25</col>
+<col name="산업분류명칭">금속가공제품 제조업;기계 및 가구 제외</col>
+</item>
+<item>
+<col name="산업분류명칭">구조용 금속제품, 탱크 및 증기발생기 제조업</col>
+<col name="산업분류코드">251</col>
+</item>
+<item>
+<col name="산업분류명칭">구조용 금속제품 제조업</col>
+<col name="산업분류코드">2511</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 문, 창, 셔터 및 관련제품 제조업</col>
+<col name="산업분류코드">25111</col>
+</item>
+<item>
+<col name="산업분류명칭">구조용 금속판제품 및 금속공작물 제조업</col>
+<col name="산업분류코드">25112</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 조립구조재 제조업</col>
+<col name="산업분류코드">25113</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 구조용 금속제품 제조업</col>
+<col name="산업분류코드">25119</col>
+</item>
+<item>
+<col name="산업분류명칭">금속탱크, 저장조 및 유사 용기 제조업</col>
+<col name="산업분류코드">2512</col>
+</item>
+<item>
+<col name="산업분류명칭">중앙난방보일러 및 방열기 제조업</col>
+<col name="산업분류코드">25121</col>
+</item>
+<item>
+<col name="산업분류명칭">설치용 금속탱크 및 저장용기 제조업</col>
+<col name="산업분류코드">25122</col>
+</item>
+<item>
+<col name="산업분류명칭">핵반응기 및 증기발생기 제조업</col>
+<col name="산업분류코드">2513</col>
+</item>
+<item>
+<col name="산업분류명칭">핵반응기 및 증기발생기 제조업</col>
+<col name="산업분류코드">25130</col>
+</item>
+<item>
+<col name="산업분류명칭">무기 및 총포탄 제조업</col>
+<col name="산업분류코드">252</col>
+</item>
+<item>
+<col name="산업분류코드">2520</col>
+<col name="산업분류명칭">무기 및 총포탄 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">무기 및 총포탄 제조업</col>
+<col name="산업분류코드">25200</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 금속가공제품 제조업</col>
+<col name="산업분류코드">259</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 단조, 압형 및 분말야금 제품 제조업</col>
+<col name="산업분류코드">2591</col>
+</item>
+<item>
+<col name="산업분류코드">25911</col>
+<col name="산업분류명칭">분말야금제품 제조업</col>
+</item>
+<item>
+<col name="산업분류코드">25912</col>
+<col name="산업분류명칭">금속단조제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">금속압형제품 제조업</col>
+<col name="산업분류코드">25913</col>
+</item>
+<item>
+<col name="산업분류코드">2592</col>
+<col name="산업분류명칭">금속 열처리, 도금 및 기타 금속가공업</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 열처리업</col>
+<col name="산업분류코드">25921</col>
+</item>
+<item>
+<col name="산업분류코드">25922</col>
+<col name="산업분류명칭">도금업</col>
+</item>
+<item>
+<col name="산업분류명칭">도장 및 기타 피막처리업</col>
+<col name="산업분류코드">25923</col>
+</item>
+<item>
+<col name="산업분류코드">25924</col>
+<col name="산업분류명칭">절삭가공 및 유사처리업</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 금속가공업</col>
+<col name="산업분류코드">25929</col>
+</item>
+<item>
+<col name="산업분류코드">2593</col>
+<col name="산업분류명칭">날붙이, 수공구 및 일반철물 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">날붙이 제조업</col>
+<col name="산업분류코드">25931</col>
+</item>
+<item>
+<col name="산업분류명칭">일반철물 제조업</col>
+<col name="산업분류코드">25932</col>
+</item>
+<item>
+<col name="산업분류명칭">비동력식 수공구 제조업</col>
+<col name="산업분류코드">25933</col>
+</item>
+<item>
+<col name="산업분류명칭">톱 및 호환성공구 제조업</col>
+<col name="산업분류코드">25934</col>
+</item>
+<item>
+<col name="산업분류명칭">금속파스너, 스프링 및 금속선 가공제품 제조업</col>
+<col name="산업분류코드">2594</col>
+</item>
+<item>
+<col name="산업분류명칭">금속파스너 및 나사제품 제조업</col>
+<col name="산업분류코드">25941</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 스프링 제조업</col>
+<col name="산업분류코드">25942</col>
+</item>
+<item>
+<col name="산업분류명칭">금속선 가공제품 제조업</col>
+<col name="산업분류코드">25943</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 금속가공제품 제조업</col>
+<col name="산업분류코드">2599</col>
+</item>
+<item>
+<col name="산업분류코드">25991</col>
+<col name="산업분류명칭">금속캔 및 기타 포장용기 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">금고 제조업</col>
+<col name="산업분류코드">25992</col>
+</item>
+<item>
+<col name="산업분류명칭">수동식 식품 가공기기 및 금속주방용기 제조업</col>
+<col name="산업분류코드">25993</col>
+</item>
+<item>
+<col name="산업분류명칭">금속위생용품 제조업</col>
+<col name="산업분류코드">25994</col>
+</item>
+<item>
+<col name="산업분류명칭">금속표시판 제조업</col>
+<col name="산업분류코드">25995</col>
+</item>
+<item>
+<col name="산업분류코드">25999</col>
+<col name="산업분류명칭">그외 기타 분류안된 금속가공제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">전자부품, 컴퓨터, 영상, 음향 및 통신장비 제조업</col>
+<col name="산업분류코드">26</col>
+</item>
+<item>
+<col name="산업분류명칭">반도체 제조업</col>
+<col name="산업분류코드">261</col>
+</item>
+<item>
+<col name="산업분류명칭">전자집적회로 제조업</col>
+<col name="산업분류코드">2611</col>
+</item>
+<item>
+<col name="산업분류명칭">전자집적회로 제조업</col>
+<col name="산업분류코드">26110</col>
+</item>
+<item>
+<col name="산업분류명칭">다이오드, 트랜지스터 및 유사 반도체소자 제조업</col>
+<col name="산업분류코드">2612</col>
+</item>
+<item>
+<col name="산업분류명칭">다이오드, 트랜지스터 및 유사 반도체소자 제조업</col>
+<col name="산업분류코드">26120</col>
+</item>
+<item>
+<col name="산업분류명칭">전자부품 제조업</col>
+<col name="산업분류코드">262</col>
+</item>
+<item>
+<col name="산업분류명칭">평판 디스플레이 제조업</col>
+<col name="산업분류코드">2621</col>
+</item>
+<item>
+<col name="산업분류코드">26211</col>
+<col name="산업분류명칭">액정 평판 디스플레이 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">플라즈마 및 기타 평판 디스플레이 제조업</col>
+<col name="산업분류코드">26219</col>
+</item>
+<item>
+<col name="산업분류명칭">인쇄회로기판 및 전자부품 실장기판 제조업</col>
+<col name="산업분류코드">2622</col>
+</item>
+<item>
+<col name="산업분류코드">26221</col>
+<col name="산업분류명칭">인쇄회로기판 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">전자부품 실장기판 제조업</col>
+<col name="산업분류코드">26222</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 전자부품 제조업</col>
+<col name="산업분류코드">2629</col>
+</item>
+<item>
+<col name="산업분류명칭">전자관 제조업</col>
+<col name="산업분류코드">26291</col>
+</item>
+<item>
+<col name="산업분류명칭">전자축전기 제조업</col>
+<col name="산업분류코드">26292</col>
+</item>
+<item>
+<col name="산업분류명칭">전자저항기 제조업</col>
+<col name="산업분류코드">26293</col>
+</item>
+<item>
+<col name="산업분류명칭">전자카드 제조업</col>
+<col name="산업분류코드">26294</col>
+</item>
+<item>
+<col name="산업분류명칭">전자코일, 변성기 및 기타 전자유도자 제조업</col>
+<col name="산업분류코드">26295</col>
+</item>
+<item>
+<col name="산업분류명칭">전자접속카드 제조업</col>
+<col name="산업분류코드">26296</col>
+</item>
+<item>
+<col name="산업분류코드">26299</col>
+<col name="산업분류명칭">그외 기타 전자부품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 및 주변장치 제조업</col>
+<col name="산업분류코드">263</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 제조업</col>
+<col name="산업분류코드">2631</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 제조업</col>
+<col name="산업분류코드">26310</col>
+</item>
+<item>
+<col name="산업분류명칭">기억장치 및 주변기기 제조업</col>
+<col name="산업분류코드">2632</col>
+</item>
+<item>
+<col name="산업분류명칭">기억장치 제조업</col>
+<col name="산업분류코드">26321</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 모니터 제조업</col>
+<col name="산업분류코드">26322</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 프린터 제조업</col>
+<col name="산업분류코드">26323</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 주변기기 제조업</col>
+<col name="산업분류코드">26329</col>
+</item>
+<item>
+<col name="산업분류코드">264</col>
+<col name="산업분류명칭">통신 및 방송 장비 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">유선 통신장비 제조업</col>
+<col name="산업분류코드">2641</col>
+</item>
+<item>
+<col name="산업분류명칭">유선 통신장비 제조업</col>
+<col name="산업분류코드">26410</col>
+</item>
+<item>
+<col name="산업분류명칭">방송 및 무선 통신장비 제조업</col>
+<col name="산업분류코드">2642</col>
+</item>
+<item>
+<col name="산업분류명칭">방송장비 제조업</col>
+<col name="산업분류코드">26421</col>
+</item>
+<item>
+<col name="산업분류명칭">이동전화기 제조업</col>
+<col name="산업분류코드">26422</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 무선 통신장비 제조업</col>
+<col name="산업분류코드">26429</col>
+</item>
+<item>
+<col name="산업분류명칭">영상 및 음향기기 제조업</col>
+<col name="산업분류코드">265</col>
+</item>
+<item>
+<col name="산업분류코드">2651</col>
+<col name="산업분류명칭">텔레비전, 비디오 및 기타 영상기기 제조업</col>
+</item>
+<item>
+<col name="산업분류코드">26511</col>
+<col name="산업분류명칭">텔레비전 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">비디오 및 기타 영상기기 제조업</col>
+<col name="산업분류코드">26519</col>
+</item>
+<item>
+<col name="산업분류명칭">오디오, 스피커 및 기타 음향기기 제조업</col>
+<col name="산업분류코드">2652</col>
+</item>
+<item>
+<col name="산업분류코드">26521</col>
+<col name="산업분류명칭">라디오, 녹음 및 재생 기기 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 음향기기 제조업</col>
+<col name="산업분류코드">26529</col>
+</item>
+<item>
+<col name="산업분류명칭">마그네틱 및 광학 매체 제조업</col>
+<col name="산업분류코드">266</col>
+</item>
+<item>
+<col name="산업분류명칭">마그네틱 및 광학 매체 제조업</col>
+<col name="산업분류코드">2660</col>
+</item>
+<item>
+<col name="산업분류명칭">마그네틱 및 광학 매체 제조업</col>
+<col name="산업분류코드">26600</col>
+</item>
+<item>
+<col name="산업분류명칭">의료, 정밀, 광학기기 및 시계 제조업</col>
+<col name="산업분류코드">27</col>
+</item>
+<item>
+<col name="산업분류명칭">의료용 기기 제조업</col>
+<col name="산업분류코드">271</col>
+</item>
+<item>
+<col name="산업분류명칭">방사선장치 및 전기식 진단기기 제조업</col>
+<col name="산업분류코드">2711</col>
+</item>
+<item>
+<col name="산업분류명칭">방사선 장치 제조업</col>
+<col name="산업분류코드">27111</col>
+</item>
+<item>
+<col name="산업분류명칭">전기식 진단 및 요법 기기 제조업</col>
+<col name="산업분류코드">27112</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 의료용 기기 제조업</col>
+<col name="산업분류코드">2719</col>
+</item>
+<item>
+<col name="산업분류명칭">치과용 기기 제조업</col>
+<col name="산업분류코드">27191</col>
+</item>
+<item>
+<col name="산업분류명칭">정형외과용 및 신체보정용 기기 제조업</col>
+<col name="산업분류코드">27192</col>
+</item>
+<item>
+<col name="산업분류명칭">의료용 가구 제조업</col>
+<col name="산업분류코드">27193</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 의료용 기기 제조업</col>
+<col name="산업분류코드">27199</col>
+</item>
+<item>
+<col name="산업분류명칭">측정, 시험, 항해, 제어 및 기타 정밀기기 제조업; 광학기기 제외</col>
+<col name="산업분류코드">272</col>
+</item>
+<item>
+<col name="산업분류명칭">측정, 시험, 항해, 제어 및 기타 정밀기기 제조업</col>
+<col name="산업분류코드">2721</col>
+</item>
+<item>
+<col name="산업분류명칭">항행용 무선기기 및 측량기구 제조업</col>
+<col name="산업분류코드">27211</col>
+</item>
+<item>
+<col name="산업분류명칭">전자기 측정, 시험 및 분석기구 제조업</col>
+<col name="산업분류코드">27212</col>
+</item>
+<item>
+<col name="산업분류명칭">물질 검사, 측정 및 분석기구 제조업</col>
+<col name="산업분류코드">27213</col>
+</item>
+<item>
+<col name="산업분류코드">27214</col>
+<col name="산업분류명칭">속도계 및 적산계기 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">기기용 자동측정 및 제어장치 제조업</col>
+<col name="산업분류코드">27215</col>
+</item>
+<item>
+<col name="산업분류명칭">산업처리공정 제어장비 제조업</col>
+<col name="산업분류코드">27216</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 측정, 시험, 항해, 제어 및 정밀기기 제조업</col>
+<col name="산업분류코드">27219</col>
+</item>
+<item>
+<col name="산업분류명칭">안경, 사진장비 및 기타 광학기기 제조업</col>
+<col name="산업분류코드">273</col>
+</item>
+<item>
+<col name="산업분류코드">2731</col>
+<col name="산업분류명칭">안경 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">안경 제조업</col>
+<col name="산업분류코드">27310</col>
+</item>
+<item>
+<col name="산업분류명칭">광학기기 및 사진장비 제조업</col>
+<col name="산업분류코드">2732</col>
+</item>
+<item>
+<col name="산업분류명칭">광학렌즈 및 광학요소 제조업</col>
+<col name="산업분류코드">27321</col>
+</item>
+<item>
+<col name="산업분류명칭">사진기, 영사기 및 관련장비 제조업</col>
+<col name="산업분류코드">27322</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 광학기기 제조업</col>
+<col name="산업분류코드">27329</col>
+</item>
+<item>
+<col name="산업분류명칭">시계 및 시계부품 제조업</col>
+<col name="산업분류코드">274</col>
+</item>
+<item>
+<col name="산업분류명칭">시계 및 시계부품 제조업</col>
+<col name="산업분류코드">2740</col>
+</item>
+<item>
+<col name="산업분류코드">27401</col>
+<col name="산업분류명칭">시계제조업</col>
+</item>
+<item>
+<col name="산업분류코드">27402</col>
+<col name="산업분류명칭">시계부품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">전기장비 제조업</col>
+<col name="산업분류코드">28</col>
+</item>
+<item>
+<col name="산업분류명칭">전동기, 발전기 및 전기 변환 · 공급 · 제어 장치 제조업</col>
+<col name="산업분류코드">281</col>
+</item>
+<item>
+<col name="산업분류명칭">전동기, 발전기 및 전기변환장치 제조업</col>
+<col name="산업분류코드">2811</col>
+</item>
+<item>
+<col name="산업분류명칭">전동기 및 발전기 제조업</col>
+<col name="산업분류코드">28111</col>
+</item>
+<item>
+<col name="산업분류명칭">변압기 제조업</col>
+<col name="산업분류코드">28112</col>
+</item>
+<item>
+<col name="산업분류명칭">방전램프용 안정기 제조업</col>
+<col name="산업분류코드">28113</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 발전기 및 전기변환장치 제조업</col>
+<col name="산업분류코드">28119</col>
+</item>
+<item>
+<col name="산업분류명칭">전기공급 및 전기제어 장치 제조업</col>
+<col name="산업분류코드">2812</col>
+</item>
+<item>
+<col name="산업분류코드">28121</col>
+<col name="산업분류명칭">전기회로 개폐, 보호 및 접속 장치 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">배전반 및 전기자동제어반 제조업</col>
+<col name="산업분류코드">28122</col>
+</item>
+<item>
+<col name="산업분류명칭">일차전지 및 축전지 제조업</col>
+<col name="산업분류코드">282</col>
+</item>
+<item>
+<col name="산업분류명칭">일차전지 및 축전지 제조업</col>
+<col name="산업분류코드">2820</col>
+</item>
+<item>
+<col name="산업분류명칭">일차전지 제조업</col>
+<col name="산업분류코드">28201</col>
+</item>
+<item>
+<col name="산업분류명칭">축전지 제조업</col>
+<col name="산업분류코드">28202</col>
+</item>
+<item>
+<col name="산업분류명칭">절연선 및 케이블 제조업</col>
+<col name="산업분류코드">283</col>
+</item>
+<item>
+<col name="산업분류명칭">절연선 및 케이블 제조업</col>
+<col name="산업분류코드">2830</col>
+</item>
+<item>
+<col name="산업분류명칭">광섬유 케이블 제조업</col>
+<col name="산업분류코드">28301</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 절연선 및 케이블 제조업</col>
+<col name="산업분류코드">28302</col>
+</item>
+<item>
+<col name="산업분류명칭">절연 코드세트 및 기타 도체 제조업</col>
+<col name="산업분류코드">28303</col>
+</item>
+<item>
+<col name="산업분류명칭">전구 및 조명장치 제조업</col>
+<col name="산업분류코드">284</col>
+</item>
+<item>
+<col name="산업분류명칭">전구 및 램프 제조업</col>
+<col name="산업분류코드">2841</col>
+</item>
+<item>
+<col name="산업분류명칭">전구 및 램프 제조업</col>
+<col name="산업분류코드">28410</col>
+</item>
+<item>
+<col name="산업분류명칭">조명장치 제조업</col>
+<col name="산업분류코드">2842</col>
+</item>
+<item>
+<col name="산업분류코드">28421</col>
+<col name="산업분류명칭">운송장비용 조명장치 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">일반용 전기 조명장치 제조업</col>
+<col name="산업분류코드">28422</col>
+</item>
+<item>
+<col name="산업분류명칭">전시 및 광고용 조명장치 제조업</col>
+<col name="산업분류코드">28423</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 조명장치 제조업</col>
+<col name="산업분류코드">28429</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 기기 제조업</col>
+<col name="산업분류코드">285</col>
+</item>
+<item>
+<col name="산업분류코드">2851</col>
+<col name="산업분류명칭">가정용 전기기기 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">주방용 전기기기 제조업</col>
+<col name="산업분류코드">28511</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 전기 난방기기 제조업</col>
+<col name="산업분류코드">28512</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 가정용 전기기기 제조업</col>
+<col name="산업분류코드">28519</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 비전기식 조리 및 난방 기구 제조업</col>
+<col name="산업분류코드">2852</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 비전기식 조리 및 난방 기구 제조업</col>
+<col name="산업분류코드">28520</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 전기장비 제조업</col>
+<col name="산업분류코드">289</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 전기장비 제조업</col>
+<col name="산업분류코드">2890</col>
+</item>
+<item>
+<col name="산업분류코드">28901</col>
+<col name="산업분류명칭">전기경보 및 신호장치 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">전기용 탄소제품 및 절연제품 제조업</col>
+<col name="산업분류코드">28902</col>
+</item>
+<item>
+<col name="산업분류명칭">교통 신호장치 제조업</col>
+<col name="산업분류코드">28903</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 전기장비 제조업</col>
+<col name="산업분류코드">28909</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 기계 및 장비 제조업</col>
+<col name="산업분류코드">29</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 목적용 기계 제조업</col>
+<col name="산업분류코드">291</col>
+</item>
+<item>
+<col name="산업분류명칭">내연기관 및 터빈 제조업; 항공기용 및 차량용 제외</col>
+<col name="산업분류코드">2911</col>
+</item>
+<item>
+<col name="산업분류명칭">내연기관 제조업</col>
+<col name="산업분류코드">29111</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 기관 및 터빈 제조업</col>
+<col name="산업분류코드">29119</col>
+</item>
+<item>
+<col name="산업분류코드">2912</col>
+<col name="산업분류명칭">유압기기 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">유압기기 제조업</col>
+<col name="산업분류코드">29120</col>
+</item>
+<item>
+<col name="산업분류코드">2913</col>
+<col name="산업분류명칭">펌프 및 압축기 제조업; 탭, 밸브 및 유사장치 제조 포함</col>
+</item>
+<item>
+<col name="산업분류명칭">액체 펌프 제조업</col>
+<col name="산업분류코드">29131</col>
+</item>
+<item>
+<col name="산업분류명칭">기체 펌프 및 압축기 제조업</col>
+<col name="산업분류코드">29132</col>
+</item>
+<item>
+<col name="산업분류명칭">탭, 밸브 및 유사장치 제조업</col>
+<col name="산업분류코드">29133</col>
+</item>
+<item>
+<col name="산업분류명칭">베어링, 기어 및 동력전달장치 제조업</col>
+<col name="산업분류코드">2914</col>
+</item>
+<item>
+<col name="산업분류명칭">볼베어링 및 롤러베어링 제조업</col>
+<col name="산업분류코드">29141</col>
+</item>
+<item>
+<col name="산업분류코드">29142</col>
+<col name="산업분류명칭">기어 및 동력전달장치 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 오븐, 노 및 노용 버너 제조업</col>
+<col name="산업분류코드">2915</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 오븐, 노 및 노용 버너 제조업</col>
+<col name="산업분류코드">29150</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 트럭, 승강기 및 물품취급장비 제조업</col>
+<col name="산업분류코드">2916</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 트럭 및 적재기 제조업</col>
+<col name="산업분류코드">29161</col>
+</item>
+<item>
+<col name="산업분류명칭">승강기 제조업</col>
+<col name="산업분류코드">29162</col>
+</item>
+<item>
+<col name="산업분류명칭">컨베이어장치 제조업</col>
+<col name="산업분류코드">29163</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 물품취급장비 제조업</col>
+<col name="산업분류코드">29169</col>
+</item>
+<item>
+<col name="산업분류명칭">냉각, 공기조화, 여과, 증류 및 가스발생기 제조업</col>
+<col name="산업분류코드">2917</col>
+</item>
+<item>
+<col name="산업분류코드">29171</col>
+<col name="산업분류명칭">산업용 냉장 및 냉동 장비 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">공기조화장치 제조업</col>
+<col name="산업분류코드">29172</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 송풍기 및 배기장치 제조업</col>
+<col name="산업분류코드">29173</col>
+</item>
+<item>
+<col name="산업분류명칭">기체 여과기 제조업</col>
+<col name="산업분류코드">29174</col>
+</item>
+<item>
+<col name="산업분류명칭">액체 여과기 제조업</col>
+<col name="산업분류코드">29175</col>
+</item>
+<item>
+<col name="산업분류명칭">증류기,열교환기 및 가스발생기 제조업</col>
+<col name="산업분류코드">29176</col>
+</item>
+<item>
+<col name="산업분류명칭">사무용 기계 및 장비 제조업</col>
+<col name="산업분류코드">2918</col>
+</item>
+<item>
+<col name="산업분류명칭">사무용 기계 및 장비 제조업</col>
+<col name="산업분류코드">29180</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 일반 목적용 기계 제조업</col>
+<col name="산업분류코드">2919</col>
+</item>
+<item>
+<col name="산업분류명칭">일반저울 제조업</col>
+<col name="산업분류코드">29191</col>
+</item>
+<item>
+<col name="산업분류명칭">용기세척, 포장 및 충전기 제조업</col>
+<col name="산업분류코드">29192</col>
+</item>
+<item>
+<col name="산업분류명칭">자동판매기 및 화폐교환기 제조업</col>
+<col name="산업분류코드">29193</col>
+</item>
+<item>
+<col name="산업분류명칭">분사기 및 소화기 제조업</col>
+<col name="산업분류코드">29194</col>
+</item>
+<item>
+<col name="산업분류명칭">동력식 수지공구 제조업</col>
+<col name="산업분류코드">29195</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 일반목적용 기계 제조업</col>
+<col name="산업분류코드">29199</col>
+</item>
+<item>
+<col name="산업분류명칭">특수 목적용 기계 제조업</col>
+<col name="산업분류코드">292</col>
+</item>
+<item>
+<col name="산업분류명칭">농업 및 임업용 기계 제조업</col>
+<col name="산업분류코드">2921</col>
+</item>
+<item>
+<col name="산업분류명칭">농업 및 임업용 기계 제조업</col>
+<col name="산업분류코드">29210</col>
+</item>
+<item>
+<col name="산업분류명칭">가공공작기계 제조업</col>
+<col name="산업분류코드">2922</col>
+</item>
+<item>
+<col name="산업분류명칭">전자응용 공작기계 제조업</col>
+<col name="산업분류코드">29221</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 절삭기계 제조업</col>
+<col name="산업분류코드">29222</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 성형기계 제조업</col>
+<col name="산업분류코드">29223</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 가공공작기계 제조업</col>
+<col name="산업분류코드">29229</col>
+</item>
+<item>
+<col name="산업분류명칭">금속주조 및 기타 야금용 기계 제조업</col>
+<col name="산업분류코드">2923</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 주조 및 기타 야금용 기계 제조업</col>
+<col name="산업분류코드">29230</col>
+</item>
+<item>
+<col name="산업분류코드">2924</col>
+<col name="산업분류명칭">건설 및 광산용 기계장비 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">토목공사 및 유사용 기계장비 제조업</col>
+<col name="산업분류코드">29241</col>
+</item>
+<item>
+<col name="산업분류명칭">광물처리 및 취급장비 제조업</col>
+<col name="산업분류코드">29242</col>
+</item>
+<item>
+<col name="산업분류코드">2925</col>
+<col name="산업분류명칭">음·식료품 및 담배 가공기계 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">음·식료품 및 담배 가공기계 제조업</col>
+<col name="산업분류코드">29250</col>
+</item>
+<item>
+<col name="산업분류명칭">섬유, 의복 및 가죽 가공기계 제조업</col>
+<col name="산업분류코드">2926</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 섬유세척, 염색, 정리 및 가공 기계 제조업</col>
+<col name="산업분류코드">29261</col>
+</item>
+<item>
+<col name="산업분류코드">29269</col>
+<col name="산업분류명칭">기타 섬유, 의복 및 가죽 가공 기계 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">반도체 및 평판디스플레이 제조용 기계 제조업</col>
+<col name="산업분류코드">2927</col>
+</item>
+<item>
+<col name="산업분류명칭">반도체 제조용 기계 제조업</col>
+<col name="산업분류코드">29271</col>
+</item>
+<item>
+<col name="산업분류코드">29272</col>
+<col name="산업분류명칭">평판디스플레이 제조용 기계 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 로봇 제조업</col>
+<col name="산업분류코드">2928</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 로봇 제조업</col>
+<col name="산업분류코드">29280</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 특수목적용 기계 제조업</col>
+<col name="산업분류코드">2929</col>
+</item>
+<item>
+<col name="산업분류명칭">펄프 및 종이 가공용 기계 제조업</col>
+<col name="산업분류코드">29291</col>
+</item>
+<item>
+<col name="산업분류명칭">고무, 화학섬유 및 플라스틱 성형기 제조업</col>
+<col name="산업분류코드">29292</col>
+</item>
+<item>
+<col name="산업분류명칭">인쇄 및 제책용 기계 제조업</col>
+<col name="산업분류코드">29293</col>
+</item>
+<item>
+<col name="산업분류명칭">주형 및 금형 제조업</col>
+<col name="산업분류코드">29294</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 특수목적용 기계 제조업</col>
+<col name="산업분류코드">29299</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 및 트레일러 제조업</col>
+<col name="산업분류코드">30</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차용 엔진 및 자동차 제조업</col>
+<col name="산업분류코드">301</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차용 엔진 제조업</col>
+<col name="산업분류코드">3011</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차용 엔진 제조업</col>
+<col name="산업분류코드">30110</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 제조업</col>
+<col name="산업분류코드">3012</col>
+</item>
+<item>
+<col name="산업분류명칭">승용차 및 기타 여객용 자동차 제조업</col>
+<col name="산업분류코드">30121</col>
+</item>
+<item>
+<col name="산업분류명칭">화물자동차 및 특수목적용 자동차 제조업</col>
+<col name="산업분류코드">30122</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 차체 및 트레일러 제조업</col>
+<col name="산업분류코드">302</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 차체 및 트레일러 제조업</col>
+<col name="산업분류코드">3020</col>
+</item>
+<item>
+<col name="산업분류명칭">차체 및 특장차 제조업</col>
+<col name="산업분류코드">30201</col>
+</item>
+<item>
+<col name="산업분류명칭">트레일러 및 세미트레일러 제조업</col>
+<col name="산업분류코드">30202</col>
+</item>
+<item>
+<col name="산업분류명칭">운송용 컨테이너 제조업</col>
+<col name="산업분류코드">30203</col>
+</item>
+<item>
+<col name="산업분류코드">303</col>
+<col name="산업분류명칭">자동차 부품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 엔진용 부품 제조업</col>
+<col name="산업분류코드">3031</col>
+</item>
+<item>
+<col name="산업분류코드">30310</col>
+<col name="산업분류명칭">자동차 엔진용 부품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 차체용 부품 제조업</col>
+<col name="산업분류코드">3032</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 차체용 부품 제조업</col>
+<col name="산업분류코드">30320</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 자동차 부품 제조업</col>
+<col name="산업분류코드">3039</col>
+</item>
+<item>
+<col name="산업분류코드">30391</col>
+<col name="산업분류명칭">자동차용 동력전달장치 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차용 전기장치 제조업</col>
+<col name="산업분류코드">30392</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 자동차 부품 제조업</col>
+<col name="산업분류코드">30399</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 운송장비 제조업</col>
+<col name="산업분류코드">31</col>
+</item>
+<item>
+<col name="산업분류명칭">선박 및 보트 건조업</col>
+<col name="산업분류코드">311</col>
+</item>
+<item>
+<col name="산업분류코드">3111</col>
+<col name="산업분류명칭">선박 건조업</col>
+</item>
+<item>
+<col name="산업분류명칭">강선 건조업</col>
+<col name="산업분류코드">31111</col>
+</item>
+<item>
+<col name="산업분류명칭">합성수지선 건조업</col>
+<col name="산업분류코드">31112</col>
+</item>
+<item>
+<col name="산업분류명칭">비철금속 선박 및 기타 항해용 선박 건조업</col>
+<col name="산업분류코드">31113</col>
+</item>
+<item>
+<col name="산업분류명칭">선박 구성부분품 제조업</col>
+<col name="산업분류코드">31114</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 선박 건조업</col>
+<col name="산업분류코드">31119</col>
+</item>
+<item>
+<col name="산업분류코드">3112</col>
+<col name="산업분류명칭">오락 및 스포츠용 보트 건조업</col>
+</item>
+<item>
+<col name="산업분류코드">31120</col>
+<col name="산업분류명칭">오락 및 스포츠용 보트 건조업</col>
+</item>
+<item>
+<col name="산업분류명칭">철도장비 제조업</col>
+<col name="산업분류코드">312</col>
+</item>
+<item>
+<col name="산업분류명칭">철도장비 제조업</col>
+<col name="산업분류코드">3120</col>
+</item>
+<item>
+<col name="산업분류명칭">기관차 및 기타 철도차량 제조업</col>
+<col name="산업분류코드">31201</col>
+</item>
+<item>
+<col name="산업분류명칭">철도차량부품 및 관련장치물 제조업</col>
+<col name="산업분류코드">31202</col>
+</item>
+<item>
+<col name="산업분류명칭">항공기,우주선 및 부품 제조업</col>
+<col name="산업분류코드">313</col>
+</item>
+<item>
+<col name="산업분류명칭">항공기,우주선 및 보조장치 제조업</col>
+<col name="산업분류코드">3131</col>
+</item>
+<item>
+<col name="산업분류명칭">항공기,우주선 및 보조장치 제조업</col>
+<col name="산업분류코드">31310</col>
+</item>
+<item>
+<col name="산업분류명칭">항공기용 엔진 및 부품 제조업</col>
+<col name="산업분류코드">3132</col>
+</item>
+<item>
+<col name="산업분류명칭">항공기용 엔진 제조업</col>
+<col name="산업분류코드">31321</col>
+</item>
+<item>
+<col name="산업분류명칭">항공기용 부품 제조업</col>
+<col name="산업분류코드">31322</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 운송장비 제조업</col>
+<col name="산업분류코드">319</col>
+</item>
+<item>
+<col name="산업분류명칭">전투용 차량 제조업</col>
+<col name="산업분류코드">3191</col>
+</item>
+<item>
+<col name="산업분류명칭">전투용 차량 제조업</col>
+<col name="산업분류코드">31910</col>
+</item>
+<item>
+<col name="산업분류명칭">모터사이클 제조업</col>
+<col name="산업분류코드">3192</col>
+</item>
+<item>
+<col name="산업분류명칭">모터사이클 제조업</col>
+<col name="산업분류코드">31920</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 운송장비 제조업</col>
+<col name="산업분류코드">3199</col>
+</item>
+<item>
+<col name="산업분류명칭">자전거 및 환자용 차량 제조업</col>
+<col name="산업분류코드">31991</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 달리 분류되지 않은 운송장비 제조업</col>
+<col name="산업분류코드">31999</col>
+</item>
+<item>
+<col name="산업분류명칭">가구 제조업</col>
+<col name="산업분류코드">32</col>
+</item>
+<item>
+<col name="산업분류명칭">가구 제조업</col>
+<col name="산업분류코드">320</col>
+</item>
+<item>
+<col name="산업분류명칭">침대 및 내장가구 제조업</col>
+<col name="산업분류코드">3201</col>
+</item>
+<item>
+<col name="산업분류명칭">운송장비용 의자 제조업</col>
+<col name="산업분류코드">32011</col>
+</item>
+<item>
+<col name="산업분류명칭">매트리스 및 침대 제조업</col>
+<col name="산업분류코드">32012</col>
+</item>
+<item>
+<col name="산업분류명칭">소파 및 기타 내장가구 제조업</col>
+<col name="산업분류코드">32019</col>
+</item>
+<item>
+<col name="산업분류명칭">목재가구 제조업</col>
+<col name="산업분류코드">3202</col>
+</item>
+<item>
+<col name="산업분류코드">32021</col>
+<col name="산업분류명칭">주방용 및 음식점용 목재가구 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">나전칠기가구 제조업</col>
+<col name="산업분류코드">32022</col>
+</item>
+<item>
+<col name="산업분류코드">32029</col>
+<col name="산업분류명칭">기타 목재가구 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 가구 제조업</col>
+<col name="산업분류코드">3209</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 가구 제조업</col>
+<col name="산업분류코드">32091</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 가구 제조업</col>
+<col name="산업분류코드">32099</col>
+</item>
+<item>
+<col name="산업분류코드">33</col>
+<col name="산업분류명칭">기타 제품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">귀금속 및 장신용품 제조업</col>
+<col name="산업분류코드">331</col>
+</item>
+<item>
+<col name="산업분류명칭">귀금속 및 관련제품 제조업</col>
+<col name="산업분류코드">3311</col>
+</item>
+<item>
+<col name="산업분류명칭">귀금속 및 관련제품 제조업</col>
+<col name="산업분류코드">33110</col>
+</item>
+<item>
+<col name="산업분류명칭">모조 귀금속 및 모조 장신용품 제조업</col>
+<col name="산업분류코드">3312</col>
+</item>
+<item>
+<col name="산업분류명칭">모조 귀금속 및 모조 장신용품 제조업</col>
+<col name="산업분류코드">33120</col>
+</item>
+<item>
+<col name="산업분류코드">332</col>
+<col name="산업분류명칭">악기 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">악기제조업</col>
+<col name="산업분류코드">3320</col>
+</item>
+<item>
+<col name="산업분류명칭">피아노 제조업</col>
+<col name="산업분류코드">33201</col>
+</item>
+<item>
+<col name="산업분류명칭">현악기 제조업</col>
+<col name="산업분류코드">33202</col>
+</item>
+<item>
+<col name="산업분류명칭">전자악기 제조업</col>
+<col name="산업분류코드">33203</col>
+</item>
+<item>
+<col name="산업분류명칭">국악기 제조업</col>
+<col name="산업분류코드">33204</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 악기 제조업</col>
+<col name="산업분류코드">33209</col>
+</item>
+<item>
+<col name="산업분류코드">333</col>
+<col name="산업분류명칭">운동 및 경기용구 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">운동 및 경기용구 제조업</col>
+<col name="산업분류코드">3330</col>
+</item>
+<item>
+<col name="산업분류명칭">체조, 육상 및 체력단련용 장비 제조업</col>
+<col name="산업분류코드">33301</col>
+</item>
+<item>
+<col name="산업분류명칭">놀이터용 장비 제조업</col>
+<col name="산업분류코드">33302</col>
+</item>
+<item>
+<col name="산업분류명칭">낚시 및 수렵용구 제조업</col>
+<col name="산업분류코드">33303</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 운동 및 경기용구 제조업</col>
+<col name="산업분류코드">33309</col>
+</item>
+<item>
+<col name="산업분류명칭">인형,장난감 및 오락용품 제조업</col>
+<col name="산업분류코드">334</col>
+</item>
+<item>
+<col name="산업분류명칭">인형,장난감 및 오락용품 제조업</col>
+<col name="산업분류코드">3340</col>
+</item>
+<item>
+<col name="산업분류코드">33401</col>
+<col name="산업분류명칭">인형 및 장난감 제조업</col>
+</item>
+<item>
+<col name="산업분류코드">33402</col>
+<col name="산업분류명칭">영상게임기 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 오락용품 제조업</col>
+<col name="산업분류코드">33409</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 제품 제조업</col>
+<col name="산업분류코드">339</col>
+</item>
+<item>
+<col name="산업분류코드">3391</col>
+<col name="산업분류명칭">간판 및 광고물 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">간판 및 광고물 제조업</col>
+<col name="산업분류코드">33910</col>
+</item>
+<item>
+<col name="산업분류코드">3392</col>
+<col name="산업분류명칭">사무 및 회화용품 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">사무 및 회화용품 제조업</col>
+<col name="산업분류코드">33920</col>
+</item>
+<item>
+<col name="산업분류명칭">가발, 장식용품 및 교시용 모형 제조업</col>
+<col name="산업분류코드">3393</col>
+</item>
+<item>
+<col name="산업분류명칭">가발 및 유사 제품 제조업</col>
+<col name="산업분류코드">33931</col>
+</item>
+<item>
+<col name="산업분류명칭">조화 및 모조장식품 제조업</col>
+<col name="산업분류코드">33932</col>
+</item>
+<item>
+<col name="산업분류명칭">표구 및 전사처리 제조업</col>
+<col name="산업분류코드">33933</col>
+</item>
+<item>
+<col name="산업분류명칭">교시용 모형 제조업</col>
+<col name="산업분류코드">33934</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 제품 제조업</col>
+<col name="산업분류코드">3399</col>
+</item>
+<item>
+<col name="산업분류명칭">우산 및 지팡이 제조업</col>
+<col name="산업분류코드">33991</col>
+</item>
+<item>
+<col name="산업분류명칭">단추 및 유사 파스너 제조업</col>
+<col name="산업분류코드">33992</col>
+</item>
+<item>
+<col name="산업분류코드">33993</col>
+<col name="산업분류명칭">라이터, 연소물 및 흡연용품 제조업</col>
+</item>
+<item>
+<col name="산업분류코드">33994</col>
+<col name="산업분류명칭">비 및 솔 제조업</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 달리 분류되지 않은 제품 제조업</col>
+<col name="산업분류코드">33999</col>
+</item>
+<item>
+<col name="산업분류명칭">전기, 가스, 증기 및 공기조절 공급업</col>
+<col name="산업분류코드">35</col>
+</item>
+<item>
+<col name="산업분류명칭">전기업</col>
+<col name="산업분류코드">351</col>
+</item>
+<item>
+<col name="산업분류명칭">발전업</col>
+<col name="산업분류코드">3511</col>
+</item>
+<item>
+<col name="산업분류명칭">원자력 발전업</col>
+<col name="산업분류코드">35111</col>
+</item>
+<item>
+<col name="산업분류명칭">수력 발전업</col>
+<col name="산업분류코드">35112</col>
+</item>
+<item>
+<col name="산업분류명칭">화력 발전업</col>
+<col name="산업분류코드">35113</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 발전업</col>
+<col name="산업분류코드">35119</col>
+</item>
+<item>
+<col name="산업분류명칭">송전 및 배전업</col>
+<col name="산업분류코드">3512</col>
+</item>
+<item>
+<col name="산업분류명칭">송전 및 배전업</col>
+<col name="산업분류코드">35120</col>
+</item>
+<item>
+<col name="산업분류명칭">가스 제조 및 배관공급업</col>
+<col name="산업분류코드">352</col>
+</item>
+<item>
+<col name="산업분류명칭">가스 제조 및 배관공급업</col>
+<col name="산업분류코드">3520</col>
+</item>
+<item>
+<col name="산업분류명칭">가스 제조 및 배관공급업</col>
+<col name="산업분류코드">35200</col>
+</item>
+<item>
+<col name="산업분류명칭">증기, 냉온수 및 공기조절 공급업</col>
+<col name="산업분류코드">353</col>
+</item>
+<item>
+<col name="산업분류코드">3530</col>
+<col name="산업분류명칭">증기, 냉온수 및 공기조절 공급업</col>
+</item>
+<item>
+<col name="산업분류코드">35300</col>
+<col name="산업분류명칭">증기, 냉온수 및 공기조절 공급업</col>
+</item>
+<item>
+<col name="산업분류명칭">수도사업</col>
+<col name="산업분류코드">36</col>
+</item>
+<item>
+<col name="산업분류명칭">수도사업</col>
+<col name="산업분류코드">360</col>
+</item>
+<item>
+<col name="산업분류명칭">생활용수 공급업</col>
+<col name="산업분류코드">3601</col>
+</item>
+<item>
+<col name="산업분류명칭">생활용수 공급업</col>
+<col name="산업분류코드">36010</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용수 공급업</col>
+<col name="산업분류코드">3602</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용수 공급업</col>
+<col name="산업분류코드">36020</col>
+</item>
+<item>
+<col name="산업분류명칭">하수, 폐수 및 분뇨 처리업</col>
+<col name="산업분류코드">37</col>
+</item>
+<item>
+<col name="산업분류명칭">하수, 폐수 및 분뇨 처리업</col>
+<col name="산업분류코드">370</col>
+</item>
+<item>
+<col name="산업분류명칭">하수 및 폐수 처리업</col>
+<col name="산업분류코드">3701</col>
+</item>
+<item>
+<col name="산업분류명칭">하수 처리업</col>
+<col name="산업분류코드">37011</col>
+</item>
+<item>
+<col name="산업분류명칭">폐수 처리업</col>
+<col name="산업분류코드">37012</col>
+</item>
+<item>
+<col name="산업분류명칭">분뇨 및 축산분뇨 처리업</col>
+<col name="산업분류코드">3702</col>
+</item>
+<item>
+<col name="산업분류명칭">분뇨 처리업</col>
+<col name="산업분류코드">37021</col>
+</item>
+<item>
+<col name="산업분류명칭">축산분뇨 처리업</col>
+<col name="산업분류코드">37022</col>
+</item>
+<item>
+<col name="산업분류코드">38</col>
+<col name="산업분류명칭">폐기물 수집운반, 처리 및 원료재생업</col>
+</item>
+<item>
+<col name="산업분류코드">381</col>
+<col name="산업분류명칭">폐기물 수집운반업</col>
+</item>
+<item>
+<col name="산업분류명칭">지정외 폐기물 수집운반업</col>
+<col name="산업분류코드">3811</col>
+</item>
+<item>
+<col name="산업분류명칭">지정외 폐기물 수집운반업</col>
+<col name="산업분류코드">38110</col>
+</item>
+<item>
+<col name="산업분류명칭">지정 폐기물 수집운반업</col>
+<col name="산업분류코드">3812</col>
+</item>
+<item>
+<col name="산업분류명칭">지정 폐기물 수집운반업</col>
+<col name="산업분류코드">38120</col>
+</item>
+<item>
+<col name="산업분류명칭">건설 폐기물 수집운반업</col>
+<col name="산업분류코드">3813</col>
+</item>
+<item>
+<col name="산업분류명칭">건설 폐기물 수집운반업</col>
+<col name="산업분류코드">38130</col>
+</item>
+<item>
+<col name="산업분류명칭">폐기물 처리업</col>
+<col name="산업분류코드">382</col>
+</item>
+<item>
+<col name="산업분류명칭">지정외 폐기물 처리업</col>
+<col name="산업분류코드">3821</col>
+</item>
+<item>
+<col name="산업분류명칭">지정외 폐기물 처리업</col>
+<col name="산업분류코드">38210</col>
+</item>
+<item>
+<col name="산업분류명칭">지정 폐기물 처리업</col>
+<col name="산업분류코드">3822</col>
+</item>
+<item>
+<col name="산업분류명칭">지정 폐기물 처리업</col>
+<col name="산업분류코드">38220</col>
+</item>
+<item>
+<col name="산업분류명칭">건설 폐기물 처리업</col>
+<col name="산업분류코드">3823</col>
+</item>
+<item>
+<col name="산업분류명칭">건설 폐기물 처리업</col>
+<col name="산업분류코드">38230</col>
+</item>
+<item>
+<col name="산업분류명칭">방사성 폐기물 수집운반 및 처리업</col>
+<col name="산업분류코드">3824</col>
+</item>
+<item>
+<col name="산업분류명칭">방사성 폐기물 수집운반 및 처리업</col>
+<col name="산업분류코드">38240</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 및 비금속 원료 재생업</col>
+<col name="산업분류코드">383</col>
+</item>
+<item>
+<col name="산업분류명칭">금속 및 비금속 원료 재생업</col>
+<col name="산업분류코드">3830</col>
+</item>
+<item>
+<col name="산업분류코드">38301</col>
+<col name="산업분류명칭">금속원료 재생업</col>
+</item>
+<item>
+<col name="산업분류명칭">비금속원료 재생업</col>
+<col name="산업분류코드">38302</col>
+</item>
+<item>
+<col name="산업분류명칭">환경 정화 및 복원업</col>
+<col name="산업분류코드">39</col>
+</item>
+<item>
+<col name="산업분류명칭">환경 정화 및 복원업</col>
+<col name="산업분류코드">390</col>
+</item>
+<item>
+<col name="산업분류명칭">환경 정화 및 복원업</col>
+<col name="산업분류코드">3900</col>
+</item>
+<item>
+<col name="산업분류명칭">토양 및 지하수 정화업</col>
+<col name="산업분류코드">39001</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 환경 정화 및 복원업</col>
+<col name="산업분류코드">39009</col>
+</item>
+<item>
+<col name="산업분류명칭">종합 건설업</col>
+<col name="산업분류코드">41</col>
+</item>
+<item>
+<col name="산업분류명칭">건물 건설업</col>
+<col name="산업분류코드">411</col>
+</item>
+<item>
+<col name="산업분류명칭">주거용 건물 건설업</col>
+<col name="산업분류코드">4111</col>
+</item>
+<item>
+<col name="산업분류명칭">단독 및 연립주택 건설업</col>
+<col name="산업분류코드">41111</col>
+</item>
+<item>
+<col name="산업분류코드">41112</col>
+<col name="산업분류명칭">아파트 건설업</col>
+</item>
+<item>
+<col name="산업분류명칭">비주거용 건물 건설업</col>
+<col name="산업분류코드">4112</col>
+</item>
+<item>
+<col name="산업분류명칭">사무 및 상업용 건물 건설업</col>
+<col name="산업분류코드">41121</col>
+</item>
+<item>
+<col name="산업분류코드">41122</col>
+<col name="산업분류명칭">공업 및 유사 산업용 건물 건설업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 비주거용 건물 건설업</col>
+<col name="산업분류코드">41129</col>
+</item>
+<item>
+<col name="산업분류명칭">토목 건설업</col>
+<col name="산업분류코드">412</col>
+</item>
+<item>
+<col name="산업분류코드">4121</col>
+<col name="산업분류명칭">지반조성 건설업</col>
+</item>
+<item>
+<col name="산업분류명칭">지반조성 건설업</col>
+<col name="산업분류코드">41210</col>
+</item>
+<item>
+<col name="산업분류명칭">토목시설물 건설업</col>
+<col name="산업분류코드">4122</col>
+</item>
+<item>
+<col name="산업분류명칭">도로 건설업</col>
+<col name="산업분류코드">41221</col>
+</item>
+<item>
+<col name="산업분류명칭">교량, 터널 및 철도 건설업</col>
+<col name="산업분류코드">41222</col>
+</item>
+<item>
+<col name="산업분류명칭">수로, 댐 및 급 · 배수시설 건설업</col>
+<col name="산업분류코드">41223</col>
+</item>
+<item>
+<col name="산업분류코드">41224</col>
+<col name="산업분류명칭">폐기물처리 및 오염방지시설 건설업</col>
+</item>
+<item>
+<col name="산업분류명칭">산업플랜트 건설업</col>
+<col name="산업분류코드">41225</col>
+</item>
+<item>
+<col name="산업분류명칭">조경 건설업</col>
+<col name="산업분류코드">41226</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 토목시설물 건설업</col>
+<col name="산업분류코드">41229</col>
+</item>
+<item>
+<col name="산업분류명칭">전문직별 공사업</col>
+<col name="산업분류코드">42</col>
+</item>
+<item>
+<col name="산업분류명칭">기반조성 및 시설물 축조관련 전문공사업</col>
+<col name="산업분류코드">421</col>
+</item>
+<item>
+<col name="산업분류코드">4211</col>
+<col name="산업분류명칭">건물 및 구축물 해체 공사업</col>
+</item>
+<item>
+<col name="산업분류명칭">건물 및 구축물 해체 공사업</col>
+<col name="산업분류코드">42110</col>
+</item>
+<item>
+<col name="산업분류코드">4212</col>
+<col name="산업분류명칭">기반조성 관련 전문공사업</col>
+</item>
+<item>
+<col name="산업분류명칭">토공사업</col>
+<col name="산업분류코드">42121</col>
+</item>
+<item>
+<col name="산업분류코드">42122</col>
+<col name="산업분류명칭">보링, 그라우팅 및 굴정 공사업</col>
+</item>
+<item>
+<col name="산업분류명칭">파일공사 및 축조관련 기초 공사업</col>
+<col name="산업분류코드">42123</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 기반조성 관련 전문공사업</col>
+<col name="산업분류코드">42129</col>
+</item>
+<item>
+<col name="산업분류명칭">시설물 축조 관련 전문공사업</col>
+<col name="산업분류코드">4213</col>
+</item>
+<item>
+<col name="산업분류명칭">철골 공사업</col>
+<col name="산업분류코드">42131</col>
+</item>
+<item>
+<col name="산업분류코드">42132</col>
+<col name="산업분류명칭">철근 및 철근콘크리트 공사업</col>
+</item>
+<item>
+<col name="산업분류명칭">조적 및 석축 공사업</col>
+<col name="산업분류코드">42133</col>
+</item>
+<item>
+<col name="산업분류명칭">포장 공사업</col>
+<col name="산업분류코드">42134</col>
+</item>
+<item>
+<col name="산업분류명칭">철도궤도 전문공사업</col>
+<col name="산업분류코드">42135</col>
+</item>
+<item>
+<col name="산업분류명칭">수중 공사업</col>
+<col name="산업분류코드">42136</col>
+</item>
+<item>
+<col name="산업분류명칭">비계 및 형틀 공사업</col>
+<col name="산업분류코드">42137</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 시설물 축조관련 전문공사업</col>
+<col name="산업분류코드">42139</col>
+</item>
+<item>
+<col name="산업분류명칭">건물설비 설치 공사업</col>
+<col name="산업분류코드">422</col>
+</item>
+<item>
+<col name="산업분류명칭">건물설비 설치 공사업</col>
+<col name="산업분류코드">4220</col>
+</item>
+<item>
+<col name="산업분류명칭">배관 및 냉·난방 공사업</col>
+<col name="산업분류코드">42201</col>
+</item>
+<item>
+<col name="산업분류명칭">건물용 기계장비 설치 공사업</col>
+<col name="산업분류코드">42202</col>
+</item>
+<item>
+<col name="산업분류명칭">방음 및 내화 공사업</col>
+<col name="산업분류코드">42203</col>
+</item>
+<item>
+<col name="산업분류명칭">소방시설 공사업</col>
+<col name="산업분류코드">42204</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 건물설비 설치 공사업</col>
+<col name="산업분류코드">42209</col>
+</item>
+<item>
+<col name="산업분류명칭">전기 및 통신 공사업</col>
+<col name="산업분류코드">423</col>
+</item>
+<item>
+<col name="산업분류명칭">전기 공사업</col>
+<col name="산업분류코드">4231</col>
+</item>
+<item>
+<col name="산업분류명칭">일반전기 공사업</col>
+<col name="산업분류코드">42311</col>
+</item>
+<item>
+<col name="산업분류명칭">내부 전기배선 공사업</col>
+<col name="산업분류코드">42312</col>
+</item>
+<item>
+<col name="산업분류코드">4232</col>
+<col name="산업분류명칭">통신 공사업</col>
+</item>
+<item>
+<col name="산업분류코드">42321</col>
+<col name="산업분류명칭">일반 통신 공사업</col>
+</item>
+<item>
+<col name="산업분류명칭">내부 통신배선 공사업</col>
+<col name="산업분류코드">42322</col>
+</item>
+<item>
+<col name="산업분류명칭">실내건축 및 건축마무리 공사업</col>
+<col name="산업분류코드">424</col>
+</item>
+<item>
+<col name="산업분류명칭">도장, 도배 및 내장 공사업</col>
+<col name="산업분류코드">4241</col>
+</item>
+<item>
+<col name="산업분류명칭">도장 공사업</col>
+<col name="산업분류코드">42411</col>
+</item>
+<item>
+<col name="산업분류코드">42412</col>
+<col name="산업분류명칭">도배, 실내장식 및 내장 목공사업</col>
+</item>
+<item>
+<col name="산업분류명칭">유리 및 창호 공사업</col>
+<col name="산업분류코드">4242</col>
+</item>
+<item>
+<col name="산업분류명칭">유리 및 창호 공사업</col>
+<col name="산업분류코드">42420</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 건축마무리 공사업</col>
+<col name="산업분류코드">4249</col>
+</item>
+<item>
+<col name="산업분류명칭">미장, 타일 및 방수 공사업</col>
+<col name="산업분류코드">42491</col>
+</item>
+<item>
+<col name="산업분류명칭">건물용 금속공작물 설치 공사업</col>
+<col name="산업분류코드">42492</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 건축마무리 공사업</col>
+<col name="산업분류코드">42499</col>
+</item>
+<item>
+<col name="산업분류명칭">건설장비 운영업</col>
+<col name="산업분류코드">425</col>
+</item>
+<item>
+<col name="산업분류명칭">건설장비 운영업</col>
+<col name="산업분류코드">4250</col>
+</item>
+<item>
+<col name="산업분류명칭">건설장비 운영업</col>
+<col name="산업분류코드">42500</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 및 부품 판매업</col>
+<col name="산업분류코드">45</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 판매업</col>
+<col name="산업분류코드">451</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 신품 판매업</col>
+<col name="산업분류코드">4511</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 신품 판매업</col>
+<col name="산업분류코드">45110</col>
+</item>
+<item>
+<col name="산업분류명칭">중고 자동차 판매업</col>
+<col name="산업분류코드">4512</col>
+</item>
+<item>
+<col name="산업분류코드">45120</col>
+<col name="산업분류명칭">중고 자동차 판매업</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 부품 및 내장품 판매업</col>
+<col name="산업분류코드">452</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차신품 부품 및 내장품 판매업</col>
+<col name="산업분류코드">4521</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 타이어 및 튜브 판매업</col>
+<col name="산업분류코드">45211</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 자동차신품 부품 및 내장품 판매업</col>
+<col name="산업분류코드">45219</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차중고 부품 및 내장품 판매업</col>
+<col name="산업분류코드">4522</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차중고 부품 및 내장품 판매업</col>
+<col name="산업분류코드">45220</col>
+</item>
+<item>
+<col name="산업분류명칭">모터사이클 및 부품 판매업</col>
+<col name="산업분류코드">453</col>
+</item>
+<item>
+<col name="산업분류명칭">모터사이클 및 부품 판매업</col>
+<col name="산업분류코드">4530</col>
+</item>
+<item>
+<col name="산업분류명칭">모터사이클 및 부품 도매업</col>
+<col name="산업분류코드">45301</col>
+</item>
+<item>
+<col name="산업분류명칭">모터사이클 및 부품 소매업</col>
+<col name="산업분류코드">45302</col>
+</item>
+<item>
+<col name="산업분류명칭">도매 및 상품중개업</col>
+<col name="산업분류코드">46</col>
+</item>
+<item>
+<col name="산업분류명칭">상품 중개업</col>
+<col name="산업분류코드">461</col>
+</item>
+<item>
+<col name="산업분류명칭">상품 중개업</col>
+<col name="산업분류코드">4610</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 농축산물 및 산동물 중개업</col>
+<col name="산업분류코드">46101</col>
+</item>
+<item>
+<col name="산업분류명칭">음·식료품 및 담배 중개업</col>
+<col name="산업분류코드">46102</col>
+</item>
+<item>
+<col name="산업분류명칭">섬유, 의복, 신발 및 가죽제품 중개업</col>
+<col name="산업분류코드">46103</col>
+</item>
+<item>
+<col name="산업분류명칭">기계장비 중개업</col>
+<col name="산업분류코드">46104</col>
+</item>
+<item>
+<col name="산업분류명칭">상품종합 중개업</col>
+<col name="산업분류코드">46105</col>
+</item>
+<item>
+<col name="산업분류코드">46109</col>
+<col name="산업분류명칭">기타 상품 중개업</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 농축산물 및 산동물 도매업</col>
+<col name="산업분류코드">462</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 농축산물 및 산동물 도매업</col>
+<col name="산업분류코드">4620</col>
+</item>
+<item>
+<col name="산업분류명칭">곡물 도매업</col>
+<col name="산업분류코드">46201</col>
+</item>
+<item>
+<col name="산업분류명칭">종자 및 묘목 도매업</col>
+<col name="산업분류코드">46202</col>
+</item>
+<item>
+<col name="산업분류명칭">사료 도매업</col>
+<col name="산업분류코드">46203</col>
+</item>
+<item>
+<col name="산업분류코드">46204</col>
+<col name="산업분류명칭">화초 및 산식물 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">산동물 도매업</col>
+<col name="산업분류코드">46205</col>
+</item>
+<item>
+<col name="산업분류코드">46209</col>
+<col name="산업분류명칭">기타 산업용 농산물 및 산동물 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">음·식료품 및 담배 도매업</col>
+<col name="산업분류코드">463</col>
+</item>
+<item>
+<col name="산업분류명칭">비가공 식품 도매업</col>
+<col name="산업분류코드">4631</col>
+</item>
+<item>
+<col name="산업분류명칭">과실 및 채소 도매업</col>
+<col name="산업분류코드">46311</col>
+</item>
+<item>
+<col name="산업분류명칭">육류 도매업</col>
+<col name="산업분류코드">46312</col>
+</item>
+<item>
+<col name="산업분류명칭">수산물 도매업</col>
+<col name="산업분류코드">46313</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 비가공 식품 도매업</col>
+<col name="산업분류코드">46319</col>
+</item>
+<item>
+<col name="산업분류명칭">가공식품 도매업</col>
+<col name="산업분류코드">4632</col>
+</item>
+<item>
+<col name="산업분류명칭">육류 가공식품 도매업</col>
+<col name="산업분류코드">46321</col>
+</item>
+<item>
+<col name="산업분류코드">46322</col>
+<col name="산업분류명칭">수산물 가공식품 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">빵 및 과자 도매업</col>
+<col name="산업분류코드">46323</col>
+</item>
+<item>
+<col name="산업분류명칭">낙농품 도매업</col>
+<col name="산업분류코드">46324</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 가공식품 도매업</col>
+<col name="산업분류코드">46329</col>
+</item>
+<item>
+<col name="산업분류명칭">음료 및 담배 도매업</col>
+<col name="산업분류코드">4633</col>
+</item>
+<item>
+<col name="산업분류명칭">주류 도매업</col>
+<col name="산업분류코드">46331</col>
+</item>
+<item>
+<col name="산업분류명칭">비알콜음료 도매업</col>
+<col name="산업분류코드">46332</col>
+</item>
+<item>
+<col name="산업분류명칭">담배 도매업</col>
+<col name="산업분류코드">46333</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용품 도매업</col>
+<col name="산업분류코드">464</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 섬유, 의복 및 의복액세서리 도매업</col>
+<col name="산업분류코드">4641</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 섬유 및 실 도매업</col>
+<col name="산업분류코드">46411</col>
+</item>
+<item>
+<col name="산업분류코드">46412</col>
+<col name="산업분류명칭">커튼 및 침구용품 도매업</col>
+</item>
+<item>
+<col name="산업분류코드">46413</col>
+<col name="산업분류명칭">셔츠 및 외의 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">유아용 의류 도매업</col>
+<col name="산업분류코드">46414</col>
+</item>
+<item>
+<col name="산업분류명칭">내의 도매업</col>
+<col name="산업분류코드">46415</col>
+</item>
+<item>
+<col name="산업분류명칭">가죽 및 모피제품 도매업</col>
+<col name="산업분류코드">46416</col>
+</item>
+<item>
+<col name="산업분류명칭">의복액세서리 및 모조장신품 도매업</col>
+<col name="산업분류코드">46417</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 가정용 섬유 및 직물제품 도매업</col>
+<col name="산업분류코드">46419</col>
+</item>
+<item>
+<col name="산업분류명칭">신발 도매업</col>
+<col name="산업분류코드">4642</col>
+</item>
+<item>
+<col name="산업분류명칭">신발 도매업</col>
+<col name="산업분류코드">46420</col>
+</item>
+<item>
+<col name="산업분류명칭">조명기구, 가정용 가구 및 비전기식 가정용기기 도매업</col>
+<col name="산업분류코드">4643</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 가구 도매업</col>
+<col name="산업분류코드">46431</col>
+</item>
+<item>
+<col name="산업분류명칭">전구·램프 및 조명장치 도매업</col>
+<col name="산업분류코드">46432</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 요업제품, 비전기식 주방용품 및 날붙이 도매업</col>
+<col name="산업분류코드">46433</col>
+</item>
+<item>
+<col name="산업분류코드">46439</col>
+<col name="산업분류명칭">기타 비전기식 가정용 기기 및 기구 도매업</col>
+</item>
+<item>
+<col name="산업분류코드">4644</col>
+<col name="산업분류명칭">의약품, 의료용품 및 화장품 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">의약품 도매업</col>
+<col name="산업분류코드">46441</col>
+</item>
+<item>
+<col name="산업분류명칭">의료용품 도매업</col>
+<col name="산업분류코드">46442</col>
+</item>
+<item>
+<col name="산업분류명칭">화장품 도매업</col>
+<col name="산업분류코드">46443</col>
+</item>
+<item>
+<col name="산업분류명칭">비누 및 세정제 도매업</col>
+<col name="산업분류코드">46444</col>
+</item>
+<item>
+<col name="산업분류코드">4645</col>
+<col name="산업분류명칭">종이, 인쇄물 및 문구용품 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">종이제품 도매업</col>
+<col name="산업분류코드">46451</col>
+</item>
+<item>
+<col name="산업분류명칭">문구용품 도매업</col>
+<col name="산업분류코드">46452</col>
+</item>
+<item>
+<col name="산업분류명칭">서적, 잡지 및 신문 도매업</col>
+<col name="산업분류코드">46453</col>
+</item>
+<item>
+<col name="산업분류명칭">오락, 취미 및 경기용품 도매업</col>
+<col name="산업분류코드">4646</col>
+</item>
+<item>
+<col name="산업분류명칭">음반 및 비디오물 도매업</col>
+<col name="산업분류코드">46461</col>
+</item>
+<item>
+<col name="산업분류명칭">악기 도매업</col>
+<col name="산업분류코드">46462</col>
+</item>
+<item>
+<col name="산업분류명칭">장난감 및 취미용품 도매업</col>
+<col name="산업분류코드">46463</col>
+</item>
+<item>
+<col name="산업분류명칭">운동 및 경기용품 도매업</col>
+<col name="산업분류코드">46464</col>
+</item>
+<item>
+<col name="산업분류명칭">자전거 및 기타 운송장비 도매업</col>
+<col name="산업분류코드">46465</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 가정용품 도매업</col>
+<col name="산업분류코드">4649</col>
+</item>
+<item>
+<col name="산업분류명칭">가방 및 여행용품 도매업</col>
+<col name="산업분류코드">46491</col>
+</item>
+<item>
+<col name="산업분류명칭">시계 및 귀금속제품 도매업</col>
+<col name="산업분류코드">46492</col>
+</item>
+<item>
+<col name="산업분류코드">46493</col>
+<col name="산업분류명칭">사진장비 및 광학용품 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 가정용품 도매업</col>
+<col name="산업분류코드">46499</col>
+</item>
+<item>
+<col name="산업분류명칭">기계장비 및 관련 물품 도매업</col>
+<col name="산업분류코드">465</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 및 주변장치, 소프트웨어 도매업</col>
+<col name="산업분류코드">4651</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 및 주변장치, 소프트웨어 도매업</col>
+<col name="산업분류코드">46510</col>
+</item>
+<item>
+<col name="산업분류명칭">가전제품, 통신장비 및 부품 도매업</col>
+<col name="산업분류코드">4652</col>
+</item>
+<item>
+<col name="산업분류명칭">가전제품 및 부품 도매업</col>
+<col name="산업분류코드">46521</col>
+</item>
+<item>
+<col name="산업분류명칭">통신장비 및 부품 도매업</col>
+<col name="산업분류코드">46522</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 기계 및 장비 도매업</col>
+<col name="산업분류코드">4653</col>
+</item>
+<item>
+<col name="산업분류명칭">농업용 기계 및 장비 도매업</col>
+<col name="산업분류코드">46531</col>
+</item>
+<item>
+<col name="산업분류명칭">건설·광업용 기계 및 장비 도매업</col>
+<col name="산업분류코드">46532</col>
+</item>
+<item>
+<col name="산업분류명칭">공작기계 도매업</col>
+<col name="산업분류코드">46533</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 산업용 기계 및 장비 도매업</col>
+<col name="산업분류코드">46539</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 기계 및 장비 도매업</col>
+<col name="산업분류코드">4659</col>
+</item>
+<item>
+<col name="산업분류명칭">사무용 가구 및 기기 도매업</col>
+<col name="산업분류코드">46591</col>
+</item>
+<item>
+<col name="산업분류명칭">의료, 정밀 및 과학기기 도매업</col>
+<col name="산업분류코드">46592</col>
+</item>
+<item>
+<col name="산업분류코드">46593</col>
+<col name="산업분류명칭">수송용 기계 및 장비 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">전기용 기계장비 및 관련 기자재 도매업</col>
+<col name="산업분류코드">46594</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 기계 및 장비 도매업</col>
+<col name="산업분류코드">46599</col>
+</item>
+<item>
+<col name="산업분류명칭">건축자재, 철물 및 난방장치 도매업</col>
+<col name="산업분류코드">466</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 건축자재 도매업</col>
+<col name="산업분류코드">4661</col>
+</item>
+<item>
+<col name="산업분류명칭">원목 및 건축관련 목재품 도매업</col>
+<col name="산업분류코드">46611</col>
+</item>
+<item>
+<col name="산업분류명칭">골재, 벽돌 및 시멘트 도매업</col>
+<col name="산업분류코드">46612</col>
+</item>
+<item>
+<col name="산업분류명칭">유리 및 창호 도매업</col>
+<col name="산업분류코드">46613</col>
+</item>
+<item>
+<col name="산업분류명칭">철물 및 냉·난방장치 도매업</col>
+<col name="산업분류코드">4662</col>
+</item>
+<item>
+<col name="산업분류명칭">배관 및 냉·난방장치 도매업</col>
+<col name="산업분류코드">46621</col>
+</item>
+<item>
+<col name="산업분류코드">46622</col>
+<col name="산업분류명칭">철물 및 수공구 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 건축자재 도매업</col>
+<col name="산업분류코드">4669</col>
+</item>
+<item>
+<col name="산업분류명칭">도료 도매업</col>
+<col name="산업분류코드">46691</col>
+</item>
+<item>
+<col name="산업분류명칭">벽지 및 장판류 도매업</col>
+<col name="산업분류코드">46692</col>
+</item>
+<item>
+<col name="산업분류코드">46699</col>
+<col name="산업분류명칭">그외 기타 건축자재 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 전문 도매업</col>
+<col name="산업분류코드">467</col>
+</item>
+<item>
+<col name="산업분류명칭">연료 및 관련제품 도매업</col>
+<col name="산업분류코드">4671</col>
+</item>
+<item>
+<col name="산업분류명칭">고체연료 및 관련제품 도매업</col>
+<col name="산업분류코드">46711</col>
+</item>
+<item>
+<col name="산업분류명칭">액체연료 및 관련제품 도매업</col>
+<col name="산업분류코드">46712</col>
+</item>
+<item>
+<col name="산업분류코드">46713</col>
+<col name="산업분류명칭">기체연료 및 관련제품 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">1차 금속제품 및 금속광물 도매업</col>
+<col name="산업분류코드">4672</col>
+</item>
+<item>
+<col name="산업분류명칭">1차 금속제품 도매업</col>
+<col name="산업분류코드">46721</col>
+</item>
+<item>
+<col name="산업분류명칭">금속광물 도매업</col>
+<col name="산업분류코드">46722</col>
+</item>
+<item>
+<col name="산업분류명칭">화학물질 및 화학제품 도매업</col>
+<col name="산업분류코드">4673</col>
+</item>
+<item>
+<col name="산업분류명칭">염료, 안료 및 관련제품 도매업</col>
+<col name="산업분류코드">46731</col>
+</item>
+<item>
+<col name="산업분류명칭">비료 및 농약 도매업</col>
+<col name="산업분류코드">46732</col>
+</item>
+<item>
+<col name="산업분류코드">46733</col>
+<col name="산업분류명칭">합성고무 및 플라스틱물질 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 화학물질 및 화학제품 도매업</col>
+<col name="산업분류코드">46739</col>
+</item>
+<item>
+<col name="산업분류명칭">방직용 섬유, 사 및 직물 도매업</col>
+<col name="산업분류코드">4674</col>
+</item>
+<item>
+<col name="산업분류명칭">방직용 섬유 및 사 도매업</col>
+<col name="산업분류코드">46741</col>
+</item>
+<item>
+<col name="산업분류명칭">직물 도매업</col>
+<col name="산업분류코드">46742</col>
+</item>
+<item>
+<col name="산업분류명칭">재생용 재료 및 기타 상품 전문 도매업</col>
+<col name="산업분류코드">4679</col>
+</item>
+<item>
+<col name="산업분류명칭">재생용 재료 수집 및 판매업</col>
+<col name="산업분류코드">46791</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 상품 전문 도매업</col>
+<col name="산업분류코드">46799</col>
+</item>
+<item>
+<col name="산업분류코드">468</col>
+<col name="산업분류명칭">상품 종합 도매업</col>
+</item>
+<item>
+<col name="산업분류명칭">상품 종합 도매업</col>
+<col name="산업분류코드">4680</col>
+</item>
+<item>
+<col name="산업분류명칭">상품 종합 도매업</col>
+<col name="산업분류코드">46800</col>
+</item>
+<item>
+<col name="산업분류명칭">소매업; 자동차 제외</col>
+<col name="산업분류코드">47</col>
+</item>
+<item>
+<col name="산업분류명칭">종합 소매업</col>
+<col name="산업분류코드">471</col>
+</item>
+<item>
+<col name="산업분류명칭">대형 종합 소매업</col>
+<col name="산업분류코드">4711</col>
+</item>
+<item>
+<col name="산업분류코드">47111</col>
+<col name="산업분류명칭">백화점</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 대형 종합 소매업</col>
+<col name="산업분류코드">47119</col>
+</item>
+<item>
+<col name="산업분류명칭">음·식료품 위주 종합 소매업</col>
+<col name="산업분류코드">4712</col>
+</item>
+<item>
+<col name="산업분류명칭">슈퍼마켓</col>
+<col name="산업분류코드">47121</col>
+</item>
+<item>
+<col name="산업분류명칭">체인화 편의점</col>
+<col name="산업분류코드">47122</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 음·식료품 위주 종합 소매업</col>
+<col name="산업분류코드">47129</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 종합 소매업</col>
+<col name="산업분류코드">4719</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 종합 소매업</col>
+<col name="산업분류코드">47190</col>
+</item>
+<item>
+<col name="산업분류명칭">음·식료품 및 담배 소매업</col>
+<col name="산업분류코드">472</col>
+</item>
+<item>
+<col name="산업분류명칭">식료품 소매업</col>
+<col name="산업분류코드">4721</col>
+</item>
+<item>
+<col name="산업분류코드">47211</col>
+<col name="산업분류명칭">곡물 소매업</col>
+</item>
+<item>
+<col name="산업분류명칭">육류 소매업</col>
+<col name="산업분류코드">47212</col>
+</item>
+<item>
+<col name="산업분류명칭">수산물 소매업</col>
+<col name="산업분류코드">47213</col>
+</item>
+<item>
+<col name="산업분류명칭">과실 및 채소 소매업</col>
+<col name="산업분류코드">47214</col>
+</item>
+<item>
+<col name="산업분류명칭">빵 및 과자류 소매업</col>
+<col name="산업분류코드">47215</col>
+</item>
+<item>
+<col name="산업분류명칭">건강보조식품 소매업</col>
+<col name="산업분류코드">47216</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 식료품 소매업</col>
+<col name="산업분류코드">47219</col>
+</item>
+<item>
+<col name="산업분류명칭">음료 및 담배 소매업</col>
+<col name="산업분류코드">4722</col>
+</item>
+<item>
+<col name="산업분류명칭">음료 소매업</col>
+<col name="산업분류코드">47221</col>
+</item>
+<item>
+<col name="산업분류코드">47222</col>
+<col name="산업분류명칭">담배 소매업</col>
+</item>
+<item>
+<col name="산업분류명칭">정보통신장비 소매업</col>
+<col name="산업분류코드">473</col>
+</item>
+<item>
+<col name="산업분류코드">4731</col>
+<col name="산업분류명칭">컴퓨터 및 주변장치, 소프트웨어 및 통신기기 소매업</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 및 주변장치, 소프트웨어 소매업</col>
+<col name="산업분류코드">47311</col>
+</item>
+<item>
+<col name="산업분류명칭">통신기기 소매업</col>
+<col name="산업분류코드">47312</col>
+</item>
+<item>
+<col name="산업분류명칭">가전제품 소매업</col>
+<col name="산업분류코드">4732</col>
+</item>
+<item>
+<col name="산업분류명칭">가전제품 소매업</col>
+<col name="산업분류코드">47320</col>
+</item>
+<item>
+<col name="산업분류명칭">섬유, 의복, 신발 및 가죽제품 소매업</col>
+<col name="산업분류코드">474</col>
+</item>
+<item>
+<col name="산업분류명칭">섬유, 직물, 의복 및 의복액세서리 소매업</col>
+<col name="산업분류코드">4741</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 직물제품 소매업</col>
+<col name="산업분류코드">47411</col>
+</item>
+<item>
+<col name="산업분류명칭">한복 소매업</col>
+<col name="산업분류코드">47412</col>
+</item>
+<item>
+<col name="산업분류명칭">남녀용 정장 소매업</col>
+<col name="산업분류코드">47413</col>
+</item>
+<item>
+<col name="산업분류명칭">유아용 의류 소매업</col>
+<col name="산업분류코드">47414</col>
+</item>
+<item>
+<col name="산업분류명칭">내의 소매업</col>
+<col name="산업분류코드">47415</col>
+</item>
+<item>
+<col name="산업분류명칭">셔츠 및 기타 의복 소매업</col>
+<col name="산업분류코드">47416</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 섬유, 직물 및 의복액세서리 소매업</col>
+<col name="산업분류코드">47419</col>
+</item>
+<item>
+<col name="산업분류명칭">신발 소매업</col>
+<col name="산업분류코드">4742</col>
+</item>
+<item>
+<col name="산업분류명칭">신발 소매업</col>
+<col name="산업분류코드">47420</col>
+</item>
+<item>
+<col name="산업분류명칭">가방 및 기타 가죽제품 소매업</col>
+<col name="산업분류코드">4743</col>
+</item>
+<item>
+<col name="산업분류명칭">가방 및 기타 가죽제품 소매업</col>
+<col name="산업분류코드">47430</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 가정용품 소매업</col>
+<col name="산업분류코드">475</col>
+</item>
+<item>
+<col name="산업분류명칭">철물, 페인트, 유리 및 건설자재 소매업</col>
+<col name="산업분류코드">4751</col>
+</item>
+<item>
+<col name="산업분류명칭">철물 및 난방용구 소매업</col>
+<col name="산업분류코드">47511</col>
+</item>
+<item>
+<col name="산업분류명칭">기계공구 소매업</col>
+<col name="산업분류코드">47512</col>
+</item>
+<item>
+<col name="산업분류명칭">벽지 및 장판류 소매업</col>
+<col name="산업분류코드">47513</col>
+</item>
+<item>
+<col name="산업분류코드">47519</col>
+<col name="산업분류명칭">페인트, 유리 및 기타 건설자재 소매업</col>
+</item>
+<item>
+<col name="산업분류명칭">가구 소매업</col>
+<col name="산업분류코드">4752</col>
+</item>
+<item>
+<col name="산업분류명칭">가구 소매업</col>
+<col name="산업분류코드">47520</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 가정용품 소매업</col>
+<col name="산업분류코드">4759</col>
+</item>
+<item>
+<col name="산업분류명칭">전기용품 및 조명장치 소매업</col>
+<col name="산업분류코드">47591</col>
+</item>
+<item>
+<col name="산업분류명칭">식탁 및 주방용품 소매업</col>
+<col name="산업분류코드">47592</col>
+</item>
+<item>
+<col name="산업분류명칭">악기 소매업</col>
+<col name="산업분류코드">47593</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 가정용품 소매업</col>
+<col name="산업분류코드">47599</col>
+</item>
+<item>
+<col name="산업분류명칭">문화, 오락 및 여가 용품 소매업</col>
+<col name="산업분류코드">476</col>
+</item>
+<item>
+<col name="산업분류명칭">서적 및 문구용품 소매업</col>
+<col name="산업분류코드">4761</col>
+</item>
+<item>
+<col name="산업분류명칭">서적 및 잡지류 소매업</col>
+<col name="산업분류코드">47611</col>
+</item>
+<item>
+<col name="산업분류명칭">문구용품 소매업</col>
+<col name="산업분류코드">47612</col>
+</item>
+<item>
+<col name="산업분류명칭">음반 및 비디오물 소매업</col>
+<col name="산업분류코드">4762</col>
+</item>
+<item>
+<col name="산업분류명칭">음반 및 비디오물 소매업</col>
+<col name="산업분류코드">47620</col>
+</item>
+<item>
+<col name="산업분류명칭">스포츠용품 소매업</col>
+<col name="산업분류코드">4763</col>
+</item>
+<item>
+<col name="산업분류명칭">운동 및 경기용품 소매업</col>
+<col name="산업분류코드">47631</col>
+</item>
+<item>
+<col name="산업분류명칭">자전거 및 기타 운송장비 소매업</col>
+<col name="산업분류코드">47632</col>
+</item>
+<item>
+<col name="산업분류코드">4764</col>
+<col name="산업분류명칭">게임용구, 인형 및 장난감 소매업</col>
+</item>
+<item>
+<col name="산업분류명칭">게임용구, 인형 및 장난감 소매업</col>
+<col name="산업분류코드">47640</col>
+</item>
+<item>
+<col name="산업분류명칭">연료 소매업</col>
+<col name="산업분류코드">477</col>
+</item>
+<item>
+<col name="산업분류명칭">차량용 연료 소매업</col>
+<col name="산업분류코드">4771</col>
+</item>
+<item>
+<col name="산업분류명칭">차량용 주유소 운영업</col>
+<col name="산업분류코드">47711</col>
+</item>
+<item>
+<col name="산업분류명칭">차량용 가스 충전업</col>
+<col name="산업분류코드">47712</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 연료 소매업</col>
+<col name="산업분류코드">4772</col>
+</item>
+<item>
+<col name="산업분류명칭">가정용 고체연료 소매업</col>
+<col name="산업분류코드">47721</col>
+</item>
+<item>
+<col name="산업분류코드">47722</col>
+<col name="산업분류명칭">가정용 액체연료 소매업</col>
+</item>
+<item>
+<col name="산업분류코드">47723</col>
+<col name="산업분류명칭">가정용 가스연료 소매업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 상품 전문 소매업</col>
+<col name="산업분류코드">478</col>
+</item>
+<item>
+<col name="산업분류명칭">의약품, 의료용 기구, 화장품 및 방향제 소매업</col>
+<col name="산업분류코드">4781</col>
+</item>
+<item>
+<col name="산업분류명칭">의약품 및 의료용품 소매업</col>
+<col name="산업분류코드">47811</col>
+</item>
+<item>
+<col name="산업분류명칭">의료용 기구 소매업</col>
+<col name="산업분류코드">47812</col>
+</item>
+<item>
+<col name="산업분류명칭">화장품 및 방향제 소매업</col>
+<col name="산업분류코드">47813</col>
+</item>
+<item>
+<col name="산업분류명칭">사무용 기기, 사진장비 및 정밀기기 소매업</col>
+<col name="산업분류코드">4782</col>
+</item>
+<item>
+<col name="산업분류명칭">사무용 기기 소매업</col>
+<col name="산업분류코드">47821</col>
+</item>
+<item>
+<col name="산업분류명칭">안경 소매업</col>
+<col name="산업분류코드">47822</col>
+</item>
+<item>
+<col name="산업분류명칭">사진기 및 사진용품 소매업</col>
+<col name="산업분류코드">47823</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 광학 및 정밀 기기 소매업</col>
+<col name="산업분류코드">47829</col>
+</item>
+<item>
+<col name="산업분류명칭">시계 및 귀금속 소매업</col>
+<col name="산업분류코드">4783</col>
+</item>
+<item>
+<col name="산업분류명칭">시계 및 귀금속 소매업</col>
+<col name="산업분류코드">47830</col>
+</item>
+<item>
+<col name="산업분류명칭">예술품 및 선물용품 소매업</col>
+<col name="산업분류코드">4784</col>
+</item>
+<item>
+<col name="산업분류명칭">예술품 및 골동품 소매업</col>
+<col name="산업분류코드">47841</col>
+</item>
+<item>
+<col name="산업분류명칭">관광 민예품 및 선물용품 소매업</col>
+<col name="산업분류코드">47842</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 상품 전문 소매업</col>
+<col name="산업분류코드">4785</col>
+</item>
+<item>
+<col name="산업분류명칭">화초 및 산식물 소매업</col>
+<col name="산업분류코드">47851</col>
+</item>
+<item>
+<col name="산업분류명칭">애완용 동물 및 관련용품 소매업</col>
+<col name="산업분류코드">47852</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 상품 전문 소매업</col>
+<col name="산업분류코드">47859</col>
+</item>
+<item>
+<col name="산업분류명칭">중고상품 소매업</col>
+<col name="산업분류코드">4786</col>
+</item>
+<item>
+<col name="산업분류명칭">중고가구 소매업</col>
+<col name="산업분류코드">47861</col>
+</item>
+<item>
+<col name="산업분류명칭">중고 가전제품 소매업</col>
+<col name="산업분류코드">47862</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 중고상품 소매업</col>
+<col name="산업분류코드">47869</col>
+</item>
+<item>
+<col name="산업분류명칭">무점포 소매업</col>
+<col name="산업분류코드">479</col>
+</item>
+<item>
+<col name="산업분류명칭">통신 판매업</col>
+<col name="산업분류코드">4791</col>
+</item>
+<item>
+<col name="산업분류명칭">전자상거래업</col>
+<col name="산업분류코드">47911</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 통신 판매업</col>
+<col name="산업분류코드">47919</col>
+</item>
+<item>
+<col name="산업분류명칭">노점 및 유사이동 소매업</col>
+<col name="산업분류코드">4792</col>
+</item>
+<item>
+<col name="산업분류코드">47920</col>
+<col name="산업분류명칭">노점 및 유사이동 소매업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 무점포 소매업</col>
+<col name="산업분류코드">4799</col>
+</item>
+<item>
+<col name="산업분류코드">47991</col>
+<col name="산업분류명칭">자동판매기 운영업</col>
+</item>
+<item>
+<col name="산업분류명칭">계약배달 판매업</col>
+<col name="산업분류코드">47992</col>
+</item>
+<item>
+<col name="산업분류명칭">방문 판매업</col>
+<col name="산업분류코드">47993</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 무점포 소매업</col>
+<col name="산업분류코드">47999</col>
+</item>
+<item>
+<col name="산업분류명칭">육상운송 및 파이프라인 운송업</col>
+<col name="산업분류코드">49</col>
+</item>
+<item>
+<col name="산업분류코드">491</col>
+<col name="산업분류명칭">철도운송업</col>
+</item>
+<item>
+<col name="산업분류명칭">철도운송업</col>
+<col name="산업분류코드">4910</col>
+</item>
+<item>
+<col name="산업분류명칭">철도운송업</col>
+<col name="산업분류코드">49100</col>
+</item>
+<item>
+<col name="산업분류명칭">육상 여객 운송업</col>
+<col name="산업분류코드">492</col>
+</item>
+<item>
+<col name="산업분류명칭">도시 정기 육상 여객 운송업</col>
+<col name="산업분류코드">4921</col>
+</item>
+<item>
+<col name="산업분류코드">49211</col>
+<col name="산업분류명칭">도시철도 운송업</col>
+</item>
+<item>
+<col name="산업분류명칭">시내버스 운송업</col>
+<col name="산업분류코드">49212</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 도시 정기 육상 여객 운송업</col>
+<col name="산업분류코드">49219</col>
+</item>
+<item>
+<col name="산업분류명칭">시외버스 운송업</col>
+<col name="산업분류코드">4922</col>
+</item>
+<item>
+<col name="산업분류코드">49220</col>
+<col name="산업분류명칭">시외버스 운송업</col>
+</item>
+<item>
+<col name="산업분류코드">4923</col>
+<col name="산업분류명칭">부정기 여객 육상 운송업</col>
+</item>
+<item>
+<col name="산업분류명칭">택시 운송업</col>
+<col name="산업분류코드">49231</col>
+</item>
+<item>
+<col name="산업분류명칭">전세버스 운송업</col>
+<col name="산업분류코드">49232</col>
+</item>
+<item>
+<col name="산업분류명칭">장의차량 운영업</col>
+<col name="산업분류코드">49233</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 부정기 여객 육상 운송업</col>
+<col name="산업분류코드">49239</col>
+</item>
+<item>
+<col name="산업분류명칭">도로 화물 운송업</col>
+<col name="산업분류코드">493</col>
+</item>
+<item>
+<col name="산업분류코드">4931</col>
+<col name="산업분류명칭">화물자동차 운송업</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 화물자동차 운송업</col>
+<col name="산업분류코드">49311</col>
+</item>
+<item>
+<col name="산업분류명칭">용달 및 개별 화물자동차 운송업</col>
+<col name="산업분류코드">49312</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 도로화물 운송업</col>
+<col name="산업분류코드">4939</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 도로화물 운송업</col>
+<col name="산업분류코드">49390</col>
+</item>
+<item>
+<col name="산업분류명칭">소화물 전문 운송업</col>
+<col name="산업분류코드">494</col>
+</item>
+<item>
+<col name="산업분류명칭">소화물 전문 운송업</col>
+<col name="산업분류코드">4940</col>
+</item>
+<item>
+<col name="산업분류명칭">택배업</col>
+<col name="산업분류코드">49401</col>
+</item>
+<item>
+<col name="산업분류명칭">늘찬 배달업</col>
+<col name="산업분류코드">49402</col>
+</item>
+<item>
+<col name="산업분류명칭">파이프라인 운송업</col>
+<col name="산업분류코드">495</col>
+</item>
+<item>
+<col name="산업분류명칭">파이프라인 운송업</col>
+<col name="산업분류코드">4950</col>
+</item>
+<item>
+<col name="산업분류명칭">파이프라인 운송업</col>
+<col name="산업분류코드">49500</col>
+</item>
+<item>
+<col name="산업분류코드">50</col>
+<col name="산업분류명칭">수상 운송업</col>
+</item>
+<item>
+<col name="산업분류명칭">해상 운송업</col>
+<col name="산업분류코드">501</col>
+</item>
+<item>
+<col name="산업분류명칭">외항 운송업</col>
+<col name="산업분류코드">5011</col>
+</item>
+<item>
+<col name="산업분류명칭">외항 여객 운송업</col>
+<col name="산업분류코드">50111</col>
+</item>
+<item>
+<col name="산업분류명칭">외항 화물 운송업</col>
+<col name="산업분류코드">50112</col>
+</item>
+<item>
+<col name="산업분류명칭">내항 운송업</col>
+<col name="산업분류코드">5012</col>
+</item>
+<item>
+<col name="산업분류명칭">내항 여객 운송업</col>
+<col name="산업분류코드">50121</col>
+</item>
+<item>
+<col name="산업분류코드">50122</col>
+<col name="산업분류명칭">내항 화물 운송업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 해상 운송업</col>
+<col name="산업분류코드">5013</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 해상 운송업</col>
+<col name="산업분류코드">50130</col>
+</item>
+<item>
+<col name="산업분류명칭">내륙 수상 및 항만내 운송업</col>
+<col name="산업분류코드">502</col>
+</item>
+<item>
+<col name="산업분류명칭">내륙 수상 및 항만내 운송업</col>
+<col name="산업분류코드">5020</col>
+</item>
+<item>
+<col name="산업분류명칭">내륙 수상 여객 운송업</col>
+<col name="산업분류코드">50201</col>
+</item>
+<item>
+<col name="산업분류명칭">내륙 수상 화물 운송업</col>
+<col name="산업분류코드">50202</col>
+</item>
+<item>
+<col name="산업분류명칭">항만내 운송업</col>
+<col name="산업분류코드">50203</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 내륙 수상 및 항만내 운송업</col>
+<col name="산업분류코드">50209</col>
+</item>
+<item>
+<col name="산업분류명칭">항공 운송업</col>
+<col name="산업분류코드">51</col>
+</item>
+<item>
+<col name="산업분류명칭">정기 항공 운송업</col>
+<col name="산업분류코드">511</col>
+</item>
+<item>
+<col name="산업분류명칭">정기 항공 운송업</col>
+<col name="산업분류코드">5110</col>
+</item>
+<item>
+<col name="산업분류명칭">정기 항공 운송업</col>
+<col name="산업분류코드">51100</col>
+</item>
+<item>
+<col name="산업분류명칭">부정기 항공 운송업</col>
+<col name="산업분류코드">512</col>
+</item>
+<item>
+<col name="산업분류명칭">부정기 항공 운송업</col>
+<col name="산업분류코드">5120</col>
+</item>
+<item>
+<col name="산업분류명칭">부정기 항공 운송업</col>
+<col name="산업분류코드">51200</col>
+</item>
+<item>
+<col name="산업분류명칭">창고 및 운송관련 서비스업</col>
+<col name="산업분류코드">52</col>
+</item>
+<item>
+<col name="산업분류명칭">보관 및 창고업</col>
+<col name="산업분류코드">521</col>
+</item>
+<item>
+<col name="산업분류명칭">보관 및 창고업</col>
+<col name="산업분류코드">5210</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 창고업</col>
+<col name="산업분류코드">52101</col>
+</item>
+<item>
+<col name="산업분류명칭">냉장 및 냉동 창고업</col>
+<col name="산업분류코드">52102</col>
+</item>
+<item>
+<col name="산업분류명칭">농산물 창고업</col>
+<col name="산업분류코드">52103</col>
+</item>
+<item>
+<col name="산업분류명칭">위험물품 보관업</col>
+<col name="산업분류코드">52104</col>
+</item>
+<item>
+<col name="산업분류코드">52109</col>
+<col name="산업분류명칭">기타 보관 및 창고업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 운송관련 서비스업</col>
+<col name="산업분류코드">529</col>
+</item>
+<item>
+<col name="산업분류명칭">육상 운송지원 서비스업</col>
+<col name="산업분류코드">5291</col>
+</item>
+<item>
+<col name="산업분류명칭">철도 운송지원 서비스업</col>
+<col name="산업분류코드">52911</col>
+</item>
+<item>
+<col name="산업분류명칭">여객 자동차 터미널 운영업</col>
+<col name="산업분류코드">52912</col>
+</item>
+<item>
+<col name="산업분류명칭">화물 자동차 터미널 운영업</col>
+<col name="산업분류코드">52913</col>
+</item>
+<item>
+<col name="산업분류명칭">도로 및 관련시설 운영업</col>
+<col name="산업분류코드">52914</col>
+</item>
+<item>
+<col name="산업분류코드">52915</col>
+<col name="산업분류명칭">주차장 운영업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 육상 운송지원 서비스업</col>
+<col name="산업분류코드">52919</col>
+</item>
+<item>
+<col name="산업분류명칭">수상 운송지원 서비스업</col>
+<col name="산업분류코드">5292</col>
+</item>
+<item>
+<col name="산업분류명칭">항구 및 기타 해상 터미널 운영업</col>
+<col name="산업분류코드">52921</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 수상 운송지원 서비스업</col>
+<col name="산업분류코드">52929</col>
+</item>
+<item>
+<col name="산업분류명칭">항공 운송지원 서비스업</col>
+<col name="산업분류코드">5293</col>
+</item>
+<item>
+<col name="산업분류명칭">공항 운영업</col>
+<col name="산업분류코드">52931</col>
+</item>
+<item>
+<col name="산업분류코드">52939</col>
+<col name="산업분류명칭">기타 항공 운송지원 서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">화물 취급업</col>
+<col name="산업분류코드">5294</col>
+</item>
+<item>
+<col name="산업분류명칭">항공 및 육상 화물 취급업</col>
+<col name="산업분류코드">52941</col>
+</item>
+<item>
+<col name="산업분류명칭">수상 화물 취급업</col>
+<col name="산업분류코드">52942</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 운송관련 서비스업</col>
+<col name="산업분류코드">5299</col>
+</item>
+<item>
+<col name="산업분류명칭">화물운송 중개, 대리 및 관련서비스업</col>
+<col name="산업분류코드">52991</col>
+</item>
+<item>
+<col name="산업분류명칭">화물포장, 검수 및 형량 서비스업</col>
+<col name="산업분류코드">52992</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 운송관련 서비스업</col>
+<col name="산업분류코드">52999</col>
+</item>
+<item>
+<col name="산업분류명칭">숙박업</col>
+<col name="산업분류코드">55</col>
+</item>
+<item>
+<col name="산업분류명칭">숙박시설 운영업</col>
+<col name="산업분류코드">551</col>
+</item>
+<item>
+<col name="산업분류명칭">관광숙박시설 운영업</col>
+<col name="산업분류코드">5511</col>
+</item>
+<item>
+<col name="산업분류명칭">호텔업</col>
+<col name="산업분류코드">55111</col>
+</item>
+<item>
+<col name="산업분류명칭">여관업</col>
+<col name="산업분류코드">55112</col>
+</item>
+<item>
+<col name="산업분류명칭">휴양콘도 운영업</col>
+<col name="산업분류코드">55113</col>
+</item>
+<item>
+<col name="산업분류명칭">청소년수련시설 운영업</col>
+<col name="산업분류코드">55114</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 관광숙박시설 운영업</col>
+<col name="산업분류코드">55119</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 숙박업</col>
+<col name="산업분류코드">559</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 숙박업</col>
+<col name="산업분류코드">5590</col>
+</item>
+<item>
+<col name="산업분류명칭">기숙사 운영업</col>
+<col name="산업분류코드">55901</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 숙박업</col>
+<col name="산업분류코드">55909</col>
+</item>
+<item>
+<col name="산업분류명칭">음식점 및 주점업</col>
+<col name="산업분류코드">56</col>
+</item>
+<item>
+<col name="산업분류명칭">음식점업</col>
+<col name="산업분류코드">561</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 음식점업</col>
+<col name="산업분류코드">5611</col>
+</item>
+<item>
+<col name="산업분류코드">56111</col>
+<col name="산업분류명칭">한식 음식점업</col>
+</item>
+<item>
+<col name="산업분류명칭">중식 음식점업</col>
+<col name="산업분류코드">56112</col>
+</item>
+<item>
+<col name="산업분류명칭">일식 음식점업</col>
+<col name="산업분류코드">56113</col>
+</item>
+<item>
+<col name="산업분류명칭">서양식 음식점업</col>
+<col name="산업분류코드">56114</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 외국식 음식점업</col>
+<col name="산업분류코드">56119</col>
+</item>
+<item>
+<col name="산업분류코드">5612</col>
+<col name="산업분류명칭">기관구내식당업</col>
+</item>
+<item>
+<col name="산업분류명칭">기관구내식당업</col>
+<col name="산업분류코드">56120</col>
+</item>
+<item>
+<col name="산업분류명칭">출장 및 이동 음식업</col>
+<col name="산업분류코드">5613</col>
+</item>
+<item>
+<col name="산업분류명칭">출장 음식 서비스업</col>
+<col name="산업분류코드">56131</col>
+</item>
+<item>
+<col name="산업분류명칭">이동 음식업</col>
+<col name="산업분류코드">56132</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 음식점업</col>
+<col name="산업분류코드">5619</col>
+</item>
+<item>
+<col name="산업분류명칭">제과점업</col>
+<col name="산업분류코드">56191</col>
+</item>
+<item>
+<col name="산업분류명칭">피자, 햄버거, 샌드위치 및 유사 음식점업</col>
+<col name="산업분류코드">56192</col>
+</item>
+<item>
+<col name="산업분류명칭">치킨 전문점</col>
+<col name="산업분류코드">56193</col>
+</item>
+<item>
+<col name="산업분류명칭">분식 및 김밥 전문점</col>
+<col name="산업분류코드">56194</col>
+</item>
+<item>
+<col name="산업분류코드">56199</col>
+<col name="산업분류명칭">그외 기타 음식점업</col>
+</item>
+<item>
+<col name="산업분류코드">562</col>
+<col name="산업분류명칭">주점 및 비알콜음료점업</col>
+</item>
+<item>
+<col name="산업분류명칭">주점업</col>
+<col name="산업분류코드">5621</col>
+</item>
+<item>
+<col name="산업분류명칭">일반유흥 주점업</col>
+<col name="산업분류코드">56211</col>
+</item>
+<item>
+<col name="산업분류명칭">무도유흥 주점업</col>
+<col name="산업분류코드">56212</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 주점업</col>
+<col name="산업분류코드">56219</col>
+</item>
+<item>
+<col name="산업분류명칭">비알콜 음료점업</col>
+<col name="산업분류코드">5622</col>
+</item>
+<item>
+<col name="산업분류코드">56220</col>
+<col name="산업분류명칭">비알콜 음료점업</col>
+</item>
+<item>
+<col name="산업분류코드">58</col>
+<col name="산업분류명칭">출판업</col>
+</item>
+<item>
+<col name="산업분류명칭">서적, 잡지 및 기타 인쇄물 출판업</col>
+<col name="산업분류코드">581</col>
+</item>
+<item>
+<col name="산업분류명칭">서적 출판업</col>
+<col name="산업분류코드">5811</col>
+</item>
+<item>
+<col name="산업분류명칭">교과서 및 학습서적 출판업</col>
+<col name="산업분류코드">58111</col>
+</item>
+<item>
+<col name="산업분류명칭">만화 출판업</col>
+<col name="산업분류코드">58112</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 서적 출판업</col>
+<col name="산업분류코드">58119</col>
+</item>
+<item>
+<col name="산업분류명칭">신문, 잡지 및 정기간행물 출판업</col>
+<col name="산업분류코드">5812</col>
+</item>
+<item>
+<col name="산업분류명칭">신문 발행업</col>
+<col name="산업분류코드">58121</col>
+</item>
+<item>
+<col name="산업분류코드">58122</col>
+<col name="산업분류명칭">잡지 및 정기간행물 발행업</col>
+</item>
+<item>
+<col name="산업분류명칭">정기 광고간행물 발행업</col>
+<col name="산업분류코드">58123</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 인쇄물 출판업</col>
+<col name="산업분류코드">5819</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 인쇄물 출판업</col>
+<col name="산업분류코드">58190</col>
+</item>
+<item>
+<col name="산업분류명칭">소프트웨어 개발 및 공급업</col>
+<col name="산업분류코드">582</col>
+</item>
+<item>
+<col name="산업분류명칭">게임 소프트웨어 개발 및 공급업</col>
+<col name="산업분류코드">5821</col>
+</item>
+<item>
+<col name="산업분류명칭">온라인·모바일 게임 소프트웨어 개발 및 공급업</col>
+<col name="산업분류코드">58211</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 게임 소프트웨어 개발 및 공급업</col>
+<col name="산업분류코드">58219</col>
+</item>
+<item>
+<col name="산업분류명칭">시스템·응용 소프트웨어 개발 및 공급업</col>
+<col name="산업분류코드">5822</col>
+</item>
+<item>
+<col name="산업분류명칭">시스템 소프트웨어 개발 및 공급업</col>
+<col name="산업분류코드">58221</col>
+</item>
+<item>
+<col name="산업분류명칭">응용소프트웨어 개발 및 공급업</col>
+<col name="산업분류코드">58222</col>
+</item>
+<item>
+<col name="산업분류명칭">영상·오디오 기록물 제작 및 배급업</col>
+<col name="산업분류코드">59</col>
+</item>
+<item>
+<col name="산업분류코드">591</col>
+<col name="산업분류명칭">영화, 비디오물, 방송프로그램 제작 및 배급업</col>
+</item>
+<item>
+<col name="산업분류코드">5911</col>
+<col name="산업분류명칭">영화, 비디오물 및 방송프로그램 제작업</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 영화 및 비디오물 제작업</col>
+<col name="산업분류코드">59111</col>
+</item>
+<item>
+<col name="산업분류명칭">애니메이션 영화 및 비디오물 제작업</col>
+<col name="산업분류코드">59112</col>
+</item>
+<item>
+<col name="산업분류명칭">광고 영화 및 비디오물 제작업</col>
+<col name="산업분류코드">59113</col>
+</item>
+<item>
+<col name="산업분류명칭">방송 프로그램 제작업</col>
+<col name="산업분류코드">59114</col>
+</item>
+<item>
+<col name="산업분류명칭">영화, 비디오물 및 방송프로그램 제작 관련 서비스업</col>
+<col name="산업분류코드">5912</col>
+</item>
+<item>
+<col name="산업분류명칭">영화, 비디오물 및 방송프로그램 제작 관련 서비스업</col>
+<col name="산업분류코드">59120</col>
+</item>
+<item>
+<col name="산업분류명칭">영화, 비디오물 및 방송프로그램 배급업</col>
+<col name="산업분류코드">5913</col>
+</item>
+<item>
+<col name="산업분류명칭">영화, 비디오물 및 방송프로그램 배급업</col>
+<col name="산업분류코드">59130</col>
+</item>
+<item>
+<col name="산업분류명칭">영화 및 비디오물 상영업</col>
+<col name="산업분류코드">5914</col>
+</item>
+<item>
+<col name="산업분류명칭">영화관 운영업</col>
+<col name="산업분류코드">59141</col>
+</item>
+<item>
+<col name="산업분류명칭">비디오물 감상실 운영업</col>
+<col name="산업분류코드">59142</col>
+</item>
+<item>
+<col name="산업분류명칭">오디오물 출판 및 원판 녹음업</col>
+<col name="산업분류코드">592</col>
+</item>
+<item>
+<col name="산업분류명칭">오디오물 출판 및 원판 녹음업</col>
+<col name="산업분류코드">5920</col>
+</item>
+<item>
+<col name="산업분류명칭">음악 및 기타 오디오물 출판업</col>
+<col name="산업분류코드">59201</col>
+</item>
+<item>
+<col name="산업분류명칭">녹음시설 운영업</col>
+<col name="산업분류코드">59202</col>
+</item>
+<item>
+<col name="산업분류코드">60</col>
+<col name="산업분류명칭">방송업</col>
+</item>
+<item>
+<col name="산업분류명칭">라디오 방송업</col>
+<col name="산업분류코드">601</col>
+</item>
+<item>
+<col name="산업분류명칭">라디오 방송업</col>
+<col name="산업분류코드">6010</col>
+</item>
+<item>
+<col name="산업분류명칭">라디오 방송업</col>
+<col name="산업분류코드">60100</col>
+</item>
+<item>
+<col name="산업분류명칭">텔레비전 방송업</col>
+<col name="산업분류코드">602</col>
+</item>
+<item>
+<col name="산업분류명칭">지상파 방송업</col>
+<col name="산업분류코드">6021</col>
+</item>
+<item>
+<col name="산업분류명칭">지상파 방송업</col>
+<col name="산업분류코드">60210</col>
+</item>
+<item>
+<col name="산업분류코드">6022</col>
+<col name="산업분류명칭">유선, 위성 및 기타 방송업</col>
+</item>
+<item>
+<col name="산업분류명칭">프로그램 공급업</col>
+<col name="산업분류코드">60221</col>
+</item>
+<item>
+<col name="산업분류명칭">유선방송업</col>
+<col name="산업분류코드">60222</col>
+</item>
+<item>
+<col name="산업분류명칭">위성 및 기타 방송업</col>
+<col name="산업분류코드">60229</col>
+</item>
+<item>
+<col name="산업분류명칭">통신업</col>
+<col name="산업분류코드">61</col>
+</item>
+<item>
+<col name="산업분류명칭">우편업</col>
+<col name="산업분류코드">611</col>
+</item>
+<item>
+<col name="산업분류명칭">우편업</col>
+<col name="산업분류코드">6110</col>
+</item>
+<item>
+<col name="산업분류명칭">우편업</col>
+<col name="산업분류코드">61100</col>
+</item>
+<item>
+<col name="산업분류명칭">전기통신업</col>
+<col name="산업분류코드">612</col>
+</item>
+<item>
+<col name="산업분류명칭">유선통신업</col>
+<col name="산업분류코드">6121</col>
+</item>
+<item>
+<col name="산업분류명칭">유선통신업</col>
+<col name="산업분류코드">61210</col>
+</item>
+<item>
+<col name="산업분류명칭">무선통신업</col>
+<col name="산업분류코드">6122</col>
+</item>
+<item>
+<col name="산업분류코드">61220</col>
+<col name="산업분류명칭">무선통신업</col>
+</item>
+<item>
+<col name="산업분류명칭">위성통신업</col>
+<col name="산업분류코드">6123</col>
+</item>
+<item>
+<col name="산업분류명칭">위성통신업</col>
+<col name="산업분류코드">61230</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 전기통신업</col>
+<col name="산업분류코드">6129</col>
+</item>
+<item>
+<col name="산업분류명칭">통신 재판매업</col>
+<col name="산업분류코드">61291</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 전기 통신업</col>
+<col name="산업분류코드">61299</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 프로그래밍, 시스템 통합 및 관리업</col>
+<col name="산업분류코드">62</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 프로그래밍, 시스템 통합 및 관리업</col>
+<col name="산업분류코드">620</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 프로그래밍 서비스업</col>
+<col name="산업분류코드">6201</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 프로그래밍 서비스업</col>
+<col name="산업분류코드">62010</col>
+</item>
+<item>
+<col name="산업분류코드">6202</col>
+<col name="산업분류명칭">컴퓨터시스템 통합 자문, 구축 및 관리업</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터시스템 통합 자문 및 구축 서비스업</col>
+<col name="산업분류코드">62021</col>
+</item>
+<item>
+<col name="산업분류코드">62022</col>
+<col name="산업분류명칭">컴퓨터시설 관리업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 정보기술 및 컴퓨터운영 관련 서비스업</col>
+<col name="산업분류코드">6209</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 정보기술 및 컴퓨터운영 관련 서비스업</col>
+<col name="산업분류코드">62090</col>
+</item>
+<item>
+<col name="산업분류명칭">정보서비스업</col>
+<col name="산업분류코드">63</col>
+</item>
+<item>
+<col name="산업분류코드">631</col>
+<col name="산업분류명칭">자료처리, 호스팅, 포털 및 기타 인터넷 정보매개서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">자료처리, 호스팅 및 관련 서비스업</col>
+<col name="산업분류코드">6311</col>
+</item>
+<item>
+<col name="산업분류코드">63111</col>
+<col name="산업분류명칭">자료 처리업</col>
+</item>
+<item>
+<col name="산업분류명칭">호스팅 및 관련 서비스업</col>
+<col name="산업분류코드">63112</col>
+</item>
+<item>
+<col name="산업분류명칭">포털 및 기타 인터넷 정보매개 서비스업</col>
+<col name="산업분류코드">6312</col>
+</item>
+<item>
+<col name="산업분류코드">63120</col>
+<col name="산업분류명칭">포털 및 기타 인터넷 정보매개 서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 정보 서비스업</col>
+<col name="산업분류코드">639</col>
+</item>
+<item>
+<col name="산업분류명칭">뉴스 제공업</col>
+<col name="산업분류코드">6391</col>
+</item>
+<item>
+<col name="산업분류명칭">뉴스 제공업</col>
+<col name="산업분류코드">63910</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 정보 서비스업</col>
+<col name="산업분류코드">6399</col>
+</item>
+<item>
+<col name="산업분류명칭">데이터베이스 및 온라인정보 제공업</col>
+<col name="산업분류코드">63991</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 정보 서비스업</col>
+<col name="산업분류코드">63999</col>
+</item>
+<item>
+<col name="산업분류명칭">금융업</col>
+<col name="산업분류코드">64</col>
+</item>
+<item>
+<col name="산업분류명칭">은행 및 저축기관</col>
+<col name="산업분류코드">641</col>
+</item>
+<item>
+<col name="산업분류명칭">중앙은행</col>
+<col name="산업분류코드">6411</col>
+</item>
+<item>
+<col name="산업분류명칭">중앙은행</col>
+<col name="산업분류코드">64110</col>
+</item>
+<item>
+<col name="산업분류명칭">일반은행</col>
+<col name="산업분류코드">6412</col>
+</item>
+<item>
+<col name="산업분류명칭">국내은행</col>
+<col name="산업분류코드">64121</col>
+</item>
+<item>
+<col name="산업분류명칭">외국은행</col>
+<col name="산업분류코드">64122</col>
+</item>
+<item>
+<col name="산업분류명칭">신용조합 및 저축기관</col>
+<col name="산업분류코드">6413</col>
+</item>
+<item>
+<col name="산업분류명칭">신용조합</col>
+<col name="산업분류코드">64131</col>
+</item>
+<item>
+<col name="산업분류명칭">상호저축은행</col>
+<col name="산업분류코드">64132</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 저축기관</col>
+<col name="산업분류코드">64139</col>
+</item>
+<item>
+<col name="산업분류명칭">투자기관</col>
+<col name="산업분류코드">642</col>
+</item>
+<item>
+<col name="산업분류명칭">투자기관</col>
+<col name="산업분류코드">6420</col>
+</item>
+<item>
+<col name="산업분류명칭">자산운용회사</col>
+<col name="산업분류코드">64201</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 투자기관</col>
+<col name="산업분류코드">64209</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 금융업</col>
+<col name="산업분류코드">649</col>
+</item>
+<item>
+<col name="산업분류명칭">여신금융업</col>
+<col name="산업분류코드">6491</col>
+</item>
+<item>
+<col name="산업분류명칭">금융리스업</col>
+<col name="산업분류코드">64911</col>
+</item>
+<item>
+<col name="산업분류명칭">개발금융기관</col>
+<col name="산업분류코드">64912</col>
+</item>
+<item>
+<col name="산업분류명칭">신용카드 및 할부금융업</col>
+<col name="산업분류코드">64913</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 여신금융업</col>
+<col name="산업분류코드">64919</col>
+</item>
+<item>
+<col name="산업분류코드">6499</col>
+<col name="산업분류명칭">그외 기타 금융업</col>
+</item>
+<item>
+<col name="산업분류코드">64991</col>
+<col name="산업분류명칭">기금 운영업</col>
+</item>
+<item>
+<col name="산업분류명칭">금융지주회사</col>
+<col name="산업분류코드">64992</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 금융업</col>
+<col name="산업분류코드">64999</col>
+</item>
+<item>
+<col name="산업분류명칭">보험 및 연금업</col>
+<col name="산업분류코드">65</col>
+</item>
+<item>
+<col name="산업분류명칭">보험업</col>
+<col name="산업분류코드">651</col>
+</item>
+<item>
+<col name="산업분류명칭">생명 보험업</col>
+<col name="산업분류코드">6511</col>
+</item>
+<item>
+<col name="산업분류명칭">생명 보험업</col>
+<col name="산업분류코드">65110</col>
+</item>
+<item>
+<col name="산업분류명칭">손해 및 보증 보험업</col>
+<col name="산업분류코드">6512</col>
+</item>
+<item>
+<col name="산업분류명칭">손해 보험업</col>
+<col name="산업분류코드">65121</col>
+</item>
+<item>
+<col name="산업분류명칭">보증 보험업</col>
+<col name="산업분류코드">65122</col>
+</item>
+<item>
+<col name="산업분류명칭">사회보장 보험업</col>
+<col name="산업분류코드">6513</col>
+</item>
+<item>
+<col name="산업분류명칭">건강 보험업</col>
+<col name="산업분류코드">65131</col>
+</item>
+<item>
+<col name="산업분류명칭">산업재해 및 기타 사회보장 보험업</col>
+<col name="산업분류코드">65139</col>
+</item>
+<item>
+<col name="산업분류명칭">재 보험업</col>
+<col name="산업분류코드">652</col>
+</item>
+<item>
+<col name="산업분류명칭">재 보험업</col>
+<col name="산업분류코드">6520</col>
+</item>
+<item>
+<col name="산업분류명칭">재 보험업</col>
+<col name="산업분류코드">65200</col>
+</item>
+<item>
+<col name="산업분류명칭">연금 및 공제업</col>
+<col name="산업분류코드">653</col>
+</item>
+<item>
+<col name="산업분류명칭">연금 및 공제업</col>
+<col name="산업분류코드">6530</col>
+</item>
+<item>
+<col name="산업분류명칭">개인 공제업</col>
+<col name="산업분류코드">65301</col>
+</item>
+<item>
+<col name="산업분류명칭">사업 공제업</col>
+<col name="산업분류코드">65302</col>
+</item>
+<item>
+<col name="산업분류명칭">연금업</col>
+<col name="산업분류코드">65303</col>
+</item>
+<item>
+<col name="산업분류명칭">금융 및 보험 관련 서비스업</col>
+<col name="산업분류코드">66</col>
+</item>
+<item>
+<col name="산업분류명칭">금융지원 서비스업</col>
+<col name="산업분류코드">661</col>
+</item>
+<item>
+<col name="산업분류명칭">금융시장 관리업</col>
+<col name="산업분류코드">6611</col>
+</item>
+<item>
+<col name="산업분류명칭">금융시장 관리업</col>
+<col name="산업분류코드">66110</col>
+</item>
+<item>
+<col name="산업분류명칭">증권 및 선물 중개업</col>
+<col name="산업분류코드">6612</col>
+</item>
+<item>
+<col name="산업분류명칭">증권 중개업</col>
+<col name="산업분류코드">66121</col>
+</item>
+<item>
+<col name="산업분류명칭">선물 중개업</col>
+<col name="산업분류코드">66122</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 금융지원 서비스업</col>
+<col name="산업분류코드">6619</col>
+</item>
+<item>
+<col name="산업분류명칭">유가증권 관리 및 보관업</col>
+<col name="산업분류코드">66191</col>
+</item>
+<item>
+<col name="산업분류명칭">투자 자문업</col>
+<col name="산업분류코드">66192</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 금융지원 서비스업</col>
+<col name="산업분류코드">66199</col>
+</item>
+<item>
+<col name="산업분류명칭">보험 및 연금관련 서비스업</col>
+<col name="산업분류코드">662</col>
+</item>
+<item>
+<col name="산업분류명칭">보험 및 연금관련 서비스업</col>
+<col name="산업분류코드">6620</col>
+</item>
+<item>
+<col name="산업분류명칭">손해사정업</col>
+<col name="산업분류코드">66201</col>
+</item>
+<item>
+<col name="산업분류명칭">보험대리 및 중개업</col>
+<col name="산업분류코드">66202</col>
+</item>
+<item>
+<col name="산업분류코드">66209</col>
+<col name="산업분류명칭">기타 보험 및 연금관련 서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">부동산업</col>
+<col name="산업분류코드">68</col>
+</item>
+<item>
+<col name="산업분류명칭">부동산 임대 및 공급업</col>
+<col name="산업분류코드">681</col>
+</item>
+<item>
+<col name="산업분류명칭">부동산 임대업</col>
+<col name="산업분류코드">6811</col>
+</item>
+<item>
+<col name="산업분류명칭">주거용 건물 임대업</col>
+<col name="산업분류코드">68111</col>
+</item>
+<item>
+<col name="산업분류코드">68112</col>
+<col name="산업분류명칭">비주거용 건물 임대업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 부동산 임대업</col>
+<col name="산업분류코드">68119</col>
+</item>
+<item>
+<col name="산업분류명칭">부동산 개발 및 공급업</col>
+<col name="산업분류코드">6812</col>
+</item>
+<item>
+<col name="산업분류명칭">주거용 건물 개발 및 공급업</col>
+<col name="산업분류코드">68121</col>
+</item>
+<item>
+<col name="산업분류명칭">비주거용 건물 개발 및 공급업</col>
+<col name="산업분류코드">68122</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 부동산 개발 및 공급업</col>
+<col name="산업분류코드">68129</col>
+</item>
+<item>
+<col name="산업분류명칭">부동산 관련 서비스업</col>
+<col name="산업분류코드">682</col>
+</item>
+<item>
+<col name="산업분류명칭">부동산 관리업</col>
+<col name="산업분류코드">6821</col>
+</item>
+<item>
+<col name="산업분류명칭">주거용 부동산 관리업</col>
+<col name="산업분류코드">68211</col>
+</item>
+<item>
+<col name="산업분류명칭">비주거용 부동산 관리업</col>
+<col name="산업분류코드">68212</col>
+</item>
+<item>
+<col name="산업분류코드">6822</col>
+<col name="산업분류명칭">부동산 중개 및 감정평가업</col>
+</item>
+<item>
+<col name="산업분류코드">68221</col>
+<col name="산업분류명칭">부동산 자문 및 중개업</col>
+</item>
+<item>
+<col name="산업분류명칭">부동산 감정평가업</col>
+<col name="산업분류코드">68222</col>
+</item>
+<item>
+<col name="산업분류명칭">임대업;부동산 제외</col>
+<col name="산업분류코드">69</col>
+</item>
+<item>
+<col name="산업분류명칭">운송장비 임대업</col>
+<col name="산업분류코드">691</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 임대업</col>
+<col name="산업분류코드">6911</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 임대업</col>
+<col name="산업분류코드">69110</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 운송장비 임대업</col>
+<col name="산업분류코드">6919</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 운송장비 임대업</col>
+<col name="산업분류코드">69190</col>
+</item>
+<item>
+<col name="산업분류명칭">개인 및 가정용품 임대업</col>
+<col name="산업분류코드">692</col>
+</item>
+<item>
+<col name="산업분류명칭">스포츠 및 레크레이션 용품 임대업</col>
+<col name="산업분류코드">6921</col>
+</item>
+<item>
+<col name="산업분류명칭">스포츠 및 레크레이션 용품 임대업</col>
+<col name="산업분류코드">69210</col>
+</item>
+<item>
+<col name="산업분류코드">6922</col>
+<col name="산업분류명칭">음반 및 비디오물 임대업</col>
+</item>
+<item>
+<col name="산업분류명칭">음반 및 비디오물 임대업</col>
+<col name="산업분류코드">69220</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 개인 및 가정용품 임대업</col>
+<col name="산업분류코드">6929</col>
+</item>
+<item>
+<col name="산업분류명칭">서적 임대업</col>
+<col name="산업분류코드">69291</col>
+</item>
+<item>
+<col name="산업분류명칭">의류 임대업</col>
+<col name="산업분류코드">69292</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 개인 및 가정용품 임대업</col>
+<col name="산업분류코드">69299</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 기계 및 장비 임대업</col>
+<col name="산업분류코드">693</col>
+</item>
+<item>
+<col name="산업분류명칭">건설 및 토목공사용 기계장비 임대업</col>
+<col name="산업분류코드">6931</col>
+</item>
+<item>
+<col name="산업분류명칭">건설 및 토목공사용 기계장비 임대업</col>
+<col name="산업분류코드">69310</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 및 사무용 기계장비 임대업</col>
+<col name="산업분류코드">6932</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 및 사무용 기계장비 임대업</col>
+<col name="산업분류코드">69320</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 산업용 기계 및 장비 임대업</col>
+<col name="산업분류코드">6939</col>
+</item>
+<item>
+<col name="산업분류코드">69390</col>
+<col name="산업분류명칭">기타 산업용 기계 및 장비 임대업</col>
+</item>
+<item>
+<col name="산업분류명칭">무형재산권 임대업</col>
+<col name="산업분류코드">694</col>
+</item>
+<item>
+<col name="산업분류코드">6940</col>
+<col name="산업분류명칭">무형재산권 임대업</col>
+</item>
+<item>
+<col name="산업분류명칭">무형재산권 임대업</col>
+<col name="산업분류코드">69400</col>
+</item>
+<item>
+<col name="산업분류명칭">연구개발업</col>
+<col name="산업분류코드">70</col>
+</item>
+<item>
+<col name="산업분류코드">701</col>
+<col name="산업분류명칭">자연과학 및 공학 연구개발업</col>
+</item>
+<item>
+<col name="산업분류명칭">자연과학 연구개발업</col>
+<col name="산업분류코드">7011</col>
+</item>
+<item>
+<col name="산업분류명칭">물리, 화학 및 생물학 연구개발업</col>
+<col name="산업분류코드">70111</col>
+</item>
+<item>
+<col name="산업분류명칭">농학 연구개발업</col>
+<col name="산업분류코드">70112</col>
+</item>
+<item>
+<col name="산업분류명칭">의학 및 약학 연구개발업</col>
+<col name="산업분류코드">70113</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 자연과학 연구개발업</col>
+<col name="산업분류코드">70119</col>
+</item>
+<item>
+<col name="산업분류명칭">공학 연구개발업</col>
+<col name="산업분류코드">7012</col>
+</item>
+<item>
+<col name="산업분류코드">70121</col>
+<col name="산업분류명칭">전기·전자공학 연구개발업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 공학 연구개발업</col>
+<col name="산업분류코드">70129</col>
+</item>
+<item>
+<col name="산업분류명칭">인문 및 사회과학 연구개발업</col>
+<col name="산업분류코드">702</col>
+</item>
+<item>
+<col name="산업분류명칭">인문 및 사회과학 연구개발업</col>
+<col name="산업분류코드">7020</col>
+</item>
+<item>
+<col name="산업분류명칭">경제학 연구개발업</col>
+<col name="산업분류코드">70201</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 인문 및 사회과학 연구개발업</col>
+<col name="산업분류코드">70209</col>
+</item>
+<item>
+<col name="산업분류명칭">전문서비스업</col>
+<col name="산업분류코드">71</col>
+</item>
+<item>
+<col name="산업분류명칭">법무관련 서비스업</col>
+<col name="산업분류코드">711</col>
+</item>
+<item>
+<col name="산업분류명칭">법무관련 서비스업</col>
+<col name="산업분류코드">7110</col>
+</item>
+<item>
+<col name="산업분류명칭">변호사업</col>
+<col name="산업분류코드">71101</col>
+</item>
+<item>
+<col name="산업분류명칭">변리사업</col>
+<col name="산업분류코드">71102</col>
+</item>
+<item>
+<col name="산업분류명칭">법무사업</col>
+<col name="산업분류코드">71103</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 법무관련 서비스업</col>
+<col name="산업분류코드">71109</col>
+</item>
+<item>
+<col name="산업분류명칭">회계 및 세무관련 서비스업</col>
+<col name="산업분류코드">712</col>
+</item>
+<item>
+<col name="산업분류명칭">회계 및 세무관련 서비스업</col>
+<col name="산업분류코드">7120</col>
+</item>
+<item>
+<col name="산업분류명칭">공인회계사업</col>
+<col name="산업분류코드">71201</col>
+</item>
+<item>
+<col name="산업분류명칭">세무사업</col>
+<col name="산업분류코드">71202</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 회계관련 서비스업</col>
+<col name="산업분류코드">71209</col>
+</item>
+<item>
+<col name="산업분류명칭">광고업</col>
+<col name="산업분류코드">713</col>
+</item>
+<item>
+<col name="산업분류명칭">광고 대행업</col>
+<col name="산업분류코드">7131</col>
+</item>
+<item>
+<col name="산업분류명칭">광고 대행업</col>
+<col name="산업분류코드">71310</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 광고업</col>
+<col name="산업분류코드">7139</col>
+</item>
+<item>
+<col name="산업분류명칭">옥외 및 전시 광고업</col>
+<col name="산업분류코드">71391</col>
+</item>
+<item>
+<col name="산업분류명칭">광고매체 판매업</col>
+<col name="산업분류코드">71392</col>
+</item>
+<item>
+<col name="산업분류명칭">광고물 작성업</col>
+<col name="산업분류코드">71393</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 광고업</col>
+<col name="산업분류코드">71399</col>
+</item>
+<item>
+<col name="산업분류명칭">시장조사 및 여론조사업</col>
+<col name="산업분류코드">714</col>
+</item>
+<item>
+<col name="산업분류명칭">시장조사 및 여론조사업</col>
+<col name="산업분류코드">7140</col>
+</item>
+<item>
+<col name="산업분류명칭">시장조사 및 여론조사업</col>
+<col name="산업분류코드">71400</col>
+</item>
+<item>
+<col name="산업분류명칭">회사본부, 지주회사 및 경영컨설팅 서비스업</col>
+<col name="산업분류코드">715</col>
+</item>
+<item>
+<col name="산업분류명칭">회사본부</col>
+<col name="산업분류코드">7151</col>
+</item>
+<item>
+<col name="산업분류명칭">제조업 회사본부</col>
+<col name="산업분류코드">71511</col>
+</item>
+<item>
+<col name="산업분류코드">71519</col>
+<col name="산업분류명칭">기타 산업 회사본부</col>
+</item>
+<item>
+<col name="산업분류명칭">비금융 지주회사</col>
+<col name="산업분류코드">7152</col>
+</item>
+<item>
+<col name="산업분류명칭">비금융 지주회사</col>
+<col name="산업분류코드">71520</col>
+</item>
+<item>
+<col name="산업분류명칭">경영컨설팅 및 공공관계 서비스업</col>
+<col name="산업분류코드">7153</col>
+</item>
+<item>
+<col name="산업분류명칭">경영컨설팅업</col>
+<col name="산업분류코드">71531</col>
+</item>
+<item>
+<col name="산업분류코드">71532</col>
+<col name="산업분류명칭">공공관계 서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">건축기술, 엔지니어링 및 기타 과학기술 서비스업</col>
+<col name="산업분류코드">72</col>
+</item>
+<item>
+<col name="산업분류명칭">건축기술, 엔지니어링 및 관련기술 서비스업</col>
+<col name="산업분류코드">721</col>
+</item>
+<item>
+<col name="산업분류명칭">건축 및 조경 설계 서비스업</col>
+<col name="산업분류코드">7211</col>
+</item>
+<item>
+<col name="산업분류명칭">건축설계 및 관련 서비스업</col>
+<col name="산업분류코드">72111</col>
+</item>
+<item>
+<col name="산업분류명칭">도시계획 및 조경설계 서비스업</col>
+<col name="산업분류코드">72112</col>
+</item>
+<item>
+<col name="산업분류명칭">엔지니어링 서비스업</col>
+<col name="산업분류코드">7212</col>
+</item>
+<item>
+<col name="산업분류명칭">건물 및 토목엔지니어링 서비스업</col>
+<col name="산업분류코드">72121</col>
+</item>
+<item>
+<col name="산업분류명칭">환경컨설팅 및 관련 엔지니어링 서비스업</col>
+<col name="산업분류코드">72122</col>
+</item>
+<item>
+<col name="산업분류코드">72129</col>
+<col name="산업분류명칭">기타 엔지니어링 서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 과학기술 서비스업</col>
+<col name="산업분류코드">729</col>
+</item>
+<item>
+<col name="산업분류명칭">기술 시험, 검사 및 분석업</col>
+<col name="산업분류코드">7291</col>
+</item>
+<item>
+<col name="산업분류명칭">물질성분 검사 및 분석업</col>
+<col name="산업분류코드">72911</col>
+</item>
+<item>
+<col name="산업분류코드">72919</col>
+<col name="산업분류명칭">기타 기술 시험, 검사 및 분석업</col>
+</item>
+<item>
+<col name="산업분류명칭">측량, 지질조사 및 지도제작업</col>
+<col name="산업분류코드">7292</col>
+</item>
+<item>
+<col name="산업분류명칭">측량업</col>
+<col name="산업분류코드">72921</col>
+</item>
+<item>
+<col name="산업분류명칭">제도업</col>
+<col name="산업분류코드">72922</col>
+</item>
+<item>
+<col name="산업분류명칭">지질조사 및 탐사업</col>
+<col name="산업분류코드">72923</col>
+</item>
+<item>
+<col name="산업분류명칭">지도제작업</col>
+<col name="산업분류코드">72924</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 전문, 과학 및 기술 서비스업</col>
+<col name="산업분류코드">73</col>
+</item>
+<item>
+<col name="산업분류코드">731</col>
+<col name="산업분류명칭">수의업</col>
+</item>
+<item>
+<col name="산업분류명칭">수의업</col>
+<col name="산업분류코드">7310</col>
+</item>
+<item>
+<col name="산업분류명칭">수의업</col>
+<col name="산업분류코드">73100</col>
+</item>
+<item>
+<col name="산업분류코드">732</col>
+<col name="산업분류명칭">전문디자인업</col>
+</item>
+<item>
+<col name="산업분류명칭">전문디자인업</col>
+<col name="산업분류코드">7320</col>
+</item>
+<item>
+<col name="산업분류명칭">인테리어 디자인업</col>
+<col name="산업분류코드">73201</col>
+</item>
+<item>
+<col name="산업분류명칭">제품 디자인업</col>
+<col name="산업분류코드">73202</col>
+</item>
+<item>
+<col name="산업분류명칭">시각 디자인업</col>
+<col name="산업분류코드">73203</col>
+</item>
+<item>
+<col name="산업분류코드">73209</col>
+<col name="산업분류명칭">기타 전문 디자인업</col>
+</item>
+<item>
+<col name="산업분류명칭">사진 촬영 및 처리업</col>
+<col name="산업분류코드">733</col>
+</item>
+<item>
+<col name="산업분류명칭">사진 촬영 및 처리업</col>
+<col name="산업분류코드">7330</col>
+</item>
+<item>
+<col name="산업분류명칭">인물사진 및 행사용비디오 촬영업</col>
+<col name="산업분류코드">73301</col>
+</item>
+<item>
+<col name="산업분류명칭">상업용 사진 촬영업</col>
+<col name="산업분류코드">73302</col>
+</item>
+<item>
+<col name="산업분류명칭">사진 처리업</col>
+<col name="산업분류코드">73303</col>
+</item>
+<item>
+<col name="산업분류코드">739</col>
+<col name="산업분류명칭">그외 기타 전문, 과학 및 기술 서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 전문, 과학 및 기술 서비스업</col>
+<col name="산업분류코드">7390</col>
+</item>
+<item>
+<col name="산업분류명칭">매니저업</col>
+<col name="산업분류코드">73901</col>
+</item>
+<item>
+<col name="산업분류명칭">번역 및 통역서비스업</col>
+<col name="산업분류코드">73902</col>
+</item>
+<item>
+<col name="산업분류코드">73903</col>
+<col name="산업분류명칭">사업 및 무형 재산권 중개업</col>
+</item>
+<item>
+<col name="산업분류명칭">물품감정, 계량 및 견본 추출업</col>
+<col name="산업분류코드">73904</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 전문, 과학 및 기술 서비스업</col>
+<col name="산업분류코드">73909</col>
+</item>
+<item>
+<col name="산업분류명칭">사업시설 관리 및 조경 서비스업</col>
+<col name="산업분류코드">74</col>
+</item>
+<item>
+<col name="산업분류명칭">사업시설 유지관리 서비스업</col>
+<col name="산업분류코드">741</col>
+</item>
+<item>
+<col name="산업분류명칭">사업시설 유지관리 서비스업</col>
+<col name="산업분류코드">7410</col>
+</item>
+<item>
+<col name="산업분류명칭">사업시설 유지관리 서비스업</col>
+<col name="산업분류코드">74100</col>
+</item>
+<item>
+<col name="산업분류명칭">건물·산업설비 청소 및 방제 서비스업</col>
+<col name="산업분류코드">742</col>
+</item>
+<item>
+<col name="산업분류명칭">건물 및 산업설비 청소업</col>
+<col name="산업분류코드">7421</col>
+</item>
+<item>
+<col name="산업분류명칭">건축물 일반 청소업</col>
+<col name="산업분류코드">74211</col>
+</item>
+<item>
+<col name="산업분류명칭">사업시설 및 산업용품 청소업</col>
+<col name="산업분류코드">74212</col>
+</item>
+<item>
+<col name="산업분류명칭">소독, 구충 및 방제 서비스업</col>
+<col name="산업분류코드">7422</col>
+</item>
+<item>
+<col name="산업분류명칭">소독, 구충 및 방제 서비스업</col>
+<col name="산업분류코드">74220</col>
+</item>
+<item>
+<col name="산업분류명칭">조경 관리 및 유지 서비스업</col>
+<col name="산업분류코드">743</col>
+</item>
+<item>
+<col name="산업분류명칭">조경 관리 및 유지 서비스업</col>
+<col name="산업분류코드">7430</col>
+</item>
+<item>
+<col name="산업분류명칭">조경 관리 및 유지 서비스업</col>
+<col name="산업분류코드">74300</col>
+</item>
+<item>
+<col name="산업분류명칭">사업지원 서비스업</col>
+<col name="산업분류코드">75</col>
+</item>
+<item>
+<col name="산업분류명칭">인력공급 및 고용알선업</col>
+<col name="산업분류코드">751</col>
+</item>
+<item>
+<col name="산업분류명칭">고용알선업</col>
+<col name="산업분류코드">7511</col>
+</item>
+<item>
+<col name="산업분류명칭">고용알선업</col>
+<col name="산업분류코드">75110</col>
+</item>
+<item>
+<col name="산업분류명칭">인력공급업</col>
+<col name="산업분류코드">7512</col>
+</item>
+<item>
+<col name="산업분류명칭">인력공급업</col>
+<col name="산업분류코드">75120</col>
+</item>
+<item>
+<col name="산업분류명칭">여행사 및 기타 여행보조 서비스업</col>
+<col name="산업분류코드">752</col>
+</item>
+<item>
+<col name="산업분류명칭">여행사업</col>
+<col name="산업분류코드">7521</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 및 국외 여행사업</col>
+<col name="산업분류코드">75211</col>
+</item>
+<item>
+<col name="산업분류명칭">국내 여행사업</col>
+<col name="산업분류코드">75212</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 여행보조 및 예약 서비스업</col>
+<col name="산업분류코드">7529</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 여행보조 및 예약 서비스업</col>
+<col name="산업분류코드">75290</col>
+</item>
+<item>
+<col name="산업분류코드">753</col>
+<col name="산업분류명칭">경비, 경호 및 탐정업</col>
+</item>
+<item>
+<col name="산업분류명칭">경비 및 경호 서비스업</col>
+<col name="산업분류코드">7531</col>
+</item>
+<item>
+<col name="산업분류명칭">경비 및 경호 서비스업</col>
+<col name="산업분류코드">75310</col>
+</item>
+<item>
+<col name="산업분류명칭">보안시스템 서비스업</col>
+<col name="산업분류코드">7532</col>
+</item>
+<item>
+<col name="산업분류명칭">보안시스템 서비스업</col>
+<col name="산업분류코드">75320</col>
+</item>
+<item>
+<col name="산업분류명칭">탐정 및 조사 서비스업</col>
+<col name="산업분류코드">7533</col>
+</item>
+<item>
+<col name="산업분류명칭">탐정 및 조사 서비스업</col>
+<col name="산업분류코드">75330</col>
+</item>
+<item>
+<col name="산업분류코드">759</col>
+<col name="산업분류명칭">기타 사업지원 서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">사무지원 서비스업</col>
+<col name="산업분류코드">7591</col>
+</item>
+<item>
+<col name="산업분류명칭">문서 작성업</col>
+<col name="산업분류코드">75911</col>
+</item>
+<item>
+<col name="산업분류명칭">복사업</col>
+<col name="산업분류코드">75912</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 사무지원 서비스업</col>
+<col name="산업분류코드">75919</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 사업지원 서비스업</col>
+<col name="산업분류코드">7599</col>
+</item>
+<item>
+<col name="산업분류명칭">콜센터 및 텔레마케팅 서비스업</col>
+<col name="산업분류코드">75991</col>
+</item>
+<item>
+<col name="산업분류명칭">전시 및 행사 대행업</col>
+<col name="산업분류코드">75992</col>
+</item>
+<item>
+<col name="산업분류명칭">신용조사 및 추심 대행업</col>
+<col name="산업분류코드">75993</col>
+</item>
+<item>
+<col name="산업분류명칭">포장 및 충전업</col>
+<col name="산업분류코드">75994</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 사업지원 서비스업</col>
+<col name="산업분류코드">75999</col>
+</item>
+<item>
+<col name="산업분류명칭">공공행정, 국방 및 사회보장 행정</col>
+<col name="산업분류코드">84</col>
+</item>
+<item>
+<col name="산업분류명칭">입법 및 일반 정부 행정</col>
+<col name="산업분류코드">841</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 공공 행정</col>
+<col name="산업분류코드">8411</col>
+</item>
+<item>
+<col name="산업분류명칭">입법기관</col>
+<col name="산업분류코드">84111</col>
+</item>
+<item>
+<col name="산업분류명칭">중앙 최고 집행기관</col>
+<col name="산업분류코드">84112</col>
+</item>
+<item>
+<col name="산업분류명칭">지방행정 집행기관</col>
+<col name="산업분류코드">84113</col>
+</item>
+<item>
+<col name="산업분류명칭">재정 및 경제정책 행정</col>
+<col name="산업분류코드">84114</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 일반 공공 행정</col>
+<col name="산업분류코드">84119</col>
+</item>
+<item>
+<col name="산업분류명칭">정부기관 일반 보조 행정</col>
+<col name="산업분류코드">8412</col>
+</item>
+<item>
+<col name="산업분류명칭">정부기관 일반 보조 행정</col>
+<col name="산업분류코드">84120</col>
+</item>
+<item>
+<col name="산업분류명칭">사회 및 산업정책 행정</col>
+<col name="산업분류코드">842</col>
+</item>
+<item>
+<col name="산업분류명칭">사회서비스 관리 행정</col>
+<col name="산업분류코드">8421</col>
+</item>
+<item>
+<col name="산업분류명칭">교육 행정</col>
+<col name="산업분류코드">84211</col>
+</item>
+<item>
+<col name="산업분류코드">84212</col>
+<col name="산업분류명칭">문화 및 관광 행정</col>
+</item>
+<item>
+<col name="산업분류명칭">환경 행정</col>
+<col name="산업분류코드">84213</col>
+</item>
+<item>
+<col name="산업분류명칭">보건 및 복지 행정</col>
+<col name="산업분류코드">84214</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 사회서비스 관리 행정</col>
+<col name="산업분류코드">84219</col>
+</item>
+<item>
+<col name="산업분류명칭">노동 및 산업진흥 행정</col>
+<col name="산업분류코드">8422</col>
+</item>
+<item>
+<col name="산업분류명칭">노동 행정</col>
+<col name="산업분류코드">84221</col>
+</item>
+<item>
+<col name="산업분류명칭">농림수산 행정</col>
+<col name="산업분류코드">84222</col>
+</item>
+<item>
+<col name="산업분류명칭">건설 및 운송 행정</col>
+<col name="산업분류코드">84223</col>
+</item>
+<item>
+<col name="산업분류명칭">통신 행정</col>
+<col name="산업분류코드">84224</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 산업진흥 행정</col>
+<col name="산업분류코드">84229</col>
+</item>
+<item>
+<col name="산업분류코드">843</col>
+<col name="산업분류명칭">외무 및 국방 행정</col>
+</item>
+<item>
+<col name="산업분류명칭">외무 행정</col>
+<col name="산업분류코드">8431</col>
+</item>
+<item>
+<col name="산업분류명칭">외무 행정</col>
+<col name="산업분류코드">84310</col>
+</item>
+<item>
+<col name="산업분류명칭">국방 행정</col>
+<col name="산업분류코드">8432</col>
+</item>
+<item>
+<col name="산업분류명칭">국방 행정</col>
+<col name="산업분류코드">84320</col>
+</item>
+<item>
+<col name="산업분류명칭">사법 및 공공질서 행정</col>
+<col name="산업분류코드">844</col>
+</item>
+<item>
+<col name="산업분류명칭">사법 및 공공질서 행정</col>
+<col name="산업분류코드">8440</col>
+</item>
+<item>
+<col name="산업분류명칭">법원</col>
+<col name="산업분류코드">84401</col>
+</item>
+<item>
+<col name="산업분류코드">84402</col>
+<col name="산업분류명칭">검찰</col>
+</item>
+<item>
+<col name="산업분류명칭">교도기관</col>
+<col name="산업분류코드">84403</col>
+</item>
+<item>
+<col name="산업분류명칭">경찰</col>
+<col name="산업분류코드">84404</col>
+</item>
+<item>
+<col name="산업분류코드">84405</col>
+<col name="산업분류명칭">소방서</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 사법 및 공공질서 행정</col>
+<col name="산업분류코드">84409</col>
+</item>
+<item>
+<col name="산업분류명칭">사회보장 행정</col>
+<col name="산업분류코드">845</col>
+</item>
+<item>
+<col name="산업분류명칭">사회보장 행정</col>
+<col name="산업분류코드">8450</col>
+</item>
+<item>
+<col name="산업분류명칭">사회보장 행정</col>
+<col name="산업분류코드">84500</col>
+</item>
+<item>
+<col name="산업분류명칭">교육 서비스업</col>
+<col name="산업분류코드">85</col>
+</item>
+<item>
+<col name="산업분류명칭">초등 교육기관</col>
+<col name="산업분류코드">851</col>
+</item>
+<item>
+<col name="산업분류명칭">유아 교육기관</col>
+<col name="산업분류코드">8511</col>
+</item>
+<item>
+<col name="산업분류명칭">유아 교육기관</col>
+<col name="산업분류코드">85110</col>
+</item>
+<item>
+<col name="산업분류명칭">초등학교</col>
+<col name="산업분류코드">8512</col>
+</item>
+<item>
+<col name="산업분류명칭">초등학교</col>
+<col name="산업분류코드">85120</col>
+</item>
+<item>
+<col name="산업분류명칭">중등 교육기관</col>
+<col name="산업분류코드">852</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 중등 교육기관</col>
+<col name="산업분류코드">8521</col>
+</item>
+<item>
+<col name="산업분류코드">85211</col>
+<col name="산업분류명칭">중학교</col>
+</item>
+<item>
+<col name="산업분류코드">85212</col>
+<col name="산업분류명칭">일반 고등학교</col>
+</item>
+<item>
+<col name="산업분류명칭">기술 및 직업 중등 교육기관</col>
+<col name="산업분류코드">8522</col>
+</item>
+<item>
+<col name="산업분류명칭">상업 및 정보산업 고등학교</col>
+<col name="산업분류코드">85221</col>
+</item>
+<item>
+<col name="산업분류명칭">공업 고등학교</col>
+<col name="산업분류코드">85222</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 기술 및 직업 고등학교</col>
+<col name="산업분류코드">85229</col>
+</item>
+<item>
+<col name="산업분류명칭">고등 교육기관</col>
+<col name="산업분류코드">853</col>
+</item>
+<item>
+<col name="산업분류명칭">고등 교육기관</col>
+<col name="산업분류코드">8530</col>
+</item>
+<item>
+<col name="산업분류명칭">전문대학</col>
+<col name="산업분류코드">85301</col>
+</item>
+<item>
+<col name="산업분류명칭">대학교</col>
+<col name="산업분류코드">85302</col>
+</item>
+<item>
+<col name="산업분류명칭">대학원</col>
+<col name="산업분류코드">85303</col>
+</item>
+<item>
+<col name="산업분류명칭">특수학교, 외국인학교 및 대안학교</col>
+<col name="산업분류코드">854</col>
+</item>
+<item>
+<col name="산업분류코드">8541</col>
+<col name="산업분류명칭">특수학교</col>
+</item>
+<item>
+<col name="산업분류명칭">특수학교</col>
+<col name="산업분류코드">85410</col>
+</item>
+<item>
+<col name="산업분류코드">8542</col>
+<col name="산업분류명칭">외국인 학교</col>
+</item>
+<item>
+<col name="산업분류명칭">외국인 학교</col>
+<col name="산업분류코드">85420</col>
+</item>
+<item>
+<col name="산업분류명칭">대안학교</col>
+<col name="산업분류코드">8543</col>
+</item>
+<item>
+<col name="산업분류명칭">대안학교</col>
+<col name="산업분류코드">85430</col>
+</item>
+<item>
+<col name="산업분류코드">855</col>
+<col name="산업분류명칭">일반 교습 학원</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 교습 학원</col>
+<col name="산업분류코드">8550</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 교과 학원</col>
+<col name="산업분류코드">85501</col>
+</item>
+<item>
+<col name="산업분류명칭">외국어학원</col>
+<col name="산업분류코드">85502</col>
+</item>
+<item>
+<col name="산업분류명칭">방문 교육 학원</col>
+<col name="산업분류코드">85503</col>
+</item>
+<item>
+<col name="산업분류명칭">온라인 교육 학원</col>
+<col name="산업분류코드">85504</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 일반 교습학원</col>
+<col name="산업분류코드">85509</col>
+</item>
+<item>
+<col name="산업분류코드">856</col>
+<col name="산업분류명칭">기타 교육기관</col>
+</item>
+<item>
+<col name="산업분류명칭">스포츠 및 레크레이션 교육기관</col>
+<col name="산업분류코드">8561</col>
+</item>
+<item>
+<col name="산업분류명칭">스포츠 교육기관</col>
+<col name="산업분류코드">85611</col>
+</item>
+<item>
+<col name="산업분류명칭">레크레이션 교육기관</col>
+<col name="산업분류코드">85612</col>
+</item>
+<item>
+<col name="산업분류명칭">예술 학원</col>
+<col name="산업분류코드">8562</col>
+</item>
+<item>
+<col name="산업분류명칭">예술 학원</col>
+<col name="산업분류코드">85620</col>
+</item>
+<item>
+<col name="산업분류명칭">사회교육시설</col>
+<col name="산업분류코드">8563</col>
+</item>
+<item>
+<col name="산업분류명칭">사회교육시설</col>
+<col name="산업분류코드">85630</col>
+</item>
+<item>
+<col name="산업분류명칭">직원훈련기관</col>
+<col name="산업분류코드">8564</col>
+</item>
+<item>
+<col name="산업분류명칭">직원훈련기관</col>
+<col name="산업분류코드">85640</col>
+</item>
+<item>
+<col name="산업분류명칭">기술 및 직업훈련학원</col>
+<col name="산업분류코드">8565</col>
+</item>
+<item>
+<col name="산업분류명칭">운전학원</col>
+<col name="산업분류코드">85651</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 기술 및 직업훈련학원</col>
+<col name="산업분류코드">85659</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 교육기관</col>
+<col name="산업분류코드">8569</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 학원</col>
+<col name="산업분류코드">85691</col>
+</item>
+<item>
+<col name="산업분류코드">85699</col>
+<col name="산업분류명칭">그외 기타 분류안된 교육기관</col>
+</item>
+<item>
+<col name="산업분류명칭">교육지원 서비스업</col>
+<col name="산업분류코드">857</col>
+</item>
+<item>
+<col name="산업분류명칭">교육지원 서비스업</col>
+<col name="산업분류코드">8570</col>
+</item>
+<item>
+<col name="산업분류명칭">교육관련 자문 및 평가업</col>
+<col name="산업분류코드">85701</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 교육지원 서비스업</col>
+<col name="산업분류코드">85709</col>
+</item>
+<item>
+<col name="산업분류명칭">보건업</col>
+<col name="산업분류코드">86</col>
+</item>
+<item>
+<col name="산업분류명칭">병원</col>
+<col name="산업분류코드">861</col>
+</item>
+<item>
+<col name="산업분류명칭">병원</col>
+<col name="산업분류코드">8610</col>
+</item>
+<item>
+<col name="산업분류명칭">종합 병원</col>
+<col name="산업분류코드">86101</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 병원</col>
+<col name="산업분류코드">86102</col>
+</item>
+<item>
+<col name="산업분류명칭">치과 병원</col>
+<col name="산업분류코드">86103</col>
+</item>
+<item>
+<col name="산업분류명칭">한방 병원</col>
+<col name="산업분류코드">86104</col>
+</item>
+<item>
+<col name="산업분류명칭">의원</col>
+<col name="산업분류코드">862</col>
+</item>
+<item>
+<col name="산업분류명칭">의원</col>
+<col name="산업분류코드">8620</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 의원</col>
+<col name="산업분류코드">86201</col>
+</item>
+<item>
+<col name="산업분류명칭">치과 의원</col>
+<col name="산업분류코드">86202</col>
+</item>
+<item>
+<col name="산업분류명칭">한의원</col>
+<col name="산업분류코드">86203</col>
+</item>
+<item>
+<col name="산업분류명칭">방사선진단 및 병리검사 의원</col>
+<col name="산업분류코드">86204</col>
+</item>
+<item>
+<col name="산업분류명칭">공중 보건 의료업</col>
+<col name="산업분류코드">863</col>
+</item>
+<item>
+<col name="산업분류명칭">공중 보건 의료업</col>
+<col name="산업분류코드">8630</col>
+</item>
+<item>
+<col name="산업분류명칭">공중 보건 의료업</col>
+<col name="산업분류코드">86300</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 보건업</col>
+<col name="산업분류코드">869</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 보건업</col>
+<col name="산업분류코드">8690</col>
+</item>
+<item>
+<col name="산업분류명칭">앰뷸런스 서비스업</col>
+<col name="산업분류코드">86901</col>
+</item>
+<item>
+<col name="산업분류명칭">유사 의료업</col>
+<col name="산업분류코드">86902</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 보건업</col>
+<col name="산업분류코드">86909</col>
+</item>
+<item>
+<col name="산업분류명칭">사회복지 서비스업</col>
+<col name="산업분류코드">87</col>
+</item>
+<item>
+<col name="산업분류명칭">거주 복지시설 운영업</col>
+<col name="산업분류코드">871</col>
+</item>
+<item>
+<col name="산업분류명칭">노인 거주 복지시설 운영업</col>
+<col name="산업분류코드">8711</col>
+</item>
+<item>
+<col name="산업분류명칭">노인 요양 복지시설 운영업</col>
+<col name="산업분류코드">87111</col>
+</item>
+<item>
+<col name="산업분류명칭">노인 양로 복지시설 운영업</col>
+<col name="산업분류코드">87112</col>
+</item>
+<item>
+<col name="산업분류명칭">심신장애인 거주 복지시설 운영업</col>
+<col name="산업분류코드">8712</col>
+</item>
+<item>
+<col name="산업분류명칭">신체 부자유자 거주 복지시설 운영업</col>
+<col name="산업분류코드">87121</col>
+</item>
+<item>
+<col name="산업분류명칭">정신질환, 정신지체 및 약물중독자 거주 복지시설 운영업</col>
+<col name="산업분류코드">87122</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 거주 복지시설 운영업</col>
+<col name="산업분류코드">8713</col>
+</item>
+<item>
+<col name="산업분류명칭">아동 및 부녀자 거주 복지시설 운영업</col>
+<col name="산업분류코드">87131</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 거주 복지시설 운영업</col>
+<col name="산업분류코드">87139</col>
+</item>
+<item>
+<col name="산업분류명칭">비거주 복지시설 운영업</col>
+<col name="산업분류코드">872</col>
+</item>
+<item>
+<col name="산업분류명칭">보육시설 운영업</col>
+<col name="산업분류코드">8721</col>
+</item>
+<item>
+<col name="산업분류명칭">보육시설 운영업</col>
+<col name="산업분류코드">87210</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 비거주 복지 서비스업</col>
+<col name="산업분류코드">8729</col>
+</item>
+<item>
+<col name="산업분류명칭">직업재활원 운영업</col>
+<col name="산업분류코드">87291</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 비거주 복지 서비스업</col>
+<col name="산업분류코드">87299</col>
+</item>
+<item>
+<col name="산업분류명칭">창작, 예술 및 여가관련 서비스업</col>
+<col name="산업분류코드">90</col>
+</item>
+<item>
+<col name="산업분류명칭">창작 및 예술관련 서비스업</col>
+<col name="산업분류코드">901</col>
+</item>
+<item>
+<col name="산업분류명칭">공연시설 운영업</col>
+<col name="산업분류코드">9011</col>
+</item>
+<item>
+<col name="산업분류명칭">공연시설 운영업</col>
+<col name="산업분류코드">90110</col>
+</item>
+<item>
+<col name="산업분류명칭">공연단체</col>
+<col name="산업분류코드">9012</col>
+</item>
+<item>
+<col name="산업분류명칭">연극단체</col>
+<col name="산업분류코드">90121</col>
+</item>
+<item>
+<col name="산업분류명칭">무용 및 음악단체</col>
+<col name="산업분류코드">90122</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 공연단체</col>
+<col name="산업분류코드">90123</col>
+</item>
+<item>
+<col name="산업분류명칭">자영 예술가</col>
+<col name="산업분류코드">9013</col>
+</item>
+<item>
+<col name="산업분류명칭">공연 예술가</col>
+<col name="산업분류코드">90131</col>
+</item>
+<item>
+<col name="산업분류명칭">비공연 예술가</col>
+<col name="산업분류코드">90132</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 창작 및 예술관련 서비스업</col>
+<col name="산업분류코드">9019</col>
+</item>
+<item>
+<col name="산업분류명칭">공연 기획업</col>
+<col name="산업분류코드">90191</col>
+</item>
+<item>
+<col name="산업분류명칭">공연 및 제작관련 대리업</col>
+<col name="산업분류코드">90192</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 창작 및 예술관련 서비스업</col>
+<col name="산업분류코드">90199</col>
+</item>
+<item>
+<col name="산업분류명칭">도서관, 사적지 및 유사 여가관련 서비스업</col>
+<col name="산업분류코드">902</col>
+</item>
+<item>
+<col name="산업분류명칭">도서관, 기록보존소 및 독서실 운영업</col>
+<col name="산업분류코드">9021</col>
+</item>
+<item>
+<col name="산업분류명칭">도서관 및 기록보존소 운영업</col>
+<col name="산업분류코드">90211</col>
+</item>
+<item>
+<col name="산업분류명칭">독서실 운영업</col>
+<col name="산업분류코드">90212</col>
+</item>
+<item>
+<col name="산업분류명칭">박물관 및 사적지 관리 운영업</col>
+<col name="산업분류코드">9022</col>
+</item>
+<item>
+<col name="산업분류명칭">박물관 운영업</col>
+<col name="산업분류코드">90221</col>
+</item>
+<item>
+<col name="산업분류명칭">사적지 관리 운영업</col>
+<col name="산업분류코드">90222</col>
+</item>
+<item>
+<col name="산업분류명칭">식물원, 동물원 및 자연공원 운영업</col>
+<col name="산업분류코드">9023</col>
+</item>
+<item>
+<col name="산업분류명칭">식물원 및 동물원 운영업</col>
+<col name="산업분류코드">90231</col>
+</item>
+<item>
+<col name="산업분류코드">90232</col>
+<col name="산업분류명칭">자연공원 운영업</col>
+</item>
+<item>
+<col name="산업분류코드">9029</col>
+<col name="산업분류명칭">기타 도서관, 사적지 및 유사 여가관련 서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 도서관, 사적지 및 유사 여가관련 서비스업</col>
+<col name="산업분류코드">90290</col>
+</item>
+<item>
+<col name="산업분류명칭">스포츠 및 오락관련 서비스업</col>
+<col name="산업분류코드">91</col>
+</item>
+<item>
+<col name="산업분류명칭">스포츠 서비스업</col>
+<col name="산업분류코드">911</col>
+</item>
+<item>
+<col name="산업분류명칭">경기장 운영업</col>
+<col name="산업분류코드">9111</col>
+</item>
+<item>
+<col name="산업분류명칭">실내 경기장 운영업</col>
+<col name="산업분류코드">91111</col>
+</item>
+<item>
+<col name="산업분류명칭">실외 경기장 운영업</col>
+<col name="산업분류코드">91112</col>
+</item>
+<item>
+<col name="산업분류명칭">경주장 운영업</col>
+<col name="산업분류코드">91113</col>
+</item>
+<item>
+<col name="산업분류명칭">골프장 및 스키장 운영업</col>
+<col name="산업분류코드">9112</col>
+</item>
+<item>
+<col name="산업분류코드">91121</col>
+<col name="산업분류명칭">골프장 운영업</col>
+</item>
+<item>
+<col name="산업분류명칭">스키장 운영업</col>
+<col name="산업분류코드">91122</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 스포츠시설 운영업</col>
+<col name="산업분류코드">9113</col>
+</item>
+<item>
+<col name="산업분류명칭">종합 스포츠시설 운영업</col>
+<col name="산업분류코드">91131</col>
+</item>
+<item>
+<col name="산업분류명칭">체력단련시설 운영업</col>
+<col name="산업분류코드">91132</col>
+</item>
+<item>
+<col name="산업분류명칭">수영장 운영업</col>
+<col name="산업분류코드">91133</col>
+</item>
+<item>
+<col name="산업분류명칭">볼링장 운영업</col>
+<col name="산업분류코드">91134</col>
+</item>
+<item>
+<col name="산업분류코드">91135</col>
+<col name="산업분류명칭">당구장 운영업</col>
+</item>
+<item>
+<col name="산업분류명칭">골프연습장 운영업</col>
+<col name="산업분류코드">91136</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 스포츠시설 운영업</col>
+<col name="산업분류코드">91139</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 스포츠 서비스업</col>
+<col name="산업분류코드">9119</col>
+</item>
+<item>
+<col name="산업분류명칭">스포츠 클럽 운영업</col>
+<col name="산업분류코드">91191</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 스포츠 서비스업</col>
+<col name="산업분류코드">91199</col>
+</item>
+<item>
+<col name="산업분류명칭">유원지 및 기타 오락관련 서비스업</col>
+<col name="산업분류코드">912</col>
+</item>
+<item>
+<col name="산업분류명칭">유원지 및 테마파크 운영업</col>
+<col name="산업분류코드">9121</col>
+</item>
+<item>
+<col name="산업분류명칭">유원지 및 테마파크 운영업</col>
+<col name="산업분류코드">91210</col>
+</item>
+<item>
+<col name="산업분류명칭">오락장 운영업</col>
+<col name="산업분류코드">9122</col>
+</item>
+<item>
+<col name="산업분류명칭">전자 게임장 운영업</col>
+<col name="산업분류코드">91221</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 게임방 운영업</col>
+<col name="산업분류코드">91222</col>
+</item>
+<item>
+<col name="산업분류명칭">노래연습장 운영업</col>
+<col name="산업분류코드">91223</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 오락장 운영업</col>
+<col name="산업분류코드">91229</col>
+</item>
+<item>
+<col name="산업분류명칭">수상오락 서비스업</col>
+<col name="산업분류코드">9123</col>
+</item>
+<item>
+<col name="산업분류명칭">낚시장 운영업</col>
+<col name="산업분류코드">91231</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 수상오락 서비스업</col>
+<col name="산업분류코드">91239</col>
+</item>
+<item>
+<col name="산업분류명칭">갬블링 및 베팅업</col>
+<col name="산업분류코드">9124</col>
+</item>
+<item>
+<col name="산업분류명칭">복권발행 및 판매업</col>
+<col name="산업분류코드">91241</col>
+</item>
+<item>
+<col name="산업분류코드">91249</col>
+<col name="산업분류명칭">기타 갬블링 및 베팅업</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 오락관련 서비스업</col>
+<col name="산업분류코드">9129</col>
+</item>
+<item>
+<col name="산업분류명칭">무도장 운영업</col>
+<col name="산업분류코드">91291</col>
+</item>
+<item>
+<col name="산업분류명칭">체육공원 및 유사 공원 운영업</col>
+<col name="산업분류코드">91292</col>
+</item>
+<item>
+<col name="산업분류코드">91293</col>
+<col name="산업분류명칭">기원 운영업</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 오락관련 서비스업</col>
+<col name="산업분류코드">91299</col>
+</item>
+<item>
+<col name="산업분류명칭">협회 및 단체</col>
+<col name="산업분류코드">94</col>
+</item>
+<item>
+<col name="산업분류명칭">산업 및 전문가 단체</col>
+<col name="산업분류코드">941</col>
+</item>
+<item>
+<col name="산업분류명칭">산업 단체</col>
+<col name="산업분류코드">9411</col>
+</item>
+<item>
+<col name="산업분류명칭">산업 단체</col>
+<col name="산업분류코드">94110</col>
+</item>
+<item>
+<col name="산업분류명칭">전문가 단체</col>
+<col name="산업분류코드">9412</col>
+</item>
+<item>
+<col name="산업분류명칭">전문가 단체</col>
+<col name="산업분류코드">94120</col>
+</item>
+<item>
+<col name="산업분류명칭">노동조합</col>
+<col name="산업분류코드">942</col>
+</item>
+<item>
+<col name="산업분류명칭">노동조합</col>
+<col name="산업분류코드">9420</col>
+</item>
+<item>
+<col name="산업분류명칭">노동조합</col>
+<col name="산업분류코드">94200</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 협회 및 단체</col>
+<col name="산업분류코드">949</col>
+</item>
+<item>
+<col name="산업분류코드">9491</col>
+<col name="산업분류명칭">종교 단체</col>
+</item>
+<item>
+<col name="산업분류명칭">불교 단체</col>
+<col name="산업분류코드">94911</col>
+</item>
+<item>
+<col name="산업분류명칭">기독교 단체</col>
+<col name="산업분류코드">94912</col>
+</item>
+<item>
+<col name="산업분류명칭">천주교 단체</col>
+<col name="산업분류코드">94913</col>
+</item>
+<item>
+<col name="산업분류명칭">민족종교 단체</col>
+<col name="산업분류코드">94914</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 종교 단체</col>
+<col name="산업분류코드">94919</col>
+</item>
+<item>
+<col name="산업분류명칭">정치 단체</col>
+<col name="산업분류코드">9492</col>
+</item>
+<item>
+<col name="산업분류명칭">정치 단체</col>
+<col name="산업분류코드">94920</col>
+</item>
+<item>
+<col name="산업분류명칭">시민운동 단체</col>
+<col name="산업분류코드">9493</col>
+</item>
+<item>
+<col name="산업분류명칭">환경운동 단체</col>
+<col name="산업분류코드">94931</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 시민운동 단체</col>
+<col name="산업분류코드">94939</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 협회 및 단체</col>
+<col name="산업분류코드">9499</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 협회 및 단체</col>
+<col name="산업분류코드">94990</col>
+</item>
+<item>
+<col name="산업분류명칭">수리업</col>
+<col name="산업분류코드">95</col>
+</item>
+<item>
+<col name="산업분류코드">951</col>
+<col name="산업분류명칭">기계 및 장비 수리업</col>
+</item>
+<item>
+<col name="산업분류명칭">일반 기계 수리업</col>
+<col name="산업분류코드">9511</col>
+</item>
+<item>
+<col name="산업분류명칭">건설·광업용 기계 및 장비 수리업</col>
+<col name="산업분류코드">95111</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 일반 기계 및 장비 수리업</col>
+<col name="산업분류코드">95119</col>
+</item>
+<item>
+<col name="산업분류명칭">전기, 전자, 통신 및 정밀기기 수리업</col>
+<col name="산업분류코드">9512</col>
+</item>
+<item>
+<col name="산업분류명칭">컴퓨터 및 사무용 기기 수리업</col>
+<col name="산업분류코드">95121</col>
+</item>
+<item>
+<col name="산업분류명칭">통신장비 수리업</col>
+<col name="산업분류코드">95122</col>
+</item>
+<item>
+<col name="산업분류명칭">전기 및 정밀기기 수리업</col>
+<col name="산업분류코드">95123</col>
+</item>
+<item>
+<col name="산업분류코드">952</col>
+<col name="산업분류명칭">자동차 및 모터사이클 수리업</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 수리 및 세차업</col>
+<col name="산업분류코드">9521</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 종합 수리업</col>
+<col name="산업분류코드">95211</col>
+</item>
+<item>
+<col name="산업분류코드">95212</col>
+<col name="산업분류명칭">자동차 전문 수리업</col>
+</item>
+<item>
+<col name="산업분류명칭">자동차 세차업</col>
+<col name="산업분류코드">95213</col>
+</item>
+<item>
+<col name="산업분류명칭">모터사이클 수리업</col>
+<col name="산업분류코드">9522</col>
+</item>
+<item>
+<col name="산업분류명칭">모터사이클 수리업</col>
+<col name="산업분류코드">95220</col>
+</item>
+<item>
+<col name="산업분류명칭">개인 및 가정용품 수리업</col>
+<col name="산업분류코드">953</col>
+</item>
+<item>
+<col name="산업분류명칭">가전제품 수리업</col>
+<col name="산업분류코드">9531</col>
+</item>
+<item>
+<col name="산업분류코드">95310</col>
+<col name="산업분류명칭">가전제품 수리업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 개인 및 가정용품 수리업</col>
+<col name="산업분류코드">9539</col>
+</item>
+<item>
+<col name="산업분류명칭">신발, 의복 및 기타 가정용 직물제품 수리업</col>
+<col name="산업분류코드">95391</col>
+</item>
+<item>
+<col name="산업분류명칭">시계, 귀금속 및 악기 수리업</col>
+<col name="산업분류코드">95392</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 개인 및 가정용품 수리업</col>
+<col name="산업분류코드">95399</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 개인 서비스업</col>
+<col name="산업분류코드">96</col>
+</item>
+<item>
+<col name="산업분류명칭">미용, 욕탕 및 유사 서비스업</col>
+<col name="산업분류코드">961</col>
+</item>
+<item>
+<col name="산업분류명칭">이용 및 미용업</col>
+<col name="산업분류코드">9611</col>
+</item>
+<item>
+<col name="산업분류명칭">이용업</col>
+<col name="산업분류코드">96111</col>
+</item>
+<item>
+<col name="산업분류코드">96112</col>
+<col name="산업분류명칭">두발미용업</col>
+</item>
+<item>
+<col name="산업분류명칭">피부미용업</col>
+<col name="산업분류코드">96113</col>
+</item>
+<item>
+<col name="산업분류명칭">기타미용업</col>
+<col name="산업분류코드">96119</col>
+</item>
+<item>
+<col name="산업분류코드">9612</col>
+<col name="산업분류명칭">욕탕, 마사지 및 기타 미용관련 서비스업</col>
+</item>
+<item>
+<col name="산업분류코드">96121</col>
+<col name="산업분류명칭">욕탕업</col>
+</item>
+<item>
+<col name="산업분류코드">96122</col>
+<col name="산업분류명칭">마사지업</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 미용관련 서비스업</col>
+<col name="산업분류코드">96129</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 개인 서비스업</col>
+<col name="산업분류코드">969</col>
+</item>
+<item>
+<col name="산업분류명칭">세탁업</col>
+<col name="산업분류코드">9691</col>
+</item>
+<item>
+<col name="산업분류명칭">산업용 세탁업</col>
+<col name="산업분류코드">96911</col>
+</item>
+<item>
+<col name="산업분류코드">96912</col>
+<col name="산업분류명칭">가정용 세탁업</col>
+</item>
+<item>
+<col name="산업분류명칭">세탁물 공급업</col>
+<col name="산업분류코드">96913</col>
+</item>
+<item>
+<col name="산업분류명칭">장례식장 및 관련 서비스업</col>
+<col name="산업분류코드">9692</col>
+</item>
+<item>
+<col name="산업분류코드">96921</col>
+<col name="산업분류명칭">장례식장 및 장의관련 서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">화장, 묘지분양 및 관리업</col>
+<col name="산업분류코드">96922</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 분류안된 개인 서비스업</col>
+<col name="산업분류코드">9699</col>
+</item>
+<item>
+<col name="산업분류코드">96991</col>
+<col name="산업분류명칭">예식장업</col>
+</item>
+<item>
+<col name="산업분류명칭">점술 및 유사 서비스업</col>
+<col name="산업분류코드">96992</col>
+</item>
+<item>
+<col name="산업분류코드">96993</col>
+<col name="산업분류명칭">개인 간병인 및 유사 서비스업</col>
+</item>
+<item>
+<col name="산업분류명칭">맞선주선 및 결혼 상담업</col>
+<col name="산업분류코드">96994</col>
+</item>
+<item>
+<col name="산업분류명칭">애완동물 장묘 및 보호 서비스업</col>
+<col name="산업분류코드">96995</col>
+</item>
+<item>
+<col name="산업분류명칭">그외 기타 달리 분류되지 않은 개인 서비스업</col>
+<col name="산업분류코드">96999</col>
+</item>
+<item>
+<col name="산업분류명칭">가구내 고용활동</col>
+<col name="산업분류코드">97</col>
+</item>
+<item>
+<col name="산업분류명칭">가구내 고용활동</col>
+<col name="산업분류코드">970</col>
+</item>
+<item>
+<col name="산업분류명칭">가구내 고용활동</col>
+<col name="산업분류코드">9700</col>
+</item>
+<item>
+<col name="산업분류명칭">가구내 고용활동</col>
+<col name="산업분류코드">97000</col>
+</item>
+<item>
+<col name="산업분류명칭">달리 분류되지 않은 자가소비를 위한 가구의 재화 및 서비스 생산활동</col>
+<col name="산업분류코드">98</col>
+</item>
+<item>
+<col name="산업분류명칭">자가 소비를 위한 가사 생산 활동</col>
+<col name="산업분류코드">981</col>
+</item>
+<item>
+<col name="산업분류명칭">자가 소비를 위한 가사 생산 활동</col>
+<col name="산업분류코드">9810</col>
+</item>
+<item>
+<col name="산업분류명칭">자가 소비를 위한 가사 생산 활동</col>
+<col name="산업분류코드">98100</col>
+</item>
+<item>
+<col name="산업분류명칭">자가 소비를 위한 가사 서비스 활동</col>
+<col name="산업분류코드">982</col>
+</item>
+<item>
+<col name="산업분류명칭">자가 소비를 위한 가사 서비스 활동</col>
+<col name="산업분류코드">9820</col>
+</item>
+<item>
+<col name="산업분류명칭">자가 소비를 위한 가사 서비스 활동</col>
+<col name="산업분류코드">98200</col>
+</item>
+<item>
+<col name="산업분류명칭">국제 및 외국기관</col>
+<col name="산업분류코드">99</col>
+</item>
+<item>
+<col name="산업분류명칭">국제 및 외국기관</col>
+<col name="산업분류코드">990</col>
+</item>
+<item>
+<col name="산업분류코드">9900</col>
+<col name="산업분류명칭">국제 및 외국기관</col>
+</item>
+<item>
+<col name="산업분류명칭">주한 외국공관</col>
+<col name="산업분류코드">99001</col>
+</item>
+<item>
+<col name="산업분류명칭">기타 국제 및 외국기관</col>
+<col name="산업분류코드">99009</col>
+</item>
+</data>
+<matchCount>1936</matchCount>
+<page>1</page>
+<perPage>20000</perPage>
+<totalCount>1936</totalCount>
+</results>
