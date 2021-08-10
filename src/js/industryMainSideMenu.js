@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 let classification = require('./industryClassification.js') ;
 
 
 
+=======
+>>>>>>> master
 
 let industry_In_Code = new Array("not","A","B", "C", "D","E","F", "G", "H", "I", "J", "K", "L"
 ,"M", "N", "O", "P", "Q", "R", "S", "T", "U");
@@ -41,11 +44,19 @@ insertInCodeNumber(19, 94, 96);
 insertInCodeNumber(20, 99, 99);
 
 
+<<<<<<< HEAD
 //분류 코드 리스트
 classification.industry_CodeList;
 
 //분류 이름 리스트
 classification.industry_NameList;
+=======
+// //분류 코드 리스트
+// classification.industry_CodeList;
+
+// //분류 이름 리스트
+// classification.industry_NameList;
+>>>>>>> master
 
 
 
@@ -138,3 +149,7 @@ for(let detail_index = 0 ; detail_index < detail_industry_div_list.length ; deta
 }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master

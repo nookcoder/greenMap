@@ -1,11 +1,26 @@
 @import "./constant.css";
-
+/* 설명 글꼴 */
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+li {
+  padding-left: 12px;
+}
 #main_content {
   display: flex;
 }
 
+#map {
+  width: 100vw;
+  height: 100vh;
+}
+
 .side_menu_bar {
-  width: 210px;
+  width: 220px;
+  height: 100vh;
+
+  background-color: var(--sideMenuBar_sub_sector);
+  font-family: "Nanum", sans-serif;
+  font-size: 20px;
+
 }
 
 #menu_bar_title {
@@ -29,6 +44,11 @@
   padding: 10px;
 }
 
+.main_sector_button span{
+  font-family: "Nanum", sans-serif;
+  font-size: 20px;
+}
+
 .sub_sector {
   background-color: var(--sideMenuBar_detail_sector);
   display: none;
@@ -45,4 +65,61 @@
 
 .showing {
   display: block;
+}
+
+#public_okButton {
+  text-align: right;
+}
+
+#public_okButton span {
+  display: inline-block;
+  color:white;
+  background-color: rgba(8, 99, 30, 0.863);
+  padding: 5px;
+  margin: 0 5px 5px 0;
+  border-radius: 5px;
+}
+
+#public_okButton span:hover {
+  opacity: 0.6;
+}
+
+.mark_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.overlaybox_ul {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.overlaybox_name {
+  display: inline-block;
+  font-weight: bold;
+  background: var(--sideMenuBar_sub_sector);
+  padding: 5px;
+}
+
+.overlaybox_title {
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.overlaybox_content {
+  display: inline-block;
+}
+
+#public_agency_sector li{
+  padding: 9px;
+  font-family: "Nanum", sans-serif;
+
 }
