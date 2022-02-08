@@ -32,6 +32,7 @@ BI 공공데이터 공모전 출품작
 ## 🖥 Preview
 
 ## ✏️ Learned
+* 처음 진행한 팀 웹 프로젝트였습니다. Vue,React 등을 사용할 줄 몰라서 Vanila JS, Jqeury 를 사용해서 개발했습니다. 
 * 공공데이터 API 를 처음 사용해본 프로젝트였습니다. 덕분에 BaseUrl, url params,query 등을 공부했습니다. 
 * NodeJS Library 를 사용하다가 CORS 오류를 만났습니다. 해당 오류를 해결해 나가면서 Webpack, 브라우저, proxy 등을 공부했습니다. 
-* 
+
